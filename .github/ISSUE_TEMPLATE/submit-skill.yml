@@ -1,0 +1,50 @@
+name: 推荐项目 / Suggest a project
+description: 推荐一个自媒体运营的 skill、MCP 工具或开源平台 / Suggest a social media skill, MCP server or platform
+title: "[推荐] owner/repo"
+labels: ["submission"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: 仓库地址 / Repo
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: group
+    attributes:
+      label: 类型 / Type
+      options:
+        - 全流程运营 / All-in-one
+        - 文案和内容创作 / Writing and content
+        - 排版、封面配图和短视频 / Layout, covers, images and short video
+        - 发布和自动化 / Publishing and automation
+        - 选题、热点和数据分析 / Topics, trends and analytics
+        - 账号定位和增长 / Positioning and growth
+        - MCP 和命令行工具 / MCP servers and CLI tools
+        - 相关开源平台（完整应用）/ Open-source platform (full app)
+    validations:
+      required: true
+  - type: input
+    id: platforms
+    attributes:
+      label: 针对的平台 / Platforms
+      placeholder: 例如 小红书、公众号、X、YouTube（仓库里写了才填）
+  - type: textarea
+    id: desc
+    attributes:
+      label: 它做什么 / What it does
+      description: 一两句话，写具体能力 / One or two sentences on what it actually does
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 推荐理由 / Why
+      description: 用过的话说说效果；和已收录的同类项目比有什么不同 / If you've used it, how did it go? How is it different from what's listed?
+  - type: checkboxes
+    id: relation
+    attributes:
+      label: 关系 / Relation
+      options:
+        - label: 我是这个项目的作者或维护者 / I am the author or a maintainer

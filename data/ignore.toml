@@ -1,0 +1,85 @@
+# 看过但不收的项目，写明原因。discover.py 不会再把它们列为候选。
+
+# ───────── 通用营销合集 ─────────
+
+[[ignored]]
+repo = "coreyhaines31/marketingskills"
+reason = "通用营销合集，自媒体不是重点；SEO 和 GEO 部分收在 awesome-seo-geo-skills"
+
+[[ignored]]
+repo = "aaron-he-zhu/aaron-marketing-skills"
+reason = "通用营销合集，自媒体不是重点；SEO 和 GEO 部分收在 awesome-seo-geo-skills"
+
+[[ignored]]
+repo = "kostja94/marketing-skills"
+reason = "通用营销合集，自媒体不是重点；SEO 和 GEO 部分收在 awesome-seo-geo-skills"
+
+[[ignored]]
+repo = "nowork-studio/notfair-plugin"
+reason = "通用营销合集，自媒体不是重点；SEO 和 GEO 部分收在 awesome-seo-geo-skills"
+
+[[ignored]]
+repo = "OpenClaudia/openclaudia-skills"
+reason = "通用营销合集，自媒体部分不突出"
+
+[[ignored]]
+repo = "ericosiu/ai-marketing-skills"
+reason = "通用营销合集，自媒体部分不突出"
+
+[[ignored]]
+repo = "indranilbanerjee/digital-marketing-pro"
+reason = "通用营销合集，自媒体部分不突出"
+
+[[ignored]]
+repo = "BrianRWagner/ai-marketing-claude-code-skills"
+reason = "通用营销合集，自媒体部分不突出"
+
+[[ignored]]
+repo = "Yuzzyuk/marketing-os"
+reason = "通用营销合集，自媒体部分不突出"
+
+[[ignored]]
+repo = "unifapi-agent/agents"
+reason = "通用营销合集，自媒体部分不突出"
+
+[[ignored]]
+repo = "gooseworks-ai/goose-skills"
+reason = "通用增长和获客合集，自媒体部分不突出"
+
+[[ignored]]
+repo = "rampstackco/claude-skills"
+reason = "建站全流程合集，自媒体部分不突出"
+
+# ───────── 副本和重复 ─────────
+
+[[ignored]]
+repo = "avi691/linkedin-agent-skill"
+reason = "Jakeschincariol/linkedin-agent-skill 的副本，没有新增内容"
+
+[[ignored]]
+repo = "jeniok/skills"
+reason = "和已收录的 skillify-sh/skills 内容相同"
+
+[[ignored]]
+repo = "socai-io/socai"
+reason = "仓库里的 skill 是项目自己的开发和发布流程；给用户用的是已收录的 socai-io/jev-social"
+
+# ───────── 刷量和引流 ─────────
+
+[[ignored]]
+repo = "Yht20927/xiaohongshu-cli"
+reason = "批量自动评论，靠模拟真人行为和随机延迟躲平台限流"
+
+[[ignored]]
+repo = "oh-ashen-one/reddit-growth-skill"
+reason = "在 Reddit 养号、模拟真人互动来引流"
+
+[[ignored]]
+repo = "mguozhen/social-bot"
+reason = "为一款产品在 Reddit 和 X 自动回复引流"
+
+# ───────── 说明不全 ─────────
+
+[[ignored]]
+repo = "VickyHan924/Self-media-Script"
+reason = "没有 README，说不清怎么装和用"

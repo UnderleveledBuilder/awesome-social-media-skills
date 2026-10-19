@@ -1,0 +1,137 @@
+# 分类、维度和搜索词。字段含义见 scripts/build.py 开头和 CONTRIBUTING.md。
+
+[list]
+repo = "UnderleveledBuilder/awesome-social-media-skills"
+
+# ───────── 分组：按要干的活分，README 按这个顺序分节 ─────────
+
+[groups.pipeline]
+label = "全流程运营：选题 → 创作 → 发布 → 复盘"
+label_en = "All-in-one: ideas → content → publishing → review"
+intro = "一套 skill 管到底：找选题、写稿配图、发出去、看数据，适合一个人运营一个或几个账号。"
+intro_en = "One system for the whole loop: find topics, write and illustrate, publish, then read the numbers. Good for one person running one or a few accounts."
+
+[groups.writing]
+label = "文案和内容创作"
+label_en = "Writing and content"
+intro = "写笔记、推文、标题、口播稿和长文，改写成各平台的口吻，去 AI 味，发布前查违禁词和限流风险。"
+intro_en = "Write posts, threads, titles, voice-over scripts and long articles, adapt them to each platform's voice, make them read less like AI, and check for banned words and reach risks before posting."
+
+[groups.visual]
+label = "排版、封面配图和短视频"
+label_en = "Layout, covers, images and short video"
+intro = "公众号排版、做封面和信息卡片、配图，剪短视频、加字幕、写分镜。"
+intro_en = "WeChat article layout, covers, info cards and illustrations; cutting short videos, subtitles and shot lists."
+
+[groups.publish]
+label = "发布和自动化"
+label_en = "Publishing and automation"
+intro = "把内容发到平台上：定时发布、一稿多发、浏览器自动化。多数要登录你的账号，装之前先看它怎么保存登录态。"
+intro_en = "Get content onto the platforms: scheduling, cross-posting and browser automation. Most of these log in as you, so check how they store your session before installing."
+
+[groups.research]
+label = "选题、热点和数据分析"
+label_en = "Topics, trends and analytics"
+intro = "追热点、拆爆款、看竞品和评论，读账号数据。"
+intro_en = "Track trends, break down viral posts, study competitors and comments, and read account analytics."
+
+[groups.strategy]
+label = "账号定位和增长"
+label_en = "Positioning and growth"
+intro = "定人设和赛道、做内容规划、涨粉和变现的方法。"
+intro_en = "Find a niche and persona, plan content, and grow and monetize an account."
+
+[groups.mcp]
+label = "MCP 和命令行工具（不是 skill）"
+label_en = "MCP servers and CLI tools (not skills)"
+intro = "让 agent 能读写平台的工具，常和上面的 skill 搭配用。不计入 skill 数。"
+intro_en = "Tools that let an agent read from and post to a platform; often paired with the skills above. Not counted as skills."
+indexed = false
+
+[groups.apps]
+label = "相关开源平台（完整应用，不是 skill）"
+label_en = "Related open-source platforms (full apps, not skills)"
+intro = "能自己部署的运营平台和桌面应用。不计入 skill 数。"
+intro_en = "Self-hostable social media platforms and desktop apps. Not counted as skills."
+indexed = false
+
+# ───────── 格式和语言 ─────────
+
+[formats.skill]
+label = "标准 SKILL.md，可用 npx skills 安装"
+[formats.prompts]
+label = "提示词文件，不是标准 skill，要手动用"
+[formats.mcp]
+label = "MCP 服务或命令行工具"
+badge = "🔌 MCP"
+badge_en = "🔌 MCP"
+[formats.app]
+label = "完整应用"
+
+[langs]
+zh = "中文"
+en = "英文"
+ja = "日文"
+ko = "韩文"
+multi = "多语言"
+
+[agents]
+claude-code = "Claude Code"
+codex = "Codex"
+cursor = "Cursor"
+opencode = "OpenCode"
+openclaw = "OpenClaw"
+gemini-cli = "Gemini CLI"
+workbuddy = "WorkBuddy"
+
+# ───────── 维度：平台 ─────────
+
+[facets.platforms]
+title = "按平台查找"
+title_en = "By platform"
+intro = "仓库说明里明确写了针对哪个平台（按星数排序）。「通用」是不挑平台的。"
+intro_en = "Platforms each repo's README explicitly targets (sorted by stars). \"Any platform\" means not tied to one."
+prefix = "平台："
+prefix_en = "Platforms: "
+required = true
+index = true
+include_all = true          # MCP 工具和应用也进索引：做小红书的人最需要的往往是 MCP
+order_en = ["x", "youtube", "tiktok", "instagram", "linkedin", "threads", "facebook", "reddit", "pinterest",
+            "substack", "xiaohongshu", "douyin", "wechat", "channels", "bilibili", "weibo", "zhihu", "kuaishou",
+            "toutiao", "general"]
+
+[facets.platforms.values]
+xiaohongshu = { label = "小红书", label_en = "Xiaohongshu (RedNote)", short_en = "RedNote" }
+douyin = { label = "抖音", label_en = "Douyin" }
+wechat = { label = "微信公众号", short = "公众号", label_en = "WeChat Official Accounts", short_en = "WeChat OA" }
+channels = { label = "微信视频号", short = "视频号", label_en = "WeChat Channels" }
+bilibili = { label = "B 站", label_en = "Bilibili" }
+weibo = { label = "微博", label_en = "Weibo" }
+zhihu = { label = "知乎", label_en = "Zhihu" }
+kuaishou = { label = "快手", label_en = "Kuaishou" }
+toutiao = { label = "今日头条", short = "头条", label_en = "Toutiao" }
+x = { label = "X（推特）", short = "X", label_en = "X (Twitter)", short_en = "X" }
+youtube = { label = "YouTube" }
+tiktok = { label = "TikTok" }
+instagram = { label = "Instagram" }
+linkedin = { label = "LinkedIn" }
+threads = { label = "Threads" }
+facebook = { label = "Facebook" }
+reddit = { label = "Reddit" }
+pinterest = { label = "Pinterest" }
+substack = { label = "Substack 和 Newsletter", short = "Newsletter", label_en = "Substack and newsletters", short_en = "Newsletter" }
+general = { label = "通用", label_en = "Any platform" }
+
+# ───────── 找新项目 ─────────
+
+[discover]
+queries = [
+  "小红书 skill", "xiaohongshu skill", "rednote skill", "抖音 skill", "douyin skill",
+  "公众号 skill", "微信公众号 agent", "视频号 skill", "自媒体 skill", "自媒体 agent",
+  "bilibili skill", "微博 skill", "知乎 skill", "social media skill", "social media agent",
+  "tiktok skill", "youtube skill", "twitter skill", "linkedin skill", "instagram skill",
+  "content creator skill", "短视频 文案 skill", "小红书 自动发布", "公众号 自动发布", "社媒 运营",
+  "social media automation", "xiaohongshu mcp", "douyin mcp",
+]
+topics = ["xiaohongshu", "rednote", "douyin", "wechat-official-account", "social-media-marketing", "content-creator"]
+lists = ["awesome social media skills", "awesome xiaohongshu", "awesome social media agent", "awesome 自媒体"]
