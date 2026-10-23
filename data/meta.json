@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19",
+  "fetched_at": "2026-10-23",
   "repos": {
     "0731coderlee-sudo/wechat-publisher": {
       "archived": false,
@@ -20,13 +20,13 @@
       "default_branch": "main",
       "description": "Local-first X Intelligence CLI for search, monitoring, analysis, exports, OAuth actions, and agent tooling.",
       "first_seen": "2026-10-19",
-      "forks": 17,
+      "forks": 18,
       "full_name": "0xNyk/xint",
       "license": "MIT",
-      "pushed_at": "2026-10-16",
+      "pushed_at": "2026-10-21",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 254,
+      "stars": 256,
       "status": "ok"
     },
     "843645440/wechat-skill": {
@@ -34,13 +34,13 @@
       "default_branch": "release",
       "description": "微信公众号内容 Skill 工具包：热点发现、科技写作、去 AI 味、配图、排版、多账号草稿与工作流编排。",
       "first_seen": "2026-10-19",
-      "forks": 22,
+      "forks": 26,
       "full_name": "843645440/wechat-skill",
       "license": null,
       "pushed_at": "2026-09-14",
       "skill_count": 10,
       "skill_count_truncated": false,
-      "stars": 119,
+      "stars": 125,
       "status": "ok"
     },
     "Aboudjem/humanizer-skill": {
@@ -48,13 +48,13 @@
       "default_branch": "main",
       "description": "Free, open-source AI writing humanizer and detector. 55 patterns, 5 voices, a 0-100 AI-tell score, and nothing leaves your machine.",
       "first_seen": "2026-10-19",
-      "forks": 42,
+      "forks": 43,
       "full_name": "Aboudjem/humanizer-skill",
       "license": "MIT",
       "pushed_at": "2026-09-06",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 283,
+      "stars": 289,
       "status": "ok"
     },
     "Agents365-ai/video-podcast-maker": {
@@ -62,13 +62,13 @@
       "default_branch": "main",
       "description": "Topic → 4K narrated video for coding agents. v5.3.0: local TTS (edge free + azure, no external engine), manifest-based Asset Engine, Remotion composition, cost-gated AI generation, Bilibili/YouTube/Xiaohongshu/Douyin/WeChat Channels",
       "first_seen": "2026-10-19",
-      "forks": 175,
+      "forks": 176,
       "full_name": "Agents365-ai/video-podcast-maker",
       "license": "MIT",
       "pushed_at": "2026-10-01",
       "skill_count": 3,
       "skill_count_truncated": false,
-      "stars": 1689,
+      "stars": 1693,
       "status": "ok"
     },
     "AgriciDaniel/claude-youtube": {
@@ -76,13 +76,13 @@
       "default_branch": "main",
       "description": "Claude Code skill for YouTube creators — channel audits, video SEO, retention scripts, thumbnails, content strategy, Shorts optimization, analytics, monetization, and more.",
       "first_seen": "2026-10-19",
-      "forks": 94,
+      "forks": 98,
       "full_name": "AgriciDaniel/claude-youtube",
       "license": "MIT",
       "pushed_at": "2026-04-10",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 490,
+      "stars": 515,
       "status": "ok"
     },
     "AgriciDaniel/youtube-scout": {
@@ -90,13 +90,13 @@
       "default_branch": "main",
       "description": "Claude Code skill: one topic in, one ranked YouTube research workbook out. Searches YouTube Data API v3, ranks by views, engagement, momentum or breakout, and writes Videos, Channels, Summary, Comments and Transcripts sheets with hooks and replay hotspots. Appends into an existing social ads sheet.",
       "first_seen": "2026-10-19",
-      "forks": 9,
+      "forks": 10,
       "full_name": "AgriciDaniel/youtube-scout",
       "license": "MIT",
       "pushed_at": "2026-09-11",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 62,
+      "stars": 64,
       "status": "ok"
     },
     "BAIGUANGMEI/zhihu-cli": {
@@ -110,7 +110,7 @@
       "pushed_at": "2026-05-04",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 111,
+      "stars": 113,
       "status": "ok"
     },
     "BND-1/wechat_article_skills": {
@@ -135,10 +135,10 @@
       "forks": 27,
       "full_name": "BadKid90s/Spreado",
       "license": "Apache-2.0",
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-23",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 143,
+      "stars": 144,
       "status": "ok"
     },
     "BigPengSays/bigpeng-hot-gzh": {
@@ -152,7 +152,7 @@
       "pushed_at": "2026-08-19",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 272,
+      "stars": 274,
       "status": "ok"
     },
     "Branding5/social-media-image-sizes": {
@@ -180,7 +180,7 @@
       "pushed_at": "2026-09-19",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 71,
+      "stars": 73,
       "status": "ok"
     },
     "Clipcat-ai/clipcat-skill": {
@@ -188,13 +188,13 @@
       "default_branch": "main",
       "description": "TikTok e-commerce video generation, replication, and analysis SKILL",
       "first_seen": "2026-10-19",
-      "forks": 17,
+      "forks": 25,
       "full_name": "Clipcat-ai/clipcat-skill",
       "license": null,
       "pushed_at": "2026-09-20",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 282,
+      "stars": 315,
       "status": "ok"
     },
     "GiMi-Xiaomi/gimi-illustration-skill": {
@@ -216,13 +216,13 @@
       "default_branch": "master",
       "description": "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
       "first_seen": "2026-10-19",
-      "forks": 201,
+      "forks": 202,
       "full_name": "HUANGCHIHHUNGLeo/claude-real-video",
       "license": "MIT",
-      "pushed_at": "2026-10-08",
+      "pushed_at": "2026-10-23",
       "skill_count": 3,
       "skill_count_truncated": false,
-      "stars": 2241,
+      "stars": 2255,
       "status": "ok"
     },
     "Hao0321/claude-skill-social-post": {
@@ -236,7 +236,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 738,
+      "stars": 740,
       "status": "ok"
     },
     "HeyChengC/vibe-knowledge-film": {
@@ -244,13 +244,13 @@
       "default_branch": "main",
       "description": "抖音爆款Vibe知识大赏知识短片skill，深度拆解爆款视频，复刻画风，导演分镜表，自动配音效，一键出片",
       "first_seen": "2026-10-19",
-      "forks": 55,
+      "forks": 72,
       "full_name": "HeyChengC/vibe-knowledge-film",
       "license": null,
       "pushed_at": "2026-10-13",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 398,
+      "stars": 568,
       "status": "ok"
     },
     "IanShaw027/wemp-operator": {
@@ -272,13 +272,13 @@
       "default_branch": "main",
       "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
       "first_seen": "2026-10-19",
-      "forks": 458,
+      "forks": 562,
       "full_name": "Jakeschincariol/instagram-agent-skill",
       "license": "MIT",
       "pushed_at": "2026-09-13",
       "skill_count": 13,
       "skill_count_truncated": false,
-      "stars": 1982,
+      "stars": 2559,
       "status": "ok"
     },
     "Jakeschincariol/linkedin-agent-skill": {
@@ -286,13 +286,13 @@
       "default_branch": "main",
       "description": "Eleven free Claude skills that run a LinkedIn account: posts off 21 hook formulas, comments, replies, profile score, weekly plan, and a humanizer that strips the AI fingerprint and scores the draft before it goes out.",
       "first_seen": "2026-10-19",
-      "forks": 364,
+      "forks": 401,
       "full_name": "Jakeschincariol/linkedin-agent-skill",
       "license": "MIT",
       "pushed_at": "2026-09-17",
       "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 2378,
+      "stars": 2572,
       "status": "ok"
     },
     "Jakeschincariol/youtube-agent-skill": {
@@ -300,13 +300,13 @@
       "default_branch": "main",
       "description": "Eleven Claude skills that run a YouTube channel: scripts off 21 hook formulas with a scored hook, title and thumbnail linted as one pairing, an edit decision list from your transcript, a retention reader that finds where viewers actually leave, a Shorts cutter, and a virality engine. Free, MIT.",
       "first_seen": "2026-10-19",
-      "forks": 592,
+      "forks": 811,
       "full_name": "Jakeschincariol/youtube-agent-skill",
       "license": "MIT",
       "pushed_at": "2026-09-16",
       "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 1875,
+      "stars": 2515,
       "status": "ok"
     },
     "Jamailar/Beav": {
@@ -314,13 +314,13 @@
       "default_branch": "main",
       "description": "小红书 AI 运营工作台｜小红书采集、评论区下载、素材库、选题、AI写作、小红书全域解决方案，开箱即用，一键安装，小红书AI工作台，自媒体素材库，AI写作+图片自动编排，小红书版OpenClaw、自媒体资产底座+AI工作台，支持小红书图文+小红书评论区下载、小红书AI创作工具、自媒体版WorkBuddy、抖音、小红书爬虫数据采集",
       "first_seen": "2026-10-19",
-      "forks": 271,
+      "forks": 279,
       "full_name": "Jamailar/Beav",
       "license": null,
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-23",
       "skill_count": 16,
       "skill_count_truncated": false,
-      "stars": 2061,
+      "stars": 2138,
       "status": "ok"
     },
     "Jaycheng1103/chatgpt-video-editing-skills": {
@@ -328,27 +328,27 @@
       "default_branch": "main",
       "description": "用 ChatGPT／Codex 安裝 AI 剪輯環境，並依八大步驟完成可驗證的短影音剪輯。",
       "first_seen": "2026-10-19",
-      "forks": 96,
+      "forks": 97,
       "full_name": "Jaycheng1103/chatgpt-video-editing-skills",
       "license": "MIT",
       "pushed_at": "2026-07-26",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 595,
+      "stars": 604,
       "status": "ok"
     },
     "Jesseovo/last30days-skill-cn": {
       "archived": false,
       "default_branch": "main",
-      "description": "last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。",
+      "description": "给 AI Agent 的中文互联网研究 Skill：检索 8 大平台最近 30 天的讨论，追踪跨平台热点，生成附原始来源的报告，并提供每日全网热榜。支持 Claude Code、Codex、OpenClaw。",
       "first_seen": "2026-10-19",
       "forks": 199,
       "full_name": "Jesseovo/last30days-skill-cn",
       "license": null,
-      "pushed_at": "2026-10-06",
+      "pushed_at": "2026-10-21",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 1921,
+      "stars": 1944,
       "status": "ok"
     },
     "JimLiu/baoyu-skills": {
@@ -356,13 +356,13 @@
       "default_branch": "main",
       "description": "",
       "first_seen": "2026-10-19",
-      "forks": 2940,
+      "forks": 2949,
       "full_name": "JimLiu/baoyu-skills",
       "license": "MIT",
       "pushed_at": "2026-09-10",
       "skill_count": 22,
       "skill_count_truncated": false,
-      "stars": 26771,
+      "stars": 26905,
       "status": "ok"
     },
     "JuneYaooo/social-account-doctor": {
@@ -376,7 +376,7 @@
       "pushed_at": "2026-09-19",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 306,
+      "stars": 311,
       "status": "ok"
     },
     "JuneYaooo/xhs-writer-skill": {
@@ -390,7 +390,7 @@
       "pushed_at": "2026-04-25",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 161,
+      "stars": 165,
       "status": "ok"
     },
     "KANIKIG/wechat-search-weread": {
@@ -412,13 +412,13 @@
       "default_branch": "main",
       "description": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。",
       "first_seen": "2026-10-19",
-      "forks": 314,
+      "forks": 318,
       "full_name": "KKKKhazix/human-writing",
       "license": "MIT",
       "pushed_at": "2026-08-11",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 4134,
+      "stars": 4192,
       "status": "ok"
     },
     "LifelongLazyLearner/qu-ai-wei": {
@@ -432,7 +432,7 @@
       "pushed_at": "2026-09-10",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 664,
+      "stars": 685,
       "status": "ok"
     },
     "Linked-API/linkedin-skills": {
@@ -446,7 +446,7 @@
       "pushed_at": "2026-10-16",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 103,
+      "stars": 104,
       "status": "ok"
     },
     "LocoreMind/locoagent": {
@@ -454,13 +454,13 @@
       "default_branch": "main",
       "description": "AI-powered social media agent with real browser automation",
       "first_seen": "2026-10-19",
-      "forks": 56,
+      "forks": 57,
       "full_name": "LocoreMind/locoagent",
       "license": "MIT",
       "pushed_at": "2026-06-27",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 1065,
+      "stars": 1066,
       "status": "ok"
     },
     "Lulu-Eva/Eva-skill": {
@@ -474,7 +474,7 @@
       "pushed_at": "2026-09-19",
       "skill_count": 13,
       "skill_count_truncated": false,
-      "stars": 61,
+      "stars": 62,
       "status": "ok"
     },
     "NanmiCoder/NewsCrawler": {
@@ -482,13 +482,13 @@
       "default_branch": "main",
       "description": "多平台新闻 & 内容爬虫集合 | Multi-platform News & Content Crawler Suite 支持：微信公众号、Twiiter、今日头条、网易新闻、搜狐新闻、腾讯新闻、Naver、Detik、Quora 等主流平台 Supports crawling news & content from WeChat, Toutiao, Netease, Sohu, Tencent, Naver, CNN, BCC, Detik, Quora, and more",
       "first_seen": "2026-10-19",
-      "forks": 112,
+      "forks": 113,
       "full_name": "NanmiCoder/NewsCrawler",
       "license": "GPL-3.0",
       "pushed_at": "2026-08-08",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 627,
+      "stars": 633,
       "status": "ok"
     },
     "Ootto-AI/claude-content-skills": {
@@ -496,13 +496,13 @@
       "default_branch": "main",
       "description": "Free, copy-paste Claude skills that run your content growth factory — turn ideas + your NotebookLM memory into scroll-stopping Instagram reels. By Ootto.",
       "first_seen": "2026-10-19",
-      "forks": 44,
+      "forks": 55,
       "full_name": "Ootto-AI/claude-content-skills",
       "license": "MIT",
       "pushed_at": "2026-10-17",
       "skill_count": 54,
       "skill_count_truncated": false,
-      "stars": 222,
+      "stars": 268,
       "status": "ok"
     },
     "OrangeViolin/content-pipeline": {
@@ -524,13 +524,13 @@
       "default_branch": "main",
       "description": "雪踏乌云的 AI Agent Skills 集合",
       "first_seen": "2026-10-19",
-      "forks": 194,
+      "forks": 196,
       "full_name": "Pluviobyte/rnskill",
       "license": null,
       "pushed_at": "2026-09-21",
       "skill_count": 62,
       "skill_count_truncated": false,
-      "stars": 1651,
+      "stars": 1668,
       "status": "ok"
     },
     "RyanYipeng/SyncCaster": {
@@ -544,7 +544,7 @@
       "pushed_at": "2026-08-25",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 510,
+      "stars": 513,
       "status": "ok"
     },
     "ScrapeCreators/social-media-research-skills": {
@@ -552,13 +552,13 @@
       "default_branch": "main",
       "description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
       "first_seen": "2026-10-19",
-      "forks": 103,
+      "forks": 89,
       "full_name": "ScrapeCreators/social-media-research-skills",
       "license": "MIT",
       "pushed_at": "2026-08-26",
       "skill_count": 13,
       "skill_count_truncated": false,
-      "stars": 4227,
+      "stars": 4597,
       "status": "ok"
     },
     "SpaceZephyr/creator-buddy": {
@@ -572,7 +572,7 @@
       "pushed_at": "2026-08-26",
       "skill_count": 33,
       "skill_count_truncated": false,
-      "stars": 1689,
+      "stars": 1710,
       "status": "ok"
     },
     "TeamWiseFlow/xiaobei": {
@@ -580,13 +580,13 @@
       "default_branch": "master",
       "description": "为OPC/中小微企业量身打造的自媒体获客智能体",
       "first_seen": "2026-10-19",
-      "forks": 1471,
+      "forks": 1470,
       "full_name": "TeamWiseFlow/xiaobei",
       "license": null,
       "pushed_at": "2026-10-16",
       "skill_count": 59,
       "skill_count_truncated": false,
-      "stars": 8628,
+      "stars": 8637,
       "status": "ok"
     },
     "Upload-Post/upload-post-skill": {
@@ -614,7 +614,7 @@
       "pushed_at": "2026-05-26",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 207,
+      "stars": 212,
       "status": "ok"
     },
     "WJZ-P/douyin-upload-mcp-skill": {
@@ -642,7 +642,7 @@
       "pushed_at": "2026-08-26",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 289,
+      "stars": 261,
       "status": "ok"
     },
     "Xiangyu-CAS/xiaohongshu-ops-skill": {
@@ -650,13 +650,13 @@
       "default_branch": "main",
       "description": "把Openclaw 变成小红书运营助手，帮你分析、选题、创作、复盘、复刻，甚至全面托管 ",
       "first_seen": "2026-10-19",
-      "forks": 261,
+      "forks": 263,
       "full_name": "Xiangyu-CAS/xiaohongshu-ops-skill",
       "license": null,
       "pushed_at": "2026-03-19",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 2436,
+      "stars": 2445,
       "status": "ok"
     },
     "Xquik-dev/x-twitter-scraper": {
@@ -664,13 +664,13 @@
       "default_branch": "master",
       "description": "X (Twitter) scraper API & Twitter MCP server to scrape tweets, profiles & followers. Not affiliated with X Corp.",
       "first_seen": "2026-10-19",
-      "forks": 24,
+      "forks": 21,
       "full_name": "Xquik-dev/x-twitter-scraper",
       "license": "MIT",
       "pushed_at": "2026-10-19",
       "skill_count": 3,
       "skill_count_truncated": false,
-      "stars": 214,
+      "stars": 219,
       "status": "ok"
     },
     "XshuiAi/media-publish-check": {
@@ -684,7 +684,7 @@
       "pushed_at": "2026-07-22",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 65,
+      "stars": 67,
       "status": "ok"
     },
     "Youhai020616/douyin": {
@@ -706,13 +706,13 @@
       "default_branch": "main",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
       "first_seen": "2026-10-19",
-      "forks": 626,
+      "forks": 655,
       "full_name": "ZJU-REAL/Easel",
       "license": "Apache-2.0",
-      "pushed_at": "2026-10-18",
+      "pushed_at": "2026-10-23",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 3862,
+      "stars": 4031,
       "status": "ok"
     },
     "ZeroPointRepo/youtube-skills": {
@@ -720,13 +720,13 @@
       "default_branch": "main",
       "description": "YouTube Transcript API skills for AI agents. Get transcripts, search videos, browse channels. Works with OpenClaw, Hermes Agent, and other agent runtimes.",
       "first_seen": "2026-10-19",
-      "forks": 124,
+      "forks": 128,
       "full_name": "ZeroPointRepo/youtube-skills",
       "license": "MIT",
-      "pushed_at": "2026-10-14",
+      "pushed_at": "2026-10-20",
       "skill_count": 12,
       "skill_count_truncated": false,
-      "stars": 1093,
+      "stars": 1110,
       "status": "ok"
     },
     "adrianpunk/Punk-Skill": {
@@ -734,13 +734,13 @@
       "default_branch": "main",
       "description": "AdrianPunk's skills",
       "first_seen": "2026-10-19",
-      "forks": 125,
+      "forks": 126,
       "full_name": "adrianpunk/Punk-Skill",
       "license": null,
       "pushed_at": "2026-10-11",
       "skill_count": 3,
       "skill_count_truncated": false,
-      "stars": 1359,
+      "stars": 1377,
       "status": "ok"
     },
     "ahang008/ah-douyin-clean-downloader": {
@@ -748,13 +748,13 @@
       "default_branch": "main",
       "description": "把抖音链接或口令直接交给 Codex，下载无平台角标原视频并按博主自动归档",
       "first_seen": "2026-10-19",
-      "forks": 39,
+      "forks": 40,
       "full_name": "ahang008/ah-douyin-clean-downloader",
       "license": null,
       "pushed_at": "2026-10-03",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 245,
+      "stars": 249,
       "status": "ok"
     },
     "aiworkskills/wechat-article-skills": {
@@ -768,7 +768,7 @@
       "pushed_at": "2026-09-23",
       "skill_count": 9,
       "skill_count_truncated": false,
-      "stars": 702,
+      "stars": 705,
       "status": "ok"
     },
     "alchaincyf/x-mentor-skill": {
@@ -776,13 +776,13 @@
       "default_branch": "master",
       "description": "X导师.skill — 女娲的第一个「非人类」作品。蒸馏6位顶级X创作者方法论 + 开源算法数据，提炼完整的选题-写作-增长操作手册。Made with 女娲.skill",
       "first_seen": "2026-10-19",
-      "forks": 202,
+      "forks": 203,
       "full_name": "alchaincyf/x-mentor-skill",
       "license": "MIT",
       "pushed_at": "2026-10-13",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1293,
+      "stars": 1303,
       "status": "ok"
     },
     "apidojo-io/social-media-skills": {
@@ -810,7 +810,7 @@
       "pushed_at": "2026-07-02",
       "skill_count": 12,
       "skill_count_truncated": false,
-      "stars": 300,
+      "stars": 302,
       "status": "ok"
     },
     "autoclaw-cc/xiaohongshu-mcp-skills": {
@@ -824,7 +824,7 @@
       "pushed_at": "2026-03-05",
       "skill_count": 9,
       "skill_count_truncated": false,
-      "stars": 275,
+      "stars": 277,
       "status": "ok"
     },
     "autoclaw-cc/xiaohongshu-skills": {
@@ -838,7 +838,7 @@
       "pushed_at": "2026-05-23",
       "skill_count": 6,
       "skill_count_truncated": false,
-      "stars": 1978,
+      "stars": 1989,
       "status": "ok"
     },
     "axtonliu/smart-illustrator": {
@@ -852,7 +852,7 @@
       "pushed_at": "2026-06-26",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 565,
+      "stars": 566,
       "status": "ok"
     },
     "blacktwist/social-media-skills": {
@@ -860,13 +860,13 @@
       "default_branch": "main",
       "description": "AI agent skills for social media content strategy, creation, and analysis across text-first platforms",
       "first_seen": "2026-10-19",
-      "forks": 99,
+      "forks": 97,
       "full_name": "blacktwist/social-media-skills",
       "license": "MIT",
       "pushed_at": "2026-05-01",
       "skill_count": 14,
       "skill_count_truncated": false,
-      "stars": 577,
+      "stars": 591,
       "status": "ok"
     },
     "blader/humanizer": {
@@ -874,13 +874,13 @@
       "default_branch": "main",
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "first_seen": "2026-10-19",
-      "forks": 4634,
+      "forks": 4754,
       "full_name": "blader/humanizer",
       "license": "MIT",
       "pushed_at": "2026-10-16",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 58477,
+      "stars": 59965,
       "status": "ok"
     },
     "bradautomates/head-of-content": {
@@ -894,7 +894,7 @@
       "pushed_at": "2026-01-23",
       "skill_count": 6,
       "skill_count_truncated": false,
-      "stars": 277,
+      "stars": 281,
       "status": "ok"
     },
     "charlie947/motion-graphics-skills": {
@@ -902,13 +902,13 @@
       "default_branch": "main",
       "description": "13 Claude Code skills for launch-grade motion graphics. Every frame is code. No After Effects, no video generator.",
       "first_seen": "2026-10-19",
-      "forks": 56,
+      "forks": 58,
       "full_name": "charlie947/motion-graphics-skills",
       "license": "MIT",
       "pushed_at": "2026-10-11",
       "skill_count": 15,
       "skill_count_truncated": false,
-      "stars": 346,
+      "stars": 375,
       "status": "ok"
     },
     "charlie947/social-media-skills": {
@@ -916,13 +916,13 @@
       "default_branch": "main",
       "description": "",
       "first_seen": "2026-10-19",
-      "forks": 958,
+      "forks": 966,
       "full_name": "charlie947/social-media-skills",
       "license": "MIT",
       "pushed_at": "2026-10-18",
       "skill_count": 17,
       "skill_count_truncated": false,
-      "stars": 4278,
+      "stars": 4325,
       "status": "ok"
     },
     "chengyi-ai/douyin-image-post-scheduler": {
@@ -936,7 +936,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 109,
+      "stars": 108,
       "status": "ok"
     },
     "chenjin-cmd/agent-skills-launch-pack_": {
@@ -950,7 +950,7 @@
       "pushed_at": "2026-07-08",
       "skill_count": 5,
       "skill_count_truncated": false,
-      "stars": 585,
+      "stars": 589,
       "status": "ok"
     },
     "chenjin-cmd/xhs-virtual-product": {
@@ -964,7 +964,7 @@
       "pushed_at": "2026-09-30",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 739,
+      "stars": 738,
       "status": "ok"
     },
     "chenxiachan/xhs-claude-skills": {
@@ -978,7 +978,7 @@
       "pushed_at": "2026-08-14",
       "skill_count": 4,
       "skill_count_truncated": false,
-      "stars": 424,
+      "stars": 425,
       "status": "ok"
     },
     "chubbyguan/chubbyskills": {
@@ -986,13 +986,13 @@
       "default_branch": "main",
       "description": "把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 14 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU、RSS/YouTube 订阅调度与每日情报简报，附带知识库 MCP server。｜ Ingest Chinese content into your personal knowledge base — image/video routing, subtitle-first transcription, feed subscriptions with daily digests, and a KB MCP server.",
       "first_seen": "2026-10-19",
-      "forks": 150,
+      "forks": 153,
       "full_name": "chubbyguan/chubbyskills",
       "license": "MIT",
       "pushed_at": "2026-10-14",
       "skill_count": 14,
       "skill_count_truncated": false,
-      "stars": 1265,
+      "stars": 1277,
       "status": "ok"
     },
     "code-wahaha/traffic-compass": {
@@ -1020,7 +1020,7 @@
       "pushed_at": "2026-08-08",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 338,
+      "stars": 339,
       "status": "ok"
     },
     "cv-cat/catbus": {
@@ -1028,13 +1028,13 @@
       "default_branch": "master",
       "description": "一个命令操作小红书、抖音、TikTok、B 站、快手、微博、闲鱼、淘宝、京东、X：统一的命令与 JSON 输出，给人和 AI Agent 用",
       "first_seen": "2026-10-19",
-      "forks": 136,
+      "forks": 155,
       "full_name": "cv-cat/catbus",
       "license": "MIT",
-      "pushed_at": "2026-10-18",
+      "pushed_at": "2026-10-22",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 470,
+      "stars": 507,
       "status": "ok"
     },
     "dansugc/reelclaw": {
@@ -1045,10 +1045,10 @@
       "forks": 14,
       "full_name": "dansugc/reelclaw",
       "license": null,
-      "pushed_at": "2026-10-16",
+      "pushed_at": "2026-10-23",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 146,
+      "stars": 147,
       "status": "ok"
     },
     "dongbeixiaohuo/writing-agent": {
@@ -1056,13 +1056,13 @@
       "default_branch": "main",
       "description": "🚀 Writing Agent：开源多智能体对话写作助手。独立 Windows 客户端，无需 Claude Code，配置模型 API 即可使用。写作导演协同主笔、读者审校及“去 AI 味”等专家，从选题到成稿逐步共创，通过自然对话确认与修改。工程化 Harness 管理阶段确认、版本保存与中断恢复。内置 99 项模型连接预设，支持 DeepSeek、智谱 GLM、MiniMax 等及自定义接口；可选 Parallel 免费搜索与 Tavily 辅助事实核查，支持本地项目、版本追溯和排版导出。目前为公开 RC 测试版，原版 Claude Code Skills + Subagents 仍保留，部分能力尚在迁移，欢迎体验反馈。",
       "first_seen": "2026-10-19",
-      "forks": 70,
+      "forks": 69,
       "full_name": "dongbeixiaohuo/writing-agent",
       "license": "MIT",
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-22",
       "skill_count": 3,
       "skill_count_truncated": false,
-      "stars": 435,
+      "stars": 438,
       "status": "ok"
     },
     "dontbesilent2025/dbskill": {
@@ -1070,13 +1070,13 @@
       "default_branch": "main",
       "description": "dontbesilent 的商业诊断 Skills",
       "first_seen": "2026-10-19",
-      "forks": 1227,
+      "forks": 1231,
       "full_name": "dontbesilent2025/dbskill",
       "license": null,
       "pushed_at": "2026-10-19",
       "skill_count": 35,
       "skill_count_truncated": false,
-      "stars": 10811,
+      "stars": 10854,
       "status": "ok"
     },
     "dososo/blcaptain-lingjian-video": {
@@ -1104,7 +1104,7 @@
       "pushed_at": "2026-07-08",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 169,
+      "stars": 171,
       "status": "ok"
     },
     "dreammis/social-auto-upload": {
@@ -1112,13 +1112,13 @@
       "default_branch": "main",
       "description": "自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili",
       "first_seen": "2026-10-19",
-      "forks": 2648,
+      "forks": 2672,
       "full_name": "dreammis/social-auto-upload",
       "license": "MIT",
-      "pushed_at": "2026-09-02",
-      "skill_count": 4,
+      "pushed_at": "2026-10-22",
+      "skill_count": 18,
       "skill_count_truncated": false,
-      "stars": 15624,
+      "stars": 15753,
       "status": "ok"
     },
     "epiral/bb-browser": {
@@ -1126,13 +1126,13 @@
       "default_branch": "main",
       "description": "Your browser is the API. CLI + MCP server for AI agents to control Chrome with your login state.",
       "first_seen": "2026-10-19",
-      "forks": 610,
+      "forks": 611,
       "full_name": "epiral/bb-browser",
       "license": "MIT",
       "pushed_at": "2026-05-29",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 6243,
+      "stars": 6249,
       "status": "ok"
     },
     "feicaiclub/video-spec-builder": {
@@ -1140,13 +1140,13 @@
       "default_branch": "main",
       "description": "video-spec-builder —— 把我想做个视频逼成一份精确到秒的分镜脚本 video-spec.md,交给 HyperFrames 渲染。一条命令装到 Claude Code / Cursor / Codex:npx skills add feicaiclub/video-spec-builder",
       "first_seen": "2026-10-19",
-      "forks": 121,
+      "forks": 122,
       "full_name": "feicaiclub/video-spec-builder",
       "license": "MIT",
       "pushed_at": "2026-05-18",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1033,
+      "stars": 1038,
       "status": "ok"
     },
     "freestylefly/wechat-article-extractor-skill": {
@@ -1160,7 +1160,7 @@
       "pushed_at": "2026-02-19",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 136,
+      "stars": 137,
       "status": "ok"
     },
     "freestylefly/xiaohongshu-skills": {
@@ -1182,7 +1182,7 @@
       "default_branch": "main",
       "description": "一套写公众号的 Skills。",
       "first_seen": "2026-10-19",
-      "forks": 27,
+      "forks": 28,
       "full_name": "gainubi/wechat-skills",
       "license": null,
       "pushed_at": "2026-05-21",
@@ -1202,7 +1202,7 @@
       "pushed_at": "2026-05-27",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 464,
+      "stars": 469,
       "status": "ok"
     },
     "geekjourneyx/md2wechat-skill": {
@@ -1210,13 +1210,13 @@
       "default_branch": "main",
       "description": "面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。",
       "first_seen": "2026-10-19",
-      "forks": 416,
+      "forks": 419,
       "full_name": "geekjourneyx/md2wechat-skill",
       "license": null,
       "pushed_at": "2026-10-14",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 3712,
+      "stars": 3754,
       "status": "ok"
     },
     "gitroomhq/postiz-agent": {
@@ -1227,10 +1227,10 @@
       "forks": 111,
       "full_name": "gitroomhq/postiz-agent",
       "license": null,
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-22",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 526,
+      "stars": 536,
       "status": "ok"
     },
     "gitroomhq/postiz-app": {
@@ -1238,13 +1238,13 @@
       "default_branch": "main",
       "description": "📨 The ultimate agentic social media scheduling tool 🤖",
       "first_seen": "2026-10-19",
-      "forks": 7289,
+      "forks": 7351,
       "full_name": "gitroomhq/postiz-app",
       "license": "AGPL-3.0",
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-23",
       "skill_count": 0,
       "skill_count_truncated": false,
-      "stars": 37414,
+      "stars": 37643,
       "status": "ok"
     },
     "hanliang97/MatrixMedia": {
@@ -1252,13 +1252,13 @@
       "default_branch": "main",
       "description": "视频矩阵工具 vue electorn puppeteer 批量发布 视频到各个视频平台 自媒体 矩阵 抖音 小红书 头条 视频号 快手等 ai 自动化 cli",
       "first_seen": "2026-10-19",
-      "forks": 134,
+      "forks": 140,
       "full_name": "hanliang97/MatrixMedia",
       "license": "GPL-2.0",
-      "pushed_at": "2026-10-17",
+      "pushed_at": "2026-10-23",
       "skill_count": 4,
       "skill_count_truncated": false,
-      "stars": 995,
+      "stars": 1022,
       "status": "ok"
     },
     "helloianneo/ian-xhs-carousel": {
@@ -1286,7 +1286,7 @@
       "pushed_at": "2026-06-11",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 101,
+      "stars": 102,
       "status": "ok"
     },
     "hongfamonvAI/oh-my-cover-design": {
@@ -1300,7 +1300,7 @@
       "pushed_at": "2026-05-16",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 268,
+      "stars": 271,
       "status": "ok"
     },
     "iBigQiang/feedgrab": {
@@ -1314,7 +1314,7 @@
       "pushed_at": "2026-09-08",
       "skill_count": 5,
       "skill_count_truncated": false,
-      "stars": 616,
+      "stars": 618,
       "status": "ok"
     },
     "iamzifei/red-publisher-skill": {
@@ -1384,7 +1384,7 @@
       "pushed_at": "2026-06-22",
       "skill_count": 4,
       "skill_count_truncated": false,
-      "stars": 14,
+      "stars": 16,
       "status": "ok"
     },
     "imlewc/video-to-subtitle-summary-skill": {
@@ -1398,7 +1398,7 @@
       "pushed_at": "2026-07-19",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 229,
+      "stars": 230,
       "status": "ok"
     },
     "imraywang/rayskills": {
@@ -1406,13 +1406,13 @@
       "default_branch": "main",
       "description": "面向 AI Builder 的实战 Skill 工具箱：10 个可执行、可验证、可恢复的工作流，/ray 路由 + 内容生产管线直达公众号与 X Articles 草稿箱，支持 Claude Code、Codex 与 WorkBuddy。",
       "first_seen": "2026-10-19",
-      "forks": 31,
+      "forks": 41,
       "full_name": "imraywang/rayskills",
       "license": null,
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-22",
       "skill_count": 8,
       "skill_count_truncated": false,
-      "stars": 293,
+      "stars": 341,
       "status": "ok"
     },
     "imraywang/wewrite": {
@@ -1420,13 +1420,13 @@
       "default_branch": "main",
       "description": "公众号内容全流程 Skill，从热点抓取到微信草稿箱，一句话跑完整条内容管道",
       "first_seen": "2026-10-19",
-      "forks": 549,
+      "forks": 551,
       "full_name": "imraywang/wewrite",
       "license": "MIT",
       "pushed_at": "2026-10-19",
       "skill_count": 10,
       "skill_count_truncated": false,
-      "stars": 3488,
+      "stars": 3510,
       "status": "ok"
     },
     "isjiamu/gzh-design-skill": {
@@ -1434,13 +1434,13 @@
       "default_branch": "main",
       "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
       "first_seen": "2026-10-19",
-      "forks": 455,
+      "forks": 467,
       "full_name": "isjiamu/gzh-design-skill",
       "license": null,
-      "pushed_at": "2026-10-09",
+      "pushed_at": "2026-10-21",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 4036,
+      "stars": 4130,
       "status": "ok"
     },
     "itchernetski/threads-carousel-claude-skill": {
@@ -1454,7 +1454,7 @@
       "pushed_at": "2026-04-19",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 114,
+      "stars": 115,
       "status": "ok"
     },
     "jackwener/wechat-article-to-markdown": {
@@ -1462,13 +1462,13 @@
       "default_branch": "main",
       "description": "微信公众号文章抓取 & Markdown 转换工具",
       "first_seen": "2026-10-19",
-      "forks": 122,
+      "forks": 123,
       "full_name": "jackwener/wechat-article-to-markdown",
       "license": null,
       "pushed_at": "2026-03-22",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1066,
+      "stars": 1071,
       "status": "ok"
     },
     "jackwener/weibo-cli": {
@@ -1496,7 +1496,7 @@
       "pushed_at": "2026-10-09",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 669,
+      "stars": 672,
       "status": "ok"
     },
     "jackwener/xiaohongshu-cli": {
@@ -1504,13 +1504,13 @@
       "default_branch": "main",
       "description": "A CLI for Xiaohongshu (小红书) — search, read, interact via reverse-engineered API",
       "first_seen": "2026-10-19",
-      "forks": 286,
+      "forks": 288,
       "full_name": "jackwener/xiaohongshu-cli",
       "license": null,
       "pushed_at": "2026-03-21",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 2688,
+      "stars": 2700,
       "status": "ok"
     },
     "jalaalrd/anti-ai-slop-writing": {
@@ -1524,7 +1524,7 @@
       "pushed_at": "2026-04-18",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 550,
+      "stars": 563,
       "status": "ok"
     },
     "jianshuo/claude-skills": {
@@ -1552,7 +1552,7 @@
       "pushed_at": "2026-06-28",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 535,
+      "stars": 539,
       "status": "ok"
     },
     "jiji262/wechat-publisher": {
@@ -1566,7 +1566,7 @@
       "pushed_at": "2026-08-01",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 280,
+      "stars": 284,
       "status": "ok"
     },
     "jinchenma94/social-media-data-tools": {
@@ -1588,13 +1588,13 @@
       "default_branch": "master",
       "description": "一句话生成大师级海报、书籍封面、专辑封面和各类设计作品。无需懂PS、配色或艺术史，AI自动选择最佳风格（基于20位传奇海报设计师）。支持电影海报、读书笔记、公众号封面、小红书配图等。默认9:16竖版，完美适配社交媒体。包含AI提示词优化、风格对比、图生图转换功能。触发词：\"Mondo风格\"、\"书籍封",
       "first_seen": "2026-10-19",
-      "forks": 128,
+      "forks": 129,
       "full_name": "joeseesun/qiaomu-mondo-poster-design",
       "license": "MIT",
       "pushed_at": "2026-03-19",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1295,
+      "stars": 1307,
       "status": "ok"
     },
     "kaitoInfra/twitterapi-io": {
@@ -1608,7 +1608,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 335,
+      "stars": 336,
       "status": "ok"
     },
     "koffuxu/ai-influence-digest": {
@@ -1630,13 +1630,13 @@
       "default_branch": "master",
       "description": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
       "first_seen": "2026-10-19",
-      "forks": 1507,
+      "forks": 1524,
       "full_name": "krillinai/OpenCreator",
       "license": "Apache-2.0",
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-23",
       "skill_count": 9,
       "skill_count_truncated": false,
-      "stars": 13731,
+      "stars": 13868,
       "status": "ok"
     },
     "lancelin111/douyin-mcp-server": {
@@ -1658,13 +1658,13 @@
       "default_branch": "main",
       "description": "📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop.",
       "first_seen": "2026-10-19",
-      "forks": 531,
+      "forks": 536,
       "full_name": "langchain-ai/social-media-agent",
       "license": "MIT",
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-23",
       "skill_count": 0,
       "skill_count_truncated": false,
-      "stars": 2919,
+      "stars": 2941,
       "status": "ok"
     },
     "larashero3-dotcom/writing-dna-skill": {
@@ -1672,13 +1672,13 @@
       "default_branch": "main",
       "description": "写作蒸馏器.skill｜蒸馏复刻任意写作风格的 agent skill | Writing DNA Distiller - distill and recreate any writing style as an agent skill",
       "first_seen": "2026-10-19",
-      "forks": 238,
+      "forks": 245,
       "full_name": "larashero3-dotcom/writing-dna-skill",
       "license": "MIT",
       "pushed_at": "2026-08-24",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 2536,
+      "stars": 2627,
       "status": "ok"
     },
     "liangdabiao/tikhub_api_skill": {
@@ -1734,7 +1734,7 @@
       "pushed_at": "2026-09-14",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 53,
+      "stars": 55,
       "status": "ok"
     },
     "louisedesadeleer/clipify": {
@@ -1742,13 +1742,13 @@
       "default_branch": "main",
       "description": "Claude Code skill: turn long videos into social-ready clips. Auto-find funny moments, cut, reframe to 9:16 with face-tracking, and burn opus-style captions.",
       "first_seen": "2026-10-19",
-      "forks": 64,
+      "forks": 65,
       "full_name": "louisedesadeleer/clipify",
       "license": "MIT",
       "pushed_at": "2026-08-24",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 600,
+      "stars": 606,
       "status": "ok"
     },
     "lucasygu/redbook": {
@@ -1756,13 +1756,13 @@
       "default_branch": "main",
       "description": "小红书 CLI — 搜索、分析、自动化 Xiaohongshu content. Built for AI agents.",
       "first_seen": "2026-10-19",
-      "forks": 50,
+      "forks": 51,
       "full_name": "lucasygu/redbook",
       "license": "MIT",
       "pushed_at": "2026-09-12",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 520,
+      "stars": 526,
       "status": "ok"
     },
     "mcncarl/yichen-skills": {
@@ -1770,13 +1770,13 @@
       "default_branch": "main",
       "description": "",
       "first_seen": "2026-10-19",
-      "forks": 1898,
+      "forks": 2771,
       "full_name": "mcncarl/yichen-skills",
       "license": null,
-      "pushed_at": "2026-10-04",
-      "skill_count": 19,
+      "pushed_at": "2026-10-23",
+      "skill_count": 18,
       "skill_count_truncated": false,
-      "stars": 4482,
+      "stars": 4800,
       "status": "ok"
     },
     "mengke-wang/xiaohongshu-ai-workbench": {
@@ -1790,7 +1790,7 @@
       "pushed_at": "2026-08-07",
       "skill_count": 7,
       "skill_count_truncated": false,
-      "stars": 591,
+      "stars": 595,
       "status": "ok"
     },
     "mikiarlo3/ai-copywriter": {
@@ -1798,13 +1798,13 @@
       "default_branch": "claude/humanizer-copywriting-skill-u5x4vd",
       "description": "An AI copywriter that uses real copywriting skills + real marketing knowledge with human tone.",
       "first_seen": "2026-10-19",
-      "forks": 72,
+      "forks": 73,
       "full_name": "mikiarlo3/ai-copywriter",
       "license": "MIT",
       "pushed_at": "2026-08-01",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1223,
+      "stars": 1228,
       "status": "ok"
     },
     "mvanhorn/last30days-skill": {
@@ -1812,13 +1812,13 @@
       "default_branch": "main",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "first_seen": "2026-10-19",
-      "forks": 5655,
+      "forks": 5654,
       "full_name": "mvanhorn/last30days-skill",
       "license": "MIT",
-      "pushed_at": "2026-10-18",
+      "pushed_at": "2026-10-23",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 64770,
+      "stars": 65207,
       "status": "ok"
     },
     "nashsu/Viral_Writer_Skill": {
@@ -1832,7 +1832,7 @@
       "pushed_at": "2026-03-24",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 794,
+      "stars": 800,
       "status": "ok"
     },
     "nashsu/autocli-skill": {
@@ -1846,7 +1846,7 @@
       "pushed_at": "2026-04-20",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 925,
+      "stars": 927,
       "status": "ok"
     },
     "nateherkai/herk-edit-kit": {
@@ -1854,13 +1854,13 @@
       "default_branch": "main",
       "description": "Herk Edit Kit by Nate Herk: edit videos, reels, and YouTube Shorts with Codex or Claude Code. 15 skills, transcript-driven cuts, storytelling, 406 motion-graphics cards, and HyperFrames templates.",
       "first_seen": "2026-10-19",
-      "forks": 479,
+      "forks": 530,
       "full_name": "nateherkai/herk-edit-kit",
       "license": null,
       "pushed_at": "2026-10-14",
       "skill_count": 15,
       "skill_count_truncated": false,
-      "stars": 1857,
+      "stars": 2067,
       "status": "ok"
     },
     "ndesv21/socialclaw": {
@@ -1868,13 +1868,13 @@
       "default_branch": "main",
       "description": "Social media scheduling CLI and OpenClaw skill for AI agents posting to X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, and Pinterest.",
       "first_seen": "2026-10-19",
-      "forks": 27,
+      "forks": 28,
       "full_name": "ndesv21/socialclaw",
       "license": "MIT",
       "pushed_at": "2026-10-12",
       "skill_count": 3,
       "skill_count_truncated": false,
-      "stars": 96,
+      "stars": 98,
       "status": "ok"
     },
     "nexu-io/html-anything": {
@@ -1882,13 +1882,13 @@
       "default_branch": "main",
       "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
       "first_seen": "2026-10-19",
-      "forks": 891,
+      "forks": 881,
       "full_name": "nexu-io/html-anything",
       "license": "Apache-2.0",
       "pushed_at": "2026-10-13",
       "skill_count": 81,
       "skill_count_truncated": false,
-      "stars": 9180,
+      "stars": 9224,
       "status": "ok"
     },
     "nicolapocock/claude-reel-editor": {
@@ -1896,13 +1896,13 @@
       "default_branch": "main",
       "description": "Drop a raw talking-head clip into Claude Code, get a finished reel in your own brand. Review cuts, graphics and captions before it renders. HyperFrames + optional CapCut.",
       "first_seen": "2026-10-19",
-      "forks": 3,
+      "forks": 4,
       "full_name": "nicolapocock/claude-reel-editor",
       "license": "MIT",
       "pushed_at": "2026-10-12",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 26,
+      "stars": 32,
       "status": "ok"
     },
     "oil-oil/oil-cover": {
@@ -1916,7 +1916,7 @@
       "pushed_at": "2026-10-04",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 272,
+      "stars": 279,
       "status": "ok"
     },
     "oil-oil/video-publisher-skill": {
@@ -1930,7 +1930,7 @@
       "pushed_at": "2026-10-18",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 246,
+      "stars": 255,
       "status": "ok"
     },
     "one-box-u/openclaw-daily-hot-news": {
@@ -1958,7 +1958,7 @@
       "pushed_at": "2026-01-21",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 603,
+      "stars": 605,
       "status": "ok"
     },
     "op7418/Humanizer-zh": {
@@ -1966,13 +1966,13 @@
       "default_branch": "main",
       "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
       "first_seen": "2026-10-19",
-      "forks": 1278,
+      "forks": 1301,
       "full_name": "op7418/Humanizer-zh",
       "license": "MIT",
       "pushed_at": "2026-09-23",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 20088,
+      "stars": 20519,
       "status": "ok"
     },
     "op7418/Youtube-clipper-skill": {
@@ -1980,13 +1980,13 @@
       "default_branch": "main",
       "description": "",
       "first_seen": "2026-10-19",
-      "forks": 319,
+      "forks": 321,
       "full_name": "op7418/Youtube-clipper-skill",
       "license": "MIT",
       "pushed_at": "2026-01-22",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 2246,
+      "stars": 2254,
       "status": "ok"
     },
     "op7418/guizang-social-card-skill": {
@@ -1994,13 +1994,13 @@
       "default_branch": "main",
       "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
       "first_seen": "2026-10-19",
-      "forks": 584,
+      "forks": 593,
       "full_name": "op7418/guizang-social-card-skill",
       "license": "AGPL-3.0",
       "pushed_at": "2026-07-01",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 7591,
+      "stars": 7695,
       "status": "ok"
     },
     "otter1101/blogger-distiller": {
@@ -2014,7 +2014,7 @@
       "pushed_at": "2026-09-23",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 727,
+      "stars": 736,
       "status": "ok"
     },
     "panggungunvibe/atutun-xhs-cover": {
@@ -2022,13 +2022,13 @@
       "default_branch": "main",
       "description": "阿囤囤风格小红书封面提示词生成 skill",
       "first_seen": "2026-10-19",
-      "forks": 57,
+      "forks": 58,
       "full_name": "panggungunvibe/atutun-xhs-cover",
       "license": null,
       "pushed_at": "2026-05-30",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 422,
+      "stars": 425,
       "status": "ok"
     },
     "piekill/xiaohongshu-summarizer-skill": {
@@ -2050,13 +2050,13 @@
       "default_branch": "main",
       "description": "Reddit in your terminal 📖 — Browse feeds, read posts, search, upvote, save, subscribe",
       "first_seen": "2026-10-19",
-      "forks": 63,
+      "forks": 64,
       "full_name": "public-clis/rdt-cli",
       "license": null,
       "pushed_at": "2026-03-21",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 541,
+      "stars": 546,
       "status": "ok"
     },
     "publora/skills": {
@@ -2067,7 +2067,7 @@
       "forks": 6,
       "full_name": "publora/skills",
       "license": "MIT",
-      "pushed_at": "2026-10-14",
+      "pushed_at": "2026-10-23",
       "skill_count": 9,
       "skill_count_truncated": false,
       "stars": 58,
@@ -2078,13 +2078,13 @@
       "default_branch": "main",
       "description": "公众号/小红书封面提示词生成 skill：3:4 竖版、10 种构图风格、三轮提问、真人出镜人脸一致性",
       "first_seen": "2026-10-19",
-      "forks": 98,
+      "forks": 100,
       "full_name": "pyang5166/gbro-cover-design",
       "license": null,
       "pushed_at": "2026-07-15",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 907,
+      "stars": 921,
       "status": "ok"
     },
     "qiye45/wechatDownload": {
@@ -2092,13 +2092,13 @@
       "default_branch": "main",
       "description": "微信公众号文章批量下载工具，支持评论、合集下载，支持保存html/mhtml/md/pdf/docx/csv文件，保存文章内图片、视频、音频文件，支持MCP/Skill调用",
       "first_seen": "2026-10-19",
-      "forks": 1100,
+      "forks": 1110,
       "full_name": "qiye45/wechatDownload",
       "license": null,
       "pushed_at": "2026-10-07",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 9810,
+      "stars": 9853,
       "status": "ok"
     },
     "rachelos/we-mp-rss": {
@@ -2106,13 +2106,13 @@
       "default_branch": "main",
       "description": "✨符合阅读习惯的微信公众号助手、微信公众号转MarkDown、微信公众号转PDF、定时更新订阅公众号文章、生成微信公众号RSS订阅源、导出微信公众号订阅源、支持微信公众号Webhook/微信公众号API/AI Agent接入微信公众号微信公众号、订阅微信公众号、微信公众号助手 、微信公众号阅读、微信公众号接口、微信公众号爬虫、微信公众号监测、标签订阅微信公众号、微信公众号源、微信公众号读书、微信公众号文章、微信公众号框架、微信公众号管理、微信公众号源、微信公众号平台、微信公众号代码、微信公众号系统、微信公众号源码",
       "first_seen": "2026-10-19",
-      "forks": 826,
+      "forks": 835,
       "full_name": "rachelos/we-mp-rss",
       "license": null,
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-20",
       "skill_count": 0,
       "skill_count_truncated": false,
-      "stars": 4964,
+      "stars": 5003,
       "status": "ok"
     },
     "redfox-data/redfox-community": {
@@ -2120,13 +2120,13 @@
       "default_branch": "main",
       "description": "红狐数据（RedFoxHub） 技能合集：面向 Agent 的可复用 SKILL 集合，覆盖灵感、选题、文案创作、数据复盘等场景，持续更新。",
       "first_seen": "2026-10-19",
-      "forks": 63,
+      "forks": 59,
       "full_name": "redfox-data/redfox-community",
       "license": null,
-      "pushed_at": "2026-10-19",
-      "skill_count": 132,
+      "pushed_at": "2026-10-22",
+      "skill_count": 134,
       "skill_count_truncated": false,
-      "stars": 447,
+      "stars": 449,
       "status": "ok"
     },
     "rohunvora/x-research-skill": {
@@ -2140,7 +2140,7 @@
       "pushed_at": "2026-02-19",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1243,
+      "stars": 1240,
       "status": "ok"
     },
     "runningZ1/union-search-skill": {
@@ -2148,13 +2148,13 @@
       "default_branch": "master",
       "description": "统一搜索工具集 - 跨平台内容搜索解决方案，支持 B 站/抖音/小红书/GitHub/Twitter 等 20+ 平台",
       "first_seen": "2026-10-19",
-      "forks": 66,
+      "forks": 68,
       "full_name": "runningZ1/union-search-skill",
-      "license": null,
-      "pushed_at": "2026-04-14",
+      "license": "MIT",
+      "pushed_at": "2026-10-22",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 751,
+      "stars": 758,
       "status": "ok"
     },
     "rushindrasinha/youtube-shorts-pipeline": {
@@ -2162,13 +2162,13 @@
       "default_branch": "main",
       "description": "Automated YouTube Shorts pipeline: news → script → AI visuals → voiceover → captions → upload",
       "first_seen": "2026-10-19",
-      "forks": 537,
+      "forks": 536,
       "full_name": "rushindrasinha/youtube-shorts-pipeline",
       "license": "MIT",
       "pushed_at": "2026-06-09",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 2327,
+      "stars": 2331,
       "status": "ok"
     },
     "sergebulaev/facebook-skills": {
@@ -2179,10 +2179,10 @@
       "forks": 14,
       "full_name": "sergebulaev/facebook-skills",
       "license": "MIT",
-      "pushed_at": "2026-10-15",
+      "pushed_at": "2026-10-21",
       "skill_count": 10,
       "skill_count_truncated": false,
-      "stars": 62,
+      "stars": 67,
       "status": "ok"
     },
     "sergebulaev/instagram-skills": {
@@ -2190,13 +2190,13 @@
       "default_branch": "main",
       "description": "Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtag strategy, and a weekly plan. Draft, humanize, and publish via Publora. MIT. Content engineering by Creative Content Crafts.",
       "first_seen": "2026-10-19",
-      "forks": 116,
+      "forks": 126,
       "full_name": "sergebulaev/instagram-skills",
       "license": "MIT",
-      "pushed_at": "2026-10-15",
+      "pushed_at": "2026-10-21",
       "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 516,
+      "stars": 576,
       "status": "ok"
     },
     "sergebulaev/linkedin-skills": {
@@ -2204,13 +2204,13 @@
       "default_branch": "main",
       "description": "Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft comments that get noticed, analyze your feed, and build a publishing cadence, all from your terminal. Content engineering by Creative Content Crafts. MIT.",
       "first_seen": "2026-10-19",
-      "forks": 838,
+      "forks": 841,
       "full_name": "sergebulaev/linkedin-skills",
       "license": "MIT",
-      "pushed_at": "2026-10-15",
+      "pushed_at": "2026-10-22",
       "skill_count": 14,
       "skill_count_truncated": false,
-      "stars": 4965,
+      "stars": 5116,
       "status": "ok"
     },
     "sergebulaev/threads-skills": {
@@ -2221,7 +2221,7 @@
       "forks": 8,
       "full_name": "sergebulaev/threads-skills",
       "license": "MIT",
-      "pushed_at": "2026-10-15",
+      "pushed_at": "2026-10-21",
       "skill_count": 10,
       "skill_count_truncated": false,
       "stars": 48,
@@ -2235,10 +2235,10 @@
       "forks": 18,
       "full_name": "sergebulaev/tiktok-skills",
       "license": "MIT",
-      "pushed_at": "2026-10-15",
+      "pushed_at": "2026-10-21",
       "skill_count": 10,
       "skill_count_truncated": false,
-      "stars": 79,
+      "stars": 86,
       "status": "ok"
     },
     "sergebulaev/x-skills": {
@@ -2246,13 +2246,13 @@
       "default_branch": "main",
       "description": "X (Twitter) marketing skills for Claude Code and Codex: write tweets, threads, and replies in your voice, strip AI tells, and publish via Publora. Open source, MIT. Content engineering by Creative Content Crafts.",
       "first_seen": "2026-10-19",
-      "forks": 31,
+      "forks": 32,
       "full_name": "sergebulaev/x-skills",
       "license": "MIT",
-      "pushed_at": "2026-10-15",
+      "pushed_at": "2026-10-21",
       "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 146,
+      "stars": 151,
       "status": "ok"
     },
     "sergebulaev/youtube-skills": {
@@ -2260,13 +2260,13 @@
       "default_branch": "main",
       "description": "YouTube and YouTube Shorts marketing skills for Claude Code and Codex: high-CTR titles, SEO descriptions, retention hooks, thumbnails, and a content plan. Publish via Publora. MIT. Content engineering by Creative Content Crafts.",
       "first_seen": "2026-10-19",
-      "forks": 15,
+      "forks": 17,
       "full_name": "sergebulaev/youtube-skills",
       "license": "MIT",
-      "pushed_at": "2026-10-15",
+      "pushed_at": "2026-10-21",
       "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 64,
+      "stars": 68,
       "status": "ok"
     },
     "sharbelxyz/nova-youtube-agent": {
@@ -2280,7 +2280,7 @@
       "pushed_at": "2026-07-06",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 389,
+      "stars": 390,
       "status": "ok"
     },
     "skillify-sh/skills": {
@@ -2308,7 +2308,7 @@
       "pushed_at": "2026-10-12",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 173,
+      "stars": 176,
       "status": "ok"
     },
     "social-media-skills/skills": {
@@ -2316,13 +2316,13 @@
       "default_branch": "main",
       "description": "106 social media skills for AI agents - strategy, writing, video, design, platform growth, publishing, and analytics. Works with Claude, Cursor, OpenClaw, Hermes & 40+ agents.",
       "first_seen": "2026-10-19",
-      "forks": 36,
+      "forks": 37,
       "full_name": "social-media-skills/skills",
       "license": "MIT",
       "pushed_at": "2026-10-15",
       "skill_count": 106,
       "skill_count_truncated": false,
-      "stars": 173,
+      "stars": 191,
       "status": "ok"
     },
     "softbread/xiaohongshu-doctor": {
@@ -2358,13 +2358,13 @@
       "default_branch": "main",
       "description": "Claude Code skills for social media — a complete AI social team for SMBs. Brand setup, content calendar, captions, creative, and performance review.",
       "first_seen": "2026-10-19",
-      "forks": 48,
+      "forks": 49,
       "full_name": "stevenflanagan1/social-ai-team",
       "license": null,
       "pushed_at": "2026-10-07",
       "skill_count": 10,
       "skill_count_truncated": false,
-      "stars": 250,
+      "stars": 257,
       "status": "ok"
     },
     "szhshp/panda-video-generator": {
@@ -2386,10 +2386,10 @@
       "default_branch": "main",
       "description": "Taisly Agent Kit: MCP server, CLI, SDK, and agent docs for publishing videos to TikTok, Reels, Shorts, X, and Facebook.",
       "first_seen": "2026-10-19",
-      "forks": 9,
+      "forks": 4,
       "full_name": "taisly/agent",
       "license": "MIT",
-      "pushed_at": "2026-10-03",
+      "pushed_at": "2026-10-22",
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 220,
@@ -2406,7 +2406,7 @@
       "pushed_at": "2026-07-27",
       "skill_count": 0,
       "skill_count_truncated": false,
-      "stars": 1184,
+      "stars": 1193,
       "status": "ok"
     },
     "trypostit/trypost": {
@@ -2414,13 +2414,13 @@
       "default_branch": "main",
       "description": "Open-source social media scheduler built for AI agents and the teams behind them. Create, schedule and publish posts to every network through MCP or the REST API, or write them yourself in a composer your team will love.",
       "first_seen": "2026-10-19",
-      "forks": 190,
+      "forks": 195,
       "full_name": "trypostit/trypost",
       "license": "AGPL-3.0",
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-23",
       "skill_count": 18,
       "skill_count_truncated": false,
-      "stars": 717,
+      "stars": 726,
       "status": "ok"
     },
     "tsingyuai/growth-lab": {
@@ -2434,7 +2434,7 @@
       "pushed_at": "2026-09-28",
       "skill_count": 22,
       "skill_count_truncated": false,
-      "stars": 1994,
+      "stars": 1972,
       "status": "ok"
     },
     "vigorX777/x-ai-topic-selector": {
@@ -2462,7 +2462,7 @@
       "pushed_at": "2026-01-23",
       "skill_count": 9,
       "skill_count_truncated": false,
-      "stars": 493,
+      "stars": 502,
       "status": "ok"
     },
     "vyralcontent/content-skills": {
@@ -2470,13 +2470,13 @@
       "default_branch": "main",
       "description": "A free Agent Skill for writing short-form hooks, scripts, and carousels for TikTok, Reels, and YouTube Shorts.",
       "first_seen": "2026-10-19",
-      "forks": 24,
+      "forks": 25,
       "full_name": "vyralcontent/content-skills",
       "license": "MIT",
       "pushed_at": "2026-06-22",
       "skill_count": 7,
       "skill_count_truncated": false,
-      "stars": 155,
+      "stars": 167,
       "status": "ok"
     },
     "wechatsync/Wechatsync": {
@@ -2484,13 +2484,13 @@
       "default_branch": "v2",
       "description": "一键同步文章到多个内容平台，支持今日头条、WordPress、知乎、简书、掘金、CSDN、typecho各大平台，一次发布，多平台同步发布。解放个人生产力",
       "first_seen": "2026-10-19",
-      "forks": 1080,
+      "forks": 1085,
       "full_name": "wechatsync/Wechatsync",
       "license": "GPL-3.0",
-      "pushed_at": "2026-10-17",
+      "pushed_at": "2026-10-23",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 6465,
+      "stars": 6488,
       "status": "ok"
     },
     "wenziai/wenzi-xiaohongshu-workflow": {
@@ -2504,7 +2504,7 @@
       "pushed_at": "2026-10-12",
       "skill_count": 6,
       "skill_count_truncated": false,
-      "stars": 173,
+      "stars": 178,
       "status": "ok"
     },
     "white0dew/XiaohongshuSkills": {
@@ -2512,13 +2512,13 @@
       "default_branch": "main",
       "description": "支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等",
       "first_seen": "2026-10-19",
-      "forks": 346,
+      "forks": 345,
       "full_name": "white0dew/XiaohongshuSkills",
       "license": "MIT",
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-23",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 3515,
+      "stars": 3525,
       "status": "ok"
     },
     "wshuyi/x-article-publisher-skill": {
@@ -2532,7 +2532,7 @@
       "pushed_at": "2026-01-25",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 874,
+      "stars": 872,
       "status": "ok"
     },
     "xiaohuailabs/xiaohu-ip-studio": {
@@ -2560,7 +2560,7 @@
       "pushed_at": "2026-06-12",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 704,
+      "stars": 705,
       "status": "ok"
     },
     "xixihhhh/clipforge": {
@@ -2568,13 +2568,13 @@
       "default_branch": "main",
       "description": "ClipForge（原『带货剪手』/ daihuo-jianshou）：开源 AI 带货短视频神器——上传一张商品图，AI 自动提炼卖点 + 写种草脚本 + 锁定商品原图不变形 + 配画面/配音/字幕，一键产出抖音小店 / 快手 / 小红书 / TikTok Shop 卖货短视频。0 成本批量出片、开源无水印、本地自部署。也支持一句话主题成片。Open-source AI e-commerce/UGC short-video generator.",
       "first_seen": "2026-10-19",
-      "forks": 235,
+      "forks": 243,
       "full_name": "xixihhhh/clipforge",
       "license": "AGPL-3.0",
       "pushed_at": "2026-10-08",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 1034,
+      "stars": 1066,
       "status": "ok"
     },
     "xixihhhh/hotclip": {
@@ -2582,13 +2582,13 @@
       "default_branch": "main",
       "description": "免费开源的 AI 剪辑 / 直播切片工具:长视频、直播回放、播客一键切成爆款竖屏短视频,直发抖音/快手/B站/小红书/视频号——AI 找高光金句、弹幕热度进爆点判断、自动加字幕、横屏转竖屏,本地运行无水印不上传 | Free open-source Opus Clip alternative, 100% local: AI clips long videos & livestream VODs into viral 9:16 shorts for TikTok & YouTube Shorts. No credits, no watermark, no uploads. Win/macOS/Linux.",
       "first_seen": "2026-10-19",
-      "forks": 60,
+      "forks": 61,
       "full_name": "xixihhhh/hotclip",
       "license": "AGPL-3.0",
       "pushed_at": "2026-10-08",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 346,
+      "stars": 365,
       "status": "ok"
     },
     "xpzouying/x-mcp": {
@@ -2602,7 +2602,7 @@
       "pushed_at": "2026-09-10",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 474,
+      "stars": 478,
       "status": "ok"
     },
     "xpzouying/xiaohongshu-mcp": {
@@ -2610,13 +2610,13 @@
       "default_branch": "main",
       "description": "MCP for xiaohongshu.com",
       "first_seen": "2026-10-19",
-      "forks": 2571,
+      "forks": 2423,
       "full_name": "xpzouying/xiaohongshu-mcp",
       "license": "Apache-2.0",
       "pushed_at": "2026-10-19",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 16383,
+      "stars": 16534,
       "status": "ok"
     },
     "yanhua1010/self-media-content-workflow": {
@@ -2624,13 +2624,13 @@
       "default_branch": "main",
       "description": "通用、模块化的自媒体内容生产与经营 Skills / A modular, tool-agnostic self-media content skill suite",
       "first_seen": "2026-10-19",
-      "forks": 85,
+      "forks": 82,
       "full_name": "yanhua1010/self-media-content-workflow",
       "license": "MIT",
       "pushed_at": "2026-10-13",
       "skill_count": 10,
       "skill_count_truncated": false,
-      "stars": 610,
+      "stars": 618,
       "status": "ok"
     },
     "ythx-101/x-tweet-fetcher": {
@@ -2638,13 +2638,13 @@
       "default_branch": "main",
       "description": "Fetch X/Twitter tweets, replies, timelines, and articles without login or API keys — field tool for AI agents.",
       "first_seen": "2026-10-19",
-      "forks": 84,
+      "forks": 83,
       "full_name": "ythx-101/x-tweet-fetcher",
       "license": "MIT",
       "pushed_at": "2026-10-14",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 986,
+      "stars": 991,
       "status": "ok"
     },
     "yuwen-cool/yuwen-publish-precheck": {
@@ -2652,13 +2652,13 @@
       "default_branch": "master",
       "description": "发布前审｜发抖音/小红书/视频号前先让 AI 审一遍：哪句踩线、依据哪条官方规则、给能直接用的改法。38 篇真实样本校准判定尺度，80+ 条官方原文引文可查证，你踩过的坑沉淀成本地规则库越用越准。不承诺过审，不教绕审。",
       "first_seen": "2026-10-19",
-      "forks": 76,
+      "forks": 75,
       "full_name": "yuwen-cool/yuwen-publish-precheck",
       "license": "MIT",
       "pushed_at": "2026-10-08",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 789,
+      "stars": 791,
       "status": "ok"
     },
     "zarazhangrui/follow-builders": {
@@ -2666,13 +2666,13 @@
       "default_branch": "main",
       "description": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
       "first_seen": "2026-10-19",
-      "forks": 895,
+      "forks": 897,
       "full_name": "zarazhangrui/follow-builders",
       "license": null,
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-23",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 6909,
+      "stars": 6928,
       "status": "ok"
     },
     "zhimaAi/chatwiki": {
@@ -2680,7 +2680,7 @@
       "default_branch": "main",
       "description": "ChatWiki 微信公众号的AI知识库工作流Agent平台，RAG大模型AI客服机器人，致力于成为垂直领域的coze、n8n。",
       "first_seen": "2026-10-19",
-      "forks": 327,
+      "forks": 326,
       "full_name": "zhimaAi/chatwiki",
       "license": null,
       "pushed_at": "2026-10-16",
@@ -2700,7 +2700,7 @@
       "pushed_at": "2026-03-08",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 124,
+      "stars": 125,
       "status": "ok"
     },
     "ziguishian/xhs-visual-director-skill": {
@@ -2708,13 +2708,13 @@
       "default_branch": "main",
       "description": "这是一个用于规划小红书图文的 Agent Skill。它不是普通文案助手，而是一个“视觉导演”：先判断内容任务，再选择适合的视觉风格，最后输出完整图文结构、逐页视觉方案、图像生成提示词、发布文案和自检清单。",
       "first_seen": "2026-10-19",
-      "forks": 131,
+      "forks": 132,
       "full_name": "ziguishian/xhs-visual-director-skill",
       "license": "MIT",
       "pushed_at": "2026-07-03",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1416,
+      "stars": 1424,
       "status": "ok"
     },
     "zizhanovo/doubaoya-community": {
@@ -2736,13 +2736,13 @@
       "default_branch": "main",
       "description": "AI Agent Skill for automated vlog editing. Feed raw footage, get a finished video. Powered by ffmpeg + Whisper + Vision API.",
       "first_seen": "2026-10-19",
-      "forks": 25,
+      "forks": 26,
       "full_name": "znyupup/ai-video-editing-skill",
       "license": "MIT",
       "pushed_at": "2026-04-27",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 158,
+      "stars": 162,
       "status": "ok"
     }
   }

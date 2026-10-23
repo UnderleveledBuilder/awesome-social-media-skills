@@ -10,7 +10,7 @@
 
 这里收录给 AI 智能体（agent）用的自媒体 skill：写小红书笔记和公众号文章、做封面和短视频、定时发布、追热点、回评论、看数据。大多是标准 SKILL.md 格式，支持技能的智能体都能装，装法见[常见问题](#faq)。每个项目都经过人工核对，收录前用脚本做过安全检查，按要干的活和平台整理。
 
-收录 172 个 skill 项目 + 24 个 MCP 工具和开源平台 · 元数据更新于 2026-10-19
+收录 172 个 skill 项目 + 24 个 MCP 工具和开源平台 · 元数据更新于 2026-10-23
 
 **图例**：🌟 精选 · 📝 提示词文件（非标准 skill）· 🔌 MCP 或命令行工具 · 🧩 完整应用 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效
 
@@ -24,7 +24,7 @@
 
 ## 目录
 
-- [本周新增](#new)（195）
+- [本周新增](#new)（196）
 - [按类型](#by-group)
   - [全流程运营：选题 → 创作 → 发布 → 复盘](#group-pipeline)（34）
   - [文案和内容创作](#group-writing)（18）
@@ -42,51 +42,52 @@
 <a id="new"></a>
 ## 本周新增
 
-近 7 天新收录 195 个：
+近 7 天新收录 196 个：
 
-- [last30days-skill](https://github.com/mvanhorn/last30days-skill) ★64.8k：查任意话题最近 30 天大家在说什么：Reddit、X、YouTube、TikTok、HN、Polymarket 等按点赞和真金白银排序，写成有出处的摘要
-- [humanizer](https://github.com/blader/humanizer) ★58.5k：英文去 AI 腔：按维基百科编辑识别 AI 文本的那份特征清单逐条改写，不改原意
-- [postiz-app](https://github.com/gitroomhq/postiz-app) ★37.4k：开源社媒排程平台：排期、自动化和数据分析，可用云版或自己部署，支持 agent 接入
-- [baoyu-skills](https://github.com/JimLiu/baoyu-skills) ★26.8k：宝玉的 skill 合集：小红书图文、文章配图、封面、信息图，发布到公众号、X 和微博，另有翻译和网页转 Markdown
-- [Humanizer-zh](https://github.com/op7418/Humanizer-zh) ★20.1k：中文去 AI 味：删改空话、重复和模板化表达，保留事实、确定程度和作者声音，没问题的句子不改
-- [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) ★16.4k：小红书 MCP：登录、发图文和视频、搜索、看笔记和评论、点赞收藏，Docker 或本地运行
-- [social-auto-upload](https://github.com/dreammis/social-auto-upload) ★15.6k：一键上传视频到抖音、小红书、视频号、B站、快手、微博、TikTok、YouTube 等，支持定时发布，带 sau 命令和 4 个 skill
-- [OpenCreator](https://github.com/krillinai/OpenCreator) ★13.7k：原 KrillinAI：创作者 AI 工作台，视频下载、翻译配音、做视频图片和语音、剪辑，内置 Codex agent
-- [dbskill](https://github.com/dontbesilent2025/dbskill) ★10.8k：dontbesilent 的 34 个商业诊断 skill：找生意问题、选对标、把选题做成内容方案、写标题封面和开头、发布前查违规
-- [wechatDownload](https://github.com/qiye45/wechatDownload) ★9.8k：公众号文章批量下载：历史文章、评论、合集，存成 html/md/pdf/docx/csv，保存图片视频音频，支持 MCP 和 Skill 调用
+- [ian-xhs-carousel](https://github.com/helloianneo/ian-xhs-carousel) ★243：把文章、案例或笔记排成 3:4 小红书图文：先出分镜表等你确认，再按 20 个母版出图，浅色深色两套，附总览图和可改的 HTML
+- [last30days-skill](https://github.com/mvanhorn/last30days-skill) ★65.2k：查任意话题最近 30 天大家在说什么：Reddit、X、YouTube、TikTok、HN、Polymarket 等按点赞和真金白银排序，写成有出处的摘要
+- [humanizer](https://github.com/blader/humanizer) ★60k：英文去 AI 腔：按维基百科编辑识别 AI 文本的那份特征清单逐条改写，不改原意
+- [postiz-app](https://github.com/gitroomhq/postiz-app) ★37.6k：开源社媒排程平台：排期、自动化和数据分析，可用云版或自己部署，支持 agent 接入
+- [baoyu-skills](https://github.com/JimLiu/baoyu-skills) ★26.9k：宝玉的 skill 合集：小红书图文、文章配图、封面、信息图，发布到公众号、X 和微博，另有翻译和网页转 Markdown
+- [Humanizer-zh](https://github.com/op7418/Humanizer-zh) ★20.5k：中文去 AI 味：删改空话、重复和模板化表达，保留事实、确定程度和作者声音，没问题的句子不改
+- [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) ★16.5k：小红书 MCP：登录、发图文和视频、搜索、看笔记和评论、点赞收藏，Docker 或本地运行
+- [social-auto-upload](https://github.com/dreammis/social-auto-upload) ★15.8k：一键上传视频到抖音、小红书、视频号、B站、快手、微博、TikTok、YouTube 等，支持定时发布，带 sau 命令和 4 个 skill
+- [OpenCreator](https://github.com/krillinai/OpenCreator) ★13.9k：原 KrillinAI：创作者 AI 工作台，视频下载、翻译配音、做视频图片和语音、剪辑，内置 Codex agent
+- [dbskill](https://github.com/dontbesilent2025/dbskill) ★10.9k：dontbesilent 的 34 个商业诊断 skill：找生意问题、选对标、把选题做成内容方案、写标题封面和开头、发布前查违规
+- [wechatDownload](https://github.com/qiye45/wechatDownload) ★9.9k：公众号文章批量下载：历史文章、评论、合集，存成 html/md/pdf/docx/csv，保存图片视频音频，支持 MCP 和 Skill 调用
 - [html-anything](https://github.com/nexu-io/html-anything) ★9.2k：本地 agent 写 HTML 的编辑器：75 个 skill 做杂志长文、海报、小红书图、推文卡、幻灯片，一键发公众号、X、知乎或导出 PNG
 - [xiaobei](https://github.com/TeamWiseFlow/xiaobei) ★8.6k：小贝：给小微企业的自媒体获客智能体（基于 OpenClaw），公众号写作推送、小红书图文、视频分发、评论区获客、数据复盘
-- [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) ★7.6k：歸藏的图文卡片：小红书组图、Live Photo 动态卡、公众号 21:9+1:1 封面对，杂志风和瑞士风两套视觉、28 种版式
+- [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) ★7.7k：歸藏的图文卡片：小红书组图、Live Photo 动态卡、公众号 21:9+1:1 封面对，杂志风和瑞士风两套视觉、28 种版式
 - [follow-builders](https://github.com/zarazhangrui/follow-builders) ★6.9k：AI 圈一线建设者摘要：追踪 X 上的研究员、创始人和 YouTube 播客，按天或周推送整理好的要点
 - [Wechatsync](https://github.com/wechatsync/Wechatsync) ★6.5k：文章同步助手：公众号文章一键同步到知乎、头条、小红书、掘金、CSDN 等 29+ 平台，Chrome 扩展用你自己的登录态，带 MCP
 - [bb-browser](https://github.com/epiral/bb-browser) ★6.2k：你的浏览器就是 API：CLI + MCP 让 agent 用你的登录态操作 Chrome，36 个平台 103 条现成命令
-- [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills) ★5k：LinkedIn 12 个 skill：按你的口吻写帖子和评论、分析信息流、排发帖节奏，去 AI 腔，发布前等你批准
+- [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills) ★5.1k：LinkedIn 12 个 skill：按你的口吻写帖子和评论、分析信息流、排发帖节奏，去 AI 腔，发布前等你批准
 - [we-mp-rss](https://github.com/rachelos/we-mp-rss) ★5k：WeRSS：公众号订阅助手，定时抓新文章生成 RSS，转 Markdown/PDF，支持 Webhook 和 API 给 agent 用
-- [yichen-skills](https://github.com/mcncarl/yichen-skills) ★4.5k：逸尘的创作者 skill：写作、把内容切成 X 推文、推送 X Articles 草稿、存公众号文章，导出自己的小红书、抖音收藏和 X 书签
+- [yichen-skills](https://github.com/mcncarl/yichen-skills) ★4.8k：逸尘的创作者 skill：写作、把内容切成 X 推文、推送 X Articles 草稿、存公众号文章，导出自己的小红书、抖音收藏和 X 书签
+- [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) ★4.6k：社媒调研：找超常爆款、挖评论、拆竞品、看广告库和趋势，覆盖 TikTok、Instagram、YouTube、Reddit、X、LinkedIn
 - [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) ★4.3k：17 个社媒 skill：学你的口吻、写 LinkedIn 帖子、调研、看数据、写 Reels 脚本、生成 Gemini 配图提示词
-- [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) ★4.2k：社媒调研：找超常爆款、挖评论、拆竞品、看广告库和趋势，覆盖 TikTok、Instagram、YouTube、Reddit、X、LinkedIn
-- [human-writing](https://github.com/KKKKhazix/human-writing) ★4.1k：活人感写作：知乎回答、公众号文章、评测、口播稿等中文写作，先查够材料再写，读起来像一个具体的人在说话
-- [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) ★4k：公众号排版：Markdown 排成能直接粘进公众号编辑器的 HTML，6 套主题加主题生成器，样式全内联不掉格式
-- [Easel](https://github.com/ZJU-REAL/Easel) ★3.9k：Easel：ZJU-REAL 开源的社媒 agent，在小红书、抖音、知乎、B 站等平台找趋势、策划、创作、发布和复盘，记住你的账号画像
-- [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) ★3.7k：公众号创作与发布 CLI：Markdown 排版、AI 配图和封面、预览校验、推送草稿箱，也能让浏览器 agent 存知乎、头条草稿
+- [human-writing](https://github.com/KKKKhazix/human-writing) ★4.2k：活人感写作：知乎回答、公众号文章、评测、口播稿等中文写作，先查够材料再写，读起来像一个具体的人在说话
+- [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) ★4.1k：公众号排版：Markdown 排成能直接粘进公众号编辑器的 HTML，6 套主题加主题生成器，样式全内联不掉格式
+- [Easel](https://github.com/ZJU-REAL/Easel) ★4k：Easel：ZJU-REAL 开源的社媒 agent，在小红书、抖音、知乎、B 站等平台找趋势、策划、创作、发布和复盘，记住你的账号画像
+- [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) ★3.8k：公众号创作与发布 CLI：Markdown 排版、AI 配图和封面、预览校验、推送草稿箱，也能让浏览器 agent 存知乎、头条草稿
 - [XiaohongshuSkills](https://github.com/white0dew/XiaohongshuSkills) ★3.5k：小红书自动发布、评论和检索：通过 Chrome 开发者协议发图文和视频，支持多账号和无头模式
 - [wewrite](https://github.com/imraywang/wewrite) ★3.5k：公众号全流程：抓热点、评选题、搜素材、按你的风格写稿并审稿，可选配图、18 套排版和推送草稿箱，改稿后能学你的改法
 - [social-media-agent](https://github.com/langchain-ai/social-media-agent) ★2.9k：LangChain 的社媒 agent：读一个链接生成 X 和 LinkedIn 帖子，人工确认后排期发布
 - [xiaohongshu-cli](https://github.com/jackwener/xiaohongshu-cli) ★2.7k：小红书命令行：搜索、阅读、点赞、收藏、评论、发布，走逆向接口，附 skill
-- [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) ★2.5k：写作蒸馏器：从至少 20 篇文章里蒸馏一个账号或作者的写作 DNA（语言、结构、选题、素材），之后按这套 DNA 写
+- [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) ★2.6k：写作蒸馏器：从至少 20 篇文章里蒸馏一个账号或作者的写作 DNA（语言、结构、选题、素材），之后按这套 DNA 写
+- [linkedin-agent-skill](https://github.com/Jakeschincariol/linkedin-agent-skill) ★2.6k：LinkedIn 11 个 skill：21 种钩子写帖子、评论、回复、主页打分、周计划，去 AI 腔并在发出前打分
+- [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) ★2.6k：Instagram 13 个 skill：26 种钩子公式写 Reels、找本领域爆款、查文案、去 AI 腔，免费、不用注册和 API Key
+- [youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) ★2.5k：YouTube 11 个 skill：钩子打分的脚本、标题和缩略图配对检查、按字幕出剪辑单、找观众流失点、切 Shorts
 - [xiaohongshu-ops-skill](https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill) ★2.4k：OpenClaw 小红书运营：推荐流和账号分析、选题、创作、发布、复盘，能输入爆款链接复刻同类笔记；用浏览器自动化，首次扫码登录
-- [linkedin-agent-skill](https://github.com/Jakeschincariol/linkedin-agent-skill) ★2.4k：LinkedIn 11 个 skill：21 种钩子写帖子、评论、回复、主页打分、周计划，去 AI 腔并在发出前打分
 - [youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline) ★2.3k：竖屏短视频流水线：一个选题自动调研、写脚本、出画面、配音、加字幕并上传，每条约 0.11 美元
-- [Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill) ★2.2k：YouTube 剪辑：下载视频、按语义分章节、剪片段、字幕翻译成双语并烧进视频
-- [claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video) ★2.2k：让 AI 看视频：从链接或本地文件抽场景关键帧并去重、配时间戳字幕，用来总结和拆解对标视频，本地运行
-- [chatwiki](https://github.com/zhimaAi/chatwiki) ★2.1k：ChatWiki：公众号 AI 知识库和客服工作流平台，拖拽搭建自动回复等应用
+- [claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video) ★2.3k：让 AI 看视频：从链接或本地文件抽场景关键帧并去重、配时间戳字幕，用来总结和拆解对标视频，本地运行
+- [Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill) ★2.3k：YouTube 剪辑：下载视频、按语义分章节、剪片段、字幕翻译成双语并烧进视频
 - [Beav](https://github.com/Jamailar/Beav) ★2.1k：Beav（原 RedBox）：小红书 AI 运营工作台，采集笔记和评论、素材库、选题、写作和配图，本地桌面应用
-- [growth-lab](https://github.com/tsingyuai/growth-lab) ★2k：产品增长闭环：读懂产品、用 MediaCrawler 采小红书/抖音/B站/快手等数据做调研，执行增长动作再按结果改进
-- [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) ★2k：Instagram 13 个 skill：26 种钩子公式写 Reels、找本领域爆款、查文案、去 AI 腔，免费、不用注册和 API Key
+- [chatwiki](https://github.com/zhimaAi/chatwiki) ★2.1k：ChatWiki：公众号 AI 知识库和客服工作流平台，拖拽搭建自动回复等应用
+- [herk-edit-kit](https://github.com/nateherkai/herk-edit-kit) ★2.1k：Nate Herk 的口播剪辑包：按字幕剪掉停顿和口误、规划叙事、406 张动效卡片和 HyperFrames 模板，做 Reels 和 Shorts
 - [autoclaw-cc/xiaohongshu-skills](https://github.com/autoclaw-cc/xiaohongshu-skills) ★2k：小红书自动化：用你已登录的浏览器和真实账号登录、发图文和视频、搜索、评论点赞，开箱即用
+- [growth-lab](https://github.com/tsingyuai/growth-lab) ★2k：产品增长闭环：读懂产品、用 MediaCrawler 采小红书/抖音/B站/快手等数据做调研，执行增长动作再按结果改进
 - [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) ★1.9k：中文版近 30 天研究：微博、小红书、B站、知乎、抖音、公众号、百度、头条 8 个平台并行检索，按互动和时效排序，结论都有出处
-- [youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) ★1.9k：YouTube 11 个 skill：钩子打分的脚本、标题和缩略图配对检查、按字幕出剪辑单、找观众流失点、切 Shorts
-- [herk-edit-kit](https://github.com/nateherkai/herk-edit-kit) ★1.9k：Nate Herk 的口播剪辑包：按字幕剪掉停顿和口误、规划叙事、406 张动效卡片和 HyperFrames 模板，做 Reels 和 Shorts
 - [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) ★1.7k：创作者工具箱：搜小红书/B站/抖音热门、挖公众号爆款、拆竞品和评论，再起标题、写正文、配图、剪视频、出封面
 - [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) ★1.7k：选题变成 4K 解说视频：调研、写稿、本地免费 TTS、Remotion 合成，适配 B 站、YouTube、小红书、抖音、视频号
 - [rnskill](https://github.com/Pluviobyte/rnskill) ★1.7k：雪踏乌云的 skill 合集：选题、脚本改写、AI 配音、数字人、剪口播、字幕、封面和图文，另有编码类 skill
@@ -100,136 +101,136 @@
 - [wechat-download-api](https://github.com/tmwgsicp/wechat-download-api) ★1.2k：公众号文章获取和 RSS API：整号导出 7 种格式、定时订阅，内置 MCP，可自己部署
 - [ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) ★1.1k：YouTube 字幕、搜索视频、浏览频道和播放列表，走 TranscriptAPI
 - [wechat-article-to-markdown](https://github.com/jackwener/wechat-article-to-markdown) ★1.1k：公众号文章抓取转 Markdown：防检测抓取，提取标题、作者、时间，图片存本地
+- [clipforge](https://github.com/xixihhhh/clipforge) ★1.1k：带货短视频：上传一张商品图，提炼卖点、写种草脚本、配画面配音字幕，出抖音小店、快手、小红书、TikTok Shop 视频
 - [locoagent](https://github.com/LocoreMind/locoagent) ★1.1k：用真实浏览器自动运营社媒的 agent：X、LinkedIn、Reddit 的浏览、互动和发帖
-- [clipforge](https://github.com/xixihhhh/clipforge) ★1k：带货短视频：上传一张商品图，提炼卖点、写种草脚本、配画面配音字幕，出抖音小店、快手、小红书、TikTok Shop 视频
 - [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) ★1k：视频导演式追问：把「想做个视频」问成精确到秒的分镜脚本 video-spec.md，交给 HyperFrames 渲染
-- [MatrixMedia](https://github.com/hanliang97/MatrixMedia) ★995：矩媒：视频矩阵批量发布到抖音、快手、视频号、小红书、B站、百家号、头条、番茄视频，查登录状态和发布记录
-- [x-tweet-fetcher](https://github.com/ythx-101/x-tweet-fetcher) ★986：不登录、不用 API Key 抓 X 推文、回复、时间线、列表和长文，三种后端自动切换
-- [autocli-skill](https://github.com/nashsu/autocli-skill) ★925：让 agent 用 autocli 读 55+ 个网站：B站、知乎、X、YouTube、微博、Reddit、小红书等，复用你 Chrome 的登录态
-- [gbro-cover-design](https://github.com/pyang5166/gbro-cover-design) ★907：公众号/小红书封面提示词：读完文章问三轮，按 10 种构图出 3:4 真人出镜封面提示词，基于 oh-my-cover-design 改进
-- [x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill) ★874：Markdown 长文一条命令发到 X Articles（推特长文），支持分割线、表格转图片和 Mermaid
-- [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) ★794：给一个主题，按 11 个内容洞见维度写成整篇文章，附 5 个备选标题和每张配图的提示词，公众号、小红书、抖音三种写法
-- [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) ★789：发布前审：口播稿、图文、字幕、封面字能不能发抖音/小红书/视频号，指出哪句踩线、依据哪条官方规则，给改法
-- [union-search-skill](https://github.com/runningZ1/union-search-skill) ★751：统一搜索：一条命令搜小红书、抖音、B站、YouTube、X、公众号、Reddit 等 20+ 平台，输出统一格式
-- [xhs-virtual-product](https://github.com/chenjin-cmd/xhs-virtual-product) ★739：小红书虚拟资料生意：选品、对标、制作、上架、发内容、复盘 7 步，附模板和版权合规红线
-- [claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post) ★738：学你在 Facebook 的口吻写贴文，排 14 天日历，确认后发到 FB、IG、Threads、X，用已登录的 Chrome 管理留言
-- [blogger-distiller](https://github.com/otter1101/blogger-distiller) ★727：博主蒸馏器：输入博主账号，从真实笔记里蒸馏 TA 的爆款打法和认知，装进你的 AI 当内容教练
-- [trypost](https://github.com/trypostit/trypost) ★717：开源社媒排程工具，给 agent 提供 MCP 和 REST API 来写、排期、发布各平台帖子，可自己部署
+- [MatrixMedia](https://github.com/hanliang97/MatrixMedia) ★1k：矩媒：视频矩阵批量发布到抖音、快手、视频号、小红书、B站、百家号、头条、番茄视频，查登录状态和发布记录
+- [x-tweet-fetcher](https://github.com/ythx-101/x-tweet-fetcher) ★991：不登录、不用 API Key 抓 X 推文、回复、时间线、列表和长文，三种后端自动切换
+- [autocli-skill](https://github.com/nashsu/autocli-skill) ★927：让 agent 用 autocli 读 55+ 个网站：B站、知乎、X、YouTube、微博、Reddit、小红书等，复用你 Chrome 的登录态
+- [gbro-cover-design](https://github.com/pyang5166/gbro-cover-design) ★921：公众号/小红书封面提示词：读完文章问三轮，按 10 种构图出 3:4 真人出镜封面提示词，基于 oh-my-cover-design 改进
+- [x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill) ★872：Markdown 长文一条命令发到 X Articles（推特长文），支持分割线、表格转图片和 Mermaid
+- [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) ★800：给一个主题，按 11 个内容洞见维度写成整篇文章，附 5 个备选标题和每张配图的提示词，公众号、小红书、抖音三种写法
+- [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) ★791：发布前审：口播稿、图文、字幕、封面字能不能发抖音/小红书/视频号，指出哪句踩线、依据哪条官方规则，给改法
+- [union-search-skill](https://github.com/runningZ1/union-search-skill) ★758：统一搜索：一条命令搜小红书、抖音、B站、YouTube、X、公众号、Reddit 等 20+ 平台，输出统一格式
+- [claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post) ★740：学你在 Facebook 的口吻写贴文，排 14 天日历，确认后发到 FB、IG、Threads、X，用已登录的 Chrome 管理留言
+- [xhs-virtual-product](https://github.com/chenjin-cmd/xhs-virtual-product) ★738：小红书虚拟资料生意：选品、对标、制作、上架、发内容、复盘 7 步，附模板和版权合规红线
+- [blogger-distiller](https://github.com/otter1101/blogger-distiller) ★736：博主蒸馏器：输入博主账号，从真实笔记里蒸馏 TA 的爆款打法和认知，装进你的 AI 当内容教练
+- [trypost](https://github.com/trypostit/trypost) ★726：开源社媒排程工具，给 agent 提供 MCP 和 REST API 来写、排期、发布各平台帖子，可自己部署
 - [gimi-illustration-skill](https://github.com/GiMi-Xiaomi/gimi-illustration-skill) ★711：中文文章和口播配图：把判断、流程、对比画成一眼能懂的图，三种画风，可换成自己的 IP 形象
-- [xiaohu-wechat-format](https://github.com/xiaohuailabs/xiaohu-wechat-format) ★704：公众号一键排版加发布：Markdown 转微信兼容 HTML，85 套主题和可视化画廊挑选，可选生成封面，推送草稿箱
-- [wechat-article-skills](https://github.com/aiworkskills/wechat-article-skills) ★702：公众号运营助手：选题、写稿、审稿（敏感词、错别字、AI 味）、排版、配图、发布 8 个 skill 串成一条线，每步停下等你确认
-- [xhs-cli](https://github.com/jackwener/xhs-cli) ★669：小红书命令行的无头浏览器版：搜索、看主页、点赞、收藏、评论，比逆向接口版更像真人操作
-- [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) ★664：简体中文去 AI 味：清理套话、翻译腔和机械排比，保留事实、正式程度和原文声口
-- [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) ★627：新闻和内容提取 skill：给一条链接拿到正文、图片和元数据，支持公众号、头条、X、网易、腾讯新闻等 12 个平台
-- [feedgrab](https://github.com/iBigQiang/feedgrab) ★616：18+ 平台内容抓取：输入链接或关键词批量抓 X、小红书、公众号、YouTube、B站等，输出带元数据的 Obsidian Markdown
-- [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) ★610：模块化自媒体工作流：创作简报、账号策略、热点与竞品研究、平台原生文案、短视频方案、多平台发布、数据复盘和归档，不绑定工具
-- [Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) ★603：从文档归纳要点生成多张配图，歸藏调过的三种风格，16:9 和 3:4 两种比例，适合发小红书和推特
-- [clipify](https://github.com/louisedesadeleer/clipify) ★600：长视频切短片：转写后找笑点、反转和高能片段，剪成 9:16 并跟踪人脸，烧录 Opus 风格字幕
-- [chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) ★595：用 ChatGPT/Codex 剪竖屏短视频：一个 skill 装好剪辑环境，一个按 8 步把你的素材剪成 Reels、Shorts、TikTok
-- [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench) ★591：《小红书运营手册》配套的 Codex skill：标题、主页、选题、评论区回复和成交路径，作者是《爆款》作者王梦珂
-- [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) ★585：起号专家：视频号、抖音、公众号、小红书和中文 X 账号从 0 到 1，定位、选题、脚本、小样本实验、复盘和 30 天计划
-- [blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills) ★577：14 个社媒 skill：内容策略、日历、配图文案、轮播文案、涨粉分析，覆盖文字型和图片型平台
-- [smart-illustrator](https://github.com/axtonliu/smart-illustrator) ★565：文章配图：自动找该配图的位置生成插图，也能批量出 PPT 信息图和 YouTube 缩略图，Gemini、Excalidraw、Mermaid 三种引擎
-- [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) ★550：英文去 AI 腔：推文、邮件、文章、简介、配图文案都按可检测的 AI 写作特征逐条避开
-- [rdt-cli](https://github.com/public-clis/rdt-cli) ★541：Reddit 命令行：浏览、读帖、搜索、点赞、收藏、订阅，附 skill
-- [social-push](https://github.com/jihe520/social-push) ★535：用 agent-browser 把内容发到小红书、微博、知乎、公众号、X 等平台，流程能自我改进
-- [postiz-agent](https://github.com/gitroomhq/postiz-agent) ★526：Postiz 的 agent CLI：让 Claude、OpenClaw 等 agent 把帖子排进 X、LinkedIn、Instagram 等 28+ 渠道
-- [redbook](https://github.com/lucasygu/redbook) ★520：小红书 CLI：搜笔记、读内容、分析博主、发图文，用浏览器 Cookie 认证，不要 API Key
-- [instagram-skills](https://github.com/sergebulaev/instagram-skills) ★516：Instagram 9 个 skill：前 125 字钩子的文案、轮播逐页规划、话题标签和周计划，读数据要 Apify，发布走 Publora
-- [SyncCaster](https://github.com/RyanYipeng/SyncCaster) ★510：多平台文章同步 Chrome 扩展：Markdown 编辑，一键发到掘金、CSDN、知乎、公众号等 17+ 平台，带 MCP 桥给 agent 用
-- [vivy-yi/xiaohongshu-skills](https://github.com/vivy-yi/xiaohongshu-skills) ★493：小红书运营知识库 139 个 skill：内容创作、账号运营、互动、数据分析、电商转化、平台规则和增长策略
+- [wechat-article-skills](https://github.com/aiworkskills/wechat-article-skills) ★705：公众号运营助手：选题、写稿、审稿（敏感词、错别字、AI 味）、排版、配图、发布 8 个 skill 串成一条线，每步停下等你确认
+- [xiaohu-wechat-format](https://github.com/xiaohuailabs/xiaohu-wechat-format) ★705：公众号一键排版加发布：Markdown 转微信兼容 HTML，85 套主题和可视化画廊挑选，可选生成封面，推送草稿箱
+- [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) ★685：简体中文去 AI 味：清理套话、翻译腔和机械排比，保留事实、正式程度和原文声口
+- [xhs-cli](https://github.com/jackwener/xhs-cli) ★672：小红书命令行的无头浏览器版：搜索、看主页、点赞、收藏、评论，比逆向接口版更像真人操作
+- [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) ★633：新闻和内容提取 skill：给一条链接拿到正文、图片和元数据，支持公众号、头条、X、网易、腾讯新闻等 12 个平台
+- [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) ★618：模块化自媒体工作流：创作简报、账号策略、热点与竞品研究、平台原生文案、短视频方案、多平台发布、数据复盘和归档，不绑定工具
+- [feedgrab](https://github.com/iBigQiang/feedgrab) ★618：18+ 平台内容抓取：输入链接或关键词批量抓 X、小红书、公众号、YouTube、B站等，输出带元数据的 Obsidian Markdown
+- [clipify](https://github.com/louisedesadeleer/clipify) ★606：长视频切短片：转写后找笑点、反转和高能片段，剪成 9:16 并跟踪人脸，烧录 Opus 风格字幕
+- [Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) ★605：从文档归纳要点生成多张配图，歸藏调过的三种风格，16:9 和 3:4 两种比例，适合发小红书和推特
+- [chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) ★604：用 ChatGPT/Codex 剪竖屏短视频：一个 skill 装好剪辑环境，一个按 8 步把你的素材剪成 Reels、Shorts、TikTok
+- [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench) ★595：《小红书运营手册》配套的 Codex skill：标题、主页、选题、评论区回复和成交路径，作者是《爆款》作者王梦珂
+- [blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills) ★591：14 个社媒 skill：内容策略、日历、配图文案、轮播文案、涨粉分析，覆盖文字型和图片型平台
+- [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) ★589：起号专家：视频号、抖音、公众号、小红书和中文 X 账号从 0 到 1，定位、选题、脚本、小样本实验、复盘和 30 天计划
+- [instagram-skills](https://github.com/sergebulaev/instagram-skills) ★576：Instagram 9 个 skill：前 125 字钩子的文案、轮播逐页规划、话题标签和周计划，读数据要 Apify，发布走 Publora
+- [vibe-knowledge-film](https://github.com/HeyChengC/vibe-knowledge-film) ★568：抖音「知识大赏」类知识短片：两种热门画风，写字幕稿、排分镜表、配音效，先出 30 秒样片再出成片
+- [smart-illustrator](https://github.com/axtonliu/smart-illustrator) ★566：文章配图：自动找该配图的位置生成插图，也能批量出 PPT 信息图和 YouTube 缩略图，Gemini、Excalidraw、Mermaid 三种引擎
+- [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) ★563：英文去 AI 腔：推文、邮件、文章、简介、配图文案都按可检测的 AI 写作特征逐条避开
+- [rdt-cli](https://github.com/public-clis/rdt-cli) ★546：Reddit 命令行：浏览、读帖、搜索、点赞、收藏、订阅，附 skill
+- [social-push](https://github.com/jihe520/social-push) ★539：用 agent-browser 把内容发到小红书、微博、知乎、公众号、X 等平台，流程能自我改进
+- [postiz-agent](https://github.com/gitroomhq/postiz-agent) ★536：Postiz 的 agent CLI：让 Claude、OpenClaw 等 agent 把帖子排进 X、LinkedIn、Instagram 等 28+ 渠道
+- [redbook](https://github.com/lucasygu/redbook) ★526：小红书 CLI：搜笔记、读内容、分析博主、发图文，用浏览器 Cookie 认证，不要 API Key
+- [claude-youtube](https://github.com/AgriciDaniel/claude-youtube) ★515：YouTube 创作者 skill：频道审计、视频 SEO、留存脚本和钩子、缩略图、内容策略、Shorts、数据和变现
+- [SyncCaster](https://github.com/RyanYipeng/SyncCaster) ★513：多平台文章同步 Chrome 扩展：Markdown 编辑，一键发到掘金、CSDN、知乎、公众号等 17+ 平台，带 MCP 桥给 agent 用
+- [catbus](https://github.com/cv-cat/catbus) ★507：一个命令操作小红书、抖音、TikTok、B站、快手、微博、X 等：搜索、评论、下载、发布、私信、直播弹幕，统一 JSON 输出
+- [vivy-yi/xiaohongshu-skills](https://github.com/vivy-yi/xiaohongshu-skills) ★502：小红书运营知识库 139 个 skill：内容创作、账号运营、互动、数据分析、电商转化、平台规则和增长策略
 - [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) ★492：达芬奇自动剪辑：分析素材、写文案、配音、搭剪辑蓝图并在 DaVinci Resolve 时间线成片，每步等你确认
-- [claude-youtube](https://github.com/AgriciDaniel/claude-youtube) ★490：YouTube 创作者 skill：频道审计、视频 SEO、留存脚本和钩子、缩略图、内容策略、Shorts、数据和变现
-- [x-mcp](https://github.com/xpzouying/x-mcp) ★474：xiaohongshu-mcp 的浏览器插件版：装插件即用，不用部署 Docker 或 Python，在你常用的浏览器里发小红书
-- [catbus](https://github.com/cv-cat/catbus) ★470：一个命令操作小红书、抖音、TikTok、B站、快手、微博、X 等：搜索、评论、下载、发布、私信、直播弹幕，统一 JSON 输出
-- [claude-design-card](https://github.com/geekjourneyx/claude-design-card) ★464：把文本或网页做成可发布卡片：平台封面、社交分享卡、长文排版 14 种格式，统一 Claude 设计风格
-- [redfox-community](https://github.com/redfox-data/redfox-community) ★447：红狐数据的 132 个 skill：多平台主页视频提取、B站评论分析、AI 信息日报、选题、文案和数据复盘
-- [writing-agent](https://github.com/dongbeixiaohuo/writing-agent) ★435：多 agent 写稿：写作导演、主笔、读者审校、去 AI 味专家一起从选题写到成稿，能从公众号样文建风格档案；另有 Windows 客户端
-- [xhs-claude-skills](https://github.com/chenxiachan/xhs-claude-skills) ★424：小红书转 Obsidian：提取帖子文字、图片 OCR、视频字幕或转录，批量入库后做总结对比，也能做封面
-- [atutun-xhs-cover](https://github.com/panggungunvibe/atutun-xhs-cover) ★422：阿囤囤风小红书封面提示词：真人出镜、超大浅黄白描边标题、勾选清单和贴纸，适合 AI 工具、测评和教程类内容
-- [vibe-knowledge-film](https://github.com/HeyChengC/vibe-knowledge-film) ★398：抖音「知识大赏」类知识短片：两种热门画风，写字幕稿、排分镜表、配音效，先出 30 秒样片再出成片
-- [nova-youtube-agent](https://github.com/sharbelxyz/nova-youtube-agent) ★389：YouTube 增长 agent：扫竞品、分析频道、想选题、写脚本、追踪表现并按反馈改进，给 Hermes 和 OpenClaw 用
-- [hotclip](https://github.com/xixihhhh/hotclip) ★346：长视频和直播回放切成竖屏爆款片段：AI 找高光并说明理由、横转竖、自动字幕、去气口，本地运行不上传
-- [motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills) ★346：用代码做动效：发布会视频、动态图表、数字滚动，适合发 LinkedIn 和 Newsletter，不用 After Effects
-- [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) ★338：杜蕾斯式借势文案和海报：双层语义和 8 个文案公式，拆自 260 张原始海报，适合热点、节日、产品卖点
-- [twitterapi-io](https://github.com/kaitoInfra/twitterapi-io) ★335：twitterapi.io 官方 skill：查推文、主页、粉丝、高级搜索、趋势，也能发帖等操作
+- [x-mcp](https://github.com/xpzouying/x-mcp) ★478：xiaohongshu-mcp 的浏览器插件版：装插件即用，不用部署 Docker 或 Python，在你常用的浏览器里发小红书
+- [claude-design-card](https://github.com/geekjourneyx/claude-design-card) ★469：把文本或网页做成可发布卡片：平台封面、社交分享卡、长文排版 14 种格式，统一 Claude 设计风格
+- [redfox-community](https://github.com/redfox-data/redfox-community) ★449：红狐数据的 132 个 skill：多平台主页视频提取、B站评论分析、AI 信息日报、选题、文案和数据复盘
+- [writing-agent](https://github.com/dongbeixiaohuo/writing-agent) ★438：多 agent 写稿：写作导演、主笔、读者审校、去 AI 味专家一起从选题写到成稿，能从公众号样文建风格档案；另有 Windows 客户端
+- [atutun-xhs-cover](https://github.com/panggungunvibe/atutun-xhs-cover) ★425：阿囤囤风小红书封面提示词：真人出镜、超大浅黄白描边标题、勾选清单和贴纸，适合 AI 工具、测评和教程类内容
+- [xhs-claude-skills](https://github.com/chenxiachan/xhs-claude-skills) ★425：小红书转 Obsidian：提取帖子文字、图片 OCR、视频字幕或转录，批量入库后做总结对比，也能做封面
+- [nova-youtube-agent](https://github.com/sharbelxyz/nova-youtube-agent) ★390：YouTube 增长 agent：扫竞品、分析频道、想选题、写脚本、追踪表现并按反馈改进，给 Hermes 和 OpenClaw 用
+- [motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills) ★375：用代码做动效：发布会视频、动态图表、数字滚动，适合发 LinkedIn 和 Newsletter，不用 After Effects
+- [hotclip](https://github.com/xixihhhh/hotclip) ★365：长视频和直播回放切成竖屏爆款片段：AI 找高光并说明理由、横转竖、自动字幕、去气口，本地运行不上传
+- [rayskills](https://github.com/imraywang/rayskills) ★341：WeWrite 作者的工具箱：本地知识库、长文、口播稿、封面、解说视频，内容直达公众号和 X Articles 草稿箱
+- [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) ★339：杜蕾斯式借势文案和海报：双层语义和 8 个文案公式，拆自 260 张原始海报，适合热点、节日、产品卖点
+- [twitterapi-io](https://github.com/kaitoInfra/twitterapi-io) ★336：twitterapi.io 官方 skill：查推文、主页、粉丝、高级搜索、趋势，也能发帖等操作
 - [ai-influence-digest](https://github.com/koffuxu/ai-influence-digest) ★319：AI 影响力周报：用浏览器扫 65+ 个 AI 建设者过去 7 天的推文，筛出创作者能立刻用的工具和方法，导出海报
 - [wechat_article_skills](https://github.com/BND-1/wechat_article_skills) ★317：公众号四件套：科技科普写作、AI 产品经理视角写作、Markdown 转公众号排版、推送草稿箱
-- [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) ★306：自媒体账号体检和爆款拆解：扫同赛道找对标、拆爆款为什么爆、诊断没人看的原因，顺手出仿写初稿，支持带货模式
-- [lingzao-skill](https://github.com/atian-create/lingzao-skill) ★300：灵造：小红书为主的公开内容研究，账号诊断、找对标、拆爆款、标题封面优化、仿写模板，也覆盖抖音和公众号
+- [clipcat-skill](https://github.com/Clipcat-ai/clipcat-skill) ★315：TikTok Shop 带货视频：找爆款视频、研究商品店铺达人和直播间、拆为什么能卖，生成可拍的提示词
+- [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) ★311：自媒体账号体检和爆款拆解：扫同赛道找对标、拆爆款为什么爆、诊断没人看的原因，顺手出仿写初稿，支持带货模式
+- [lingzao-skill](https://github.com/atian-create/lingzao-skill) ★302：灵造：小红书为主的公开内容研究，账号诊断、找对标、拆爆款、标题封面优化、仿写模板，也覆盖抖音和公众号
 - [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) ★299：小互的中文深度文配图：挑认知锚点、现编隐喻、反 PPT 自检，自带 31 个原创 IP 角色出演
-- [rayskills](https://github.com/imraywang/rayskills) ★293：WeWrite 作者的工具箱：本地知识库、长文、口播稿、封面、解说视频，内容直达公众号和 X Articles 草稿箱
 - [panda-video-generator](https://github.com/szhshp/panda-video-generator) ★292：程序员式视频自动化：抓素材、生成字幕脚本、Remotion 渲染、Playwright 多平台发布，每个环节可单独用
-- [douyin-live-recorder](https://github.com/WeiZhuochun/douyin-live-recorder) ★289：抖音直播切片号：多直播间监控、开播自动录制、边录边传百度网盘、高光识别剪辑、生成标题、多授权账号发布
-- [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) ★283：英文去 AI 腔并打分：识别 55 种 AI 写作特征，按 5 种口吻改写，给 0-100 的 AI 痕迹分，本地运行
-- [clipcat-skill](https://github.com/Clipcat-ai/clipcat-skill) ★282：TikTok Shop 带货视频：找爆款视频、研究商品店铺达人和直播间、拆为什么能卖，生成可拍的提示词
-- [jiji262/wechat-publisher](https://github.com/jiji262/wechat-publisher) ★280：公众号文章一条命令：多轮搜素材、写 3000-5000 字长文、每章配手绘信息图、排版、推送草稿箱
-- [head-of-content](https://github.com/bradautomates/head-of-content) ★277：内容调研同事：在 X、Instagram、YouTube、TikTok 上找表现好的内容，拆共性，做内容计划
-- [xiaohongshu-mcp-skills](https://github.com/autoclaw-cc/xiaohongshu-mcp-skills) ★275：配合 xiaohongshu-mcp 用的 skill：部署服务、扫码登录、发笔记、搜索、内容规划
-- [oil-cover](https://github.com/oil-oil/oil-cover) ★272：从视频画面做小红书和 B 站封面：本地选帧打分，按真实屏幕画面加标题出三种画幅，适合 AI 工具实操视频
-- [bigpeng-hot-gzh](https://github.com/BigPengSays/bigpeng-hot-gzh) ★272：公众号选题和标题：从约 100 篇 AI 爆款文章拆出 7 种标题公式和 8 个选题模板，只做选题和标题
-- [oh-my-cover-design](https://github.com/hongfamonvAI/oh-my-cover-design) ★268：小红书/公众号封面提示词：问完构图、人脸、表情、产品图、配色和字体，输出能直接跑图的提示词，10 种构图
+- [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) ★289：英文去 AI 腔并打分：识别 55 种 AI 写作特征，按 5 种口吻改写，给 0-100 的 AI 痕迹分，本地运行
+- [jiji262/wechat-publisher](https://github.com/jiji262/wechat-publisher) ★284：公众号文章一条命令：多轮搜素材、写 3000-5000 字长文、每章配手绘信息图、排版、推送草稿箱
+- [head-of-content](https://github.com/bradautomates/head-of-content) ★281：内容调研同事：在 X、Instagram、YouTube、TikTok 上找表现好的内容，拆共性，做内容计划
+- [oil-cover](https://github.com/oil-oil/oil-cover) ★279：从视频画面做小红书和 B 站封面：本地选帧打分，按真实屏幕画面加标题出三种画幅，适合 AI 工具实操视频
+- [xiaohongshu-mcp-skills](https://github.com/autoclaw-cc/xiaohongshu-mcp-skills) ★277：配合 xiaohongshu-mcp 用的 skill：部署服务、扫码登录、发笔记、搜索、内容规划
+- [bigpeng-hot-gzh](https://github.com/BigPengSays/bigpeng-hot-gzh) ★274：公众号选题和标题：从约 100 篇 AI 爆款文章拆出 7 种标题公式和 8 个选题模板，只做选题和标题
+- [oh-my-cover-design](https://github.com/hongfamonvAI/oh-my-cover-design) ★271：小红书/公众号封面提示词：问完构图、人脸、表情、产品图、配色和字体，输出能直接跑图的提示词，10 种构图
+- [claude-content-skills](https://github.com/Ootto-AI/claude-content-skills) ★268：Instagram Reels 内容工厂：找爆款格式、拆钩子、按你的口吻写脚本和配文、排两周日历，把评论变成销售线索
+- [douyin-live-recorder](https://github.com/WeiZhuochun/douyin-live-recorder) ★261：抖音直播切片号：多直播间监控、开播自动录制、边录边传百度网盘、高光识别剪辑、生成标题、多授权账号发布
+- [social-ai-team](https://github.com/stevenflanagan1/social-ai-team) ★257：给小企业的社媒团队：品牌建档、月度内容日历、配图文案、LinkedIn 文章、创意和月度复盘
+- [xint](https://github.com/0xNyk/xint) ★256：本地优先的 X 数据命令行：搜索、监控、分析、导出、OAuth 操作，用你的 X API
+- [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) ★255：把视频、标题、封面准备成小红书、抖音、B站、视频号、YouTube 的已核验草稿，可续传，默认停在最终发布前
 - [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) ★254：一句话出中文竖屏短视频：脚本、配音、画面、配乐、字幕、音效全自动，脚本、配音、画面三道关都可审
-- [xint](https://github.com/0xNyk/xint) ★254：本地优先的 X 数据命令行：搜索、监控、分析、导出、OAuth 操作，用你的 X API
 - [social-media-data-tools](https://github.com/jinchenma94/social-media-data-tools) ★252：抖音博主和视频导出：标题、文案、完整逐字稿和互动数据，可写入飞书多维表格；要在豆包里运行
-- [social-ai-team](https://github.com/stevenflanagan1/social-ai-team) ★250：给小企业的社媒团队：品牌建档、月度内容日历、配图文案、LinkedIn 文章、创意和月度复盘
-- [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) ★246：把视频、标题、封面准备成小红书、抖音、B站、视频号、YouTube 的已核验草稿，可续传，默认停在最终发布前
-- [ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader) ★245：抖音原视频下载和逐字稿：归档博主公开作品和指标，可按点赞批量改写口播稿，只用于自有或已授权内容
-- [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) ★229：短视频转字幕加 AI 总结：抖音、小红书、B 站、YouTube 链接或本地音视频，faster-whisper 本地转写
-- [claude-content-skills](https://github.com/Ootto-AI/claude-content-skills) ★222：Instagram Reels 内容工厂：找爆款格式、拆钩子、按你的口吻写脚本和配文、排两周日历，把评论变成销售线索
+- [ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader) ★249：抖音原视频下载和逐字稿：归档博主公开作品和指标，可按点赞批量改写口播稿，只用于自有或已授权内容
+- [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) ★230：短视频转字幕加 AI 总结：抖音、小红书、B 站、YouTube 链接或本地音视频，faster-whisper 本地转写
 - [Taisly Agent Kit](https://github.com/taisly/agent) ★220：Taisly 短视频发布套件：skill、MCP、CLI 和 SDK，从 agent 发视频到 TikTok、Reels、Shorts、X 和 Facebook
+- [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) ★219：Xquik 的 X 数据：搜索、主页、粉丝、回复、时间线、媒体下载，带远程 MCP
 - [content-pipeline](https://github.com/OrangeViolin/content-pipeline) ★218：一个 skill 管内容生产和分发：收素材、出稿、排版、封面、朋友圈文案、多平台改写，用 Chrome 自动发布
-- [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) ★214：Xquik 的 X 数据：搜索、主页、粉丝、回复、时间线、媒体下载，带远程 MCP
-- [xhs-cover-skill](https://github.com/Vivixiao980/xhs-cover-skill) ★207：小红书封面生成：18 种预设风格，命令行出图或改图，优先用 Codex 自带的生图，Gemini 作备用
-- [wenzi-xiaohongshu-workflow](https://github.com/wenziai/wenzi-xiaohongshu-workflow) ★173：文子的小红书冷启动工作流：账号定位、选题标题、真人化改稿和合规检查、图文规划、排期和数据复盘
-- [social-media-skills/skills](https://github.com/social-media-skills/skills) ★173：106 个社媒 skill：品牌和口吻、内容日历、LinkedIn 帖子、短视频、设计、各平台增长、发布和数据分析
-- [jev-social](https://github.com/socai-io/jev-social) ★173：社媒调研 agent：在你已登录的 Chrome 里搜 Instagram、TikTok、LinkedIn 的帖子、主页和评论，出带出处的报告，只读不发
+- [xhs-cover-skill](https://github.com/Vivixiao980/xhs-cover-skill) ★212：小红书封面生成：18 种预设风格，命令行出图或改图，优先用 Codex 自带的生图，Gemini 作备用
+- [social-media-skills/skills](https://github.com/social-media-skills/skills) ★191：106 个社媒 skill：品牌和口吻、内容日历、LinkedIn 帖子、短视频、设计、各平台增长、发布和数据分析
+- [wenzi-xiaohongshu-workflow](https://github.com/wenziai/wenzi-xiaohongshu-workflow) ★178：文子的小红书冷启动工作流：账号定位、选题标题、真人化改稿和合规检查、图文规划、排期和数据复盘
+- [jev-social](https://github.com/socai-io/jev-social) ★176：社媒调研 agent：在你已登录的 Chrome 里搜 Instagram、TikTok、LinkedIn 的帖子、主页和评论，出带出处的报告，只读不发
 - [gainubi/wechat-skills](https://github.com/gainubi/wechat-skills) ★172：小盖的公众号写作 skill：从 3–10 篇文章梳理文风 DNA，按 DNA 写初稿，给文章做扁平风解释配图
-- [blcaptain-style-skill](https://github.com/dososo/blcaptain-style-skill) ★169：中文图文卡片：一段内容做成小红书 3:4 组图或公众号封面，三套视觉语言（静纸、实证、图桥）
-- [xhs-writer-skill](https://github.com/JuneYaooo/xhs-writer-skill) ★161：小红书笔记一条龙：一句话生成竖版卡片组或短视频脚本，配文案和话题标签，有真实素材时用 gpt-image-2 图生图
-- [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill) ★158：旅行 Vlog 自动剪辑：给一个素材文件夹，agent 挑镜头、排叙事、加字幕出成片，用 ffmpeg、Whisper 和视觉模型
+- [blcaptain-style-skill](https://github.com/dososo/blcaptain-style-skill) ★171：中文图文卡片：一段内容做成小红书 3:4 组图或公众号封面，三套视觉语言（静纸、实证、图桥）
+- [content-skills](https://github.com/vyralcontent/content-skills) ★167：短视频钩子、脚本和轮播：从 20 万条爆款视频总结写法，覆盖 TikTok、Reels 和 Shorts，也写配文和行动号召
+- [xhs-writer-skill](https://github.com/JuneYaooo/xhs-writer-skill) ★165：小红书笔记一条龙：一句话生成竖版卡片组或短视频脚本，配文案和话题标签，有真实素材时用 gpt-image-2 图生图
+- [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill) ★162：旅行 Vlog 自动剪辑：给一个素材文件夹，agent 挑镜头、排叙事、加字幕出成片，用 ffmpeg、Whisper 和视觉模型
 - [wechat-article-publisher-skill](https://github.com/iamzifei/wechat-article-publisher-skill) ★157：通过 API 把 Markdown 或 HTML 文章推送到公众号草稿箱
-- [content-skills](https://github.com/vyralcontent/content-skills) ★155：短视频钩子、脚本和轮播：从 20 万条爆款视频总结写法，覆盖 TikTok、Reels 和 Shorts，也写配文和行动号召
-- [x-skills](https://github.com/sergebulaev/x-skills) ★146：X 的 9 个 skill：按你的口吻写推文和长串、拆爆款推文的钩子、写回复和引用、排一周内容，发布前等你批准
-- [reelclaw](https://github.com/dansugc/reelclaw) ★146：给你在做的产品做 UGC 短视频广告：真人创作者反应镜头加产品画面，本地剪辑渲染，出 TikTok、Reels、Shorts
-- [Spreado](https://github.com/BadKid90s/Spreado) ★143：开源视频发布工具：一键同步到抖音、小红书、快手、视频号，扫码登录、管理 Cookie，带 skill
+- [x-skills](https://github.com/sergebulaev/x-skills) ★151：X 的 9 个 skill：按你的口吻写推文和长串、拆爆款推文的钩子、写回复和引用、排一周内容，发布前等你批准
+- [reelclaw](https://github.com/dansugc/reelclaw) ★147：给你在做的产品做 UGC 短视频广告：真人创作者反应镜头加产品画面，本地剪辑渲染，出 TikTok、Reels、Shorts
+- [Spreado](https://github.com/BadKid90s/Spreado) ★144：开源视频发布工具：一键同步到抖音、小红书、快手、视频号，扫码登录、管理 Cookie，带 skill
 - [jianshuo/claude-skills](https://github.com/jianshuo/claude-skills) ★137：王建硕日常用的 skill：转写、翻译、配音、多机位剪辑、字幕烧录、横转竖，另有公众号发布
-- [wechat-article-extractor-skill](https://github.com/freestylefly/wechat-article-extractor-skill) ★136：从公众号文章链接提取标题、作者、正文、封面和公众号信息，支持图文、视频、图片集、语音和转载
+- [wechat-article-extractor-skill](https://github.com/freestylefly/wechat-article-extractor-skill) ★137：从公众号文章链接提取标题、作者、正文、封面和公众号信息，支持图文、视频、图片集、语音和转载
 - [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) ★129：TikHub API 助手：帮 agent 查找和调用抖音、TikTok、小红书、Instagram、YouTube、X、Reddit 等平台的数据接口
-- [openclaw-xhs](https://github.com/zhjiang22/openclaw-xhs) ★124：让 OpenClaw 读懂你的小红书：MCP 搜索浏览评论、热点报告、把收藏导出成个人记忆库
-- [843645440/wechat-skill](https://github.com/843645440/wechat-skill) ★119：公众号内容工具包：追热点、科技写作、去 AI 味、配图和封面、12 套排版主题，写入多个账号的草稿箱
-- [threads-carousel-claude-skill](https://github.com/itchernetski/threads-carousel-claude-skill) ★114：把文字帖做成轮播图：适配 Threads、Instagram、LinkedIn、TikTok 和快拍尺寸
+- [843645440/wechat-skill](https://github.com/843645440/wechat-skill) ★125：公众号内容工具包：追热点、科技写作、去 AI 味、配图和封面、12 套排版主题，写入多个账号的草稿箱
+- [openclaw-xhs](https://github.com/zhjiang22/openclaw-xhs) ★125：让 OpenClaw 读懂你的小红书：MCP 搜索浏览评论、热点报告、把收藏导出成个人记忆库
+- [threads-carousel-claude-skill](https://github.com/itchernetski/threads-carousel-claude-skill) ★115：把文字帖做成轮播图：适配 Threads、Instagram、LinkedIn、TikTok 和快拍尺寸
 - [wemp-operator](https://github.com/IanShaw027/wemp-operator) ★113：OpenClaw 公众号运营：从 20 多个来源采集热点，生成日报周报和数据分析，检查并回复评论，写文章
-- [zhihu-cli](https://github.com/BAIGUANGMEI/zhihu-cli) ★111：知乎命令行：搜索、热榜、看问题和回答、发想法、提问和文章，扫码或 Cookie 登录，附 skill
-- [douyin-image-post-scheduler](https://github.com/chengyi-ai/douyin-image-post-scheduler) ★109：抖音图文批量定时发布：从本地素材文件夹排队，在已登录的 Chrome 里上传、选话题和音乐、定时并回后台核验
-- [Linked-API/linkedin-skills](https://github.com/Linked-API/linkedin-skills) ★103：LinkedIn 自动化：查人和公司、发私信、加好友、发帖，另有按目标客户筛选并跟进的获客流程
-- [hook-lab](https://github.com/hongfamonvAI/hook-lab) ★101：拆解 TikTok、Reels、Shorts 爆款：数据面板、钩子和脚本结构、为什么能火，给出改编到小红书和视频号的方向
+- [zhihu-cli](https://github.com/BAIGUANGMEI/zhihu-cli) ★113：知乎命令行：搜索、热榜、看问题和回答、发想法、提问和文章，扫码或 Cookie 登录，附 skill
+- [douyin-image-post-scheduler](https://github.com/chengyi-ai/douyin-image-post-scheduler) ★108：抖音图文批量定时发布：从本地素材文件夹排队，在已登录的 Chrome 里上传、选话题和音乐、定时并回后台核验
+- [Linked-API/linkedin-skills](https://github.com/Linked-API/linkedin-skills) ★104：LinkedIn 自动化：查人和公司、发私信、加好友、发帖，另有按目标客户筛选并跟进的获客流程
+- [hook-lab](https://github.com/hongfamonvAI/hook-lab) ★102：拆解 TikTok、Reels、Shorts 爆款：数据面板、钩子和脚本结构、为什么能火，给出改编到小红书和视频号的方向
+- [socialclaw](https://github.com/ndesv21/socialclaw) ★98：社媒排期 CLI 和 OpenClaw skill：发到 X、LinkedIn、Instagram、Facebook 主页、TikTok、YouTube 等
 - [freestylefly/xiaohongshu-skills](https://github.com/freestylefly/xiaohongshu-skills) ★97：按主题生成小红书风格封面，生图用 Nano Banana Pro
 - [traffic-compass](https://github.com/code-wahaha/traffic-compass) ★96：抖音发布前自查：查广告法违禁词、引流词、AI 标注和资质红线，给最小改法，再按粉丝量和赛道估播放区间
-- [socialclaw](https://github.com/ndesv21/socialclaw) ★96：社媒排期 CLI 和 OpenClaw skill：发到 X、LinkedIn、Instagram、Facebook 主页、TikTok、YouTube 等
 - [weibo-cli](https://github.com/jackwener/weibo-cli) ★88：微博命令行：热搜、关键词搜索、时间线、评论转发、用户主页，附 skill
 - [douyin-upload-mcp-skill](https://github.com/WJZ-P/douyin-upload-mcp-skill) ★87：抖音视频和图文全自动发布：通过 CDP 操作创作者平台，MCP 优先、脚本兜底，适合 OpenClaw
+- [tiktok-skills](https://github.com/sergebulaev/tiktok-skills) ★86：TikTok 8 个 skill：前 3 秒钩子脚本、配文和话题标签、蹭趋势、一周计划，按真实数据读赛道，发布走 Publora
 - [wechat-search-weread](https://github.com/KANIKIG/wechat-search-weread) ★83：搜公众号文章：通过微信读书搜一搜拿最新文章的标题、公众号、时间、简介和直链，不抓正文
-- [tiktok-skills](https://github.com/sergebulaev/tiktok-skills) ★79：TikTok 8 个 skill：前 3 秒钩子脚本、配文和话题标签、蹭趋势、一周计划，按真实数据读赛道，发布走 Publora
 - [wechat-article-formatter-skill](https://github.com/iamzifei/wechat-article-formatter-skill) ★76：公众号排版：Markdown 经 bm.md 渲染成带样式的 HTML，可自定义样式，再用官方 API 发布
+- [wechat-typesetting-cy](https://github.com/CY-CHENYUE/wechat-typesetting-cy) ★73：公众号智能排版：不套模板，读懂文章后现场设计版式和配色，生成全内联 HTML，预览页一键复制
 - [Fully-automatic-article-generation-skill](https://github.com/solar-luna/Fully-automatic-article-generation-skill) ★72：AI 资讯号自动发文：抓 AI 热点，按早中晚写工具介绍、教程或行业动态，发到公众号草稿箱和小红书
-- [wechat-typesetting-cy](https://github.com/CY-CHENYUE/wechat-typesetting-cy) ★71：公众号智能排版：不套模板，读懂文章后现场设计版式和配色，生成全内联 HTML，预览页一键复制
+- [sergebulaev/youtube-skills](https://github.com/sergebulaev/youtube-skills) ★68：YouTube 和 Shorts 的包装 skill：高点击标题、带章节的 SEO 描述、留存钩子、缩略图简报、社区帖和频道主页审计
 - [dy-cli](https://github.com/Youhai020616/douyin) ★68：抖音命令行 dy-cli：搜索、下载、发布、互动、热榜、直播和数据分析，输出适合 agent 读
-- [media-publish-check](https://github.com/XshuiAi/media-publish-check) ★65：发布前审核：抖音、小红书、视频号、快手的视频和图文能不能直接发、问题在哪、怎么改，并按平台改写
-- [sergebulaev/youtube-skills](https://github.com/sergebulaev/youtube-skills) ★64：YouTube 和 Shorts 的包装 skill：高点击标题、带章节的 SEO 描述、留存钩子、缩略图简报、社区帖和频道主页审计
-- [facebook-skills](https://github.com/sergebulaev/facebook-skills) ★62：Facebook 公共主页 8 个 skill：按你的口吻写帖子并审稿、控制在 80 字符内提高互动、读评论、排一周内容
-- [youtube-scout](https://github.com/AgriciDaniel/youtube-scout) ★62：YouTube 选题调研：输入一个话题，按播放、互动或爆发度排出视频和频道，导出含评论、字幕和钩子的 Excel 表
-- [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) ★61：创作者思考陪练：把模糊想法理成有依据的判断，做账号阶段定位、挑题，再写成短视频或非虚构文章，带新手教程和稿件批改
+- [facebook-skills](https://github.com/sergebulaev/facebook-skills) ★67：Facebook 公共主页 8 个 skill：按你的口吻写帖子并审稿、控制在 80 字符内提高互动、读评论、排一周内容
+- [media-publish-check](https://github.com/XshuiAi/media-publish-check) ★67：发布前审核：抖音、小红书、视频号、快手的视频和图文能不能直接发、问题在哪、怎么改，并按平台改写
+- [youtube-scout](https://github.com/AgriciDaniel/youtube-scout) ★64：YouTube 选题调研：输入一个话题，按播放、互动或爆发度排出视频和频道，导出含评论、字幕和钩子的 Excel 表
+- [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) ★62：创作者思考陪练：把模糊想法理成有依据的判断，做账号阶段定位、挑题，再写成短视频或非虚构文章，带新手教程和稿件批改
 - [publora/skills](https://github.com/publora/skills) ★58：Publora 官方 skill：从 agent 发帖或排期到 LinkedIn、X、Instagram、Threads、TikTok 等 10 个平台
 - [x-ai-topic-selector](https://github.com/vigorX777/x-ai-topic-selector) ★57：从 X 列表、首页或书签抓推文，按互动数据和 AI 多维打分，出选题推荐报告
-- [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector) ★53：短视频逐字稿合规检测：按抖音、小红书、视频号社区规范找风险点，出分级报告和修改建议
+- [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector) ★55：短视频逐字稿合规检测：按抖音、小红书、视频号社区规范找风险点，出分级报告和修改建议
 - [threads-skills](https://github.com/sergebulaev/threads-skills) ★48：Threads 8 个 skill：按你的口吻写单帖和串帖、写回复、按真实数据读赛道、排一周内容，发布前等你批准
 - [0731coderlee-sudo/wechat-publisher](https://github.com/0731coderlee-sudo/wechat-publisher) ★46：一键把 Markdown 发到公众号草稿箱：基于 wenyan-cli，多主题、代码高亮、图片自动上传
 - [xiaohongshu-summarizer-skill](https://github.com/piekill/xiaohongshu-summarizer-skill) ★39：小红书搜索和总结：按关键词抓前 N 篇笔记的文字、图片和评论，合成一份调研报告
 - [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) ★38：通过 Upload-Post API 把视频、图片、文字和文档发到 TikTok、Instagram、YouTube、LinkedIn、X 等平台
 - [douyin-mcp-server](https://github.com/lancelin111/douyin-mcp-server) ★35：抖音视频上传 skill 和 MCP：管理登录、上传视频、自动发到创作者平台，支持 OpenClaw、Claude Code
-- [claude-reel-editor](https://github.com/nicolapocock/claude-reel-editor) ★26：口播原片剪成品牌化短视频：清理音频、剪掉口头禅、加图形和字幕，渲染前先让你审，用 HyperFrames
-- [tiktok-video-skills](https://github.com/iart-ai/tiktok-video-skills) ★14：短视频模板：Reels、TikTok、Shorts 的钩子和结构、逐字动态字幕、倒计时、人名条
+- [claude-reel-editor](https://github.com/nicolapocock/claude-reel-editor) ★32：口播原片剪成品牌化短视频：清理音频、剪掉口头禅、加图形和字幕，渲染前先让你审，用 HyperFrames
+- [tiktok-video-skills](https://github.com/iart-ai/tiktok-video-skills) ★16：短视频模板：Reels、TikTok、Shorts 的钩子和结构、逐字动态字幕、倒计时、人名条
 - [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news) ★13：每日热榜：查微博、知乎、B 站、抖音等 54 个平台的热榜，跨平台聚合，支持定时推送
 - [doubaoya-community](https://github.com/zizhanovo/doubaoya-community) ★11：都爆鸭的 13 个新媒体 skill：挖选题、追热点、写抖音小红书公众号脚本、三平台违禁词检测、写进公众号草稿箱
 - [red-publisher-skill](https://github.com/iamzifei/red-publisher-skill) ★11：一条命令把图片和笔记发到小红书：通过 CDP 连浏览器，始终存为草稿
@@ -248,71 +249,71 @@
 
 一套 skill 管到底：找选题、写稿配图、发出去、看数据，适合一个人运营一个或几个账号。
 
-- 🌟 **[baoyu-skills](https://github.com/JimLiu/baoyu-skills)** · ★ 26.8k<br>宝玉的 skill 合集：小红书图文、文章配图、封面、信息图，发布到公众号、X 和微博，另有翻译和网页转 Markdown<br><sub>平台：小红书 · 公众号 · 微博 · X</sub><br><sub>更新于 2026-09-10 · 多语言 · 22 个 skill · MIT</sub>
+- 🌟 **[baoyu-skills](https://github.com/JimLiu/baoyu-skills)** · ★ 26.9k<br>宝玉的 skill 合集：小红书图文、文章配图、封面、信息图，发布到公众号、X 和微博，另有翻译和网页转 Markdown<br><sub>平台：小红书 · 公众号 · 微博 · X</sub><br><sub>更新于 2026-09-10 · 多语言 · 22 个 skill · MIT</sub>
 
 - 🌟 **[wewrite](https://github.com/imraywang/wewrite)** · ★ 3.5k<br>公众号全流程：抓热点、评选题、搜素材、按你的风格写稿并审稿，可选配图、18 套排版和推送草稿箱，改稿后能学你的改法<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-10-19 · 中文 · 10 个 skill · MIT</sub>
 
-- **[sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills)** · ★ 5k<br>LinkedIn 12 个 skill：按你的口吻写帖子和评论、分析信息流、排发帖节奏，去 AI 腔，发布前等你批准<br><sub>平台：LinkedIn</sub><br><sub>更新于 2026-10-15 · 英文 · 14 个 skill · MIT</sub>
+- **[sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills)** · ★ 5.1k<br>LinkedIn 12 个 skill：按你的口吻写帖子和评论、分析信息流、排发帖节奏，去 AI 腔，发布前等你批准<br><sub>平台：LinkedIn</sub><br><sub>更新于 2026-10-22 · 英文 · 14 个 skill · MIT</sub>
 
-- **[yichen-skills](https://github.com/mcncarl/yichen-skills)** · ★ 4.5k<br>逸尘的创作者 skill：写作、把内容切成 X 推文、推送 X Articles 草稿、存公众号文章，导出自己的小红书、抖音收藏和 X 书签<br><sub>平台：小红书 · 抖音 · 公众号 · X</sub><br><sub>更新于 2026-10-04 · 多语言 · 19 个 skill</sub>
+- **[yichen-skills](https://github.com/mcncarl/yichen-skills)** · ★ 4.8k<br>逸尘的创作者 skill：写作、把内容切成 X 推文、推送 X Articles 草稿、存公众号文章，导出自己的小红书、抖音收藏和 X 书签<br><sub>平台：小红书 · 抖音 · 公众号 · X</sub><br><sub>更新于 2026-10-23 · 多语言 · 18 个 skill</sub>
 
 - **[charlie947/social-media-skills](https://github.com/charlie947/social-media-skills)** · ★ 4.3k<br>17 个社媒 skill：学你的口吻、写 LinkedIn 帖子、调研、看数据、写 Reels 脚本、生成 Gemini 配图提示词<br><sub>平台：Instagram · LinkedIn · Newsletter</sub><br><sub>更新于 2026-10-18 · 英文 · 17 个 skill · MIT</sub>
 
-- **[xiaohongshu-ops-skill](https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill)** · ★ 2.4k<br>OpenClaw 小红书运营：推荐流和账号分析、选题、创作、发布、复盘，能输入爆款链接复刻同类笔记；用浏览器自动化，首次扫码登录<br><sub>平台：小红书</sub><br><sub>更新于 2026-03-19 💤 · 中文</sub>
+- **[linkedin-agent-skill](https://github.com/Jakeschincariol/linkedin-agent-skill)** · ★ 2.6k<br>LinkedIn 11 个 skill：21 种钩子写帖子、评论、回复、主页打分、周计划，去 AI 腔并在发出前打分<br><sub>平台：LinkedIn</sub><br><sub>更新于 2026-09-17 · 英文 · 11 个 skill · MIT</sub>
 
-- **[linkedin-agent-skill](https://github.com/Jakeschincariol/linkedin-agent-skill)** · ★ 2.4k<br>LinkedIn 11 个 skill：21 种钩子写帖子、评论、回复、主页打分、周计划，去 AI 腔并在发出前打分<br><sub>平台：LinkedIn</sub><br><sub>更新于 2026-09-17 · 英文 · 11 个 skill · MIT</sub>
+- **[instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill)** · ★ 2.6k<br>Instagram 13 个 skill：26 种钩子公式写 Reels、找本领域爆款、查文案、去 AI 腔，免费、不用注册和 API Key<br><sub>平台：Instagram</sub><br><sub>更新于 2026-09-13 · 英文 · 13 个 skill · MIT</sub>
+
+- **[youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill)** · ★ 2.5k<br>YouTube 11 个 skill：钩子打分的脚本、标题和缩略图配对检查、按字幕出剪辑单、找观众流失点、切 Shorts<br><sub>平台：YouTube</sub><br><sub>更新于 2026-09-16 · 英文 · 11 个 skill · MIT</sub><br><sub>💡 另有 ChatGPT 版：Jakeschincariol/chatgpt-youtube-agent-skill</sub>
+
+- **[xiaohongshu-ops-skill](https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill)** · ★ 2.4k<br>OpenClaw 小红书运营：推荐流和账号分析、选题、创作、发布、复盘，能输入爆款链接复刻同类笔记；用浏览器自动化，首次扫码登录<br><sub>平台：小红书</sub><br><sub>更新于 2026-03-19 💤 · 中文</sub>
 
 - **[growth-lab](https://github.com/tsingyuai/growth-lab)** · ★ 2k<br>产品增长闭环：读懂产品、用 MediaCrawler 采小红书/抖音/B站/快手等数据做调研，执行增长动作再按结果改进<br><sub>平台：小红书 · 抖音 · B 站 · 微博 · 知乎 · 快手</sub><br><sub>更新于 2026-09-28 · 中文 · 22 个 skill · Apache-2.0</sub>
 
-- **[instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill)** · ★ 2k<br>Instagram 13 个 skill：26 种钩子公式写 Reels、找本领域爆款、查文案、去 AI 腔，免费、不用注册和 API Key<br><sub>平台：Instagram</sub><br><sub>更新于 2026-09-13 · 英文 · 13 个 skill · MIT</sub>
-
-- **[youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill)** · ★ 1.9k<br>YouTube 11 个 skill：钩子打分的脚本、标题和缩略图配对检查、按字幕出剪辑单、找观众流失点、切 Shorts<br><sub>平台：YouTube</sub><br><sub>更新于 2026-09-16 · 英文 · 11 个 skill · MIT</sub><br><sub>💡 另有 ChatGPT 版：Jakeschincariol/chatgpt-youtube-agent-skill</sub>
-
 - **[creator-buddy](https://github.com/SpaceZephyr/creator-buddy)** · ★ 1.7k<br>创作者工具箱：搜小红书/B站/抖音热门、挖公众号爆款、拆竞品和评论，再起标题、写正文、配图、剪视频、出封面<br><sub>平台：小红书 · 抖音 · 公众号 · B 站</sub><br><sub>更新于 2026-08-26 · 中文 · 33 个 skill</sub>
 
-- **[claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post)** · ★ 738<br>学你在 Facebook 的口吻写贴文，排 14 天日历，确认后发到 FB、IG、Threads、X，用已登录的 Chrome 管理留言<br><sub>平台：X · Instagram · Threads · Facebook</sub><br><sub>更新于 2026-10-15 · 中文 · 2 个 skill · MIT</sub>
+- **[claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post)** · ★ 740<br>学你在 Facebook 的口吻写贴文，排 14 天日历，确认后发到 FB、IG、Threads、X，用已登录的 Chrome 管理留言<br><sub>平台：X · Instagram · Threads · Facebook</sub><br><sub>更新于 2026-10-15 · 中文 · 2 个 skill · MIT</sub>
 
-- **[wechat-article-skills](https://github.com/aiworkskills/wechat-article-skills)** · ★ 702<br>公众号运营助手：选题、写稿、审稿（敏感词、错别字、AI 味）、排版、配图、发布 8 个 skill 串成一条线，每步停下等你确认<br><sub>平台：公众号</sub><br><sub>更新于 2026-09-23 · 中文 · 9 个 skill · Apache-2.0</sub>
+- **[wechat-article-skills](https://github.com/aiworkskills/wechat-article-skills)** · ★ 705<br>公众号运营助手：选题、写稿、审稿（敏感词、错别字、AI 味）、排版、配图、发布 8 个 skill 串成一条线，每步停下等你确认<br><sub>平台：公众号</sub><br><sub>更新于 2026-09-23 · 中文 · 9 个 skill · Apache-2.0</sub>
 
-- **[self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow)** · ★ 610<br>模块化自媒体工作流：创作简报、账号策略、热点与竞品研究、平台原生文案、短视频方案、多平台发布、数据复盘和归档，不绑定工具<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号 · YouTube</sub><br><sub>更新于 2026-10-13 · 多语言 · 10 个 skill · MIT</sub>
+- **[self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow)** · ★ 618<br>模块化自媒体工作流：创作简报、账号策略、热点与竞品研究、平台原生文案、短视频方案、多平台发布、数据复盘和归档，不绑定工具<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号 · YouTube</sub><br><sub>更新于 2026-10-13 · 多语言 · 10 个 skill · MIT</sub>
 
-- **[blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills)** · ★ 577<br>14 个社媒 skill：内容策略、日历、配图文案、轮播文案、涨粉分析，覆盖文字型和图片型平台<br><sub>平台：X · TikTok · Instagram · LinkedIn · Threads · Facebook · Pinterest</sub><br><sub>更新于 2026-05-01 · 英文 · 14 个 skill · MIT</sub>
+- **[blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills)** · ★ 591<br>14 个社媒 skill：内容策略、日历、配图文案、轮播文案、涨粉分析，覆盖文字型和图片型平台<br><sub>平台：X · TikTok · Instagram · LinkedIn · Threads · Facebook · Pinterest</sub><br><sub>更新于 2026-05-01 · 英文 · 14 个 skill · MIT</sub>
 
-- **[instagram-skills](https://github.com/sergebulaev/instagram-skills)** · ★ 516<br>Instagram 9 个 skill：前 125 字钩子的文案、轮播逐页规划、话题标签和周计划，读数据要 Apify，发布走 Publora<br><sub>平台：Instagram</sub><br><sub>更新于 2026-10-15 · 英文 · 11 个 skill · MIT</sub>
+- **[instagram-skills](https://github.com/sergebulaev/instagram-skills)** · ★ 576<br>Instagram 9 个 skill：前 125 字钩子的文案、轮播逐页规划、话题标签和周计划，读数据要 Apify，发布走 Publora<br><sub>平台：Instagram</sub><br><sub>更新于 2026-10-21 · 英文 · 11 个 skill · MIT</sub>
 
-- **[claude-youtube](https://github.com/AgriciDaniel/claude-youtube)** · ★ 490<br>YouTube 创作者 skill：频道审计、视频 SEO、留存脚本和钩子、缩略图、内容策略、Shorts、数据和变现<br><sub>平台：YouTube</sub><br><sub>更新于 2026-04-10 💤 · 英文 · MIT</sub>
+- **[claude-youtube](https://github.com/AgriciDaniel/claude-youtube)** · ★ 515<br>YouTube 创作者 skill：频道审计、视频 SEO、留存脚本和钩子、缩略图、内容策略、Shorts、数据和变现<br><sub>平台：YouTube</sub><br><sub>更新于 2026-04-10 💤 · 英文 · MIT</sub>
+
+- **[rayskills](https://github.com/imraywang/rayskills)** · ★ 341<br>WeWrite 作者的工具箱：本地知识库、长文、口播稿、封面、解说视频，内容直达公众号和 X Articles 草稿箱<br><sub>平台：公众号 · X</sub><br><sub>更新于 2026-10-22 · 中文 · 8 个 skill</sub>
 
 - **[wechat_article_skills](https://github.com/BND-1/wechat_article_skills)** · ★ 317<br>公众号四件套：科技科普写作、AI 产品经理视角写作、Markdown 转公众号排版、推送草稿箱<br><sub>平台：公众号</sub><br><sub>更新于 2026-01-16 💤 · 中文 · 4 个 skill</sub>
 
-- **[rayskills](https://github.com/imraywang/rayskills)** · ★ 293<br>WeWrite 作者的工具箱：本地知识库、长文、口播稿、封面、解说视频，内容直达公众号和 X Articles 草稿箱<br><sub>平台：公众号 · X</sub><br><sub>更新于 2026-10-19 · 中文 · 8 个 skill</sub>
+- **[jiji262/wechat-publisher](https://github.com/jiji262/wechat-publisher)** · ★ 284<br>公众号文章一条命令：多轮搜素材、写 3000-5000 字长文、每章配手绘信息图、排版、推送草稿箱<br><sub>平台：公众号</sub><br><sub>更新于 2026-08-01 · 中文</sub>
 
-- **[jiji262/wechat-publisher](https://github.com/jiji262/wechat-publisher)** · ★ 280<br>公众号文章一条命令：多轮搜素材、写 3000-5000 字长文、每章配手绘信息图、排版、推送草稿箱<br><sub>平台：公众号</sub><br><sub>更新于 2026-08-01 · 中文</sub>
+- **[claude-content-skills](https://github.com/Ootto-AI/claude-content-skills)** · ★ 268<br>Instagram Reels 内容工厂：找爆款格式、拆钩子、按你的口吻写脚本和配文、排两周日历，把评论变成销售线索<br><sub>平台：Instagram</sub><br><sub>更新于 2026-10-17 · 英文 · 54 个 skill · MIT</sub>
 
-- **[social-ai-team](https://github.com/stevenflanagan1/social-ai-team)** · ★ 250<br>给小企业的社媒团队：品牌建档、月度内容日历、配图文案、LinkedIn 文章、创意和月度复盘<br><sub>平台：X · TikTok · Instagram · LinkedIn · Threads · Facebook</sub><br><sub>更新于 2026-10-07 · 英文 · 10 个 skill</sub>
-
-- **[claude-content-skills](https://github.com/Ootto-AI/claude-content-skills)** · ★ 222<br>Instagram Reels 内容工厂：找爆款格式、拆钩子、按你的口吻写脚本和配文、排两周日历，把评论变成销售线索<br><sub>平台：Instagram</sub><br><sub>更新于 2026-10-17 · 英文 · 54 个 skill · MIT</sub>
+- **[social-ai-team](https://github.com/stevenflanagan1/social-ai-team)** · ★ 257<br>给小企业的社媒团队：品牌建档、月度内容日历、配图文案、LinkedIn 文章、创意和月度复盘<br><sub>平台：X · TikTok · Instagram · LinkedIn · Threads · Facebook</sub><br><sub>更新于 2026-10-07 · 英文 · 10 个 skill</sub>
 
 - **[content-pipeline](https://github.com/OrangeViolin/content-pipeline)** · ★ 218<br>一个 skill 管内容生产和分发：收素材、出稿、排版、封面、朋友圈文案、多平台改写，用 Chrome 自动发布<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-04-12 💤 · 中文 · MIT</sub>
 
-- **[social-media-skills/skills](https://github.com/social-media-skills/skills)** · ★ 173<br>106 个社媒 skill：品牌和口吻、内容日历、LinkedIn 帖子、短视频、设计、各平台增长、发布和数据分析<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook · Pinterest</sub><br><sub>更新于 2026-10-15 · 英文 · 106 个 skill · MIT</sub>
+- **[social-media-skills/skills](https://github.com/social-media-skills/skills)** · ★ 191<br>106 个社媒 skill：品牌和口吻、内容日历、LinkedIn 帖子、短视频、设计、各平台增长、发布和数据分析<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook · Pinterest</sub><br><sub>更新于 2026-10-15 · 英文 · 106 个 skill · MIT</sub>
 
-- **[wenzi-xiaohongshu-workflow](https://github.com/wenziai/wenzi-xiaohongshu-workflow)** · ★ 173<br>文子的小红书冷启动工作流：账号定位、选题标题、真人化改稿和合规检查、图文规划、排期和数据复盘<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-12 · 中文 · 6 个 skill</sub>
+- **[wenzi-xiaohongshu-workflow](https://github.com/wenziai/wenzi-xiaohongshu-workflow)** · ★ 178<br>文子的小红书冷启动工作流：账号定位、选题标题、真人化改稿和合规检查、图文规划、排期和数据复盘<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-12 · 中文 · 6 个 skill</sub>
 
-- **[x-skills](https://github.com/sergebulaev/x-skills)** · ★ 146<br>X 的 9 个 skill：按你的口吻写推文和长串、拆爆款推文的钩子、写回复和引用、排一周内容，发布前等你批准<br><sub>平台：X</sub><br><sub>更新于 2026-10-15 · 英文 · 11 个 skill · MIT</sub><br><sub>💡 发布走 Publora，它的免费档不含 X</sub>
+- **[x-skills](https://github.com/sergebulaev/x-skills)** · ★ 151<br>X 的 9 个 skill：按你的口吻写推文和长串、拆爆款推文的钩子、写回复和引用、排一周内容，发布前等你批准<br><sub>平台：X</sub><br><sub>更新于 2026-10-21 · 英文 · 11 个 skill · MIT</sub><br><sub>💡 发布走 Publora，它的免费档不含 X</sub>
 
-- **[843645440/wechat-skill](https://github.com/843645440/wechat-skill)** · ★ 119<br>公众号内容工具包：追热点、科技写作、去 AI 味、配图和封面、12 套排版主题，写入多个账号的草稿箱<br><sub>平台：公众号</sub><br><sub>更新于 2026-09-14 · 中文 · 10 个 skill</sub>
+- **[843645440/wechat-skill](https://github.com/843645440/wechat-skill)** · ★ 125<br>公众号内容工具包：追热点、科技写作、去 AI 味、配图和封面、12 套排版主题，写入多个账号的草稿箱<br><sub>平台：公众号</sub><br><sub>更新于 2026-09-14 · 中文 · 10 个 skill</sub>
 
 - **[wemp-operator](https://github.com/IanShaw027/wemp-operator)** · ★ 113<br>OpenClaw 公众号运营：从 20 多个来源采集热点，生成日报周报和数据分析，检查并回复评论，写文章<br><sub>平台：公众号</sub><br><sub>更新于 2026-02-02 💤 · 中文 · MIT</sub><br><sub>💡 要先装 wemp skill</sub>
 
-- **[tiktok-skills](https://github.com/sergebulaev/tiktok-skills)** · ★ 79<br>TikTok 8 个 skill：前 3 秒钩子脚本、配文和话题标签、蹭趋势、一周计划，按真实数据读赛道，发布走 Publora<br><sub>平台：TikTok</sub><br><sub>更新于 2026-10-15 · 英文 · 10 个 skill · MIT</sub>
+- **[tiktok-skills](https://github.com/sergebulaev/tiktok-skills)** · ★ 86<br>TikTok 8 个 skill：前 3 秒钩子脚本、配文和话题标签、蹭趋势、一周计划，按真实数据读赛道，发布走 Publora<br><sub>平台：TikTok</sub><br><sub>更新于 2026-10-21 · 英文 · 10 个 skill · MIT</sub>
 
 - **[Fully-automatic-article-generation-skill](https://github.com/solar-luna/Fully-automatic-article-generation-skill)** · ★ 72<br>AI 资讯号自动发文：抓 AI 热点，按早中晚写工具介绍、教程或行业动态，发到公众号草稿箱和小红书<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-01-21 💤 · 中文 · 5 个 skill · MIT</sub>
 
-- **[sergebulaev/youtube-skills](https://github.com/sergebulaev/youtube-skills)** · ★ 64<br>YouTube 和 Shorts 的包装 skill：高点击标题、带章节的 SEO 描述、留存钩子、缩略图简报、社区帖和频道主页审计<br><sub>平台：YouTube</sub><br><sub>更新于 2026-10-15 · 英文 · 11 个 skill · MIT</sub>
+- **[sergebulaev/youtube-skills](https://github.com/sergebulaev/youtube-skills)** · ★ 68<br>YouTube 和 Shorts 的包装 skill：高点击标题、带章节的 SEO 描述、留存钩子、缩略图简报、社区帖和频道主页审计<br><sub>平台：YouTube</sub><br><sub>更新于 2026-10-21 · 英文 · 11 个 skill · MIT</sub>
 
-- **[facebook-skills](https://github.com/sergebulaev/facebook-skills)** · ★ 62<br>Facebook 公共主页 8 个 skill：按你的口吻写帖子并审稿、控制在 80 字符内提高互动、读评论、排一周内容<br><sub>平台：Facebook</sub><br><sub>更新于 2026-10-15 · 英文 · 10 个 skill · MIT</sub>
+- **[facebook-skills](https://github.com/sergebulaev/facebook-skills)** · ★ 67<br>Facebook 公共主页 8 个 skill：按你的口吻写帖子并审稿、控制在 80 字符内提高互动、读评论、排一周内容<br><sub>平台：Facebook</sub><br><sub>更新于 2026-10-21 · 英文 · 10 个 skill · MIT</sub>
 
-- **[threads-skills](https://github.com/sergebulaev/threads-skills)** · ★ 48<br>Threads 8 个 skill：按你的口吻写单帖和串帖、写回复、按真实数据读赛道、排一周内容，发布前等你批准<br><sub>平台：Threads</sub><br><sub>更新于 2026-10-15 · 英文 · 10 个 skill · MIT</sub>
+- **[threads-skills](https://github.com/sergebulaev/threads-skills)** · ★ 48<br>Threads 8 个 skill：按你的口吻写单帖和串帖、写回复、按真实数据读赛道、排一周内容，发布前等你批准<br><sub>平台：Threads</sub><br><sub>更新于 2026-10-21 · 英文 · 10 个 skill · MIT</sub>
 
 - **[doubaoya-community](https://github.com/zizhanovo/doubaoya-community)** · ★ 11<br>都爆鸭的 13 个新媒体 skill：挖选题、追热点、写抖音小红书公众号脚本、三平台违禁词检测、写进公众号草稿箱<br><sub>平台：小红书 · 抖音 · 公众号</sub><br><sub>更新于 2026-10-14 · 中文 · 13 个 skill</sub><br><sub>💡 大部分 skill 要在 doubaoya.com 生成 API Key</sub>
 
@@ -331,16 +332,16 @@ npx skills add sergebulaev/linkedin-skills
 npx skills add mcncarl/yichen-skills
 # charlie947/social-media-skills
 npx skills add charlie947/social-media-skills
-# xiaohongshu-ops-skill
-npx skills add Xiangyu-CAS/xiaohongshu-ops-skill
 # linkedin-agent-skill
 npx skills add Jakeschincariol/linkedin-agent-skill
-# growth-lab
-npx skills add tsingyuai/growth-lab
 # instagram-agent-skill
 npx skills add Jakeschincariol/instagram-agent-skill
 # youtube-agent-skill
 npx skills add Jakeschincariol/youtube-agent-skill
+# xiaohongshu-ops-skill
+npx skills add Xiangyu-CAS/xiaohongshu-ops-skill
+# growth-lab
+npx skills add tsingyuai/growth-lab
 # creator-buddy
 npx skills add SpaceZephyr/creator-buddy
 # claude-skill-social-post
@@ -355,16 +356,16 @@ npx skills add blacktwist/social-media-skills
 npx skills add sergebulaev/instagram-skills
 # claude-youtube
 npx skills add AgriciDaniel/claude-youtube
-# wechat_article_skills
-npx skills add BND-1/wechat_article_skills
 # rayskills
 npx skills add imraywang/rayskills
+# wechat_article_skills
+npx skills add BND-1/wechat_article_skills
 # jiji262/wechat-publisher
 npx skills add jiji262/wechat-publisher
-# social-ai-team
-npx skills add stevenflanagan1/social-ai-team
 # claude-content-skills
 npx skills add Ootto-AI/claude-content-skills
+# social-ai-team
+npx skills add stevenflanagan1/social-ai-team
 # content-pipeline
 npx skills add OrangeViolin/content-pipeline
 # social-media-skills/skills
@@ -398,39 +399,39 @@ npx skills add zizhanovo/doubaoya-community
 
 写笔记、推文、标题、口播稿和长文，改写成各平台的口吻，去 AI 味，发布前查违禁词和限流风险。
 
-- 🌟 **[humanizer](https://github.com/blader/humanizer)** · ★ 58.5k<br>英文去 AI 腔：按维基百科编辑识别 AI 文本的那份特征清单逐条改写，不改原意<br><sub>平台：通用</sub><br><sub>更新于 2026-10-16 · 英文 · MIT</sub>
+- 🌟 **[humanizer](https://github.com/blader/humanizer)** · ★ 60k<br>英文去 AI 腔：按维基百科编辑识别 AI 文本的那份特征清单逐条改写，不改原意<br><sub>平台：通用</sub><br><sub>更新于 2026-10-16 · 英文 · MIT</sub>
 
-- 🌟 **[Humanizer-zh](https://github.com/op7418/Humanizer-zh)** · ★ 20.1k<br>中文去 AI 味：删改空话、重复和模板化表达，保留事实、确定程度和作者声音，没问题的句子不改<br><sub>平台：通用</sub><br><sub>更新于 2026-09-23 · 中文 · MIT</sub>
+- 🌟 **[Humanizer-zh](https://github.com/op7418/Humanizer-zh)** · ★ 20.5k<br>中文去 AI 味：删改空话、重复和模板化表达，保留事实、确定程度和作者声音，没问题的句子不改<br><sub>平台：通用</sub><br><sub>更新于 2026-09-23 · 中文 · MIT</sub>
 
-- **[human-writing](https://github.com/KKKKhazix/human-writing)** · ★ 4.1k<br>活人感写作：知乎回答、公众号文章、评测、口播稿等中文写作，先查够材料再写，读起来像一个具体的人在说话<br><sub>平台：公众号 · 知乎</sub><br><sub>更新于 2026-08-11 · 中文 · MIT</sub>
+- **[human-writing](https://github.com/KKKKhazix/human-writing)** · ★ 4.2k<br>活人感写作：知乎回答、公众号文章、评测、口播稿等中文写作，先查够材料再写，读起来像一个具体的人在说话<br><sub>平台：公众号 · 知乎</sub><br><sub>更新于 2026-08-11 · 中文 · MIT</sub>
 
-- **[writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill)** · ★ 2.5k<br>写作蒸馏器：从至少 20 篇文章里蒸馏一个账号或作者的写作 DNA（语言、结构、选题、素材），之后按这套 DNA 写<br><sub>平台：小红书 · 公众号 · 微博 · Newsletter</sub><br><sub>更新于 2026-08-24 · 中文 · 2 个 skill · MIT</sub>
+- **[writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill)** · ★ 2.6k<br>写作蒸馏器：从至少 20 篇文章里蒸馏一个账号或作者的写作 DNA（语言、结构、选题、素材），之后按这套 DNA 写<br><sub>平台：小红书 · 公众号 · 微博 · Newsletter</sub><br><sub>更新于 2026-08-24 · 中文 · 2 个 skill · MIT</sub>
 
 - **[ai-copywriter](https://github.com/mikiarlo3/ai-copywriter)** · ★ 1.2k<br>文案和去 AI 腔一起做：标题、短描述、微文案、邮件主题，按 LinkedIn 的短段落节奏写帖子<br><sub>平台：LinkedIn</sub><br><sub>更新于 2026-08-01 · 英文 · MIT</sub>
 
-- **[Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill)** · ★ 794<br>给一个主题，按 11 个内容洞见维度写成整篇文章，附 5 个备选标题和每张配图的提示词，公众号、小红书、抖音三种写法<br><sub>平台：小红书 · 抖音 · 公众号</sub><br><sub>更新于 2026-03-24 💤 · 中文</sub>
+- **[Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill)** · ★ 800<br>给一个主题，按 11 个内容洞见维度写成整篇文章，附 5 个备选标题和每张配图的提示词，公众号、小红书、抖音三种写法<br><sub>平台：小红书 · 抖音 · 公众号</sub><br><sub>更新于 2026-03-24 💤 · 中文</sub>
 
-- **[yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck)** · ★ 789<br>发布前审：口播稿、图文、字幕、封面字能不能发抖音/小红书/视频号，指出哪句踩线、依据哪条官方规则，给改法<br><sub>平台：小红书 · 抖音 · 视频号</sub><br><sub>更新于 2026-10-08 · 中文 · MIT</sub>
+- **[yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck)** · ★ 791<br>发布前审：口播稿、图文、字幕、封面字能不能发抖音/小红书/视频号，指出哪句踩线、依据哪条官方规则，给改法<br><sub>平台：小红书 · 抖音 · 视频号</sub><br><sub>更新于 2026-10-08 · 中文 · MIT</sub>
 
-- **[qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei)** · ★ 664<br>简体中文去 AI 味：清理套话、翻译腔和机械排比，保留事实、正式程度和原文声口<br><sub>平台：通用</sub><br><sub>更新于 2026-09-10 · 中文 · MIT</sub>
+- **[qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei)** · ★ 685<br>简体中文去 AI 味：清理套话、翻译腔和机械排比，保留事实、正式程度和原文声口<br><sub>平台：通用</sub><br><sub>更新于 2026-09-10 · 中文 · MIT</sub>
 
-- **[anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing)** · ★ 550<br>英文去 AI 腔：推文、邮件、文章、简介、配图文案都按可检测的 AI 写作特征逐条避开<br><sub>平台：通用</sub><br><sub>更新于 2026-04-18 💤 · 英文</sub>
+- **[anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing)** · ★ 563<br>英文去 AI 腔：推文、邮件、文章、简介、配图文案都按可检测的 AI 写作特征逐条避开<br><sub>平台：通用</sub><br><sub>更新于 2026-04-18 💤 · 英文</sub>
 
-- **[writing-agent](https://github.com/dongbeixiaohuo/writing-agent)** · ★ 435<br>多 agent 写稿：写作导演、主笔、读者审校、去 AI 味专家一起从选题写到成稿，能从公众号样文建风格档案；另有 Windows 客户端<br><sub>平台：公众号</sub><br><sub>更新于 2026-10-19 · 中文 · 3 个 skill · MIT</sub>
+- **[writing-agent](https://github.com/dongbeixiaohuo/writing-agent)** · ★ 438<br>多 agent 写稿：写作导演、主笔、读者审校、去 AI 味专家一起从选题写到成稿，能从公众号样文建风格档案；另有 Windows 客户端<br><sub>平台：公众号</sub><br><sub>更新于 2026-10-22 · 中文 · 3 个 skill · MIT</sub>
 
-- **[xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter)** · ★ 338<br>杜蕾斯式借势文案和海报：双层语义和 8 个文案公式，拆自 260 张原始海报，适合热点、节日、产品卖点<br><sub>平台：通用</sub><br><sub>更新于 2026-08-08 · 中文</sub>
+- **[xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter)** · ★ 339<br>杜蕾斯式借势文案和海报：双层语义和 8 个文案公式，拆自 260 张原始海报，适合热点、节日、产品卖点<br><sub>平台：通用</sub><br><sub>更新于 2026-08-08 · 中文</sub>
 
-- **[humanizer-skill](https://github.com/Aboudjem/humanizer-skill)** · ★ 283<br>英文去 AI 腔并打分：识别 55 种 AI 写作特征，按 5 种口吻改写，给 0-100 的 AI 痕迹分，本地运行<br><sub>平台：通用</sub><br><sub>更新于 2026-09-06 · 英文 · MIT</sub>
+- **[humanizer-skill](https://github.com/Aboudjem/humanizer-skill)** · ★ 289<br>英文去 AI 腔并打分：识别 55 种 AI 写作特征，按 5 种口吻改写，给 0-100 的 AI 痕迹分，本地运行<br><sub>平台：通用</sub><br><sub>更新于 2026-09-06 · 英文 · MIT</sub>
 
 - **[gainubi/wechat-skills](https://github.com/gainubi/wechat-skills)** · ★ 172<br>小盖的公众号写作 skill：从 3–10 篇文章梳理文风 DNA，按 DNA 写初稿，给文章做扁平风解释配图<br><sub>平台：公众号</sub><br><sub>更新于 2026-05-21 · 中文 · 7 个 skill</sub>
 
-- **[content-skills](https://github.com/vyralcontent/content-skills)** · ★ 155<br>短视频钩子、脚本和轮播：从 20 万条爆款视频总结写法，覆盖 TikTok、Reels 和 Shorts，也写配文和行动号召<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-06-22 · 英文 · 7 个 skill · MIT</sub>
+- **[content-skills](https://github.com/vyralcontent/content-skills)** · ★ 167<br>短视频钩子、脚本和轮播：从 20 万条爆款视频总结写法，覆盖 TikTok、Reels 和 Shorts，也写配文和行动号召<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-06-22 · 英文 · 7 个 skill · MIT</sub>
 
 - **[traffic-compass](https://github.com/code-wahaha/traffic-compass)** · ★ 96<br>抖音发布前自查：查广告法违禁词、引流词、AI 标注和资质红线，给最小改法，再按粉丝量和赛道估播放区间<br><sub>平台：抖音</sub><br><sub>更新于 2026-07-07 · 中文 · MIT</sub>
 
-- **[media-publish-check](https://github.com/XshuiAi/media-publish-check)** · ★ 65<br>发布前审核：抖音、小红书、视频号、快手的视频和图文能不能直接发、问题在哪、怎么改，并按平台改写<br><sub>平台：小红书 · 抖音 · 视频号 · 快手</sub><br><sub>更新于 2026-07-22 · 中文 · MIT</sub>
+- **[media-publish-check](https://github.com/XshuiAi/media-publish-check)** · ★ 67<br>发布前审核：抖音、小红书、视频号、快手的视频和图文能不能直接发、问题在哪、怎么改，并按平台改写<br><sub>平台：小红书 · 抖音 · 视频号 · 快手</sub><br><sub>更新于 2026-07-22 · 中文 · MIT</sub>
 
-- **[content-risk-detector](https://github.com/liuxingqitd/content-risk-detector)** · ★ 53<br>短视频逐字稿合规检测：按抖音、小红书、视频号社区规范找风险点，出分级报告和修改建议<br><sub>平台：小红书 · 抖音 · 视频号</sub><br><sub>更新于 2026-09-14 · 中文 · MIT</sub>
+- **[content-risk-detector](https://github.com/liuxingqitd/content-risk-detector)** · ★ 55<br>短视频逐字稿合规检测：按抖音、小红书、视频号社区规范找风险点，出分级报告和修改建议<br><sub>平台：小红书 · 抖音 · 视频号</sub><br><sub>更新于 2026-09-14 · 中文 · MIT</sub>
 
 - **[xiaohongshu-doctor](https://github.com/softbread/xiaohongshu-doctor)** · ★ 3<br>小红书笔记发布前体检：内容质量、关键词、标题吸引力、敏感内容风险、商业化程度和互动潜力<br><sub>平台：小红书</sub><br><sub>更新于 2026-01-15 💤 · 中文</sub>
 
@@ -484,19 +485,19 @@ npx skills add softbread/xiaohongshu-doctor
 
 公众号排版、做封面和信息卡片、配图，剪短视频、加字幕、写分镜。
 
-- 🌟 **[guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill)** · ★ 7.6k<br>歸藏的图文卡片：小红书组图、Live Photo 动态卡、公众号 21:9+1:1 封面对，杂志风和瑞士风两套视觉、28 种版式<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-07-01 · 中文 · AGPL-3.0</sub>
+- 🌟 **[guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill)** · ★ 7.7k<br>歸藏的图文卡片：小红书组图、Live Photo 动态卡、公众号 21:9+1:1 封面对，杂志风和瑞士风两套视觉、28 种版式<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-07-01 · 中文 · AGPL-3.0</sub>
 
-- 🌟 **[gzh-design-skill](https://github.com/isjiamu/gzh-design-skill)** · ★ 4k<br>公众号排版：Markdown 排成能直接粘进公众号编辑器的 HTML，6 套主题加主题生成器，样式全内联不掉格式<br><sub>平台：公众号</sub><br><sub>更新于 2026-10-09 · 中文</sub>
+- 🌟 **[gzh-design-skill](https://github.com/isjiamu/gzh-design-skill)** · ★ 4.1k<br>公众号排版：Markdown 排成能直接粘进公众号编辑器的 HTML，6 套主题加主题生成器，样式全内联不掉格式<br><sub>平台：公众号</sub><br><sub>更新于 2026-10-21 · 中文</sub>
 
 - **[html-anything](https://github.com/nexu-io/html-anything)** · ★ 9.2k<br>本地 agent 写 HTML 的编辑器：75 个 skill 做杂志长文、海报、小红书图、推文卡、幻灯片，一键发公众号、X、知乎或导出 PNG<br><sub>平台：小红书 · 公众号 · 知乎 · X</sub><br><sub>更新于 2026-10-13 · 🧩 应用 · 多语言 · 81 个 skill · Apache-2.0</sub>
 
-- **[md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill)** · ★ 3.7k<br>公众号创作与发布 CLI：Markdown 排版、AI 配图和封面、预览校验、推送草稿箱，也能让浏览器 agent 存知乎、头条草稿<br><sub>平台：公众号 · 知乎 · 头条</sub><br><sub>更新于 2026-10-14 · 中文</sub><br><sub>💡 部分功能要向作者申请 API Key</sub>
+- **[md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill)** · ★ 3.8k<br>公众号创作与发布 CLI：Markdown 排版、AI 配图和封面、预览校验、推送草稿箱，也能让浏览器 agent 存知乎、头条草稿<br><sub>平台：公众号 · 知乎 · 头条</sub><br><sub>更新于 2026-10-14 · 中文</sub><br><sub>💡 部分功能要向作者申请 API Key</sub>
 
 - **[youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline)** · ★ 2.3k<br>竖屏短视频流水线：一个选题自动调研、写脚本、出画面、配音、加字幕并上传，每条约 0.11 美元<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-06-09 · 英文 · MIT</sub>
 
-- **[Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill)** · ★ 2.2k<br>YouTube 剪辑：下载视频、按语义分章节、剪片段、字幕翻译成双语并烧进视频<br><sub>平台：YouTube</sub><br><sub>更新于 2026-01-22 💤 · 中文 · MIT</sub>
+- **[Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill)** · ★ 2.3k<br>YouTube 剪辑：下载视频、按语义分章节、剪片段、字幕翻译成双语并烧进视频<br><sub>平台：YouTube</sub><br><sub>更新于 2026-01-22 💤 · 中文 · MIT</sub>
 
-- **[herk-edit-kit](https://github.com/nateherkai/herk-edit-kit)** · ★ 1.9k<br>Nate Herk 的口播剪辑包：按字幕剪掉停顿和口误、规划叙事、406 张动效卡片和 HyperFrames 模板，做 Reels 和 Shorts<br><sub>平台：YouTube · Instagram</sub><br><sub>更新于 2026-10-14 · 英文 · 15 个 skill</sub>
+- **[herk-edit-kit](https://github.com/nateherkai/herk-edit-kit)** · ★ 2.1k<br>Nate Herk 的口播剪辑包：按字幕剪掉停顿和口误、规划叙事、406 张动效卡片和 HyperFrames 模板，做 Reels 和 Shorts<br><sub>平台：YouTube · Instagram</sub><br><sub>更新于 2026-10-14 · 英文 · 15 个 skill</sub>
 
 - **[video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker)** · ★ 1.7k<br>选题变成 4K 解说视频：调研、写稿、本地免费 TTS、Remotion 合成，适配 B 站、YouTube、小红书、抖音、视频号<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · YouTube</sub><br><sub>更新于 2026-10-01 · 多语言 · 3 个 skill · MIT</sub>
 
@@ -508,75 +509,75 @@ npx skills add softbread/xiaohongshu-doctor
 
 - **[qiaomu-mondo-poster-design](https://github.com/joeseesun/qiaomu-mondo-poster-design)** · ★ 1.3k<br>乔木的 Mondo 风海报：一句话按 33 位设计师风格生成海报、书封、专辑封面，支持公众号封面 21:9、小红书配图 3:4<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-03-19 💤 · 中文 · MIT</sub>
 
-- **[clipforge](https://github.com/xixihhhh/clipforge)** · ★ 1k<br>带货短视频：上传一张商品图，提炼卖点、写种草脚本、配画面配音字幕，出抖音小店、快手、小红书、TikTok Shop 视频<br><sub>平台：小红书 · 抖音 · 快手 · TikTok</sub><br><sub>更新于 2026-10-08 · 中文 · 2 个 skill · AGPL-3.0</sub><br><sub>💡 skill 调用本地部署的 ClipForge 应用</sub>
+- **[clipforge](https://github.com/xixihhhh/clipforge)** · ★ 1.1k<br>带货短视频：上传一张商品图，提炼卖点、写种草脚本、配画面配音字幕，出抖音小店、快手、小红书、TikTok Shop 视频<br><sub>平台：小红书 · 抖音 · 快手 · TikTok</sub><br><sub>更新于 2026-10-08 · 中文 · 2 个 skill · AGPL-3.0</sub><br><sub>💡 skill 调用本地部署的 ClipForge 应用</sub>
 
 - **[video-spec-builder](https://github.com/feicaiclub/video-spec-builder)** · ★ 1k<br>视频导演式追问：把「想做个视频」问成精确到秒的分镜脚本 video-spec.md，交给 HyperFrames 渲染<br><sub>平台：通用</sub><br><sub>更新于 2026-05-18 · 多语言 · MIT</sub>
 
-- **[gbro-cover-design](https://github.com/pyang5166/gbro-cover-design)** · ★ 907<br>公众号/小红书封面提示词：读完文章问三轮，按 10 种构图出 3:4 真人出镜封面提示词，基于 oh-my-cover-design 改进<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-07-15 · 中文</sub>
+- **[gbro-cover-design](https://github.com/pyang5166/gbro-cover-design)** · ★ 921<br>公众号/小红书封面提示词：读完文章问三轮，按 10 种构图出 3:4 真人出镜封面提示词，基于 oh-my-cover-design 改进<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-07-15 · 中文</sub>
 
 - **[gimi-illustration-skill](https://github.com/GiMi-Xiaomi/gimi-illustration-skill)** · ★ 711<br>中文文章和口播配图：把判断、流程、对比画成一眼能懂的图，三种画风，可换成自己的 IP 形象<br><sub>平台：小红书</sub><br><sub>更新于 2026-08-03 · 中文 · MIT</sub>
 
-- **[xiaohu-wechat-format](https://github.com/xiaohuailabs/xiaohu-wechat-format)** · ★ 704<br>公众号一键排版加发布：Markdown 转微信兼容 HTML，85 套主题和可视化画廊挑选，可选生成封面，推送草稿箱<br><sub>平台：公众号</sub><br><sub>更新于 2026-06-12 · 中文 · 2 个 skill</sub>
+- **[xiaohu-wechat-format](https://github.com/xiaohuailabs/xiaohu-wechat-format)** · ★ 705<br>公众号一键排版加发布：Markdown 转微信兼容 HTML，85 套主题和可视化画廊挑选，可选生成封面，推送草稿箱<br><sub>平台：公众号</sub><br><sub>更新于 2026-06-12 · 中文 · 2 个 skill</sub>
 
-- **[Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill)** · ★ 603<br>从文档归纳要点生成多张配图，歸藏调过的三种风格，16:9 和 3:4 两种比例，适合发小红书和推特<br><sub>平台：小红书 · X</sub><br><sub>更新于 2026-01-21 💤 · 中文 · MIT</sub>
+- **[clipify](https://github.com/louisedesadeleer/clipify)** · ★ 606<br>长视频切短片：转写后找笑点、反转和高能片段，剪成 9:16 并跟踪人脸，烧录 Opus 风格字幕<br><sub>平台：通用</sub><br><sub>更新于 2026-08-24 · 英文 · MIT</sub>
 
-- **[clipify](https://github.com/louisedesadeleer/clipify)** · ★ 600<br>长视频切短片：转写后找笑点、反转和高能片段，剪成 9:16 并跟踪人脸，烧录 Opus 风格字幕<br><sub>平台：通用</sub><br><sub>更新于 2026-08-24 · 英文 · MIT</sub>
+- **[Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill)** · ★ 605<br>从文档归纳要点生成多张配图，歸藏调过的三种风格，16:9 和 3:4 两种比例，适合发小红书和推特<br><sub>平台：小红书 · X</sub><br><sub>更新于 2026-01-21 💤 · 中文 · MIT</sub>
 
-- **[chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills)** · ★ 595<br>用 ChatGPT/Codex 剪竖屏短视频：一个 skill 装好剪辑环境，一个按 8 步把你的素材剪成 Reels、Shorts、TikTok<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-07-26 · 多语言 · 2 个 skill · MIT</sub>
+- **[chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills)** · ★ 604<br>用 ChatGPT/Codex 剪竖屏短视频：一个 skill 装好剪辑环境，一个按 8 步把你的素材剪成 Reels、Shorts、TikTok<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-07-26 · 多语言 · 2 个 skill · MIT</sub>
 
-- **[smart-illustrator](https://github.com/axtonliu/smart-illustrator)** · ★ 565<br>文章配图：自动找该配图的位置生成插图，也能批量出 PPT 信息图和 YouTube 缩略图，Gemini、Excalidraw、Mermaid 三种引擎<br><sub>平台：YouTube</sub><br><sub>更新于 2026-06-26 · 多语言 · MIT</sub>
+- **[vibe-knowledge-film](https://github.com/HeyChengC/vibe-knowledge-film)** · ★ 568<br>抖音「知识大赏」类知识短片：两种热门画风，写字幕稿、排分镜表、配音效，先出 30 秒样片再出成片<br><sub>平台：抖音</sub><br><sub>更新于 2026-10-13 · 中文</sub>
+
+- **[smart-illustrator](https://github.com/axtonliu/smart-illustrator)** · ★ 566<br>文章配图：自动找该配图的位置生成插图，也能批量出 PPT 信息图和 YouTube 缩略图，Gemini、Excalidraw、Mermaid 三种引擎<br><sub>平台：YouTube</sub><br><sub>更新于 2026-06-26 · 多语言 · MIT</sub>
 
 - **[DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent)** · ★ 492<br>达芬奇自动剪辑：分析素材、写文案、配音、搭剪辑蓝图并在 DaVinci Resolve 时间线成片，每步等你确认<br><sub>平台：通用</sub><br><sub>更新于 2026-06-12 · 多语言 · 3 个 skill · MIT</sub><br><sub>💡 要 DaVinci Resolve Studio</sub>
 
-- **[claude-design-card](https://github.com/geekjourneyx/claude-design-card)** · ★ 464<br>把文本或网页做成可发布卡片：平台封面、社交分享卡、长文排版 14 种格式，统一 Claude 设计风格<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号 · B 站 · YouTube</sub><br><sub>更新于 2026-05-27 · 中文</sub>
+- **[claude-design-card](https://github.com/geekjourneyx/claude-design-card)** · ★ 469<br>把文本或网页做成可发布卡片：平台封面、社交分享卡、长文排版 14 种格式，统一 Claude 设计风格<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号 · B 站 · YouTube</sub><br><sub>更新于 2026-05-27 · 中文</sub>
 
-- **[atutun-xhs-cover](https://github.com/panggungunvibe/atutun-xhs-cover)** · ★ 422<br>阿囤囤风小红书封面提示词：真人出镜、超大浅黄白描边标题、勾选清单和贴纸，适合 AI 工具、测评和教程类内容<br><sub>平台：小红书</sub><br><sub>更新于 2026-05-30 · 中文</sub>
+- **[atutun-xhs-cover](https://github.com/panggungunvibe/atutun-xhs-cover)** · ★ 425<br>阿囤囤风小红书封面提示词：真人出镜、超大浅黄白描边标题、勾选清单和贴纸，适合 AI 工具、测评和教程类内容<br><sub>平台：小红书</sub><br><sub>更新于 2026-05-30 · 中文</sub>
 
-- **[vibe-knowledge-film](https://github.com/HeyChengC/vibe-knowledge-film)** · ★ 398<br>抖音「知识大赏」类知识短片：两种热门画风，写字幕稿、排分镜表、配音效，先出 30 秒样片再出成片<br><sub>平台：抖音</sub><br><sub>更新于 2026-10-13 · 中文</sub>
+- **[motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills)** · ★ 375<br>用代码做动效：发布会视频、动态图表、数字滚动，适合发 LinkedIn 和 Newsletter，不用 After Effects<br><sub>平台：LinkedIn · Newsletter</sub><br><sub>更新于 2026-10-11 · 英文 · 15 个 skill · MIT</sub>
 
-- **[hotclip](https://github.com/xixihhhh/hotclip)** · ★ 346<br>长视频和直播回放切成竖屏爆款片段：AI 找高光并说明理由、横转竖、自动字幕、去气口，本地运行不上传<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · 快手</sub><br><sub>更新于 2026-10-08 · 中文 · AGPL-3.0</sub>
+- **[hotclip](https://github.com/xixihhhh/hotclip)** · ★ 365<br>长视频和直播回放切成竖屏爆款片段：AI 找高光并说明理由、横转竖、自动字幕、去气口，本地运行不上传<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · 快手</sub><br><sub>更新于 2026-10-08 · 中文 · AGPL-3.0</sub>
 
-- **[motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills)** · ★ 346<br>用代码做动效：发布会视频、动态图表、数字滚动，适合发 LinkedIn 和 Newsletter，不用 After Effects<br><sub>平台：LinkedIn · Newsletter</sub><br><sub>更新于 2026-10-11 · 英文 · 15 个 skill · MIT</sub>
+- **[clipcat-skill](https://github.com/Clipcat-ai/clipcat-skill)** · ★ 315<br>TikTok Shop 带货视频：找爆款视频、研究商品店铺达人和直播间、拆为什么能卖，生成可拍的提示词<br><sub>平台：TikTok</sub><br><sub>更新于 2026-09-20 · 英文</sub><br><sub>💡 要 Clipcat 账号</sub>
 
 - **[xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio)** · ★ 299<br>小互的中文深度文配图：挑认知锚点、现编隐喻、反 PPT 自检，自带 31 个原创 IP 角色出演<br><sub>平台：通用</sub><br><sub>更新于 2026-06-26 · 中文 · MIT</sub>
 
 - **[panda-video-generator](https://github.com/szhshp/panda-video-generator)** · ★ 292<br>程序员式视频自动化：抓素材、生成字幕脚本、Remotion 渲染、Playwright 多平台发布，每个环节可单独用<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · 快手 · YouTube</sub><br><sub>更新于 2026-10-18 · 中文 · 6 个 skill</sub>
 
-- **[douyin-live-recorder](https://github.com/WeiZhuochun/douyin-live-recorder)** · ★ 289<br>抖音直播切片号：多直播间监控、开播自动录制、边录边传百度网盘、高光识别剪辑、生成标题、多授权账号发布<br><sub>平台：抖音</sub><br><sub>更新于 2026-08-26 · 中文</sub>
+- **[oil-cover](https://github.com/oil-oil/oil-cover)** · ★ 279<br>从视频画面做小红书和 B 站封面：本地选帧打分，按真实屏幕画面加标题出三种画幅，适合 AI 工具实操视频<br><sub>平台：小红书 · B 站</sub><br><sub>更新于 2026-10-04 · 中文</sub>
 
-- **[clipcat-skill](https://github.com/Clipcat-ai/clipcat-skill)** · ★ 282<br>TikTok Shop 带货视频：找爆款视频、研究商品店铺达人和直播间、拆为什么能卖，生成可拍的提示词<br><sub>平台：TikTok</sub><br><sub>更新于 2026-09-20 · 英文</sub><br><sub>💡 要 Clipcat 账号</sub>
+- **[oh-my-cover-design](https://github.com/hongfamonvAI/oh-my-cover-design)** · ★ 271<br>小红书/公众号封面提示词：问完构图、人脸、表情、产品图、配色和字体，输出能直接跑图的提示词，10 种构图<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-05-16 · 中文</sub>
 
-- **[oil-cover](https://github.com/oil-oil/oil-cover)** · ★ 272<br>从视频画面做小红书和 B 站封面：本地选帧打分，按真实屏幕画面加标题出三种画幅，适合 AI 工具实操视频<br><sub>平台：小红书 · B 站</sub><br><sub>更新于 2026-10-04 · 中文</sub>
-
-- **[oh-my-cover-design](https://github.com/hongfamonvAI/oh-my-cover-design)** · ★ 268<br>小红书/公众号封面提示词：问完构图、人脸、表情、产品图、配色和字体，输出能直接跑图的提示词，10 种构图<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-05-16 · 中文</sub>
+- **[douyin-live-recorder](https://github.com/WeiZhuochun/douyin-live-recorder)** · ★ 261<br>抖音直播切片号：多直播间监控、开播自动录制、边录边传百度网盘、高光识别剪辑、生成标题、多授权账号发布<br><sub>平台：抖音</sub><br><sub>更新于 2026-08-26 · 中文</sub>
 
 - **[blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video)** · ★ 254<br>一句话出中文竖屏短视频：脚本、配音、画面、配乐、字幕、音效全自动，脚本、配音、画面三道关都可审<br><sub>平台：小红书 · 抖音 · B 站 · YouTube</sub><br><sub>更新于 2026-07-20 · 中文 · 2 个 skill</sub>
 
 - **[ian-xhs-carousel](https://github.com/helloianneo/ian-xhs-carousel)** · ★ 243<br>把文章、案例或笔记排成 3:4 小红书图文：先出分镜表等你确认，再按 20 个母版出图，浅色深色两套，附总览图和可改的 HTML<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-21 · 中文 · MIT</sub>
 
-- **[xhs-cover-skill](https://github.com/Vivixiao980/xhs-cover-skill)** · ★ 207<br>小红书封面生成：18 种预设风格，命令行出图或改图，优先用 Codex 自带的生图，Gemini 作备用<br><sub>平台：小红书</sub><br><sub>更新于 2026-05-26 · 中文</sub>
+- **[xhs-cover-skill](https://github.com/Vivixiao980/xhs-cover-skill)** · ★ 212<br>小红书封面生成：18 种预设风格，命令行出图或改图，优先用 Codex 自带的生图，Gemini 作备用<br><sub>平台：小红书</sub><br><sub>更新于 2026-05-26 · 中文</sub>
 
-- **[blcaptain-style-skill](https://github.com/dososo/blcaptain-style-skill)** · ★ 169<br>中文图文卡片：一段内容做成小红书 3:4 组图或公众号封面，三套视觉语言（静纸、实证、图桥）<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-07-08 · 中文</sub>
+- **[blcaptain-style-skill](https://github.com/dososo/blcaptain-style-skill)** · ★ 171<br>中文图文卡片：一段内容做成小红书 3:4 组图或公众号封面，三套视觉语言（静纸、实证、图桥）<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-07-08 · 中文</sub>
 
-- **[xhs-writer-skill](https://github.com/JuneYaooo/xhs-writer-skill)** · ★ 161<br>小红书笔记一条龙：一句话生成竖版卡片组或短视频脚本，配文案和话题标签，有真实素材时用 gpt-image-2 图生图<br><sub>平台：小红书</sub><br><sub>更新于 2026-04-25 · 中文 · Apache-2.0</sub>
+- **[xhs-writer-skill](https://github.com/JuneYaooo/xhs-writer-skill)** · ★ 165<br>小红书笔记一条龙：一句话生成竖版卡片组或短视频脚本，配文案和话题标签，有真实素材时用 gpt-image-2 图生图<br><sub>平台：小红书</sub><br><sub>更新于 2026-04-25 💤 · 中文 · Apache-2.0</sub>
 
-- **[ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)** · ★ 158<br>旅行 Vlog 自动剪辑：给一个素材文件夹，agent 挑镜头、排叙事、加字幕出成片，用 ffmpeg、Whisper 和视觉模型<br><sub>平台：通用</sub><br><sub>更新于 2026-04-27 · 中文 · MIT</sub>
+- **[ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)** · ★ 162<br>旅行 Vlog 自动剪辑：给一个素材文件夹，agent 挑镜头、排叙事、加字幕出成片，用 ffmpeg、Whisper 和视觉模型<br><sub>平台：通用</sub><br><sub>更新于 2026-04-27 · 中文 · MIT</sub>
 
-- **[reelclaw](https://github.com/dansugc/reelclaw)** · ★ 146<br>给你在做的产品做 UGC 短视频广告：真人创作者反应镜头加产品画面，本地剪辑渲染，出 TikTok、Reels、Shorts<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-10-16 · 英文</sub><br><sub>💡 反应镜头来自 DansUGC，按条用积分付费</sub>
+- **[reelclaw](https://github.com/dansugc/reelclaw)** · ★ 147<br>给你在做的产品做 UGC 短视频广告：真人创作者反应镜头加产品画面，本地剪辑渲染，出 TikTok、Reels、Shorts<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-10-23 · 英文</sub><br><sub>💡 反应镜头来自 DansUGC，按条用积分付费</sub>
 
 - **[jianshuo/claude-skills](https://github.com/jianshuo/claude-skills)** · ★ 137<br>王建硕日常用的 skill：转写、翻译、配音、多机位剪辑、字幕烧录、横转竖，另有公众号发布<br><sub>平台：公众号 · X · YouTube</sub><br><sub>更新于 2026-10-15 · 多语言 · 41 个 skill · MIT</sub>
 
-- **[threads-carousel-claude-skill](https://github.com/itchernetski/threads-carousel-claude-skill)** · ★ 114<br>把文字帖做成轮播图：适配 Threads、Instagram、LinkedIn、TikTok 和快拍尺寸<br><sub>平台：TikTok · Instagram · LinkedIn · Threads</sub><br><sub>更新于 2026-04-19 💤 · 英文 · MIT</sub>
+- **[threads-carousel-claude-skill](https://github.com/itchernetski/threads-carousel-claude-skill)** · ★ 115<br>把文字帖做成轮播图：适配 Threads、Instagram、LinkedIn、TikTok 和快拍尺寸<br><sub>平台：TikTok · Instagram · LinkedIn · Threads</sub><br><sub>更新于 2026-04-19 💤 · 英文 · MIT</sub>
 
 - **[freestylefly/xiaohongshu-skills](https://github.com/freestylefly/xiaohongshu-skills)** · ★ 97<br>按主题生成小红书风格封面，生图用 Nano Banana Pro<br><sub>平台：小红书</sub><br><sub>更新于 2026-01-26 💤 · 中文</sub><br><sub>💡 要在 api.canghe.ai 申请 API Key</sub>
 
 - **[wechat-article-formatter-skill](https://github.com/iamzifei/wechat-article-formatter-skill)** · ★ 76<br>公众号排版：Markdown 经 bm.md 渲染成带样式的 HTML，可自定义样式，再用官方 API 发布<br><sub>平台：公众号</sub><br><sub>更新于 2026-08-12 · 英文</sub>
 
-- **[wechat-typesetting-cy](https://github.com/CY-CHENYUE/wechat-typesetting-cy)** · ★ 71<br>公众号智能排版：不套模板，读懂文章后现场设计版式和配色，生成全内联 HTML，预览页一键复制<br><sub>平台：公众号</sub><br><sub>更新于 2026-09-19 · 中文 · Apache-2.0</sub>
+- **[wechat-typesetting-cy](https://github.com/CY-CHENYUE/wechat-typesetting-cy)** · ★ 73<br>公众号智能排版：不套模板，读懂文章后现场设计版式和配色，生成全内联 HTML，预览页一键复制<br><sub>平台：公众号</sub><br><sub>更新于 2026-09-19 · 中文 · Apache-2.0</sub>
 
-- **[claude-reel-editor](https://github.com/nicolapocock/claude-reel-editor)** · ★ 26<br>口播原片剪成品牌化短视频：清理音频、剪掉口头禅、加图形和字幕，渲染前先让你审，用 HyperFrames<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-10-12 · 英文 · MIT</sub>
+- **[claude-reel-editor](https://github.com/nicolapocock/claude-reel-editor)** · ★ 32<br>口播原片剪成品牌化短视频：清理音频、剪掉口头禅、加图形和字幕，渲染前先让你审，用 HyperFrames<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-10-12 · 英文 · MIT</sub>
 
-- **[tiktok-video-skills](https://github.com/iart-ai/tiktok-video-skills)** · ★ 14<br>短视频模板：Reels、TikTok、Shorts 的钩子和结构、逐字动态字幕、倒计时、人名条<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-06-22 · 英文 · 4 个 skill · MIT</sub>
+- **[tiktok-video-skills](https://github.com/iart-ai/tiktok-video-skills)** · ★ 16<br>短视频模板：Reels、TikTok、Shorts 的钩子和结构、逐字动态字幕、倒计时、人名条<br><sub>平台：YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-06-22 · 英文 · 4 个 skill · MIT</sub>
 
 - **[social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes)** · ★ 7<br>检查并裁切社媒图片尺寸：按 Instagram、Facebook、X、LinkedIn、YouTube、TikTok、Pinterest 等平台规格校验<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook · Pinterest</sub><br><sub>更新于 2026-04-30 · 英文 · 2 个 skill · MIT</sub>
 
@@ -619,12 +620,14 @@ npx skills add pyang5166/gbro-cover-design
 npx skills add GiMi-Xiaomi/gimi-illustration-skill
 # xiaohu-wechat-format
 npx skills add xiaohuailabs/xiaohu-wechat-format
-# Document-illustrator-skill
-npx skills add op7418/Document-illustrator-skill
 # clipify
 npx skills add louisedesadeleer/clipify
+# Document-illustrator-skill
+npx skills add op7418/Document-illustrator-skill
 # chatgpt-video-editing-skills
 npx skills add Jaycheng1103/chatgpt-video-editing-skills
+# vibe-knowledge-film
+npx skills add HeyChengC/vibe-knowledge-film
 # smart-illustrator
 npx skills add axtonliu/smart-illustrator
 # DaVinci-AutoEdit-Agent
@@ -633,24 +636,22 @@ npx skills add liuluhaixiu/DaVinci-AutoEdit-Agent
 npx skills add geekjourneyx/claude-design-card
 # atutun-xhs-cover
 npx skills add panggungunvibe/atutun-xhs-cover
-# vibe-knowledge-film
-npx skills add HeyChengC/vibe-knowledge-film
-# hotclip
-npx skills add xixihhhh/hotclip
 # motion-graphics-skills
 npx skills add charlie947/motion-graphics-skills
+# hotclip
+npx skills add xixihhhh/hotclip
+# clipcat-skill
+npx skills add Clipcat-ai/clipcat-skill
 # xiaohu-ip-studio
 npx skills add xiaohuailabs/xiaohu-ip-studio
 # panda-video-generator
 npx skills add szhshp/panda-video-generator
-# douyin-live-recorder
-npx skills add WeiZhuochun/douyin-live-recorder
-# clipcat-skill
-npx skills add Clipcat-ai/clipcat-skill
 # oil-cover
 npx skills add oil-oil/oil-cover
 # oh-my-cover-design
 npx skills add hongfamonvAI/oh-my-cover-design
+# douyin-live-recorder
+npx skills add WeiZhuochun/douyin-live-recorder
 # blcaptain-lingjian-video
 npx skills add dososo/blcaptain-lingjian-video
 # ian-xhs-carousel
@@ -692,41 +693,41 @@ npx skills add iamzifei/xiaohongshu-images-skill
 
 把内容发到平台上：定时发布、一稿多发、浏览器自动化。多数要登录你的账号，装之前先看它怎么保存登录态。
 
-- 🌟 **[social-auto-upload](https://github.com/dreammis/social-auto-upload)** · ★ 15.6k<br>一键上传视频到抖音、小红书、视频号、B站、快手、微博、TikTok、YouTube 等，支持定时发布，带 sau 命令和 4 个 skill<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · 微博 · 快手 · YouTube · TikTok</sub><br><sub>更新于 2026-09-02 · 中文 · 4 个 skill · MIT</sub>
+- 🌟 **[social-auto-upload](https://github.com/dreammis/social-auto-upload)** · ★ 15.8k<br>一键上传视频到抖音、小红书、视频号、B站、快手、微博、TikTok、YouTube 等，支持定时发布，带 sau 命令和 4 个 skill<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · 微博 · 快手 · YouTube · TikTok</sub><br><sub>更新于 2026-10-22 · 中文 · 18 个 skill · MIT</sub>
 
-- **[Wechatsync](https://github.com/wechatsync/Wechatsync)** · ★ 6.5k<br>文章同步助手：公众号文章一键同步到知乎、头条、小红书、掘金、CSDN 等 29+ 平台，Chrome 扩展用你自己的登录态，带 MCP<br><sub>平台：小红书 · 公众号 · 知乎 · 头条</sub><br><sub>更新于 2026-10-17 · 中文 · GPL-3.0</sub>
+- **[Wechatsync](https://github.com/wechatsync/Wechatsync)** · ★ 6.5k<br>文章同步助手：公众号文章一键同步到知乎、头条、小红书、掘金、CSDN 等 29+ 平台，Chrome 扩展用你自己的登录态，带 MCP<br><sub>平台：小红书 · 公众号 · 知乎 · 头条</sub><br><sub>更新于 2026-10-23 · 中文 · GPL-3.0</sub>
 
-- **[XiaohongshuSkills](https://github.com/white0dew/XiaohongshuSkills)** · ★ 3.5k<br>小红书自动发布、评论和检索：通过 Chrome 开发者协议发图文和视频，支持多账号和无头模式<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-19 · 中文 · MIT</sub>
+- **[XiaohongshuSkills](https://github.com/white0dew/XiaohongshuSkills)** · ★ 3.5k<br>小红书自动发布、评论和检索：通过 Chrome 开发者协议发图文和视频，支持多账号和无头模式<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-23 · 中文 · MIT</sub>
 
 - **[autoclaw-cc/xiaohongshu-skills](https://github.com/autoclaw-cc/xiaohongshu-skills)** · ★ 2k<br>小红书自动化：用你已登录的浏览器和真实账号登录、发图文和视频、搜索、评论点赞，开箱即用<br><sub>平台：小红书</sub><br><sub>更新于 2026-05-23 · 中文 · 6 个 skill · MIT</sub>
 
-- **[MatrixMedia](https://github.com/hanliang97/MatrixMedia)** · ★ 995<br>矩媒：视频矩阵批量发布到抖音、快手、视频号、小红书、B站、百家号、头条、番茄视频，查登录状态和发布记录<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · 快手 · 头条</sub><br><sub>更新于 2026-10-17 · 中文 · 4 个 skill · GPL-2.0</sub><br><sub>💡 skill 驱动矩媒桌面端，要先装应用</sub>
+- **[MatrixMedia](https://github.com/hanliang97/MatrixMedia)** · ★ 1k<br>矩媒：视频矩阵批量发布到抖音、快手、视频号、小红书、B站、百家号、头条、番茄视频，查登录状态和发布记录<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · 快手 · 头条</sub><br><sub>更新于 2026-10-23 · 中文 · 4 个 skill · GPL-2.0</sub><br><sub>💡 skill 驱动矩媒桌面端，要先装应用</sub>
 
-- **[x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill)** · ★ 874<br>Markdown 长文一条命令发到 X Articles（推特长文），支持分割线、表格转图片和 Mermaid<br><sub>平台：X</sub><br><sub>更新于 2026-01-25 💤 · 中文 · MIT</sub>
+- **[x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill)** · ★ 872<br>Markdown 长文一条命令发到 X Articles（推特长文），支持分割线、表格转图片和 Mermaid<br><sub>平台：X</sub><br><sub>更新于 2026-01-25 💤 · 中文 · MIT</sub>
 
-- **[social-push](https://github.com/jihe520/social-push)** · ★ 535<br>用 agent-browser 把内容发到小红书、微博、知乎、公众号、X 等平台，流程能自我改进<br><sub>平台：小红书 · 公众号 · 微博 · 知乎 · X</sub><br><sub>更新于 2026-06-28 · 中文 · 2 个 skill</sub>
+- **[social-push](https://github.com/jihe520/social-push)** · ★ 539<br>用 agent-browser 把内容发到小红书、微博、知乎、公众号、X 等平台，流程能自我改进<br><sub>平台：小红书 · 公众号 · 微博 · 知乎 · X</sub><br><sub>更新于 2026-06-28 · 中文 · 2 个 skill</sub>
 
-- **[SyncCaster](https://github.com/RyanYipeng/SyncCaster)** · ★ 510<br>多平台文章同步 Chrome 扩展：Markdown 编辑，一键发到掘金、CSDN、知乎、公众号等 17+ 平台，带 MCP 桥给 agent 用<br><sub>平台：公众号 · 知乎</sub><br><sub>更新于 2026-08-25 · 中文 · MIT</sub>
+- **[SyncCaster](https://github.com/RyanYipeng/SyncCaster)** · ★ 513<br>多平台文章同步 Chrome 扩展：Markdown 编辑，一键发到掘金、CSDN、知乎、公众号等 17+ 平台，带 MCP 桥给 agent 用<br><sub>平台：公众号 · 知乎</sub><br><sub>更新于 2026-08-25 · 中文 · MIT</sub>
 
-- **[xiaohongshu-mcp-skills](https://github.com/autoclaw-cc/xiaohongshu-mcp-skills)** · ★ 275<br>配合 xiaohongshu-mcp 用的 skill：部署服务、扫码登录、发笔记、搜索、内容规划<br><sub>平台：小红书</sub><br><sub>更新于 2026-03-05 💤 · 中文 · 9 个 skill · MIT</sub>
+- **[xiaohongshu-mcp-skills](https://github.com/autoclaw-cc/xiaohongshu-mcp-skills)** · ★ 277<br>配合 xiaohongshu-mcp 用的 skill：部署服务、扫码登录、发笔记、搜索、内容规划<br><sub>平台：小红书</sub><br><sub>更新于 2026-03-05 💤 · 中文 · 9 个 skill · MIT</sub>
 
-- **[video-publisher-skill](https://github.com/oil-oil/video-publisher-skill)** · ★ 246<br>把视频、标题、封面准备成小红书、抖音、B站、视频号、YouTube 的已核验草稿，可续传，默认停在最终发布前<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · YouTube</sub><br><sub>更新于 2026-10-18 · 中文 · MIT</sub>
+- **[video-publisher-skill](https://github.com/oil-oil/video-publisher-skill)** · ★ 255<br>把视频、标题、封面准备成小红书、抖音、B站、视频号、YouTube 的已核验草稿，可续传，默认停在最终发布前<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · YouTube</sub><br><sub>更新于 2026-10-18 · 中文 · MIT</sub>
 
-- **[Taisly Agent Kit](https://github.com/taisly/agent)** · ★ 220<br>Taisly 短视频发布套件：skill、MCP、CLI 和 SDK，从 agent 发视频到 TikTok、Reels、Shorts、X 和 Facebook<br><sub>平台：X · YouTube · TikTok · Instagram · Facebook</sub><br><sub>更新于 2026-10-03 · 英文 · MIT</sub><br><sub>💡 要 Taisly 账号，可以免费开始</sub>
+- **[Taisly Agent Kit](https://github.com/taisly/agent)** · ★ 220<br>Taisly 短视频发布套件：skill、MCP、CLI 和 SDK，从 agent 发视频到 TikTok、Reels、Shorts、X 和 Facebook<br><sub>平台：X · YouTube · TikTok · Instagram · Facebook</sub><br><sub>更新于 2026-10-22 · 英文 · MIT</sub><br><sub>💡 要 Taisly 账号，可以免费开始</sub>
 
 - **[wechat-article-publisher-skill](https://github.com/iamzifei/wechat-article-publisher-skill)** · ★ 157<br>通过 API 把 Markdown 或 HTML 文章推送到公众号草稿箱<br><sub>平台：公众号</sub><br><sub>更新于 2026-08-12 · 多语言 · MIT</sub>
 
-- **[Spreado](https://github.com/BadKid90s/Spreado)** · ★ 143<br>开源视频发布工具：一键同步到抖音、小红书、快手、视频号，扫码登录、管理 Cookie，带 skill<br><sub>平台：小红书 · 抖音 · 视频号 · 快手</sub><br><sub>更新于 2026-10-19 · 中文 · 2 个 skill · Apache-2.0</sub>
+- **[Spreado](https://github.com/BadKid90s/Spreado)** · ★ 144<br>开源视频发布工具：一键同步到抖音、小红书、快手、视频号，扫码登录、管理 Cookie，带 skill<br><sub>平台：小红书 · 抖音 · 视频号 · 快手</sub><br><sub>更新于 2026-10-23 · 中文 · 2 个 skill · Apache-2.0</sub>
 
-- **[douyin-image-post-scheduler](https://github.com/chengyi-ai/douyin-image-post-scheduler)** · ★ 109<br>抖音图文批量定时发布：从本地素材文件夹排队，在已登录的 Chrome 里上传、选话题和音乐、定时并回后台核验<br><sub>平台：抖音</sub><br><sub>更新于 2026-10-14 · 中文 · MIT</sub>
+- **[douyin-image-post-scheduler](https://github.com/chengyi-ai/douyin-image-post-scheduler)** · ★ 108<br>抖音图文批量定时发布：从本地素材文件夹排队，在已登录的 Chrome 里上传、选话题和音乐、定时并回后台核验<br><sub>平台：抖音</sub><br><sub>更新于 2026-10-14 · 中文 · MIT</sub>
 
-- **[Linked-API/linkedin-skills](https://github.com/Linked-API/linkedin-skills)** · ★ 103<br>LinkedIn 自动化：查人和公司、发私信、加好友、发帖，另有按目标客户筛选并跟进的获客流程<br><sub>平台：LinkedIn</sub><br><sub>更新于 2026-10-16 · 英文 · 2 个 skill · MIT</sub><br><sub>💡 通过 Linked API 云服务操作你的账号，要先注册</sub>
+- **[Linked-API/linkedin-skills](https://github.com/Linked-API/linkedin-skills)** · ★ 104<br>LinkedIn 自动化：查人和公司、发私信、加好友、发帖，另有按目标客户筛选并跟进的获客流程<br><sub>平台：LinkedIn</sub><br><sub>更新于 2026-10-16 · 英文 · 2 个 skill · MIT</sub><br><sub>💡 通过 Linked API 云服务操作你的账号，要先注册</sub>
 
-- **[socialclaw](https://github.com/ndesv21/socialclaw)** · ★ 96<br>社媒排期 CLI 和 OpenClaw skill：发到 X、LinkedIn、Instagram、Facebook 主页、TikTok、YouTube 等<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Facebook · Reddit · Pinterest</sub><br><sub>更新于 2026-10-12 · 英文 · 3 个 skill · MIT</sub><br><sub>💡 要 SocialClaw 账号，CLI 和 API 要试用或付费方案</sub>
+- **[socialclaw](https://github.com/ndesv21/socialclaw)** · ★ 98<br>社媒排期 CLI 和 OpenClaw skill：发到 X、LinkedIn、Instagram、Facebook 主页、TikTok、YouTube 等<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Facebook · Reddit · Pinterest</sub><br><sub>更新于 2026-10-12 · 英文 · 3 个 skill · MIT</sub><br><sub>💡 要 SocialClaw 账号，CLI 和 API 要试用或付费方案</sub>
 
 - **[douyin-upload-mcp-skill](https://github.com/WJZ-P/douyin-upload-mcp-skill)** · ★ 87<br>抖音视频和图文全自动发布：通过 CDP 操作创作者平台，MCP 优先、脚本兜底，适合 OpenClaw<br><sub>平台：抖音</sub><br><sub>更新于 2026-04-01 💤 · 中文 · AGPL-3.0</sub>
 
-- **[publora/skills](https://github.com/publora/skills)** · ★ 58<br>Publora 官方 skill：从 agent 发帖或排期到 LinkedIn、X、Instagram、Threads、TikTok 等 10 个平台<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook</sub><br><sub>更新于 2026-10-14 · 英文 · 9 个 skill · MIT</sub><br><sub>💡 要 Publora 账号，免费档覆盖除 X 以外的平台</sub>
+- **[publora/skills](https://github.com/publora/skills)** · ★ 58<br>Publora 官方 skill：从 agent 发帖或排期到 LinkedIn、X、Instagram、Threads、TikTok 等 10 个平台<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook</sub><br><sub>更新于 2026-10-23 · 英文 · 9 个 skill · MIT</sub><br><sub>💡 要 Publora 账号，免费档覆盖除 X 以外的平台</sub>
 
 - **[0731coderlee-sudo/wechat-publisher](https://github.com/0731coderlee-sudo/wechat-publisher)** · ★ 46<br>一键把 Markdown 发到公众号草稿箱：基于 wenyan-cli，多主题、代码高亮、图片自动上传<br><sub>平台：公众号</sub><br><sub>更新于 2026-02-05 💤 · 中文 · MIT</sub>
 
@@ -794,75 +795,75 @@ npx skills add iamzifei/red-publisher-skill
 
 追热点、拆爆款、看竞品和评论，读账号数据。
 
-- 🌟 **[last30days-skill](https://github.com/mvanhorn/last30days-skill)** · ★ 64.8k<br>查任意话题最近 30 天大家在说什么：Reddit、X、YouTube、TikTok、HN、Polymarket 等按点赞和真金白银排序，写成有出处的摘要<br><sub>平台：X · YouTube · TikTok · Reddit</sub><br><sub>更新于 2026-10-18 · 多语言 · MIT</sub>
+- 🌟 **[last30days-skill](https://github.com/mvanhorn/last30days-skill)** · ★ 65.2k<br>查任意话题最近 30 天大家在说什么：Reddit、X、YouTube、TikTok、HN、Polymarket 等按点赞和真金白银排序，写成有出处的摘要<br><sub>平台：X · YouTube · TikTok · Reddit</sub><br><sub>更新于 2026-10-23 · 多语言 · MIT</sub>
 
-- **[wechatDownload](https://github.com/qiye45/wechatDownload)** · ★ 9.8k<br>公众号文章批量下载：历史文章、评论、合集，存成 html/md/pdf/docx/csv，保存图片视频音频，支持 MCP 和 Skill 调用<br><sub>平台：公众号</sub><br><sub>更新于 2026-10-07 · 中文</sub><br><sub>💡 skill 调用作者的桌面软件</sub>
+- **[wechatDownload](https://github.com/qiye45/wechatDownload)** · ★ 9.9k<br>公众号文章批量下载：历史文章、评论、合集，存成 html/md/pdf/docx/csv，保存图片视频音频，支持 MCP 和 Skill 调用<br><sub>平台：公众号</sub><br><sub>更新于 2026-10-07 · 中文</sub><br><sub>💡 skill 调用作者的桌面软件</sub>
 
-- **[follow-builders](https://github.com/zarazhangrui/follow-builders)** · ★ 6.9k<br>AI 圈一线建设者摘要：追踪 X 上的研究员、创始人和 YouTube 播客，按天或周推送整理好的要点<br><sub>平台：X · YouTube</sub><br><sub>更新于 2026-10-19 · 英文</sub>
+- **[follow-builders](https://github.com/zarazhangrui/follow-builders)** · ★ 6.9k<br>AI 圈一线建设者摘要：追踪 X 上的研究员、创始人和 YouTube 播客，按天或周推送整理好的要点<br><sub>平台：X · YouTube</sub><br><sub>更新于 2026-10-23 · 英文</sub>
 
-- **[social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills)** · ★ 4.2k<br>社媒调研：找超常爆款、挖评论、拆竞品、看广告库和趋势，覆盖 TikTok、Instagram、YouTube、Reddit、X、LinkedIn<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Reddit</sub><br><sub>更新于 2026-08-26 · 英文 · 13 个 skill · MIT</sub><br><sub>💡 数据来自 ScrapeCreators，要它的 API Key（付费）</sub>
+- **[social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills)** · ★ 4.6k<br>社媒调研：找超常爆款、挖评论、拆竞品、看广告库和趋势，覆盖 TikTok、Instagram、YouTube、Reddit、X、LinkedIn<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Reddit</sub><br><sub>更新于 2026-08-26 · 英文 · 13 个 skill · MIT</sub><br><sub>💡 数据来自 ScrapeCreators，要它的 API Key（付费）</sub>
 
-- **[claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video)** · ★ 2.2k<br>让 AI 看视频：从链接或本地文件抽场景关键帧并去重、配时间戳字幕，用来总结和拆解对标视频，本地运行<br><sub>平台：YouTube</sub><br><sub>更新于 2026-10-08 · 英文 · 3 个 skill · MIT</sub>
+- **[claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video)** · ★ 2.3k<br>让 AI 看视频：从链接或本地文件抽场景关键帧并去重、配时间戳字幕，用来总结和拆解对标视频，本地运行<br><sub>平台：YouTube</sub><br><sub>更新于 2026-10-23 · 英文 · 3 个 skill · MIT</sub>
 
-- **[last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn)** · ★ 1.9k<br>中文版近 30 天研究：微博、小红书、B站、知乎、抖音、公众号、百度、头条 8 个平台并行检索，按互动和时效排序，结论都有出处<br><sub>平台：小红书 · 抖音 · 公众号 · B 站 · 微博 · 知乎 · 头条</sub><br><sub>更新于 2026-10-06 · 中文 · 2 个 skill</sub>
+- **[last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn)** · ★ 1.9k<br>中文版近 30 天研究：微博、小红书、B站、知乎、抖音、公众号、百度、头条 8 个平台并行检索，按互动和时效排序，结论都有出处<br><sub>平台：小红书 · 抖音 · 公众号 · B 站 · 微博 · 知乎 · 头条</sub><br><sub>更新于 2026-10-21 · 中文 · 2 个 skill</sub>
 
 - **[chubbyskills](https://github.com/chubbyguan/chubbyskills)** · ★ 1.3k<br>把抖音、B站、小红书、公众号、X、播客内容存进个人知识库：图文存图、视频转文字稿、订阅和每日简报，附知识库 MCP<br><sub>平台：小红书 · 抖音 · 公众号 · B 站 · X</sub><br><sub>更新于 2026-10-14 · 中文 · 14 个 skill · MIT</sub>
 
 - **[x-research-skill](https://github.com/rohunvora/x-research-skill)** · ★ 1.2k<br>X 调研：搜索按互动排序、跟帖、监控账号，输出带出处的简报<br><sub>平台：X</sub><br><sub>更新于 2026-02-19 💤 · 英文</sub><br><sub>💡 要自己的 X API 凭证（按量付费）</sub>
 
-- **[ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills)** · ★ 1.1k<br>YouTube 字幕、搜索视频、浏览频道和播放列表，走 TranscriptAPI<br><sub>平台：YouTube</sub><br><sub>更新于 2026-10-14 · 英文 · 12 个 skill · MIT</sub><br><sub>💡 要 TranscriptAPI 的 API Key</sub>
+- **[ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills)** · ★ 1.1k<br>YouTube 字幕、搜索视频、浏览频道和播放列表，走 TranscriptAPI<br><sub>平台：YouTube</sub><br><sub>更新于 2026-10-20 · 英文 · 12 个 skill · MIT</sub><br><sub>💡 要 TranscriptAPI 的 API Key</sub>
 
 - **[wechat-article-to-markdown](https://github.com/jackwener/wechat-article-to-markdown)** · ★ 1.1k<br>公众号文章抓取转 Markdown：防检测抓取，提取标题、作者、时间，图片存本地<br><sub>平台：公众号</sub><br><sub>更新于 2026-03-22 💤 · 多语言</sub>
 
-- **[x-tweet-fetcher](https://github.com/ythx-101/x-tweet-fetcher)** · ★ 986<br>不登录、不用 API Key 抓 X 推文、回复、时间线、列表和长文，三种后端自动切换<br><sub>平台：X</sub><br><sub>更新于 2026-10-14 · 英文 · MIT</sub>
+- **[x-tweet-fetcher](https://github.com/ythx-101/x-tweet-fetcher)** · ★ 991<br>不登录、不用 API Key 抓 X 推文、回复、时间线、列表和长文，三种后端自动切换<br><sub>平台：X</sub><br><sub>更新于 2026-10-14 · 英文 · MIT</sub>
 
-- **[autocli-skill](https://github.com/nashsu/autocli-skill)** · ★ 925<br>让 agent 用 autocli 读 55+ 个网站：B站、知乎、X、YouTube、微博、Reddit、小红书等，复用你 Chrome 的登录态<br><sub>平台：小红书 · B 站 · 微博 · 知乎 · X · YouTube · Reddit</sub><br><sub>更新于 2026-04-20 💤 · 多语言</sub>
+- **[autocli-skill](https://github.com/nashsu/autocli-skill)** · ★ 927<br>让 agent 用 autocli 读 55+ 个网站：B站、知乎、X、YouTube、微博、Reddit、小红书等，复用你 Chrome 的登录态<br><sub>平台：小红书 · B 站 · 微博 · 知乎 · X · YouTube · Reddit</sub><br><sub>更新于 2026-04-20 💤 · 多语言</sub>
 
-- **[union-search-skill](https://github.com/runningZ1/union-search-skill)** · ★ 751<br>统一搜索：一条命令搜小红书、抖音、B站、YouTube、X、公众号、Reddit 等 20+ 平台，输出统一格式<br><sub>平台：小红书 · 抖音 · 公众号 · B 站 · 微博 · 知乎 · 头条 · X · YouTube · Reddit</sub><br><sub>更新于 2026-04-14 💤 · 中文</sub>
+- **[union-search-skill](https://github.com/runningZ1/union-search-skill)** · ★ 758<br>统一搜索：一条命令搜小红书、抖音、B站、YouTube、X、公众号、Reddit 等 20+ 平台，输出统一格式<br><sub>平台：小红书 · 抖音 · 公众号 · B 站 · 微博 · 知乎 · 头条 · X · YouTube · Reddit</sub><br><sub>更新于 2026-10-22 · 中文 · MIT</sub>
 
-- **[blogger-distiller](https://github.com/otter1101/blogger-distiller)** · ★ 727<br>博主蒸馏器：输入博主账号，从真实笔记里蒸馏 TA 的爆款打法和认知，装进你的 AI 当内容教练<br><sub>平台：小红书 · 抖音</sub><br><sub>更新于 2026-09-23 · 中文 · MIT</sub>
+- **[blogger-distiller](https://github.com/otter1101/blogger-distiller)** · ★ 736<br>博主蒸馏器：输入博主账号，从真实笔记里蒸馏 TA 的爆款打法和认知，装进你的 AI 当内容教练<br><sub>平台：小红书 · 抖音</sub><br><sub>更新于 2026-09-23 · 中文 · MIT</sub>
 
-- **[NewsCrawler](https://github.com/NanmiCoder/NewsCrawler)** · ★ 627<br>新闻和内容提取 skill：给一条链接拿到正文、图片和元数据，支持公众号、头条、X、网易、腾讯新闻等 12 个平台<br><sub>平台：公众号 · 头条 · X</sub><br><sub>更新于 2026-08-08 · 中文 · GPL-3.0</sub>
+- **[NewsCrawler](https://github.com/NanmiCoder/NewsCrawler)** · ★ 633<br>新闻和内容提取 skill：给一条链接拿到正文、图片和元数据，支持公众号、头条、X、网易、腾讯新闻等 12 个平台<br><sub>平台：公众号 · 头条 · X</sub><br><sub>更新于 2026-08-08 · 中文 · GPL-3.0</sub>
 
-- **[feedgrab](https://github.com/iBigQiang/feedgrab)** · ★ 616<br>18+ 平台内容抓取：输入链接或关键词批量抓 X、小红书、公众号、YouTube、B站等，输出带元数据的 Obsidian Markdown<br><sub>平台：小红书 · 公众号 · B 站 · X · YouTube</sub><br><sub>更新于 2026-09-08 · 中文 · 5 个 skill · MIT</sub>
+- **[feedgrab](https://github.com/iBigQiang/feedgrab)** · ★ 618<br>18+ 平台内容抓取：输入链接或关键词批量抓 X、小红书、公众号、YouTube、B站等，输出带元数据的 Obsidian Markdown<br><sub>平台：小红书 · 公众号 · B 站 · X · YouTube</sub><br><sub>更新于 2026-09-08 · 中文 · 5 个 skill · MIT</sub>
 
-- **[redfox-community](https://github.com/redfox-data/redfox-community)** · ★ 447<br>红狐数据的 132 个 skill：多平台主页视频提取、B站评论分析、AI 信息日报、选题、文案和数据复盘<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号 · B 站 · 快手 · 头条 · X · YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-10-19 · 中文 · 132 个 skill</sub>
+- **[redfox-community](https://github.com/redfox-data/redfox-community)** · ★ 449<br>红狐数据的 132 个 skill：多平台主页视频提取、B站评论分析、AI 信息日报、选题、文案和数据复盘<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号 · B 站 · 快手 · 头条 · X · YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-10-22 · 中文 · 134 个 skill</sub>
 
-- **[xhs-claude-skills](https://github.com/chenxiachan/xhs-claude-skills)** · ★ 424<br>小红书转 Obsidian：提取帖子文字、图片 OCR、视频字幕或转录，批量入库后做总结对比，也能做封面<br><sub>平台：小红书</sub><br><sub>更新于 2026-08-14 · 中文 · 4 个 skill · MIT</sub>
+- **[xhs-claude-skills](https://github.com/chenxiachan/xhs-claude-skills)** · ★ 425<br>小红书转 Obsidian：提取帖子文字、图片 OCR、视频字幕或转录，批量入库后做总结对比，也能做封面<br><sub>平台：小红书</sub><br><sub>更新于 2026-08-14 · 中文 · 4 个 skill · MIT</sub>
 
-- **[twitterapi-io](https://github.com/kaitoInfra/twitterapi-io)** · ★ 335<br>twitterapi.io 官方 skill：查推文、主页、粉丝、高级搜索、趋势，也能发帖等操作<br><sub>平台：X</sub><br><sub>更新于 2026-10-14 · 英文 · 2 个 skill · MIT</sub><br><sub>💡 twitterapi.io 按量付费</sub>
+- **[twitterapi-io](https://github.com/kaitoInfra/twitterapi-io)** · ★ 336<br>twitterapi.io 官方 skill：查推文、主页、粉丝、高级搜索、趋势，也能发帖等操作<br><sub>平台：X</sub><br><sub>更新于 2026-10-14 · 英文 · 2 个 skill · MIT</sub><br><sub>💡 twitterapi.io 按量付费</sub>
 
 - **[ai-influence-digest](https://github.com/koffuxu/ai-influence-digest)** · ★ 319<br>AI 影响力周报：用浏览器扫 65+ 个 AI 建设者过去 7 天的推文，筛出创作者能立刻用的工具和方法，导出海报<br><sub>平台：X</sub><br><sub>更新于 2026-04-18 💤 · 中文 · MIT</sub>
 
-- **[social-account-doctor](https://github.com/JuneYaooo/social-account-doctor)** · ★ 306<br>自媒体账号体检和爆款拆解：扫同赛道找对标、拆爆款为什么爆、诊断没人看的原因，顺手出仿写初稿，支持带货模式<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · 快手</sub><br><sub>更新于 2026-09-19 · 中文 · MIT</sub>
+- **[social-account-doctor](https://github.com/JuneYaooo/social-account-doctor)** · ★ 311<br>自媒体账号体检和爆款拆解：扫同赛道找对标、拆爆款为什么爆、诊断没人看的原因，顺手出仿写初稿，支持带货模式<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · 快手</sub><br><sub>更新于 2026-09-19 · 中文 · MIT</sub>
 
-- **[lingzao-skill](https://github.com/atian-create/lingzao-skill)** · ★ 300<br>灵造：小红书为主的公开内容研究，账号诊断、找对标、拆爆款、标题封面优化、仿写模板，也覆盖抖音和公众号<br><sub>平台：小红书 · 抖音 · 公众号</sub><br><sub>更新于 2026-07-02 · 中文 · 12 个 skill · MIT-0</sub>
+- **[lingzao-skill](https://github.com/atian-create/lingzao-skill)** · ★ 302<br>灵造：小红书为主的公开内容研究，账号诊断、找对标、拆爆款、标题封面优化、仿写模板，也覆盖抖音和公众号<br><sub>平台：小红书 · 抖音 · 公众号</sub><br><sub>更新于 2026-07-02 · 中文 · 12 个 skill · MIT-0</sub>
 
-- **[head-of-content](https://github.com/bradautomates/head-of-content)** · ★ 277<br>内容调研同事：在 X、Instagram、YouTube、TikTok 上找表现好的内容，拆共性，做内容计划<br><sub>平台：X · YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-01-23 💤 · 英文 · 6 个 skill · MIT</sub><br><sub>💡 抓数据用 Apify，按用量付费</sub>
+- **[head-of-content](https://github.com/bradautomates/head-of-content)** · ★ 281<br>内容调研同事：在 X、Instagram、YouTube、TikTok 上找表现好的内容，拆共性，做内容计划<br><sub>平台：X · YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-01-23 💤 · 英文 · 6 个 skill · MIT</sub><br><sub>💡 抓数据用 Apify，按用量付费</sub>
 
-- **[bigpeng-hot-gzh](https://github.com/BigPengSays/bigpeng-hot-gzh)** · ★ 272<br>公众号选题和标题：从约 100 篇 AI 爆款文章拆出 7 种标题公式和 8 个选题模板，只做选题和标题<br><sub>平台：公众号</sub><br><sub>更新于 2026-08-19 · 中文 · MIT</sub>
+- **[bigpeng-hot-gzh](https://github.com/BigPengSays/bigpeng-hot-gzh)** · ★ 274<br>公众号选题和标题：从约 100 篇 AI 爆款文章拆出 7 种标题公式和 8 个选题模板，只做选题和标题<br><sub>平台：公众号</sub><br><sub>更新于 2026-08-19 · 中文 · MIT</sub>
 
 - **[social-media-data-tools](https://github.com/jinchenma94/social-media-data-tools)** · ★ 252<br>抖音博主和视频导出：标题、文案、完整逐字稿和互动数据，可写入飞书多维表格；要在豆包里运行<br><sub>平台：抖音</sub><br><sub>更新于 2026-08-27 · 中文</sub>
 
-- **[ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader)** · ★ 245<br>抖音原视频下载和逐字稿：归档博主公开作品和指标，可按点赞批量改写口播稿，只用于自有或已授权内容<br><sub>平台：抖音</sub><br><sub>更新于 2026-10-03 · 中文</sub>
+- **[ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader)** · ★ 249<br>抖音原视频下载和逐字稿：归档博主公开作品和指标，可按点赞批量改写口播稿，只用于自有或已授权内容<br><sub>平台：抖音</sub><br><sub>更新于 2026-10-03 · 中文</sub>
 
-- **[video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill)** · ★ 229<br>短视频转字幕加 AI 总结：抖音、小红书、B 站、YouTube 链接或本地音视频，faster-whisper 本地转写<br><sub>平台：小红书 · 抖音 · B 站 · YouTube</sub><br><sub>更新于 2026-07-19 · 中文 · MIT</sub><br><sub>💡 抖音、小红书、B 站要配视频解析接口：作者推荐的 top9.cc（新用户有免费额度）或 TikHub</sub>
+- **[video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill)** · ★ 230<br>短视频转字幕加 AI 总结：抖音、小红书、B 站、YouTube 链接或本地音视频，faster-whisper 本地转写<br><sub>平台：小红书 · 抖音 · B 站 · YouTube</sub><br><sub>更新于 2026-07-19 · 中文 · MIT</sub><br><sub>💡 抖音、小红书、B 站要配视频解析接口：作者推荐的 top9.cc（新用户有免费额度）或 TikHub</sub>
 
-- **[x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)** · ★ 214<br>Xquik 的 X 数据：搜索、主页、粉丝、回复、时间线、媒体下载，带远程 MCP<br><sub>平台：X</sub><br><sub>更新于 2026-10-19 · 英文 · 3 个 skill · MIT</sub><br><sub>💡 Xquik 是付费服务</sub>
+- **[x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)** · ★ 219<br>Xquik 的 X 数据：搜索、主页、粉丝、回复、时间线、媒体下载，带远程 MCP<br><sub>平台：X</sub><br><sub>更新于 2026-10-19 · 英文 · 3 个 skill · MIT</sub><br><sub>💡 Xquik 是付费服务</sub>
 
-- **[jev-social](https://github.com/socai-io/jev-social)** · ★ 173<br>社媒调研 agent：在你已登录的 Chrome 里搜 Instagram、TikTok、LinkedIn 的帖子、主页和评论，出带出处的报告，只读不发<br><sub>平台：TikTok · Instagram · LinkedIn</sub><br><sub>更新于 2026-10-12 · 英文 · MIT</sub><br><sub>💡 要装 socai CLI；默认模型走 OpenRouter，要它的 API Key</sub>
+- **[jev-social](https://github.com/socai-io/jev-social)** · ★ 176<br>社媒调研 agent：在你已登录的 Chrome 里搜 Instagram、TikTok、LinkedIn 的帖子、主页和评论，出带出处的报告，只读不发<br><sub>平台：TikTok · Instagram · LinkedIn</sub><br><sub>更新于 2026-10-12 · 英文 · MIT</sub><br><sub>💡 要装 socai CLI；默认模型走 OpenRouter，要它的 API Key</sub>
 
-- **[wechat-article-extractor-skill](https://github.com/freestylefly/wechat-article-extractor-skill)** · ★ 136<br>从公众号文章链接提取标题、作者、正文、封面和公众号信息，支持图文、视频、图片集、语音和转载<br><sub>平台：公众号</sub><br><sub>更新于 2026-02-19 💤 · 中文</sub>
+- **[wechat-article-extractor-skill](https://github.com/freestylefly/wechat-article-extractor-skill)** · ★ 137<br>从公众号文章链接提取标题、作者、正文、封面和公众号信息，支持图文、视频、图片集、语音和转载<br><sub>平台：公众号</sub><br><sub>更新于 2026-02-19 💤 · 中文</sub>
 
 - **[tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill)** · ★ 129<br>TikHub API 助手：帮 agent 查找和调用抖音、TikTok、小红书、Instagram、YouTube、X、Reddit 等平台的数据接口<br><sub>平台：小红书 · 抖音 · X · YouTube · TikTok · Instagram · Reddit</sub><br><sub>更新于 2026-07-08 · 中文</sub><br><sub>💡 TikHub 是付费数据接口</sub>
 
-- **[openclaw-xhs](https://github.com/zhjiang22/openclaw-xhs)** · ★ 124<br>让 OpenClaw 读懂你的小红书：MCP 搜索浏览评论、热点报告、把收藏导出成个人记忆库<br><sub>平台：小红书</sub><br><sub>更新于 2026-03-08 💤 · 中文</sub>
+- **[openclaw-xhs](https://github.com/zhjiang22/openclaw-xhs)** · ★ 125<br>让 OpenClaw 读懂你的小红书：MCP 搜索浏览评论、热点报告、把收藏导出成个人记忆库<br><sub>平台：小红书</sub><br><sub>更新于 2026-03-08 💤 · 中文</sub>
 
-- **[hook-lab](https://github.com/hongfamonvAI/hook-lab)** · ★ 101<br>拆解 TikTok、Reels、Shorts 爆款：数据面板、钩子和脚本结构、为什么能火，给出改编到小红书和视频号的方向<br><sub>平台：小红书 · 视频号 · YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-06-11 · 中文 · MIT</sub>
+- **[hook-lab](https://github.com/hongfamonvAI/hook-lab)** · ★ 102<br>拆解 TikTok、Reels、Shorts 爆款：数据面板、钩子和脚本结构、为什么能火，给出改编到小红书和视频号的方向<br><sub>平台：小红书 · 视频号 · YouTube · TikTok · Instagram</sub><br><sub>更新于 2026-06-11 · 中文 · MIT</sub>
 
 - **[wechat-search-weread](https://github.com/KANIKIG/wechat-search-weread)** · ★ 83<br>搜公众号文章：通过微信读书搜一搜拿最新文章的标题、公众号、时间、简介和直链，不抓正文<br><sub>平台：公众号</sub><br><sub>更新于 2026-06-09 · 中文</sub><br><sub>💡 要登录微信读书</sub>
 
-- **[youtube-scout](https://github.com/AgriciDaniel/youtube-scout)** · ★ 62<br>YouTube 选题调研：输入一个话题，按播放、互动或爆发度排出视频和频道，导出含评论、字幕和钩子的 Excel 表<br><sub>平台：YouTube</sub><br><sub>更新于 2026-09-11 · 英文 · MIT</sub><br><sub>💡 要 YouTube Data API Key</sub>
+- **[youtube-scout](https://github.com/AgriciDaniel/youtube-scout)** · ★ 64<br>YouTube 选题调研：输入一个话题，按播放、互动或爆发度排出视频和频道，导出含评论、字幕和钩子的 Excel 表<br><sub>平台：YouTube</sub><br><sub>更新于 2026-09-11 · 英文 · MIT</sub><br><sub>💡 要 YouTube Data API Key</sub>
 
 - **[x-ai-topic-selector](https://github.com/vigorX777/x-ai-topic-selector)** · ★ 57<br>从 X 列表、首页或书签抓推文，按互动数据和 AI 多维打分，出选题推荐报告<br><sub>平台：X</sub><br><sub>更新于 2026-02-20 💤 · 中文</sub><br><sub>💡 AI 评分和书签模式要 Gemini API Key</sub>
 
@@ -972,21 +973,21 @@ npx skills add skillify-sh/skills
 
 定人设和赛道、做内容规划、涨粉和变现的方法。
 
-- 🌟 **[dbskill](https://github.com/dontbesilent2025/dbskill)** · ★ 10.8k<br>dontbesilent 的 34 个商业诊断 skill：找生意问题、选对标、把选题做成内容方案、写标题封面和开头、发布前查违规<br><sub>平台：通用</sub><br><sub>更新于 2026-10-19 · 中文 · 35 个 skill</sub>
+- 🌟 **[dbskill](https://github.com/dontbesilent2025/dbskill)** · ★ 10.9k<br>dontbesilent 的 34 个商业诊断 skill：找生意问题、选对标、把选题做成内容方案、写标题封面和开头、发布前查违规<br><sub>平台：通用</sub><br><sub>更新于 2026-10-19 · 中文 · 35 个 skill</sub>
 
 - **[x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill)** · ★ 1.3k<br>X 运营导师：蒸馏 Dan Koe、Justin Welsh 等 6 位创作者的方法和开源算法资料，管选题、写推文和长文、账号诊断和增长<br><sub>平台：X</sub><br><sub>更新于 2026-10-13 · 中文 · MIT</sub>
 
-- **[xhs-virtual-product](https://github.com/chenjin-cmd/xhs-virtual-product)** · ★ 739<br>小红书虚拟资料生意：选品、对标、制作、上架、发内容、复盘 7 步，附模板和版权合规红线<br><sub>平台：小红书</sub><br><sub>更新于 2026-09-30 · 中文 · MIT</sub>
+- **[xhs-virtual-product](https://github.com/chenjin-cmd/xhs-virtual-product)** · ★ 738<br>小红书虚拟资料生意：选品、对标、制作、上架、发内容、复盘 7 步，附模板和版权合规红线<br><sub>平台：小红书</sub><br><sub>更新于 2026-09-30 · 中文 · MIT</sub>
 
-- **[xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)** · ★ 591<br>《小红书运营手册》配套的 Codex skill：标题、主页、选题、评论区回复和成交路径，作者是《爆款》作者王梦珂<br><sub>平台：小红书</sub><br><sub>更新于 2026-08-07 · 中文 · 7 个 skill · MIT</sub>
+- **[xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)** · ★ 595<br>《小红书运营手册》配套的 Codex skill：标题、主页、选题、评论区回复和成交路径，作者是《爆款》作者王梦珂<br><sub>平台：小红书</sub><br><sub>更新于 2026-08-07 · 中文 · 7 个 skill · MIT</sub>
 
-- **[agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_)** · ★ 585<br>起号专家：视频号、抖音、公众号、小红书和中文 X 账号从 0 到 1，定位、选题、脚本、小样本实验、复盘和 30 天计划<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号 · X</sub><br><sub>更新于 2026-07-08 · 中文 · 5 个 skill · MIT</sub>
+- **[agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_)** · ★ 589<br>起号专家：视频号、抖音、公众号、小红书和中文 X 账号从 0 到 1，定位、选题、脚本、小样本实验、复盘和 30 天计划<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号 · X</sub><br><sub>更新于 2026-07-08 · 中文 · 5 个 skill · MIT</sub>
 
-- **[vivy-yi/xiaohongshu-skills](https://github.com/vivy-yi/xiaohongshu-skills)** · ★ 493<br>小红书运营知识库 139 个 skill：内容创作、账号运营、互动、数据分析、电商转化、平台规则和增长策略<br><sub>平台：小红书</sub><br><sub>更新于 2026-01-23 💤 · 中文 · 9 个 skill</sub>
+- **[vivy-yi/xiaohongshu-skills](https://github.com/vivy-yi/xiaohongshu-skills)** · ★ 502<br>小红书运营知识库 139 个 skill：内容创作、账号运营、互动、数据分析、电商转化、平台规则和增长策略<br><sub>平台：小红书</sub><br><sub>更新于 2026-01-23 💤 · 中文 · 9 个 skill</sub>
 
-- **[nova-youtube-agent](https://github.com/sharbelxyz/nova-youtube-agent)** · ★ 389<br>YouTube 增长 agent：扫竞品、分析频道、想选题、写脚本、追踪表现并按反馈改进，给 Hermes 和 OpenClaw 用<br><sub>平台：YouTube</sub><br><sub>更新于 2026-07-06 · 英文</sub>
+- **[nova-youtube-agent](https://github.com/sharbelxyz/nova-youtube-agent)** · ★ 390<br>YouTube 增长 agent：扫竞品、分析频道、想选题、写脚本、追踪表现并按反馈改进，给 Hermes 和 OpenClaw 用<br><sub>平台：YouTube</sub><br><sub>更新于 2026-07-06 · 英文</sub>
 
-- **[Eva-skill](https://github.com/Lulu-Eva/Eva-skill)** · ★ 61<br>创作者思考陪练：把模糊想法理成有依据的判断，做账号阶段定位、挑题，再写成短视频或非虚构文章，带新手教程和稿件批改<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号</sub><br><sub>更新于 2026-09-19 · 中文 · 13 个 skill</sub><br><sub>💡 个人非商业使用免费；用于获客或商业推广可能要授权</sub>
+- **[Eva-skill](https://github.com/Lulu-Eva/Eva-skill)** · ★ 62<br>创作者思考陪练：把模糊想法理成有依据的判断，做账号阶段定位、挑题，再写成短视频或非虚构文章，带新手教程和稿件批改<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号</sub><br><sub>更新于 2026-09-19 · 中文 · 13 个 skill</sub><br><sub>💡 个人非商业使用免费；用于获客或商业推广可能要授权</sub>
 
 
 <details><summary>安装命令</summary>
@@ -1018,7 +1019,7 @@ npx skills add Lulu-Eva/Eva-skill
 
 让 agent 能读写平台的工具，常和上面的 skill 搭配用。不计入 skill 数。
 
-- 🌟 **[xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp)** · ★ 16.4k<br>小红书 MCP：登录、发图文和视频、搜索、看笔记和评论、点赞收藏，Docker 或本地运行<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-19 · 🔌 MCP · 中文 · Apache-2.0</sub>
+- 🌟 **[xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp)** · ★ 16.5k<br>小红书 MCP：登录、发图文和视频、搜索、看笔记和评论、点赞收藏，Docker 或本地运行<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-19 · 🔌 MCP · 中文 · Apache-2.0</sub>
 
 - **[bb-browser](https://github.com/epiral/bb-browser)** · ★ 6.2k<br>你的浏览器就是 API：CLI + MCP 让 agent 用你的登录态操作 Chrome，36 个平台 103 条现成命令<br><sub>平台：小红书 · B 站 · 微博 · 知乎 · X · YouTube · LinkedIn · Reddit</sub><br><sub>更新于 2026-05-29 · 🔌 MCP · 多语言 · 2 个 skill · MIT</sub>
 
@@ -1026,23 +1027,23 @@ npx skills add Lulu-Eva/Eva-skill
 
 - **[wechat-download-api](https://github.com/tmwgsicp/wechat-download-api)** · ★ 1.2k<br>公众号文章获取和 RSS API：整号导出 7 种格式、定时订阅，内置 MCP，可自己部署<br><sub>平台：公众号</sub><br><sub>更新于 2026-07-27 · 🔌 MCP · 中文 · AGPL-3.0</sub>
 
-- **[trypost](https://github.com/trypostit/trypost)** · ★ 717<br>开源社媒排程工具，给 agent 提供 MCP 和 REST API 来写、排期、发布各平台帖子，可自己部署<br><sub>平台：YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook · Pinterest</sub><br><sub>更新于 2026-10-19 · 🔌 MCP · 英文 · 18 个 skill · AGPL-3.0</sub>
+- **[trypost](https://github.com/trypostit/trypost)** · ★ 726<br>开源社媒排程工具，给 agent 提供 MCP 和 REST API 来写、排期、发布各平台帖子，可自己部署<br><sub>平台：YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook · Pinterest</sub><br><sub>更新于 2026-10-23 · 🔌 MCP · 英文 · 18 个 skill · AGPL-3.0</sub>
 
-- **[xhs-cli](https://github.com/jackwener/xhs-cli)** · ★ 669<br>小红书命令行的无头浏览器版：搜索、看主页、点赞、收藏、评论，比逆向接口版更像真人操作<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-09 · 🔌 MCP · 多语言 · Apache-2.0</sub>
+- **[xhs-cli](https://github.com/jackwener/xhs-cli)** · ★ 672<br>小红书命令行的无头浏览器版：搜索、看主页、点赞、收藏、评论，比逆向接口版更像真人操作<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-09 · 🔌 MCP · 多语言 · Apache-2.0</sub>
 
-- **[rdt-cli](https://github.com/public-clis/rdt-cli)** · ★ 541<br>Reddit 命令行：浏览、读帖、搜索、点赞、收藏、订阅，附 skill<br><sub>平台：Reddit</sub><br><sub>更新于 2026-03-21 💤 · 🔌 MCP · 英文</sub>
+- **[rdt-cli](https://github.com/public-clis/rdt-cli)** · ★ 546<br>Reddit 命令行：浏览、读帖、搜索、点赞、收藏、订阅，附 skill<br><sub>平台：Reddit</sub><br><sub>更新于 2026-03-21 💤 · 🔌 MCP · 英文</sub>
 
-- **[postiz-agent](https://github.com/gitroomhq/postiz-agent)** · ★ 526<br>Postiz 的 agent CLI：让 Claude、OpenClaw 等 agent 把帖子排进 X、LinkedIn、Instagram 等 28+ 渠道<br><sub>平台：X · YouTube · Instagram · LinkedIn</sub><br><sub>更新于 2026-10-19 · 🔌 MCP · 英文 · 2 个 skill</sub><br><sub>💡 要 Postiz 云服务或自己部署的 Postiz</sub>
+- **[postiz-agent](https://github.com/gitroomhq/postiz-agent)** · ★ 536<br>Postiz 的 agent CLI：让 Claude、OpenClaw 等 agent 把帖子排进 X、LinkedIn、Instagram 等 28+ 渠道<br><sub>平台：X · YouTube · Instagram · LinkedIn</sub><br><sub>更新于 2026-10-22 · 🔌 MCP · 英文 · 2 个 skill</sub><br><sub>💡 要 Postiz 云服务或自己部署的 Postiz</sub>
 
-- **[redbook](https://github.com/lucasygu/redbook)** · ★ 520<br>小红书 CLI：搜笔记、读内容、分析博主、发图文，用浏览器 Cookie 认证，不要 API Key<br><sub>平台：小红书</sub><br><sub>更新于 2026-09-12 · 🔌 MCP · 多语言 · MIT</sub>
+- **[redbook](https://github.com/lucasygu/redbook)** · ★ 526<br>小红书 CLI：搜笔记、读内容、分析博主、发图文，用浏览器 Cookie 认证，不要 API Key<br><sub>平台：小红书</sub><br><sub>更新于 2026-09-12 · 🔌 MCP · 多语言 · MIT</sub>
 
-- **[x-mcp](https://github.com/xpzouying/x-mcp)** · ★ 474<br>xiaohongshu-mcp 的浏览器插件版：装插件即用，不用部署 Docker 或 Python，在你常用的浏览器里发小红书<br><sub>平台：小红书</sub><br><sub>更新于 2026-09-10 · 🔌 MCP · 中文</sub>
+- **[catbus](https://github.com/cv-cat/catbus)** · ★ 507<br>一个命令操作小红书、抖音、TikTok、B站、快手、微博、X 等：搜索、评论、下载、发布、私信、直播弹幕，统一 JSON 输出<br><sub>平台：小红书 · 抖音 · B 站 · 微博 · 快手 · X · TikTok</sub><br><sub>更新于 2026-10-22 · 🔌 MCP · 中文 · MIT</sub>
 
-- **[catbus](https://github.com/cv-cat/catbus)** · ★ 470<br>一个命令操作小红书、抖音、TikTok、B站、快手、微博、X 等：搜索、评论、下载、发布、私信、直播弹幕，统一 JSON 输出<br><sub>平台：小红书 · 抖音 · B 站 · 微博 · 快手 · X · TikTok</sub><br><sub>更新于 2026-10-18 · 🔌 MCP · 中文 · MIT</sub>
+- **[x-mcp](https://github.com/xpzouying/x-mcp)** · ★ 478<br>xiaohongshu-mcp 的浏览器插件版：装插件即用，不用部署 Docker 或 Python，在你常用的浏览器里发小红书<br><sub>平台：小红书</sub><br><sub>更新于 2026-09-10 · 🔌 MCP · 中文</sub>
 
-- **[xint](https://github.com/0xNyk/xint)** · ★ 254<br>本地优先的 X 数据命令行：搜索、监控、分析、导出、OAuth 操作，用你的 X API<br><sub>平台：X</sub><br><sub>更新于 2026-10-16 · 🔌 MCP · 英文 · MIT</sub>
+- **[xint](https://github.com/0xNyk/xint)** · ★ 256<br>本地优先的 X 数据命令行：搜索、监控、分析、导出、OAuth 操作，用你的 X API<br><sub>平台：X</sub><br><sub>更新于 2026-10-21 · 🔌 MCP · 英文 · MIT</sub>
 
-- **[zhihu-cli](https://github.com/BAIGUANGMEI/zhihu-cli)** · ★ 111<br>知乎命令行：搜索、热榜、看问题和回答、发想法、提问和文章，扫码或 Cookie 登录，附 skill<br><sub>平台：知乎</sub><br><sub>更新于 2026-05-04 · 🔌 MCP · 中文 · Apache-2.0</sub>
+- **[zhihu-cli](https://github.com/BAIGUANGMEI/zhihu-cli)** · ★ 113<br>知乎命令行：搜索、热榜、看问题和回答、发想法、提问和文章，扫码或 Cookie 登录，附 skill<br><sub>平台：知乎</sub><br><sub>更新于 2026-05-04 · 🔌 MCP · 中文 · Apache-2.0</sub>
 
 - **[weibo-cli](https://github.com/jackwener/weibo-cli)** · ★ 88<br>微博命令行：热搜、关键词搜索、时间线、评论转发、用户主页，附 skill<br><sub>平台：微博</sub><br><sub>更新于 2026-03-14 💤 · 🔌 MCP · 多语言</sub>
 
@@ -1054,21 +1055,21 @@ npx skills add Lulu-Eva/Eva-skill
 
 能自己部署的运营平台和桌面应用。不计入 skill 数。
 
-- 🌟 **[postiz-app](https://github.com/gitroomhq/postiz-app)** · ★ 37.4k<br>开源社媒排程平台：排期、自动化和数据分析，可用云版或自己部署，支持 agent 接入<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook · Reddit · Pinterest</sub><br><sub>更新于 2026-10-19 · 🧩 应用 · 英文 · AGPL-3.0</sub>
+- 🌟 **[postiz-app](https://github.com/gitroomhq/postiz-app)** · ★ 37.6k<br>开源社媒排程平台：排期、自动化和数据分析，可用云版或自己部署，支持 agent 接入<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook · Reddit · Pinterest</sub><br><sub>更新于 2026-10-23 · 🧩 应用 · 英文 · AGPL-3.0</sub>
 
-- **[OpenCreator](https://github.com/krillinai/OpenCreator)** · ★ 13.7k<br>原 KrillinAI：创作者 AI 工作台，视频下载、翻译配音、做视频图片和语音、剪辑，内置 Codex agent<br><sub>平台：小红书 · 抖音 · B 站 · X · YouTube · TikTok · Instagram · Facebook</sub><br><sub>更新于 2026-10-19 · 🧩 应用 · 英文 · 9 个 skill · Apache-2.0</sub>
+- **[OpenCreator](https://github.com/krillinai/OpenCreator)** · ★ 13.9k<br>原 KrillinAI：创作者 AI 工作台，视频下载、翻译配音、做视频图片和语音、剪辑，内置 Codex agent<br><sub>平台：小红书 · 抖音 · B 站 · X · YouTube · TikTok · Instagram · Facebook</sub><br><sub>更新于 2026-10-23 · 🧩 应用 · 英文 · 9 个 skill · Apache-2.0</sub>
 
 - **[xiaobei](https://github.com/TeamWiseFlow/xiaobei)** · ★ 8.6k<br>小贝：给小微企业的自媒体获客智能体（基于 OpenClaw），公众号写作推送、小红书图文、视频分发、评论区获客、数据复盘<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-10-16 · 🧩 应用 · 中文 · 59 个 skill</sub>
 
-- **[we-mp-rss](https://github.com/rachelos/we-mp-rss)** · ★ 5k<br>WeRSS：公众号订阅助手，定时抓新文章生成 RSS，转 Markdown/PDF，支持 Webhook 和 API 给 agent 用<br><sub>平台：公众号</sub><br><sub>更新于 2026-10-19 · 🧩 应用 · 多语言</sub>
+- **[we-mp-rss](https://github.com/rachelos/we-mp-rss)** · ★ 5k<br>WeRSS：公众号订阅助手，定时抓新文章生成 RSS，转 Markdown/PDF，支持 Webhook 和 API 给 agent 用<br><sub>平台：公众号</sub><br><sub>更新于 2026-10-20 · 🧩 应用 · 多语言</sub>
 
-- **[Easel](https://github.com/ZJU-REAL/Easel)** · ★ 3.9k<br>Easel：ZJU-REAL 开源的社媒 agent，在小红书、抖音、知乎、B 站等平台找趋势、策划、创作、发布和复盘，记住你的账号画像<br><sub>平台：小红书 · 抖音 · B 站 · 知乎</sub><br><sub>更新于 2026-10-18 · 🧩 应用 · 多语言 · Apache-2.0</sub>
+- **[Easel](https://github.com/ZJU-REAL/Easel)** · ★ 4k<br>Easel：ZJU-REAL 开源的社媒 agent，在小红书、抖音、知乎、B 站等平台找趋势、策划、创作、发布和复盘，记住你的账号画像<br><sub>平台：小红书 · 抖音 · B 站 · 知乎</sub><br><sub>更新于 2026-10-23 · 🧩 应用 · 多语言 · Apache-2.0</sub>
 
-- **[social-media-agent](https://github.com/langchain-ai/social-media-agent)** · ★ 2.9k<br>LangChain 的社媒 agent：读一个链接生成 X 和 LinkedIn 帖子，人工确认后排期发布<br><sub>平台：X · LinkedIn</sub><br><sub>更新于 2026-10-19 · 🧩 应用 · 英文 · MIT</sub>
+- **[social-media-agent](https://github.com/langchain-ai/social-media-agent)** · ★ 2.9k<br>LangChain 的社媒 agent：读一个链接生成 X 和 LinkedIn 帖子，人工确认后排期发布<br><sub>平台：X · LinkedIn</sub><br><sub>更新于 2026-10-23 · 🧩 应用 · 英文 · MIT</sub>
+
+- **[Beav](https://github.com/Jamailar/Beav)** · ★ 2.1k<br>Beav（原 RedBox）：小红书 AI 运营工作台，采集笔记和评论、素材库、选题、写作和配图，本地桌面应用<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-23 · 🧩 应用 · 中文 · 16 个 skill</sub>
 
 - **[chatwiki](https://github.com/zhimaAi/chatwiki)** · ★ 2.1k<br>ChatWiki：公众号 AI 知识库和客服工作流平台，拖拽搭建自动回复等应用<br><sub>平台：公众号</sub><br><sub>更新于 2026-10-16 · 🧩 应用 · 多语言 · 2 个 skill</sub>
-
-- **[Beav](https://github.com/Jamailar/Beav)** · ★ 2.1k<br>Beav（原 RedBox）：小红书 AI 运营工作台，采集笔记和评论、素材库、选题、写作和配图，本地桌面应用<br><sub>平台：小红书</sub><br><sub>更新于 2026-10-19 · 🧩 应用 · 中文 · 16 个 skill</sub>
 
 - **[locoagent](https://github.com/LocoreMind/locoagent)** · ★ 1.1k<br>用真实浏览器自动运营社媒的 agent：X、LinkedIn、Reddit 的浏览、互动和发帖<br><sub>平台：X · LinkedIn · Reddit</sub><br><sub>更新于 2026-06-27 · 🧩 应用 · 英文 · 2 个 skill · MIT</sub>
 
@@ -1078,15 +1079,15 @@ npx skills add Lulu-Eva/Eva-skill
 
 仓库说明里明确写了针对哪个平台（按星数排序）。「通用」是不挑平台的。
 
-**小红书**（82）：[baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) · [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [html-anything](https://github.com/nexu-io/html-anything) · [xiaobei](https://github.com/TeamWiseFlow/xiaobei) · [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) · [Wechatsync](https://github.com/wechatsync/Wechatsync) · [bb-browser](https://github.com/epiral/bb-browser) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [Easel](https://github.com/ZJU-REAL/Easel) · [XiaohongshuSkills](https://github.com/white0dew/XiaohongshuSkills) · [wewrite](https://github.com/imraywang/wewrite) · [xiaohongshu-cli](https://github.com/jackwener/xiaohongshu-cli) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [xiaohongshu-ops-skill](https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill) · [Beav](https://github.com/Jamailar/Beav) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [autoclaw-cc/xiaohongshu-skills](https://github.com/autoclaw-cc/xiaohongshu-skills) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [rnskill](https://github.com/Pluviobyte/rnskill) · [xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill) · [Punk-Skill](https://github.com/adrianpunk/Punk-Skill) · [qiaomu-mondo-poster-design](https://github.com/joeseesun/qiaomu-mondo-poster-design) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [clipforge](https://github.com/xixihhhh/clipforge) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [gbro-cover-design](https://github.com/pyang5166/gbro-cover-design) · [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) · [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [xhs-virtual-product](https://github.com/chenjin-cmd/xhs-virtual-product) · [blogger-distiller](https://github.com/otter1101/blogger-distiller) · [gimi-illustration-skill](https://github.com/GiMi-Xiaomi/gimi-illustration-skill) · [xhs-cli](https://github.com/jackwener/xhs-cli) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) · [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [social-push](https://github.com/jihe520/social-push) · [redbook](https://github.com/lucasygu/redbook) · [vivy-yi/xiaohongshu-skills](https://github.com/vivy-yi/xiaohongshu-skills) · [x-mcp](https://github.com/xpzouying/x-mcp) · [catbus](https://github.com/cv-cat/catbus) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [xhs-claude-skills](https://github.com/chenxiachan/xhs-claude-skills) · [atutun-xhs-cover](https://github.com/panggungunvibe/atutun-xhs-cover) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [lingzao-skill](https://github.com/atian-create/lingzao-skill) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [xiaohongshu-mcp-skills](https://github.com/autoclaw-cc/xiaohongshu-mcp-skills) · [oil-cover](https://github.com/oil-oil/oil-cover) · [oh-my-cover-design](https://github.com/hongfamonvAI/oh-my-cover-design) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [ian-xhs-carousel](https://github.com/helloianneo/ian-xhs-carousel) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [content-pipeline](https://github.com/OrangeViolin/content-pipeline) · [xhs-cover-skill](https://github.com/Vivixiao980/xhs-cover-skill) · [wenzi-xiaohongshu-workflow](https://github.com/wenziai/wenzi-xiaohongshu-workflow) · [blcaptain-style-skill](https://github.com/dososo/blcaptain-style-skill) · [xhs-writer-skill](https://github.com/JuneYaooo/xhs-writer-skill) · [Spreado](https://github.com/BadKid90s/Spreado) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [openclaw-xhs](https://github.com/zhjiang22/openclaw-xhs) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [freestylefly/xiaohongshu-skills](https://github.com/freestylefly/xiaohongshu-skills) · [Fully-automatic-article-generation-skill](https://github.com/solar-luna/Fully-automatic-article-generation-skill) · [media-publish-check](https://github.com/XshuiAi/media-publish-check) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector) · [xiaohongshu-summarizer-skill](https://github.com/piekill/xiaohongshu-summarizer-skill) · [doubaoya-community](https://github.com/zizhanovo/doubaoya-community) · [red-publisher-skill](https://github.com/iamzifei/red-publisher-skill) · [xiaohongshu-images-skill](https://github.com/iamzifei/xiaohongshu-images-skill) · [xiaohongshu-doctor](https://github.com/softbread/xiaohongshu-doctor)
+**小红书**（82）：[baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) · [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [html-anything](https://github.com/nexu-io/html-anything) · [xiaobei](https://github.com/TeamWiseFlow/xiaobei) · [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) · [Wechatsync](https://github.com/wechatsync/Wechatsync) · [bb-browser](https://github.com/epiral/bb-browser) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [Easel](https://github.com/ZJU-REAL/Easel) · [XiaohongshuSkills](https://github.com/white0dew/XiaohongshuSkills) · [wewrite](https://github.com/imraywang/wewrite) · [xiaohongshu-cli](https://github.com/jackwener/xiaohongshu-cli) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [xiaohongshu-ops-skill](https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill) · [Beav](https://github.com/Jamailar/Beav) · [autoclaw-cc/xiaohongshu-skills](https://github.com/autoclaw-cc/xiaohongshu-skills) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [rnskill](https://github.com/Pluviobyte/rnskill) · [xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill) · [Punk-Skill](https://github.com/adrianpunk/Punk-Skill) · [qiaomu-mondo-poster-design](https://github.com/joeseesun/qiaomu-mondo-poster-design) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [clipforge](https://github.com/xixihhhh/clipforge) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [gbro-cover-design](https://github.com/pyang5166/gbro-cover-design) · [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) · [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [xhs-virtual-product](https://github.com/chenjin-cmd/xhs-virtual-product) · [blogger-distiller](https://github.com/otter1101/blogger-distiller) · [gimi-illustration-skill](https://github.com/GiMi-Xiaomi/gimi-illustration-skill) · [xhs-cli](https://github.com/jackwener/xhs-cli) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) · [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [social-push](https://github.com/jihe520/social-push) · [redbook](https://github.com/lucasygu/redbook) · [catbus](https://github.com/cv-cat/catbus) · [vivy-yi/xiaohongshu-skills](https://github.com/vivy-yi/xiaohongshu-skills) · [x-mcp](https://github.com/xpzouying/x-mcp) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [atutun-xhs-cover](https://github.com/panggungunvibe/atutun-xhs-cover) · [xhs-claude-skills](https://github.com/chenxiachan/xhs-claude-skills) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [lingzao-skill](https://github.com/atian-create/lingzao-skill) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [oil-cover](https://github.com/oil-oil/oil-cover) · [xiaohongshu-mcp-skills](https://github.com/autoclaw-cc/xiaohongshu-mcp-skills) · [oh-my-cover-design](https://github.com/hongfamonvAI/oh-my-cover-design) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [ian-xhs-carousel](https://github.com/helloianneo/ian-xhs-carousel) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [content-pipeline](https://github.com/OrangeViolin/content-pipeline) · [xhs-cover-skill](https://github.com/Vivixiao980/xhs-cover-skill) · [wenzi-xiaohongshu-workflow](https://github.com/wenziai/wenzi-xiaohongshu-workflow) · [blcaptain-style-skill](https://github.com/dososo/blcaptain-style-skill) · [xhs-writer-skill](https://github.com/JuneYaooo/xhs-writer-skill) · [Spreado](https://github.com/BadKid90s/Spreado) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [openclaw-xhs](https://github.com/zhjiang22/openclaw-xhs) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [freestylefly/xiaohongshu-skills](https://github.com/freestylefly/xiaohongshu-skills) · [Fully-automatic-article-generation-skill](https://github.com/solar-luna/Fully-automatic-article-generation-skill) · [media-publish-check](https://github.com/XshuiAi/media-publish-check) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector) · [xiaohongshu-summarizer-skill](https://github.com/piekill/xiaohongshu-summarizer-skill) · [doubaoya-community](https://github.com/zizhanovo/doubaoya-community) · [red-publisher-skill](https://github.com/iamzifei/red-publisher-skill) · [xiaohongshu-images-skill](https://github.com/iamzifei/xiaohongshu-images-skill) · [xiaohongshu-doctor](https://github.com/softbread/xiaohongshu-doctor)
 
-**抖音**（45）：[social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [Easel](https://github.com/ZJU-REAL/Easel) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [rnskill](https://github.com/Pluviobyte/rnskill) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [clipforge](https://github.com/xixihhhh/clipforge) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) · [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [blogger-distiller](https://github.com/otter1101/blogger-distiller) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [catbus](https://github.com/cv-cat/catbus) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [vibe-knowledge-film](https://github.com/HeyChengC/vibe-knowledge-film) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [lingzao-skill](https://github.com/atian-create/lingzao-skill) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [douyin-live-recorder](https://github.com/WeiZhuochun/douyin-live-recorder) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [social-media-data-tools](https://github.com/jinchenma94/social-media-data-tools) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [Spreado](https://github.com/BadKid90s/Spreado) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [douyin-image-post-scheduler](https://github.com/chengyi-ai/douyin-image-post-scheduler) · [traffic-compass](https://github.com/code-wahaha/traffic-compass) · [douyin-upload-mcp-skill](https://github.com/WJZ-P/douyin-upload-mcp-skill) · [dy-cli](https://github.com/Youhai020616/douyin) · [media-publish-check](https://github.com/XshuiAi/media-publish-check) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector) · [douyin-mcp-server](https://github.com/lancelin111/douyin-mcp-server) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news) · [doubaoya-community](https://github.com/zizhanovo/doubaoya-community) · [douyin-video-summary](https://github.com/liu-wei-ai/douyin-video-summary)
+**抖音**（45）：[social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [Easel](https://github.com/ZJU-REAL/Easel) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [rnskill](https://github.com/Pluviobyte/rnskill) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [clipforge](https://github.com/xixihhhh/clipforge) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) · [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [blogger-distiller](https://github.com/otter1101/blogger-distiller) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [vibe-knowledge-film](https://github.com/HeyChengC/vibe-knowledge-film) · [catbus](https://github.com/cv-cat/catbus) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [lingzao-skill](https://github.com/atian-create/lingzao-skill) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [douyin-live-recorder](https://github.com/WeiZhuochun/douyin-live-recorder) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [social-media-data-tools](https://github.com/jinchenma94/social-media-data-tools) · [ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [Spreado](https://github.com/BadKid90s/Spreado) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [douyin-image-post-scheduler](https://github.com/chengyi-ai/douyin-image-post-scheduler) · [traffic-compass](https://github.com/code-wahaha/traffic-compass) · [douyin-upload-mcp-skill](https://github.com/WJZ-P/douyin-upload-mcp-skill) · [dy-cli](https://github.com/Youhai020616/douyin) · [media-publish-check](https://github.com/XshuiAi/media-publish-check) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector) · [douyin-mcp-server](https://github.com/lancelin111/douyin-mcp-server) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news) · [doubaoya-community](https://github.com/zizhanovo/doubaoya-community) · [douyin-video-summary](https://github.com/liu-wei-ai/douyin-video-summary)
 
-**微信公众号**（57）：[baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [wechatDownload](https://github.com/qiye45/wechatDownload) · [html-anything](https://github.com/nexu-io/html-anything) · [xiaobei](https://github.com/TeamWiseFlow/xiaobei) · [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) · [Wechatsync](https://github.com/wechatsync/Wechatsync) · [we-mp-rss](https://github.com/rachelos/we-mp-rss) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [human-writing](https://github.com/KKKKhazix/human-writing) · [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) · [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) · [wewrite](https://github.com/imraywang/wewrite) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [chatwiki](https://github.com/zhimaAi/chatwiki) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [rnskill](https://github.com/Pluviobyte/rnskill) · [Punk-Skill](https://github.com/adrianpunk/Punk-Skill) · [qiaomu-mondo-poster-design](https://github.com/joeseesun/qiaomu-mondo-poster-design) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [wechat-download-api](https://github.com/tmwgsicp/wechat-download-api) · [wechat-article-to-markdown](https://github.com/jackwener/wechat-article-to-markdown) · [gbro-cover-design](https://github.com/pyang5166/gbro-cover-design) · [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [xiaohu-wechat-format](https://github.com/xiaohuailabs/xiaohu-wechat-format) · [wechat-article-skills](https://github.com/aiworkskills/wechat-article-skills) · [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [social-push](https://github.com/jihe520/social-push) · [SyncCaster](https://github.com/RyanYipeng/SyncCaster) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [writing-agent](https://github.com/dongbeixiaohuo/writing-agent) · [wechat_article_skills](https://github.com/BND-1/wechat_article_skills) · [lingzao-skill](https://github.com/atian-create/lingzao-skill) · [rayskills](https://github.com/imraywang/rayskills) · [jiji262/wechat-publisher](https://github.com/jiji262/wechat-publisher) · [bigpeng-hot-gzh](https://github.com/BigPengSays/bigpeng-hot-gzh) · [oh-my-cover-design](https://github.com/hongfamonvAI/oh-my-cover-design) · [content-pipeline](https://github.com/OrangeViolin/content-pipeline) · [gainubi/wechat-skills](https://github.com/gainubi/wechat-skills) · [blcaptain-style-skill](https://github.com/dososo/blcaptain-style-skill) · [wechat-article-publisher-skill](https://github.com/iamzifei/wechat-article-publisher-skill) · [jianshuo/claude-skills](https://github.com/jianshuo/claude-skills) · [wechat-article-extractor-skill](https://github.com/freestylefly/wechat-article-extractor-skill) · [843645440/wechat-skill](https://github.com/843645440/wechat-skill) · [wemp-operator](https://github.com/IanShaw027/wemp-operator) · [wechat-search-weread](https://github.com/KANIKIG/wechat-search-weread) · [wechat-article-formatter-skill](https://github.com/iamzifei/wechat-article-formatter-skill) · [Fully-automatic-article-generation-skill](https://github.com/solar-luna/Fully-automatic-article-generation-skill) · [wechat-typesetting-cy](https://github.com/CY-CHENYUE/wechat-typesetting-cy) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [0731coderlee-sudo/wechat-publisher](https://github.com/0731coderlee-sudo/wechat-publisher) · [doubaoya-community](https://github.com/zizhanovo/doubaoya-community)
+**微信公众号**（57）：[baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [wechatDownload](https://github.com/qiye45/wechatDownload) · [html-anything](https://github.com/nexu-io/html-anything) · [xiaobei](https://github.com/TeamWiseFlow/xiaobei) · [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) · [Wechatsync](https://github.com/wechatsync/Wechatsync) · [we-mp-rss](https://github.com/rachelos/we-mp-rss) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [human-writing](https://github.com/KKKKhazix/human-writing) · [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) · [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) · [wewrite](https://github.com/imraywang/wewrite) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [chatwiki](https://github.com/zhimaAi/chatwiki) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [rnskill](https://github.com/Pluviobyte/rnskill) · [Punk-Skill](https://github.com/adrianpunk/Punk-Skill) · [qiaomu-mondo-poster-design](https://github.com/joeseesun/qiaomu-mondo-poster-design) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [wechat-download-api](https://github.com/tmwgsicp/wechat-download-api) · [wechat-article-to-markdown](https://github.com/jackwener/wechat-article-to-markdown) · [gbro-cover-design](https://github.com/pyang5166/gbro-cover-design) · [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [wechat-article-skills](https://github.com/aiworkskills/wechat-article-skills) · [xiaohu-wechat-format](https://github.com/xiaohuailabs/xiaohu-wechat-format) · [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [social-push](https://github.com/jihe520/social-push) · [SyncCaster](https://github.com/RyanYipeng/SyncCaster) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [writing-agent](https://github.com/dongbeixiaohuo/writing-agent) · [rayskills](https://github.com/imraywang/rayskills) · [wechat_article_skills](https://github.com/BND-1/wechat_article_skills) · [lingzao-skill](https://github.com/atian-create/lingzao-skill) · [jiji262/wechat-publisher](https://github.com/jiji262/wechat-publisher) · [bigpeng-hot-gzh](https://github.com/BigPengSays/bigpeng-hot-gzh) · [oh-my-cover-design](https://github.com/hongfamonvAI/oh-my-cover-design) · [content-pipeline](https://github.com/OrangeViolin/content-pipeline) · [gainubi/wechat-skills](https://github.com/gainubi/wechat-skills) · [blcaptain-style-skill](https://github.com/dososo/blcaptain-style-skill) · [wechat-article-publisher-skill](https://github.com/iamzifei/wechat-article-publisher-skill) · [jianshuo/claude-skills](https://github.com/jianshuo/claude-skills) · [wechat-article-extractor-skill](https://github.com/freestylefly/wechat-article-extractor-skill) · [843645440/wechat-skill](https://github.com/843645440/wechat-skill) · [wemp-operator](https://github.com/IanShaw027/wemp-operator) · [wechat-search-weread](https://github.com/KANIKIG/wechat-search-weread) · [wechat-article-formatter-skill](https://github.com/iamzifei/wechat-article-formatter-skill) · [wechat-typesetting-cy](https://github.com/CY-CHENYUE/wechat-typesetting-cy) · [Fully-automatic-article-generation-skill](https://github.com/solar-luna/Fully-automatic-article-generation-skill) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [0731coderlee-sudo/wechat-publisher](https://github.com/0731coderlee-sudo/wechat-publisher) · [doubaoya-community](https://github.com/zizhanovo/doubaoya-community)
 
 **微信视频号**（17）：[social-auto-upload](https://github.com/dreammis/social-auto-upload) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [Spreado](https://github.com/BadKid90s/Spreado) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [media-publish-check](https://github.com/XshuiAi/media-publish-check) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector)
 
-**B 站**（24）：[social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [bb-browser](https://github.com/epiral/bb-browser) · [Easel](https://github.com/ZJU-REAL/Easel) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [catbus](https://github.com/cv-cat/catbus) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [oil-cover](https://github.com/oil-oil/oil-cover) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
+**B 站**（24）：[social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [bb-browser](https://github.com/epiral/bb-browser) · [Easel](https://github.com/ZJU-REAL/Easel) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [catbus](https://github.com/cv-cat/catbus) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [oil-cover](https://github.com/oil-oil/oil-cover) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
 
 **微博**（12）：[baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [bb-browser](https://github.com/epiral/bb-browser) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [social-push](https://github.com/jihe520/social-push) · [catbus](https://github.com/cv-cat/catbus) · [weibo-cli](https://github.com/jackwener/weibo-cli) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
 
@@ -1096,15 +1097,15 @@ npx skills add Lulu-Eva/Eva-skill
 
 **今日头条**（8）：[Wechatsync](https://github.com/wechatsync/Wechatsync) · [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) · [redfox-community](https://github.com/redfox-data/redfox-community) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
 
-**X（推特）**（46）：[last30days-skill](https://github.com/mvanhorn/last30days-skill) · [postiz-app](https://github.com/gitroomhq/postiz-app) · [baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [html-anything](https://github.com/nexu-io/html-anything) · [follow-builders](https://github.com/zarazhangrui/follow-builders) · [bb-browser](https://github.com/epiral/bb-browser) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) · [social-media-agent](https://github.com/langchain-ai/social-media-agent) · [x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [x-research-skill](https://github.com/rohunvora/x-research-skill) · [locoagent](https://github.com/LocoreMind/locoagent) · [x-tweet-fetcher](https://github.com/ythx-101/x-tweet-fetcher) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post) · [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills) · [social-push](https://github.com/jihe520/social-push) · [postiz-agent](https://github.com/gitroomhq/postiz-agent) · [catbus](https://github.com/cv-cat/catbus) · [redfox-community](https://github.com/redfox-data/redfox-community) · [twitterapi-io](https://github.com/kaitoInfra/twitterapi-io) · [ai-influence-digest](https://github.com/koffuxu/ai-influence-digest) · [rayskills](https://github.com/imraywang/rayskills) · [head-of-content](https://github.com/bradautomates/head-of-content) · [xint](https://github.com/0xNyk/xint) · [social-ai-team](https://github.com/stevenflanagan1/social-ai-team) · [Taisly Agent Kit](https://github.com/taisly/agent) · [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) · [social-media-skills/skills](https://github.com/social-media-skills/skills) · [x-skills](https://github.com/sergebulaev/x-skills) · [jianshuo/claude-skills](https://github.com/jianshuo/claude-skills) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [socialclaw](https://github.com/ndesv21/socialclaw) · [publora/skills](https://github.com/publora/skills) · [x-ai-topic-selector](https://github.com/vigorX777/x-ai-topic-selector) · [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) · [social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes) · [apidojo-io/social-media-skills](https://github.com/apidojo-io/social-media-skills)
+**X（推特）**（46）：[last30days-skill](https://github.com/mvanhorn/last30days-skill) · [postiz-app](https://github.com/gitroomhq/postiz-app) · [baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [html-anything](https://github.com/nexu-io/html-anything) · [follow-builders](https://github.com/zarazhangrui/follow-builders) · [bb-browser](https://github.com/epiral/bb-browser) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) · [social-media-agent](https://github.com/langchain-ai/social-media-agent) · [x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [x-research-skill](https://github.com/rohunvora/x-research-skill) · [locoagent](https://github.com/LocoreMind/locoagent) · [x-tweet-fetcher](https://github.com/ythx-101/x-tweet-fetcher) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post) · [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) · [blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [social-push](https://github.com/jihe520/social-push) · [postiz-agent](https://github.com/gitroomhq/postiz-agent) · [catbus](https://github.com/cv-cat/catbus) · [redfox-community](https://github.com/redfox-data/redfox-community) · [rayskills](https://github.com/imraywang/rayskills) · [twitterapi-io](https://github.com/kaitoInfra/twitterapi-io) · [ai-influence-digest](https://github.com/koffuxu/ai-influence-digest) · [head-of-content](https://github.com/bradautomates/head-of-content) · [social-ai-team](https://github.com/stevenflanagan1/social-ai-team) · [xint](https://github.com/0xNyk/xint) · [Taisly Agent Kit](https://github.com/taisly/agent) · [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) · [social-media-skills/skills](https://github.com/social-media-skills/skills) · [x-skills](https://github.com/sergebulaev/x-skills) · [jianshuo/claude-skills](https://github.com/jianshuo/claude-skills) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [socialclaw](https://github.com/ndesv21/socialclaw) · [publora/skills](https://github.com/publora/skills) · [x-ai-topic-selector](https://github.com/vigorX777/x-ai-topic-selector) · [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) · [social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes) · [apidojo-io/social-media-skills](https://github.com/apidojo-io/social-media-skills)
 
-**YouTube**（46）：[last30days-skill](https://github.com/mvanhorn/last30days-skill) · [postiz-app](https://github.com/gitroomhq/postiz-app) · [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [follow-builders](https://github.com/zarazhangrui/follow-builders) · [bb-browser](https://github.com/epiral/bb-browser) · [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) · [youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline) · [Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill) · [claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video) · [youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) · [herk-edit-kit](https://github.com/nateherkai/herk-edit-kit) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [trypost](https://github.com/trypostit/trypost) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) · [smart-illustrator](https://github.com/axtonliu/smart-illustrator) · [postiz-agent](https://github.com/gitroomhq/postiz-agent) · [claude-youtube](https://github.com/AgriciDaniel/claude-youtube) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [nova-youtube-agent](https://github.com/sharbelxyz/nova-youtube-agent) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [head-of-content](https://github.com/bradautomates/head-of-content) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [Taisly Agent Kit](https://github.com/taisly/agent) · [social-media-skills/skills](https://github.com/social-media-skills/skills) · [content-skills](https://github.com/vyralcontent/content-skills) · [reelclaw](https://github.com/dansugc/reelclaw) · [jianshuo/claude-skills](https://github.com/jianshuo/claude-skills) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [socialclaw](https://github.com/ndesv21/socialclaw) · [sergebulaev/youtube-skills](https://github.com/sergebulaev/youtube-skills) · [youtube-scout](https://github.com/AgriciDaniel/youtube-scout) · [publora/skills](https://github.com/publora/skills) · [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) · [claude-reel-editor](https://github.com/nicolapocock/claude-reel-editor) · [tiktok-video-skills](https://github.com/iart-ai/tiktok-video-skills) · [social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes)
+**YouTube**（46）：[last30days-skill](https://github.com/mvanhorn/last30days-skill) · [postiz-app](https://github.com/gitroomhq/postiz-app) · [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [follow-builders](https://github.com/zarazhangrui/follow-builders) · [bb-browser](https://github.com/epiral/bb-browser) · [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) · [youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) · [youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline) · [claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video) · [Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill) · [herk-edit-kit](https://github.com/nateherkai/herk-edit-kit) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [trypost](https://github.com/trypostit/trypost) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) · [smart-illustrator](https://github.com/axtonliu/smart-illustrator) · [postiz-agent](https://github.com/gitroomhq/postiz-agent) · [claude-youtube](https://github.com/AgriciDaniel/claude-youtube) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [nova-youtube-agent](https://github.com/sharbelxyz/nova-youtube-agent) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [head-of-content](https://github.com/bradautomates/head-of-content) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [Taisly Agent Kit](https://github.com/taisly/agent) · [social-media-skills/skills](https://github.com/social-media-skills/skills) · [content-skills](https://github.com/vyralcontent/content-skills) · [reelclaw](https://github.com/dansugc/reelclaw) · [jianshuo/claude-skills](https://github.com/jianshuo/claude-skills) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [socialclaw](https://github.com/ndesv21/socialclaw) · [sergebulaev/youtube-skills](https://github.com/sergebulaev/youtube-skills) · [youtube-scout](https://github.com/AgriciDaniel/youtube-scout) · [publora/skills](https://github.com/publora/skills) · [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) · [claude-reel-editor](https://github.com/nicolapocock/claude-reel-editor) · [tiktok-video-skills](https://github.com/iart-ai/tiktok-video-skills) · [social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes)
 
 **TikTok**（31）：[last30days-skill](https://github.com/mvanhorn/last30days-skill) · [postiz-app](https://github.com/gitroomhq/postiz-app) · [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) · [youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline) · [clipforge](https://github.com/xixihhhh/clipforge) · [trypost](https://github.com/trypostit/trypost) · [chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) · [blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills) · [catbus](https://github.com/cv-cat/catbus) · [redfox-community](https://github.com/redfox-data/redfox-community) · [clipcat-skill](https://github.com/Clipcat-ai/clipcat-skill) · [head-of-content](https://github.com/bradautomates/head-of-content) · [social-ai-team](https://github.com/stevenflanagan1/social-ai-team) · [Taisly Agent Kit](https://github.com/taisly/agent) · [social-media-skills/skills](https://github.com/social-media-skills/skills) · [jev-social](https://github.com/socai-io/jev-social) · [content-skills](https://github.com/vyralcontent/content-skills) · [reelclaw](https://github.com/dansugc/reelclaw) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [threads-carousel-claude-skill](https://github.com/itchernetski/threads-carousel-claude-skill) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [socialclaw](https://github.com/ndesv21/socialclaw) · [tiktok-skills](https://github.com/sergebulaev/tiktok-skills) · [publora/skills](https://github.com/publora/skills) · [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) · [claude-reel-editor](https://github.com/nicolapocock/claude-reel-editor) · [tiktok-video-skills](https://github.com/iart-ai/tiktok-video-skills) · [social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes) · [apidojo-io/social-media-skills](https://github.com/apidojo-io/social-media-skills)
 
-**Instagram**（33）：[postiz-app](https://github.com/gitroomhq/postiz-app) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) · [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) · [youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline) · [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) · [herk-edit-kit](https://github.com/nateherkai/herk-edit-kit) · [claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post) · [trypost](https://github.com/trypostit/trypost) · [chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) · [blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills) · [postiz-agent](https://github.com/gitroomhq/postiz-agent) · [instagram-skills](https://github.com/sergebulaev/instagram-skills) · [redfox-community](https://github.com/redfox-data/redfox-community) · [head-of-content](https://github.com/bradautomates/head-of-content) · [social-ai-team](https://github.com/stevenflanagan1/social-ai-team) · [claude-content-skills](https://github.com/Ootto-AI/claude-content-skills) · [Taisly Agent Kit](https://github.com/taisly/agent) · [social-media-skills/skills](https://github.com/social-media-skills/skills) · [jev-social](https://github.com/socai-io/jev-social) · [content-skills](https://github.com/vyralcontent/content-skills) · [reelclaw](https://github.com/dansugc/reelclaw) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [threads-carousel-claude-skill](https://github.com/itchernetski/threads-carousel-claude-skill) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [socialclaw](https://github.com/ndesv21/socialclaw) · [publora/skills](https://github.com/publora/skills) · [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) · [claude-reel-editor](https://github.com/nicolapocock/claude-reel-editor) · [tiktok-video-skills](https://github.com/iart-ai/tiktok-video-skills) · [social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes) · [apidojo-io/social-media-skills](https://github.com/apidojo-io/social-media-skills) · [skillify-sh/skills](https://github.com/skillify-sh/skills)
+**Instagram**（33）：[postiz-app](https://github.com/gitroomhq/postiz-app) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) · [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) · [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) · [youtube-shorts-pipeline](https://github.com/rushindrasinha/youtube-shorts-pipeline) · [herk-edit-kit](https://github.com/nateherkai/herk-edit-kit) · [claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post) · [trypost](https://github.com/trypostit/trypost) · [chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) · [blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills) · [instagram-skills](https://github.com/sergebulaev/instagram-skills) · [postiz-agent](https://github.com/gitroomhq/postiz-agent) · [redfox-community](https://github.com/redfox-data/redfox-community) · [head-of-content](https://github.com/bradautomates/head-of-content) · [claude-content-skills](https://github.com/Ootto-AI/claude-content-skills) · [social-ai-team](https://github.com/stevenflanagan1/social-ai-team) · [Taisly Agent Kit](https://github.com/taisly/agent) · [social-media-skills/skills](https://github.com/social-media-skills/skills) · [jev-social](https://github.com/socai-io/jev-social) · [content-skills](https://github.com/vyralcontent/content-skills) · [reelclaw](https://github.com/dansugc/reelclaw) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [threads-carousel-claude-skill](https://github.com/itchernetski/threads-carousel-claude-skill) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [socialclaw](https://github.com/ndesv21/socialclaw) · [publora/skills](https://github.com/publora/skills) · [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) · [claude-reel-editor](https://github.com/nicolapocock/claude-reel-editor) · [tiktok-video-skills](https://github.com/iart-ai/tiktok-video-skills) · [social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes) · [apidojo-io/social-media-skills](https://github.com/apidojo-io/social-media-skills) · [skillify-sh/skills](https://github.com/skillify-sh/skills)
 
-**LinkedIn**（22）：[postiz-app](https://github.com/gitroomhq/postiz-app) · [bb-browser](https://github.com/epiral/bb-browser) · [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills) · [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) · [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) · [social-media-agent](https://github.com/langchain-ai/social-media-agent) · [linkedin-agent-skill](https://github.com/Jakeschincariol/linkedin-agent-skill) · [ai-copywriter](https://github.com/mikiarlo3/ai-copywriter) · [locoagent](https://github.com/LocoreMind/locoagent) · [trypost](https://github.com/trypostit/trypost) · [blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills) · [postiz-agent](https://github.com/gitroomhq/postiz-agent) · [motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills) · [social-ai-team](https://github.com/stevenflanagan1/social-ai-team) · [social-media-skills/skills](https://github.com/social-media-skills/skills) · [jev-social](https://github.com/socai-io/jev-social) · [threads-carousel-claude-skill](https://github.com/itchernetski/threads-carousel-claude-skill) · [Linked-API/linkedin-skills](https://github.com/Linked-API/linkedin-skills) · [socialclaw](https://github.com/ndesv21/socialclaw) · [publora/skills](https://github.com/publora/skills) · [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) · [social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes)
+**LinkedIn**（22）：[postiz-app](https://github.com/gitroomhq/postiz-app) · [bb-browser](https://github.com/epiral/bb-browser) · [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills) · [social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) · [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) · [social-media-agent](https://github.com/langchain-ai/social-media-agent) · [linkedin-agent-skill](https://github.com/Jakeschincariol/linkedin-agent-skill) · [ai-copywriter](https://github.com/mikiarlo3/ai-copywriter) · [locoagent](https://github.com/LocoreMind/locoagent) · [trypost](https://github.com/trypostit/trypost) · [blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills) · [postiz-agent](https://github.com/gitroomhq/postiz-agent) · [motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills) · [social-ai-team](https://github.com/stevenflanagan1/social-ai-team) · [social-media-skills/skills](https://github.com/social-media-skills/skills) · [jev-social](https://github.com/socai-io/jev-social) · [threads-carousel-claude-skill](https://github.com/itchernetski/threads-carousel-claude-skill) · [Linked-API/linkedin-skills](https://github.com/Linked-API/linkedin-skills) · [socialclaw](https://github.com/ndesv21/socialclaw) · [publora/skills](https://github.com/publora/skills) · [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) · [social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes)
 
 **Threads**（11）：[postiz-app](https://github.com/gitroomhq/postiz-app) · [claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post) · [trypost](https://github.com/trypostit/trypost) · [blacktwist/social-media-skills](https://github.com/blacktwist/social-media-skills) · [social-ai-team](https://github.com/stevenflanagan1/social-ai-team) · [social-media-skills/skills](https://github.com/social-media-skills/skills) · [threads-carousel-claude-skill](https://github.com/itchernetski/threads-carousel-claude-skill) · [publora/skills](https://github.com/publora/skills) · [threads-skills](https://github.com/sergebulaev/threads-skills) · [upload-post-skill](https://github.com/Upload-Post/upload-post-skill) · [social-media-image-sizes](https://github.com/Branding5/social-media-image-sizes)
 
