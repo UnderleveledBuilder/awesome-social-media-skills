@@ -1261,6 +1261,20 @@
       "stars": 995,
       "status": "ok"
     },
+    "helloianneo/ian-xhs-carousel": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "把文章、案例或笔记排成 3:4 小红书图文 | 1080×1440 | 20 个母版 | 浅色 / 深色 | Claude Code Skill",
+      "first_seen": "2026-10-23",
+      "forks": 19,
+      "full_name": "helloianneo/ian-xhs-carousel",
+      "license": "MIT",
+      "pushed_at": "2026-10-21",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 243,
+      "status": "ok"
+    },
     "hongfamonvAI/hook-lab": {
       "archived": false,
       "default_branch": "main",

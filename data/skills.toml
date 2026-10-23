@@ -558,6 +558,16 @@ tier = "featured"
 checked = 2026-10-19
 
 [[skills]]
+repo = "helloianneo/ian-xhs-carousel"
+desc = "把文章、案例或笔记排成 3:4 小红书图文：先出分镜表等你确认，再按 20 个母版出图，浅色深色两套，附总览图和可改的 HTML"
+desc_en = "Turns an article, case study or note into a 3:4 Xiaohongshu carousel: a storyboard table for your approval first, then images from 20 templates in light and dark, plus an overview sheet and editable HTML."
+group = "visual"
+platforms = ["xiaohongshu"]
+format = "skill"
+lang = "zh"
+checked = 2026-10-23
+
+[[skills]]
 repo = "isjiamu/gzh-design-skill"
 desc = "公众号排版：Markdown 排成能直接粘进公众号编辑器的 HTML，6 套主题加主题生成器，样式全内联不掉格式"
 desc_en = "WeChat article layout: turns Markdown into paste-ready HTML for the WeChat editor, with six themes, a theme generator and fully inlined styles that survive pasting."

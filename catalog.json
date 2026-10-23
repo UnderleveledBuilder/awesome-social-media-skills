@@ -2225,6 +2225,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "helloianneo/ian-xhs-carousel",
+   "url": "https://github.com/helloianneo/ian-xhs-carousel",
+   "name": "ian-xhs-carousel",
+   "group": "visual",
+   "platforms": [
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "把文章、案例或笔记排成 3:4 小红书图文：先出分镜表等你确认，再按 20 个母版出图，浅色深色两套，附总览图和可改的 HTML",
+   "desc_en": "Turns an article, case study or note into a 3:4 Xiaohongshu carousel: a storyboard table for your approval first, then images from 20 templates in light and dark, plus an overview sheet and editable HTML.",
+   "note": "",
+   "note_en": "",
+   "stars": 243,
+   "pushed_at": "2026-10-21",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add helloianneo/ian-xhs-carousel",
+   "checked": "2026-10-23"
+  },
+  {
    "repo": "Vivixiao980/xhs-cover-skill",
    "url": "https://github.com/Vivixiao980/xhs-cover-skill",
    "name": "xhs-cover-skill",
