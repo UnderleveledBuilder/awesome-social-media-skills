@@ -10,7 +10,7 @@
 
 这里收录给 AI 智能体（agent）用的自媒体 skill：写小红书笔记和公众号文章、做封面和短视频、定时发布、追热点、回评论、看数据。大多是标准 SKILL.md 格式，支持技能的智能体都能装，装法见[常见问题](#faq)。每个项目都经过人工核对，收录前用脚本做过安全检查，按要干的活和平台整理。
 
-收录 172 个 skill 项目 + 24 个 MCP 工具和开源平台 · 元数据更新于 2026-10-26
+收录 173 个 skill 项目 + 24 个 MCP 工具和开源平台 · 元数据更新于 2026-10-26
 
 **图例**：🌟 精选 · 📝 提示词文件（非标准 skill）· 🔌 MCP 或命令行工具 · 🧩 完整应用 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效
 
@@ -24,11 +24,11 @@
 
 ## 目录
 
-- [本周新增](#new)（1）
+- [本周新增](#new)（2）
 - [按类型](#by-group)
   - [全流程运营：选题 → 创作 → 发布 → 复盘](#group-pipeline)（34）
   - [文案和内容创作](#group-writing)（18）
-  - [排版、封面配图和短视频](#group-visual)（49）
+  - [排版、封面配图和短视频](#group-visual)（50）
   - [发布和自动化](#group-publish)（22）
   - [选题、热点和数据分析](#group-research)（41）
   - [账号定位和增长](#group-strategy)（8）
@@ -42,8 +42,9 @@
 <a id="new"></a>
 ## 本周新增
 
-近 7 天新收录 1 个：
+近 7 天新收录 2 个：
 
+- [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) ★512：AI 数字人口播：一张照片加一句话出成片，写稿、分段对口型生成、统一音色、加字幕，5 种剪辑风格和 48 个包装组件，生成前先报价等你确认
 - [ian-xhs-carousel](https://github.com/helloianneo/ian-xhs-carousel) ★266：把文章、案例或笔记排成 3:4 小红书图文：先出分镜表等你确认，再按 20 个母版出图，浅色深色两套，附总览图和可改的 HTML
 
 <a id="by-group"></a>
@@ -334,6 +335,8 @@ npx skills add softbread/xiaohongshu-doctor
 
 - **[smart-illustrator](https://github.com/axtonliu/smart-illustrator)** · ★ 566<br>文章配图：自动找该配图的位置生成插图，也能批量出 PPT 信息图和 YouTube 缩略图，Gemini、Excalidraw、Mermaid 三种引擎<br><sub>平台：YouTube</sub><br><sub>更新于 2026-06-26 · 多语言 · MIT</sub>
 
+- **[digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo)** · ★ 512<br>AI 数字人口播：一张照片加一句话出成片，写稿、分段对口型生成、统一音色、加字幕，5 种剪辑风格和 48 个包装组件，生成前先报价等你确认<br><sub>平台：通用</sub><br><sub>更新于 2026-10-26 · 多语言 · 2 个 skill · MIT</sub><br><sub>💡 视频经 Renoise MCP 生成，按积分付费</sub>
+
 - **[DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent)** · ★ 495<br>达芬奇自动剪辑：分析素材、写文案、配音、搭剪辑蓝图并在 DaVinci Resolve 时间线成片，每步等你确认<br><sub>平台：通用</sub><br><sub>更新于 2026-06-12 · 多语言 · 3 个 skill · MIT</sub><br><sub>💡 要 DaVinci Resolve Studio</sub>
 
 - **[claude-design-card](https://github.com/geekjourneyx/claude-design-card)** · ★ 471<br>把文本或网页做成可发布卡片：平台封面、社交分享卡、长文排版 14 种格式，统一 Claude 设计风格<br><sub>平台：小红书 · 抖音 · 公众号 · 视频号 · B 站 · YouTube</sub><br><sub>更新于 2026-05-27 · 中文</sub>
@@ -435,6 +438,8 @@ npx skills add Jaycheng1103/chatgpt-video-editing-skills
 npx skills add op7418/Document-illustrator-skill
 # smart-illustrator
 npx skills add axtonliu/smart-illustrator
+# digital-human-koubo
+npx skills add andyhuo520/digital-human-koubo
 # DaVinci-AutoEdit-Agent
 npx skills add liuluhaixiu/DaVinci-AutoEdit-Agent
 # claude-design-card
@@ -922,7 +927,7 @@ npx skills add Lulu-Eva/Eva-skill
 
 **Substack 和 Newsletter**（3）：[charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills)
 
-**通用**（12）：[humanizer](https://github.com/blader/humanizer) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
+**通用**（13）：[humanizer](https://github.com/blader/humanizer) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
 
 <a id="faq"></a>
 ## 常见问题
@@ -953,7 +958,7 @@ Claude Code、Codex 用 `npx skills add 作者/仓库名`，每个分组末尾�
 
 ### X、YouTube、TikTok、LinkedIn 有哪些 skill？
 
-针对 X 的有 46 个，YouTube 46 个，TikTok 31 个，LinkedIn 22 个。不挑平台的通用项目有 12 个，星数最高的是 [humanizer](https://github.com/blader/humanizer)、[Humanizer-zh](https://github.com/op7418/Humanizer-zh)、[dbskill](https://github.com/dontbesilent2025/dbskill)。
+针对 X 的有 46 个，YouTube 46 个，TikTok 31 个，LinkedIn 22 个。不挑平台的通用项目有 13 个，星数最高的是 [humanizer](https://github.com/blader/humanizer)、[Humanizer-zh](https://github.com/op7418/Humanizer-zh)、[dbskill](https://github.com/dontbesilent2025/dbskill)。
 
 ### 让 agent 自动发帖安全吗？会不会封号？
 
@@ -961,7 +966,7 @@ Claude Code、Codex 用 `npx skills add 作者/仓库名`，每个分组末尾�
 
 ### 这些项目安全吗？
 
-收录前逐个核对过仓库说明、目录和文件，并用脚本查过二进制和压缩包、安装钩子、远程执行和读敏感文件。收录了 172 个 skill 项目和 24 个工具与平台。看过但没收的，原因逐条记在 [data/ignore.toml](data/ignore.toml)（目前 19 个）。正常的 skill 只是几份文本文件，用不着 exe 或 dmg。脚本查不到不等于安全，安装前先读一遍它的 `SKILL.md` 和脚本。
+收录前逐个核对过仓库说明、目录和文件，并用脚本查过二进制和压缩包、安装钩子、远程执行和读敏感文件。收录了 173 个 skill 项目和 24 个工具与平台。看过但没收的，原因逐条记在 [data/ignore.toml](data/ignore.toml)（目前 19 个）。正常的 skill 只是几份文本文件，用不着 exe 或 dmg。脚本查不到不等于安全，安装前先读一遍它的 `SKILL.md` 和脚本。
 
 ### 多久更新一次？
 

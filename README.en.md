@@ -10,7 +10,7 @@ This list collects social media skills for AI agents: writing posts and threads,
 
 Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Official Accounts) and are documented in Chinese; the descriptions below are translated.
 
-172 skill projects + 24 MCP tools and open-source platforms · metadata updated 2026-10-26
+173 skill projects + 24 MCP tools and open-source platforms · metadata updated 2026-10-26
 
 **Legend**: 🌟 featured · 📝 prompt files (not a standard skill) · 🔌 MCP server or CLI tool · 🧩 full app · 💤 not updated for 180+ days · 📦 archived · ⚠️ repo unavailable
 
@@ -24,11 +24,11 @@ Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Offic
 
 ## Contents
 
-- [New this week](#new) (1)
+- [New this week](#new) (2)
 - [By type](#by-group)
   - [All-in-one: ideas → content → publishing → review](#group-pipeline) (34)
   - [Writing and content](#group-writing) (18)
-  - [Layout, covers, images and short video](#group-visual) (49)
+  - [Layout, covers, images and short video](#group-visual) (50)
   - [Publishing and automation](#group-publish) (22)
   - [Topics, trends and analytics](#group-research) (41)
   - [Positioning and growth](#group-strategy) (8)
@@ -42,8 +42,9 @@ Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Offic
 <a id="new"></a>
 ## New this week
 
-1 added in the last 7 days:
+2 added in the last 7 days:
 
+- [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) ★512: AI digital-human talking-head videos: one photo and one sentence to a finished video, with the script, lip-synced segments, matched voice and captions, five editing styles and 48 packaging components; it quotes the cost and waits for your OK before generating.
 - [ian-xhs-carousel](https://github.com/helloianneo/ian-xhs-carousel) ★266: Turns an article, case study or note into a 3:4 Xiaohongshu carousel: a storyboard table for your approval first, then images from 20 templates in light and dark, plus an overview sheet and editable HTML.
 
 <a id="by-group"></a>
@@ -334,6 +335,8 @@ WeChat article layout, covers, info cards and illustrations; cutting short video
 
 - **[smart-illustrator](https://github.com/axtonliu/smart-illustrator)** · ★ 566<br>Article illustrations placed where they help, plus batch slide infographics and YouTube thumbnails, using Gemini, Excalidraw or Mermaid.<br><sub>Platforms: YouTube</sub><br><sub>updated 2026-06-26 · Multilingual · MIT</sub>
 
+- **[digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo)** · ★ 512<br>AI digital-human talking-head videos: one photo and one sentence to a finished video, with the script, lip-synced segments, matched voice and captions, five editing styles and 48 packaging components; it quotes the cost and waits for your OK before generating.<br><sub>Platforms: Any platform</sub><br><sub>updated 2026-10-26 · Multilingual · 2 skills · MIT</sub><br><sub>💡 Video is generated through Renoise MCP and paid for in credits.</sub>
+
 - **[DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent)** · ★ 495<br>DaVinci Resolve auto-editing for Codex: analyzes footage, writes the script, plans TTS and the edit, and builds the Resolve timeline, with approval gates.<br><sub>Platforms: Any platform</sub><br><sub>updated 2026-06-12 · Multilingual · 3 skills · MIT</sub><br><sub>💡 Requires DaVinci Resolve Studio.</sub>
 
 - **[claude-design-card](https://github.com/geekjourneyx/claude-design-card)** · ★ 471<br>Turns text or a URL into publish-ready cards in 14 formats — platform covers, share cards and editorial layouts — in Claude's design language.<br><sub>Platforms: YouTube · RedNote · Douyin · WeChat OA · 视频号 · Bilibili</sub><br><sub>updated 2026-05-27 · Chinese</sub>
@@ -435,6 +438,8 @@ npx skills add Jaycheng1103/chatgpt-video-editing-skills
 npx skills add op7418/Document-illustrator-skill
 # smart-illustrator
 npx skills add axtonliu/smart-illustrator
+# digital-human-koubo
+npx skills add andyhuo520/digital-human-koubo
 # DaVinci-AutoEdit-Agent
 npx skills add liuluhaixiu/DaVinci-AutoEdit-Agent
 # claude-design-card
@@ -922,18 +927,18 @@ Platforms each repo's README explicitly targets (sorted by stars). "Any platform
 
 **Toutiao** (8): [Wechatsync](https://github.com/wechatsync/Wechatsync) · [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) · [redfox-community](https://github.com/redfox-data/redfox-community) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
 
-**Any platform** (12): [humanizer](https://github.com/blader/humanizer) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
+**Any platform** (13): [humanizer](https://github.com/blader/humanizer) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
 
 <a id="faq"></a>
 ## FAQ
 
 ### What are the best agent skills for social media?
 
-This list has 172 hand-checked skill projects (data updated 2026-10-26). Start with [All-in-one](#group-pipeline) if you run the whole loop yourself; otherwise go straight to [Writing and content](#group-writing), [Publishing and automation](#group-publish) or [Topics, trends and analytics](#group-research). The [By platform](#by-platforms) index lists every project per platform.
+This list has 173 hand-checked skill projects (data updated 2026-10-26). Start with [All-in-one](#group-pipeline) if you run the whole loop yourself; otherwise go straight to [Writing and content](#group-writing), [Publishing and automation](#group-publish) or [Topics, trends and analytics](#group-research). The [By platform](#by-platforms) index lists every project per platform.
 
 ### Which skills work for X, YouTube, TikTok and LinkedIn?
 
-46 projects target X, 46 YouTube, 31 TikTok and 22 LinkedIn. 12 work on any platform; the most-starred are [humanizer](https://github.com/blader/humanizer), [Humanizer-zh](https://github.com/op7418/Humanizer-zh) and [dbskill](https://github.com/dontbesilent2025/dbskill).
+46 projects target X, 46 YouTube, 31 TikTok and 22 LinkedIn. 13 work on any platform; the most-starred are [humanizer](https://github.com/blader/humanizer), [Humanizer-zh](https://github.com/op7418/Humanizer-zh) and [dbskill](https://github.com/dontbesilent2025/dbskill).
 
 ### What is a social media skill, and how is it different from an MCP server?
 
@@ -949,7 +954,7 @@ There are two risks. Your account: automated posting usually logs in as you, and
 
 ### Are these projects safe to install?
 
-Every repo was checked by hand (README, folders and files) and scanned by a script for binaries and archives, install hooks, remote code execution and reads of sensitive files. 172 skill projects and 24 tools and platforms made the list. Repos that were reviewed and turned down are recorded with the reason in [data/ignore.toml](data/ignore.toml) (in Chinese; 19 so far). A normal skill is a few text files and never needs an .exe or .dmg. A clean scan does not prove a skill is safe, so read its `SKILL.md` and scripts before installing.
+Every repo was checked by hand (README, folders and files) and scanned by a script for binaries and archives, install hooks, remote code execution and reads of sensitive files. 173 skill projects and 24 tools and platforms made the list. Repos that were reviewed and turned down are recorded with the reason in [data/ignore.toml](data/ignore.toml) (in Chinese; 19 so far). A normal skill is a few text files and never needs an .exe or .dmg. A clean scan does not prove a skill is safe, so read its `SKILL.md` and scripts before installing.
 
 ### How often is the list updated?
 

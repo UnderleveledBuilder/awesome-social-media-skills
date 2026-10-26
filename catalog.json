@@ -1929,6 +1929,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "andyhuo520/digital-human-koubo",
+   "url": "https://github.com/andyhuo520/digital-human-koubo",
+   "name": "digital-human-koubo",
+   "group": "visual",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "multi",
+   "agents": [],
+   "featured": false,
+   "desc": "AI 数字人口播：一张照片加一句话出成片，写稿、分段对口型生成、统一音色、加字幕，5 种剪辑风格和 48 个包装组件，生成前先报价等你确认",
+   "desc_en": "AI digital-human talking-head videos: one photo and one sentence to a finished video, with the script, lip-synced segments, matched voice and captions, five editing styles and 48 packaging components; it quotes the cost and waits for your OK before generating.",
+   "note": "视频经 Renoise MCP 生成，按积分付费",
+   "note_en": "Video is generated through Renoise MCP and paid for in credits.",
+   "stars": 512,
+   "pushed_at": "2026-10-26",
+   "license": "MIT",
+   "skills": 2,
+   "install": "npx skills add andyhuo520/digital-human-koubo",
+   "checked": "2026-10-26"
+  },
+  {
    "repo": "liuluhaixiu/DaVinci-AutoEdit-Agent",
    "url": "https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent",
    "name": "DaVinci-AutoEdit-Agent",

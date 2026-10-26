@@ -785,6 +785,20 @@
       "stars": 1304,
       "status": "ok"
     },
+    "andyhuo520/digital-human-koubo": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+      "first_seen": "2026-10-26",
+      "forks": 140,
+      "full_name": "andyhuo520/digital-human-koubo",
+      "license": "MIT",
+      "pushed_at": "2026-10-26",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 512,
+      "status": "ok"
+    },
     "apidojo-io/social-media-skills": {
       "archived": false,
       "default_branch": "main",
