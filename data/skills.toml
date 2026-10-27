@@ -2086,3 +2086,16 @@ platforms = ["x", "linkedin", "reddit"]
 format = "app"
 lang = "en"
 checked = 2026-10-19
+
+[[skills]]
+repo = "murphywuwu/easysociable-mcp"
+desc = "在 Claude Code/Cursor/Codex 里用一条提示生成 TikTok/Instagram/LinkedIn 多页品牌轮播图"
+desc_en = "Install one skill so Claude Code, Cursor or Codex turns a prompt into a branded multi-page carousel for TikTok, Instagram and LinkedIn."
+group = "visual"
+platforms = ["tiktok", "instagram", "linkedin", "threads", "xiaohongshu"]
+format = "skill"
+lang = "en"
+checked = 2026-10-27
+agents = ["claude-code", "cursor", "codex"]
+install = "npx skills add murphywuwu/easysociable-mcp"
+name = "EasySociable"
