@@ -83,3 +83,9 @@ reason = "为一款产品在 Reddit 和 X 自动回复引流"
 [[ignored]]
 repo = "VickyHan924/Self-media-Script"
 reason = "没有 README，说不清怎么装和用"
+
+# ───────── 装不进 agent ─────────
+
+[[ignored]]
+repo = "cwjcw/xhs_douyin_content"
+reason = "抓抖音、小红书创作者中心数据的 Python 爬虫，没有 SKILL.md、MCP 或命令行接口，装不进 agent"

@@ -568,6 +568,16 @@ lang = "zh"
 checked = 2026-10-23
 
 [[skills]]
+repo = "chengyi-ai/cy-carousel-skill"
+desc = "AI 科技类小红书图文轮播：给一个选题，查证一手出处、只用开放授权素材，排成封面加 10 页，附标题、正文、置顶评论和来源清单，出图前自动检查"
+desc_en = "Xiaohongshu carousels on AI and tech topics: from one topic it checks primary sources, uses only openly licensed material and lays out a cover plus 10 pages, with title, caption, pinned comment and source list, checked automatically before export."
+group = "visual"
+platforms = ["xiaohongshu"]
+format = "skill"
+lang = "zh"
+checked = 2026-10-27
+
+[[skills]]
 repo = "andyhuo520/digital-human-koubo"
 desc = "AI 数字人口播：一张照片加一句话出成片，写稿、分段对口型生成、统一音色、加字幕，5 种剪辑风格和 48 个包装组件，生成前先报价等你确认"
 desc_en = "AI digital-human talking-head videos: one photo and one sentence to a finished video, with the script, lip-synced segments, matched voice and captions, five editing styles and 48 packaging components; it quotes the cost and waits for your OK before generating."

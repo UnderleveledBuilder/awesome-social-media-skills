@@ -2003,6 +2003,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "chengyi-ai/cy-carousel-skill",
+   "url": "https://github.com/chengyi-ai/cy-carousel-skill",
+   "name": "cy-carousel-skill",
+   "group": "visual",
+   "platforms": [
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "AI 科技类小红书图文轮播：给一个选题，查证一手出处、只用开放授权素材，排成封面加 10 页，附标题、正文、置顶评论和来源清单，出图前自动检查",
+   "desc_en": "Xiaohongshu carousels on AI and tech topics: from one topic it checks primary sources, uses only openly licensed material and lays out a cover plus 10 pages, with title, caption, pinned comment and source list, checked automatically before export.",
+   "note": "",
+   "note_en": "",
+   "stars": 428,
+   "pushed_at": "2026-10-17",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add chengyi-ai/cy-carousel-skill",
+   "checked": "2026-10-27"
+  },
+  {
    "repo": "panggungunvibe/atutun-xhs-cover",
    "url": "https://github.com/panggungunvibe/atutun-xhs-cover",
    "name": "atutun-xhs-cover",

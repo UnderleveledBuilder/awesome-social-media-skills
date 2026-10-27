@@ -939,6 +939,20 @@
       "stars": 4363,
       "status": "ok"
     },
+    "chengyi-ai/cy-carousel-skill": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "图文轮播 Skill（cy-carousel）：给一个选题，查证、找素材、排版、检查、打包，交付封面＋10 页",
+      "first_seen": "2026-10-27",
+      "forks": 53,
+      "full_name": "chengyi-ai/cy-carousel-skill",
+      "license": null,
+      "pushed_at": "2026-10-17",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 428,
+      "status": "ok"
+    },
     "chengyi-ai/douyin-image-post-scheduler": {
       "archived": false,
       "default_branch": "main",
