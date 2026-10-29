@@ -3242,6 +3242,33 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "XBuilderLAB/cheat-on-content",
+   "url": "https://github.com/XBuilderLAB/cheat-on-content",
+   "name": "cheat-on-content",
+   "group": "research",
+   "platforms": [
+    "douyin",
+    "xiaohongshu",
+    "channels",
+    "bilibili",
+    "linkedin"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "网红作弊器：发之前给稿子打分、盲猜数据，发后 3 天拿真实数据复盘，连错几次就提示改评分标准；内置观点类视频评分表，能读抖音、小红书、视频号、B 站后台数据",
+   "desc_en": "Score each draft and blind-predict its numbers before posting, then check the bet against real data three days later so the rubric adapts to your channel. Ships an opinion-video rubric and reads Douyin, RedNote, Channels and Bilibili analytics.",
+   "note": "读平台数据要在本地浏览器登录各创作者后台，登录态存在本地",
+   "note_en": "Reading analytics means signing in to each creator dashboard in a local browser; the session is stored on your machine.",
+   "stars": 7402,
+   "pushed_at": "2026-10-26",
+   "license": "MIT",
+   "skills": 16,
+   "install": "npx skills add XBuilderLAB/cheat-on-content",
+   "checked": "2026-10-29"
+  },
+  {
    "repo": "zarazhangrui/follow-builders",
    "url": "https://github.com/zarazhangrui/follow-builders",
    "name": "follow-builders",

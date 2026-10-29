@@ -645,6 +645,20 @@
       "stars": 261,
       "status": "ok"
     },
+    "XBuilderLAB/cheat-on-content": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "You're reading this. The skill predicted it. A workflow that turns every post into a calibrated experiment—score, blind-predict, retro, evolve. The future doesn't reward effort, it rewards those who see the pattern first. 1M followers in a month — not luck, system.",
+      "first_seen": "2026-10-29",
+      "forks": 971,
+      "full_name": "XBuilderLAB/cheat-on-content",
+      "license": "MIT",
+      "pushed_at": "2026-10-26",
+      "skill_count": 16,
+      "skill_count_truncated": false,
+      "stars": 7402,
+      "status": "ok"
+    },
     "Xiangyu-CAS/xiaohongshu-ops-skill": {
       "archived": false,
       "default_branch": "main",

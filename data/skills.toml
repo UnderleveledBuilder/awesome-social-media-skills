@@ -1753,6 +1753,18 @@ lang = "zh"
 checked = 2026-10-19
 
 [[skills]]
+repo = "XBuilderLAB/cheat-on-content"
+desc = "网红作弊器：发之前给稿子打分、盲猜数据，发后 3 天拿真实数据复盘，连错几次就提示改评分标准；内置观点类视频评分表，能读抖音、小红书、视频号、B 站后台数据"
+desc_en = "Score each draft and blind-predict its numbers before posting, then check the bet against real data three days later so the rubric adapts to your channel. Ships an opinion-video rubric and reads Douyin, RedNote, Channels and Bilibili analytics."
+group = "research"
+platforms = ["douyin", "xiaohongshu", "channels", "bilibili", "linkedin"]
+format = "skill"
+lang = "zh"
+note = "读平台数据要在本地浏览器登录各创作者后台，登录态存在本地"
+note_en = "Reading analytics means signing in to each creator dashboard in a local browser; the session is stored on your machine."
+checked = 2026-10-29
+
+[[skills]]
 repo = "HUANGCHIHHUNGLeo/claude-real-video"
 desc = "让 AI 看视频：从链接或本地文件抽场景关键帧并去重、配时间戳字幕，用来总结和拆解对标视频，本地运行"
 desc_en = "Lets Claude actually watch a video: scene-aware deduplicated frames plus a timestamped transcript from a URL or file, for summaries and breaking down benchmark videos. Runs locally."
