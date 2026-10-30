@@ -860,7 +860,7 @@ lang = "zh"
 checked = 2026-10-19
 
 [[skills]]
-repo = "adrianpunk/Punk-Skill"
+repo = "adrianpunk/Punk-Posters"
 desc = "Punk 风格视觉：文章封面（小红书、公众号）、头像、人物 IP 视频封面，共用一个风格库"
 desc_en = "Punk-style visuals from a shared style library: article covers for Xiaohongshu and WeChat, avatars and creator-IP video covers."
 group = "visual"
