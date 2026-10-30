@@ -945,6 +945,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "jackbauerxu/workbuddy-xhs-skills",
+   "url": "https://github.com/jackbauerxu/workbuddy-xhs-skills",
+   "name": "workbuddy-xhs-skills",
+   "group": "pipeline",
+   "platforms": [
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "小红书从 0 起号的 10 个 skill：倒推变现定位、拆低粉爆款、选题库、去 AI 味和合规、封面和配图、排期复盘",
+   "desc_en": "Ten skills for taking a RedNote account from zero: positioning worked back from what you can sell, low-follower viral breakdowns, a topic bank, de-AI and compliance checks, cover anchors, illustration routing, and schedule reviews.",
+   "note": "",
+   "note_en": "",
+   "stars": 25,
+   "pushed_at": "2026-08-01",
+   "license": null,
+   "skills": 10,
+   "install": "npx skills add jackbauerxu/workbuddy-xhs-skills",
+   "checked": "2026-10-30"
+  },
+  {
    "repo": "zizhanovo/doubaoya-community",
    "url": "https://github.com/zizhanovo/doubaoya-community",
    "name": "doubaoya-community",
@@ -968,6 +991,29 @@
    "skills": 13,
    "install": "npx skills add zizhanovo/doubaoya-community",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "554022647henry-boop/xhs-ai-workflow",
+   "url": "https://github.com/554022647henry-boop/xhs-ai-workflow",
+   "name": "xhs-ai-workflow",
+   "group": "pipeline",
+   "platforms": [
+    "xiaohongshu"
+   ],
+   "format": "prompts",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "小红书运营的提示词文件：主控提示词加 7 个分工 Agent（调研、选题、起草、审稿、发布准备等），你只定题和改稿",
+   "desc_en": "A prompt-file system for running a RedNote account: a master prompt plus seven role agents (research, topics, drafting, review, publish prep and more). You pick topics and edit; the topic bank and style guide live in local Markdown.",
+   "note": "自动发布要另装小红书 MCP、登录账号；只写稿可以不装",
+   "note_en": "Auto-publishing needs a separate RedNote MCP signed in to your account; drafting alone doesn't.",
+   "stars": 10,
+   "pushed_at": "2026-05-13",
+   "license": null,
+   "skills": 0,
+   "install": null,
+   "checked": "2026-10-30"
   },
   {
    "repo": "blader/humanizer",
@@ -1470,6 +1516,33 @@
    "skills": 81,
    "install": null,
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "yang0/handraw-style",
+   "url": "https://github.com/yang0/handraw-style",
+   "name": "handraw-style",
+   "group": "visual",
+   "platforms": [
+    "xiaohongshu",
+    "wechat",
+    "x",
+    "bilibili",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "选编号出图提示词：367 种手绘和写实画风、170 种排版图型、36 套配色，输入主题就出中英双语提示词，做小红书封面、公众号题图和配图、知识长图、条漫",
+   "desc_en": "Pick numbers instead of writing prompts: 367 hand-drawn and realistic styles, 170 layouts and 36 palettes turn a topic into bilingual image prompts for RedNote covers, WeChat headers and illustrations, explainer long images and comic strips.",
+   "note": "出图后会提示把作品分享到作者的网站，点了发布按钮才会公开",
+   "note_en": "After generating, it offers to share the work to the author's site; nothing goes public until you click publish.",
+   "stars": 6568,
+   "pushed_at": "2026-10-28",
+   "license": null,
+   "skills": 23,
+   "install": "npx skills add yang0/handraw-style",
+   "checked": "2026-10-30"
   },
   {
    "repo": "geekjourneyx/md2wechat-skill",
@@ -2530,6 +2603,29 @@
    "skills": 1,
    "install": "npx skills add CY-CHENYUE/wechat-typesetting-cy",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "SpaceZephyr/space-image",
+   "url": "https://github.com/SpaceZephyr/space-image",
+   "name": "space-image",
+   "group": "visual",
+   "platforms": [
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "把文章或产品概念提炼成一个中心隐喻，出 2.35:1 公众号头图和概念海报，九套构图语法，只留标题和几个短标签",
+   "desc_en": "Distills an article or product idea into one central visual metaphor for 2.35:1 WeChat headers and concept posters, with nine composition grammars (black chrome, hand-drawn, cobalt Riso, acid xerox collage and more) and only a title plus a few short tags.",
+   "note": "",
+   "note_en": "",
+   "stars": 69,
+   "pushed_at": "2026-10-22",
+   "license": null,
+   "skills": 2,
+   "install": "npx skills add SpaceZephyr/space-image",
+   "checked": "2026-10-30"
   },
   {
    "repo": "nicolapocock/claude-reel-editor",

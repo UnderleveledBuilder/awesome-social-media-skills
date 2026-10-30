@@ -29,6 +29,20 @@
       "stars": 256,
       "status": "ok"
     },
+    "554022647henry-boop/xhs-ai-workflow": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "AI+小红书全链路运营",
+      "first_seen": "2026-10-30",
+      "forks": 0,
+      "full_name": "554022647henry-boop/xhs-ai-workflow",
+      "license": null,
+      "pushed_at": "2026-05-13",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 10,
+      "status": "ok"
+    },
     "843645440/wechat-skill": {
       "archived": false,
       "default_branch": "release",
@@ -573,6 +587,34 @@
       "skill_count": 33,
       "skill_count_truncated": false,
       "stars": 1768,
+      "status": "ok"
+    },
+    "SpaceZephyr/space-GPT-image2-design": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "",
+      "first_seen": "2026-10-30",
+      "forks": 14,
+      "full_name": "SpaceZephyr/space-image",
+      "license": null,
+      "pushed_at": "2026-10-22",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 69,
+      "status": "ok"
+    },
+    "SpaceZephyr/space-image": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "",
+      "first_seen": "2026-10-30",
+      "forks": 14,
+      "full_name": "SpaceZephyr/space-image",
+      "license": null,
+      "pushed_at": "2026-10-22",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 69,
       "status": "ok"
     },
     "TeamWiseFlow/xiaobei": {
@@ -1497,6 +1539,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 118,
+      "status": "ok"
+    },
+    "jackbauerxu/workbuddy-xhs-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Agent Skills for Xiaohongshu cold start, positioning, topic bank, humanized drafts, visual planning, and review loops",
+      "first_seen": "2026-10-30",
+      "forks": 1,
+      "full_name": "jackbauerxu/workbuddy-xhs-skills",
+      "license": null,
+      "pushed_at": "2026-08-01",
+      "skill_count": 10,
+      "skill_count_truncated": false,
+      "stars": 25,
       "status": "ok"
     },
     "jackwener/wechat-article-to-markdown": {
@@ -2659,6 +2715,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 16649,
+      "status": "ok"
+    },
+    "yang0/handraw-style": {
+      "archived": false,
+      "default_branch": "master",
+      "description": "手绘风格编号画廊与双语提示词 Skill",
+      "first_seen": "2026-10-30",
+      "forks": 749,
+      "full_name": "yang0/handraw-style",
+      "license": null,
+      "pushed_at": "2026-10-28",
+      "skill_count": 23,
+      "skill_count_truncated": false,
+      "stars": 6568,
       "status": "ok"
     },
     "yanhua1010/self-media-content-workflow": {

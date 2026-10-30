@@ -3,6 +3,10 @@
 # ───────── 通用营销合集 ─────────
 
 [[ignored]]
+repo = "demo112/yunqu-ai-skills"
+reason = "15 个 skill 大多管开发、运维和代码审查，和自媒体有关的只有 2 个"
+
+[[ignored]]
 repo = "coreyhaines31/marketingskills"
 reason = "通用营销合集，自媒体不是重点；SEO 和 GEO 部分收在 awesome-seo-geo-skills"
 
