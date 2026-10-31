@@ -435,6 +435,20 @@
       "stars": 4288,
       "status": "ok"
     },
+    "LDJ-creat/MediaManager": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "🚀  自媒体全流程自动化工具集：集成 AI 选题、智能写作、自动配图（DALL-E/Gemini/通义万象）、多平台发布（微信/CSDN/掘金/小红书）及运营数据分析，实现一键式高效运营闭合回路。",
+      "first_seen": "2026-10-31",
+      "forks": 8,
+      "full_name": "LDJ-creat/MediaManager",
+      "license": null,
+      "pushed_at": "2026-06-25",
+      "skill_count": 11,
+      "skill_count_truncated": false,
+      "stars": 28,
+      "status": "ok"
+    },
     "LifelongLazyLearner/qu-ai-wei": {
       "archived": false,
       "default_branch": "main",
@@ -1007,6 +1021,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 108,
+      "status": "ok"
+    },
+    "chengyi-ai/native-subtitle-quote-image": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "保留视频内嵌字幕，精确取帧并生成 3:4 社交长图的 Agent Skill",
+      "first_seen": "2026-10-31",
+      "forks": 273,
+      "full_name": "chengyi-ai/native-subtitle-quote-image",
+      "license": "MIT",
+      "pushed_at": "2026-10-21",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 2766,
       "status": "ok"
     },
     "chenjin-cmd/agent-skills-launch-pack_": {

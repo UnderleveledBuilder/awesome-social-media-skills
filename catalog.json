@@ -945,6 +945,30 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "LDJ-creat/MediaManager",
+   "url": "https://github.com/LDJ-creat/MediaManager",
+   "name": "MediaManager",
+   "group": "pipeline",
+   "platforms": [
+    "wechat",
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "自媒体全流程：抓 RSS 热点选题，写长文和小红书笔记、配图，一稿发到公众号、CSDN、掘金和小红书，再拉各平台数据复盘，复盘结论写回你的创作规范",
+   "desc_en": "The whole social media loop: pick topics from RSS feeds, write long articles and RedNote notes with images, publish one draft to WeChat, CSDN, Juejin and RedNote, then pull each platform's numbers for a review that is written back into your style guide.",
+   "note": "公众号、CSDN、掘金只存草稿；小红书是直接发出",
+   "note_en": "WeChat, CSDN and Juejin only get drafts; RedNote posts go live directly.",
+   "stars": 28,
+   "pushed_at": "2026-06-25",
+   "license": null,
+   "skills": 11,
+   "install": "npx skills add LDJ-creat/MediaManager",
+   "checked": "2026-10-31"
+  },
+  {
    "repo": "jackbauerxu/workbuddy-xhs-skills",
    "url": "https://github.com/jackbauerxu/workbuddy-xhs-skills",
    "name": "workbuddy-xhs-skills",
@@ -1568,6 +1592,29 @@
    "skills": 1,
    "install": "npx skills add geekjourneyx/md2wechat-skill",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "chengyi-ai/native-subtitle-quote-image",
+   "url": "https://github.com/chengyi-ai/native-subtitle-quote-image",
+   "name": "native-subtitle-quote-image",
+   "group": "visual",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "multi",
+   "agents": [],
+   "featured": false,
+   "desc": "把视频做成带字幕的社交长图：本地视频或 YouTube 链接进来，找句子、精确取帧、拼图、逐张质检；保留画面里原有的字幕，或画上你审过的台词并标明是后期加的",
+   "desc_en": "Turns a video into a captioned long image for social posts: from a local file or YouTube link it finds the lines, grabs exact frames, stitches and checks each image, keeping burned-in subtitles or drawing your approved lines, marked as added.",
+   "note": "",
+   "note_en": "",
+   "stars": 2766,
+   "pushed_at": "2026-10-21",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add chengyi-ai/native-subtitle-quote-image",
+   "checked": "2026-10-31"
   },
   {
    "repo": "nateherkai/herk-edit-kit",

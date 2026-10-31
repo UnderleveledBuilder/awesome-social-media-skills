@@ -25,6 +25,18 @@ note_en = "Auto-publishing needs a separate RedNote MCP signed in to your accoun
 checked = 2026-10-30
 
 [[skills]]
+repo = "LDJ-creat/MediaManager"
+desc = "自媒体全流程：抓 RSS 热点选题，写长文和小红书笔记、配图，一稿发到公众号、CSDN、掘金和小红书，再拉各平台数据复盘，复盘结论写回你的创作规范"
+desc_en = "The whole social media loop: pick topics from RSS feeds, write long articles and RedNote notes with images, publish one draft to WeChat, CSDN, Juejin and RedNote, then pull each platform's numbers for a review that is written back into your style guide."
+group = "pipeline"
+platforms = ["wechat", "xiaohongshu"]
+format = "skill"
+lang = "zh"
+note = "公众号、CSDN、掘金只存草稿；小红书是直接发出"
+note_en = "WeChat, CSDN and Juejin only get drafts; RedNote posts go live directly."
+checked = 2026-10-31
+
+[[skills]]
 repo = "JimLiu/baoyu-skills"
 desc = "宝玉的 skill 合集：小红书图文、文章配图、封面、信息图，发布到公众号、X 和微博，另有翻译和网页转 Markdown"
 desc_en = "Baoyu's skill set: Xiaohongshu image posts, article illustrations, covers and infographics, publishing to WeChat Official Accounts, X and Weibo, plus translation and URL-to-Markdown."
@@ -620,6 +632,16 @@ platforms = ["xiaohongshu"]
 format = "skill"
 lang = "zh"
 checked = 2026-10-27
+
+[[skills]]
+repo = "chengyi-ai/native-subtitle-quote-image"
+desc = "把视频做成带字幕的社交长图：本地视频或 YouTube 链接进来，找句子、精确取帧、拼图、逐张质检；保留画面里原有的字幕，或画上你审过的台词并标明是后期加的"
+desc_en = "Turns a video into a captioned long image for social posts: from a local file or YouTube link it finds the lines, grabs exact frames, stitches and checks each image, keeping burned-in subtitles or drawing your approved lines, marked as added."
+group = "visual"
+platforms = ["general"]
+format = "skill"
+lang = "multi"
+checked = 2026-10-31
 
 [[skills]]
 repo = "andyhuo520/digital-human-koubo"
