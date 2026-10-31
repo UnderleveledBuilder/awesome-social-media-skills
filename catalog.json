@@ -2725,6 +2725,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "zhouwei713/luobo-design",
+   "url": "https://github.com/zhouwei713/luobo-design",
+   "name": "luobo-design",
+   "group": "visual",
+   "platforms": [
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "一句话出设计物料：海报、通知、菜单、请柬、名片、logo 和七种结构的小红书封面；先问清需求、出三个方向让你挑，出图后自查溢字、对比度和广告法用语",
+   "desc_en": "Design materials from one sentence: posters, notices, menus, invitations, business cards, logos and RedNote covers in seven layouts. It clarifies the brief, offers three directions, then checks text overflow, contrast and ad-law wording.",
+   "note": "",
+   "note_en": "",
+   "stars": 14,
+   "pushed_at": "2026-10-30",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add zhouwei713/luobo-design",
+   "checked": "2026-10-31"
+  },
+  {
    "repo": "Branding5/social-media-image-sizes",
    "url": "https://github.com/Branding5/social-media-image-sizes",
    "name": "social-media-image-sizes",
