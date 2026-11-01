@@ -2000,6 +2000,30 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "konlu/story-studio",
+   "url": "https://github.com/konlu/story-studio",
+   "name": "story-studio",
+   "group": "visual",
+   "platforms": [
+    "channels",
+    "douyin"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "历史和人物故事短视频一条龙：选题、开头钩子、口播稿、豆包配音、本地字幕对齐、三种画风分镜配图，导出能再改的剪映草稿；内置 370 多篇高赞文案对标",
+   "desc_en": "History and biography short videos end to end: topic, opening hook, voice-over script, Doubao TTS, local subtitle alignment, storyboard images in three art styles, exported as an editable CapCut (Jianying) draft; ships 370+ top scripts as references.",
+   "note": "",
+   "note_en": "",
+   "stars": 615,
+   "pushed_at": "2026-10-29",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add konlu/story-studio",
+   "checked": "2026-11-01"
+  },
+  {
    "repo": "Jaycheng1103/chatgpt-video-editing-skills",
    "url": "https://github.com/Jaycheng1103/chatgpt-video-editing-skills",
    "name": "chatgpt-video-editing-skills",

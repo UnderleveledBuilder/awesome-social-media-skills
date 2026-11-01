@@ -1737,6 +1737,20 @@
       "stars": 320,
       "status": "ok"
     },
+    "konlu/story-studio": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill",
+      "first_seen": "2026-11-01",
+      "forks": 134,
+      "full_name": "konlu/story-studio",
+      "license": "MIT",
+      "pushed_at": "2026-10-29",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 615,
+      "status": "ok"
+    },
     "krillinai/OpenCreator": {
       "archived": false,
       "default_branch": "master",

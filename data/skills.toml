@@ -653,6 +653,17 @@ format = "skill"
 lang = "zh"
 checked = 2026-10-31
 
+
+[[skills]]
+repo = "konlu/story-studio"
+desc = "历史和人物故事短视频一条龙：选题、开头钩子、口播稿、豆包配音、本地字幕对齐、三种画风分镜配图，导出能再改的剪映草稿；内置 370 多篇高赞文案对标"
+desc_en = "History and biography short videos end to end: topic, opening hook, voice-over script, Doubao TTS, local subtitle alignment, storyboard images in three art styles, exported as an editable CapCut (Jianying) draft; ships 370+ top scripts as references."
+group = "visual"
+platforms = ["channels", "douyin"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-01
+
 [[skills]]
 repo = "andyhuo520/digital-human-koubo"
 desc = "AI 数字人口播：一张照片加一句话出成片，写稿、分段对口型生成、统一音色、加字幕，5 种剪辑风格和 48 个包装组件，生成前先报价等你确认"
