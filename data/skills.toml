@@ -1960,6 +1960,17 @@ lang = "zh"
 tier = "featured"
 checked = 2026-10-19
 
+
+[[skills]]
+repo = "adoresever/bilibili-mcp"
+desc = "B 站 MCP：扫码登录，搜视频、读评论字幕弹幕、回复评论，发动态、专栏和视频（支持多 P），看热门、排行和 UP 主数据，发私信；登录凭证存在本地 JSON"
+desc_en = "Bilibili MCP server: QR-code login; search videos, read comments, subtitles and danmaku, reply to comments; post dynamics, articles and videos (multi-part too); trending, rankings and uploader stats; DMs. Login stored in a local JSON file."
+group = "mcp"
+platforms = ["bilibili"]
+format = "mcp"
+lang = "zh"
+checked = 2026-11-02
+
 [[skills]]
 repo = "xpzouying/x-mcp"
 desc = "xiaohongshu-mcp 的浏览器插件版：装插件即用，不用部署 Docker 或 Python，在你常用的浏览器里发小红书"

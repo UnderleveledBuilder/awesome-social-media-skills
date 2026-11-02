@@ -4924,6 +4924,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "adoresever/bilibili-mcp",
+   "url": "https://github.com/adoresever/bilibili-mcp",
+   "name": "bilibili-mcp",
+   "group": "mcp",
+   "platforms": [
+    "bilibili"
+   ],
+   "format": "mcp",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "B 站 MCP：扫码登录，搜视频、读评论字幕弹幕、回复评论，发动态、专栏和视频（支持多 P），看热门、排行和 UP 主数据，发私信；登录凭证存在本地 JSON",
+   "desc_en": "Bilibili MCP server: QR-code login; search videos, read comments, subtitles and danmaku, reply to comments; post dynamics, articles and videos (multi-part too); trending, rankings and uploader stats; DMs. Login stored in a local JSON file.",
+   "note": "",
+   "note_en": "",
+   "stars": 163,
+   "pushed_at": "2026-03-11",
+   "license": "MIT",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-02"
+  },
+  {
    "repo": "BAIGUANGMEI/zhihu-cli",
    "url": "https://github.com/BAIGUANGMEI/zhihu-cli",
    "name": "zhihu-cli",

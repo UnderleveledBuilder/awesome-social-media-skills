@@ -10,7 +10,7 @@ This list collects social media skills for AI agents: writing posts and threads,
 
 Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Official Accounts) and are documented in Chinese; the descriptions below are translated.
 
-183 skill projects + 24 MCP tools and open-source platforms · metadata updated 2026-11-02
+183 skill projects + 25 MCP tools and open-source platforms · metadata updated 2026-11-02
 
 **Legend**: 🌟 featured · 📝 prompt files (not a standard skill) · 🔌 MCP server or CLI tool · 🧩 full app · 💤 not updated for 180+ days · 📦 archived · ⚠️ repo unavailable
 
@@ -24,7 +24,7 @@ Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Offic
 
 ## Contents
 
-- [New this week](#new) (10)
+- [New this week](#new) (11)
 - [By type](#by-group)
   - [All-in-one: ideas → content → publishing → review](#group-pipeline) (37)
   - [Writing and content](#group-writing) (18)
@@ -32,7 +32,7 @@ Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Offic
   - [Publishing and automation](#group-publish) (22)
   - [Topics, trends and analytics](#group-research) (42)
   - [Positioning and growth](#group-strategy) (8)
-  - [MCP servers and CLI tools (not skills)](#group-mcp) (15)
+  - [MCP servers and CLI tools (not skills)](#group-mcp) (16)
   - [Related open-source platforms (full apps, not skills)](#group-apps) (9)
 - [By platform](#by-platforms)
 - [FAQ](#faq)
@@ -42,8 +42,9 @@ Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Offic
 <a id="new"></a>
 ## New this week
 
-10 added in the last 7 days:
+11 added in the last 7 days:
 
+- [bilibili-mcp](https://github.com/adoresever/bilibili-mcp) ★163: Bilibili MCP server: QR-code login; search videos, read comments, subtitles and danmaku, reply to comments; post dynamics, articles and videos (multi-part too); trending, rankings and uploader stats; DMs. Login stored in a local JSON file.
 - [story-studio](https://github.com/konlu/story-studio) ★650: History and biography short videos end to end: topic, opening hook, voice-over script, Doubao TTS, local subtitle alignment, storyboard images in three art styles, exported as an editable CapCut (Jianying) draft; ships 370+ top scripts as references.
 - [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) ★2.8k: Turns a video into a captioned long image for social posts: from a local file or YouTube link it finds the lines, grabs exact frames, stitches and checks each image, keeping burned-in subtitles or drawing your approved lines, marked as added.
 - [luobo-design](https://github.com/zhouwei713/luobo-design) ★67: Design materials from one sentence: posters, notices, menus, invitations, business cards, logos and RedNote covers in seven layouts. It clarifies the brief, offers three directions, then checks text overflow, contrast and ad-law wording.
@@ -899,6 +900,8 @@ Tools that let an agent read from and post to a platform; often paired with the 
 
 - **[xint](https://github.com/0xNyk/xint)** · ★ 260<br>Local-first X intelligence CLI for search, monitoring, analysis, exports and OAuth actions on your own X API access.<br><sub>Platforms: X</sub><br><sub>updated 2026-11-01 · 🔌 MCP · English · MIT</sub>
 
+- **[bilibili-mcp](https://github.com/adoresever/bilibili-mcp)** · ★ 163<br>Bilibili MCP server: QR-code login; search videos, read comments, subtitles and danmaku, reply to comments; post dynamics, articles and videos (multi-part too); trending, rankings and uploader stats; DMs. Login stored in a local JSON file.<br><sub>Platforms: Bilibili</sub><br><sub>updated 2026-03-11 💤 · 🔌 MCP · Chinese · MIT</sub>
+
 - **[zhihu-cli](https://github.com/BAIGUANGMEI/zhihu-cli)** · ★ 114<br>Zhihu CLI: search, hot list, questions and answers, and posting thoughts, questions and articles, with QR or cookie login and an agent skill.<br><sub>Platforms: Zhihu</sub><br><sub>updated 2026-05-04 💤 · 🔌 MCP · Chinese · Apache-2.0</sub>
 
 - **[weibo-cli](https://github.com/jackwener/weibo-cli)** · ★ 88<br>Weibo CLI: hot search, keyword search, timelines, comments, reposts and user profiles from the terminal, with an agent skill.<br><sub>Platforms: Weibo</sub><br><sub>updated 2026-03-14 💤 · 🔌 MCP · Multilingual</sub>
@@ -963,7 +966,7 @@ Platforms each repo's README explicitly targets (sorted by stars). "Any platform
 
 **WeChat Channels** (19): [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) · [story-studio](https://github.com/konlu/story-studio) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [Spreado](https://github.com/BadKid90s/Spreado) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [media-publish-check](https://github.com/XshuiAi/media-publish-check) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector)
 
-**Bilibili** (26): [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) · [handraw-style](https://github.com/yang0/handraw-style) · [bb-browser](https://github.com/epiral/bb-browser) · [Easel](https://github.com/ZJU-REAL/Easel) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [catbus](https://github.com/cv-cat/catbus) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [oil-cover](https://github.com/oil-oil/oil-cover) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
+**Bilibili** (27): [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) · [handraw-style](https://github.com/yang0/handraw-style) · [bb-browser](https://github.com/epiral/bb-browser) · [Easel](https://github.com/ZJU-REAL/Easel) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [catbus](https://github.com/cv-cat/catbus) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [oil-cover](https://github.com/oil-oil/oil-cover) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [bilibili-mcp](https://github.com/adoresever/bilibili-mcp) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
 
 **Weibo** (12): [baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [bb-browser](https://github.com/epiral/bb-browser) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [catbus](https://github.com/cv-cat/catbus) · [social-push](https://github.com/jihe520/social-push) · [weibo-cli](https://github.com/jackwener/weibo-cli) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
 
@@ -1000,7 +1003,7 @@ There are two risks. Your account: automated posting usually logs in as you, and
 
 ### Are these projects safe to install?
 
-Every repo was checked by hand (README, folders and files) and scanned by a script for binaries and archives, install hooks, remote code execution and reads of sensitive files. 183 skill projects and 24 tools and platforms made the list. Repos that were reviewed and turned down are recorded with the reason in [data/ignore.toml](data/ignore.toml) (in Chinese; 21 so far). A normal skill is a few text files and never needs an .exe or .dmg. A clean scan does not prove a skill is safe, so read its `SKILL.md` and scripts before installing.
+Every repo was checked by hand (README, folders and files) and scanned by a script for binaries and archives, install hooks, remote code execution and reads of sensitive files. 183 skill projects and 25 tools and platforms made the list. Repos that were reviewed and turned down are recorded with the reason in [data/ignore.toml](data/ignore.toml) (in Chinese; 21 so far). A normal skill is a few text files and never needs an .exe or .dmg. A clean scan does not prove a skill is safe, so read its `SKILL.md` and scripts before installing.
 
 ### How often is the list updated?
 

@@ -785,6 +785,20 @@
       "stars": 1153,
       "status": "ok"
     },
+    "adoresever/bilibili-mcp": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "B站 MCP Server - 支持搜索/评论/字幕/弹幕/回复",
+      "first_seen": "2026-11-02",
+      "forks": 33,
+      "full_name": "adoresever/bilibili-mcp",
+      "license": "MIT",
+      "pushed_at": "2026-03-11",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 163,
+      "status": "ok"
+    },
     "adrianpunk/Punk-Posters": {
       "archived": false,
       "default_branch": "main",

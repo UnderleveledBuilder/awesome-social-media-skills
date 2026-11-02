@@ -10,7 +10,7 @@
 
 这里收录给 AI 智能体（agent）用的自媒体 skill：写小红书笔记和公众号文章、做封面和短视频、定时发布、追热点、回评论、看数据。大多是标准 SKILL.md 格式，支持技能的智能体都能装，装法见[常见问题](#faq)。每个项目都经过人工核对，收录前用脚本做过安全检查，按要干的活和平台整理。
 
-收录 183 个 skill 项目 + 24 个 MCP 工具和开源平台 · 元数据更新于 2026-11-02
+收录 183 个 skill 项目 + 25 个 MCP 工具和开源平台 · 元数据更新于 2026-11-02
 
 **图例**：🌟 精选 · 📝 提示词文件（非标准 skill）· 🔌 MCP 或命令行工具 · 🧩 完整应用 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效
 
@@ -24,7 +24,7 @@
 
 ## 目录
 
-- [本周新增](#new)（10）
+- [本周新增](#new)（11）
 - [按类型](#by-group)
   - [全流程运营：选题 → 创作 → 发布 → 复盘](#group-pipeline)（37）
   - [文案和内容创作](#group-writing)（18）
@@ -32,7 +32,7 @@
   - [发布和自动化](#group-publish)（22）
   - [选题、热点和数据分析](#group-research)（42）
   - [账号定位和增长](#group-strategy)（8）
-  - [MCP 和命令行工具（不是 skill）](#group-mcp)（15）
+  - [MCP 和命令行工具（不是 skill）](#group-mcp)（16）
   - [相关开源平台（完整应用，不是 skill）](#group-apps)（9）
 - [按平台查找](#by-platforms)
 - [常见问题](#faq)
@@ -42,8 +42,9 @@
 <a id="new"></a>
 ## 本周新增
 
-近 7 天新收录 10 个：
+近 7 天新收录 11 个：
 
+- [bilibili-mcp](https://github.com/adoresever/bilibili-mcp) ★163：B 站 MCP：扫码登录，搜视频、读评论字幕弹幕、回复评论，发动态、专栏和视频（支持多 P），看热门、排行和 UP 主数据，发私信；登录凭证存在本地 JSON
 - [story-studio](https://github.com/konlu/story-studio) ★650：历史和人物故事短视频一条龙：选题、开头钩子、口播稿、豆包配音、本地字幕对齐、三种画风分镜配图，导出能再改的剪映草稿；内置 370 多篇高赞文案对标
 - [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) ★2.8k：把视频做成带字幕的社交长图：本地视频或 YouTube 链接进来，找句子、精确取帧、拼图、逐张质检；保留画面里原有的字幕，或画上你审过的台词并标明是后期加的
 - [luobo-design](https://github.com/zhouwei713/luobo-design) ★67：一句话出设计物料：海报、通知、菜单、请柬、名片、logo 和七种结构的小红书封面；先问清需求、出三个方向让你挑，出图后自查溢字、对比度和广告法用语
@@ -899,6 +900,8 @@ npx skills add Lulu-Eva/Eva-skill
 
 - **[xint](https://github.com/0xNyk/xint)** · ★ 260<br>本地优先的 X 数据命令行：搜索、监控、分析、导出、OAuth 操作，用你的 X API<br><sub>平台：X</sub><br><sub>更新于 2026-11-01 · 🔌 MCP · 英文 · MIT</sub>
 
+- **[bilibili-mcp](https://github.com/adoresever/bilibili-mcp)** · ★ 163<br>B 站 MCP：扫码登录，搜视频、读评论字幕弹幕、回复评论，发动态、专栏和视频（支持多 P），看热门、排行和 UP 主数据，发私信；登录凭证存在本地 JSON<br><sub>平台：B 站</sub><br><sub>更新于 2026-03-11 💤 · 🔌 MCP · 中文 · MIT</sub>
+
 - **[zhihu-cli](https://github.com/BAIGUANGMEI/zhihu-cli)** · ★ 114<br>知乎命令行：搜索、热榜、看问题和回答、发想法、提问和文章，扫码或 Cookie 登录，附 skill<br><sub>平台：知乎</sub><br><sub>更新于 2026-05-04 💤 · 🔌 MCP · 中文 · Apache-2.0</sub>
 
 - **[weibo-cli](https://github.com/jackwener/weibo-cli)** · ★ 88<br>微博命令行：热搜、关键词搜索、时间线、评论转发、用户主页，附 skill<br><sub>平台：微博</sub><br><sub>更新于 2026-03-14 💤 · 🔌 MCP · 多语言</sub>
@@ -943,7 +946,7 @@ npx skills add Lulu-Eva/Eva-skill
 
 **微信视频号**（19）：[social-auto-upload](https://github.com/dreammis/social-auto-upload) · [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) · [story-studio](https://github.com/konlu/story-studio) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [Spreado](https://github.com/BadKid90s/Spreado) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [media-publish-check](https://github.com/XshuiAi/media-publish-check) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector)
 
-**B 站**（26）：[social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) · [handraw-style](https://github.com/yang0/handraw-style) · [bb-browser](https://github.com/epiral/bb-browser) · [Easel](https://github.com/ZJU-REAL/Easel) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [catbus](https://github.com/cv-cat/catbus) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [oil-cover](https://github.com/oil-oil/oil-cover) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
+**B 站**（27）：[social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) · [handraw-style](https://github.com/yang0/handraw-style) · [bb-browser](https://github.com/epiral/bb-browser) · [Easel](https://github.com/ZJU-REAL/Easel) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [catbus](https://github.com/cv-cat/catbus) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [oil-cover](https://github.com/oil-oil/oil-cover) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [bilibili-mcp](https://github.com/adoresever/bilibili-mcp) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
 
 **微博**（12）：[baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [social-auto-upload](https://github.com/dreammis/social-auto-upload) · [bb-browser](https://github.com/epiral/bb-browser) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [autocli-skill](https://github.com/nashsu/autocli-skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [catbus](https://github.com/cv-cat/catbus) · [social-push](https://github.com/jihe520/social-push) · [weibo-cli](https://github.com/jackwener/weibo-cli) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
 
@@ -1012,7 +1015,7 @@ Claude Code、Codex 用 `npx skills add 作者/仓库名`，每个分组末尾�
 
 ### 这些项目安全吗？
 
-收录前逐个核对过仓库说明、目录和文件，并用脚本查过二进制和压缩包、安装钩子、远程执行和读敏感文件。收录了 183 个 skill 项目和 24 个工具与平台。看过但没收的，原因逐条记在 [data/ignore.toml](data/ignore.toml)（目前 21 个）。正常的 skill 只是几份文本文件，用不着 exe 或 dmg。脚本查不到不等于安全，安装前先读一遍它的 `SKILL.md` 和脚本。
+收录前逐个核对过仓库说明、目录和文件，并用脚本查过二进制和压缩包、安装钩子、远程执行和读敏感文件。收录了 183 个 skill 项目和 25 个工具与平台。看过但没收的，原因逐条记在 [data/ignore.toml](data/ignore.toml)（目前 21 个）。正常的 skill 只是几份文本文件，用不着 exe 或 dmg。脚本查不到不等于安全，安装前先读一遍它的 `SKILL.md` 和脚本。
 
 ### 多久更新一次？
 
