@@ -1403,6 +1403,20 @@ note = "通过 Linked API 云服务操作你的账号，要先注册"
 note_en = "Works through the Linked API cloud service, which needs an account."
 checked = 2026-10-19
 
+[[skills]]
+repo = "bulkpublish/bulkpublish-ai-toolkit"
+name = "BulkPublish AI Toolkit"
+desc = "BulkPublish 的 skill 和 MCP 配置：让 agent 排期、发布帖子到 15 个社媒平台，管理账号、看数据"
+desc_en = "Agent skills and MCP setup for BulkPublish: schedule and publish posts to 15 social platforms, manage channels and read analytics from Claude Code, Cursor, Codex and other agents."
+group = "publish"
+platforms = ["x", "youtube", "tiktok", "instagram", "linkedin", "threads", "facebook", "pinterest"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex", "gemini-cli"]
+note = "要 BulkPublish 账号（云服务）"
+note_en = "Requires a BulkPublish account (hosted service)."
+checked = 2026-11-02
+
 # ───────── 选题、热点和数据分析 ─────────
 
 [[skills]]
