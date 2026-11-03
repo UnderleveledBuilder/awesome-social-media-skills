@@ -549,6 +549,18 @@ lang = "zh"
 checked = 2026-10-19
 
 [[skills]]
+repo = "liuhaisi2026212-maker/taishang-laojun"
+desc = "抖音/小红书口播短视频创作：先问清你是谁、想吸引谁，再拆对标爆款、选题、系列策划，写成能直接念的口播稿，还管标题、复盘和去 AI 味"
+desc_en = "Talking-head videos for Douyin and Xiaohongshu, from a Douyin creator's method: works out who you are and who you want to reach, breaks down hits, plans topics and series, writes a script you can read on camera; also titles, post-mortems, de-AI edits."
+group = "writing"
+platforms = ["douyin", "xiaohongshu"]
+format = "skill"
+lang = "zh"
+note = "CC BY-NC 4.0：不能商用"
+note_en = "CC BY-NC 4.0: no commercial use."
+checked = 2026-11-03
+
+[[skills]]
 repo = "code-wahaha/traffic-compass"
 desc = "抖音发布前自查：查广告法违禁词、引流词、AI 标注和资质红线，给最小改法，再按粉丝量和赛道估播放区间"
 desc_en = "Pre-publish check for Douyin: flags banned ad-law terms, traffic-diversion words, AI-label and licensing red lines, suggests minimal edits and estimates a view range by follower count and niche."

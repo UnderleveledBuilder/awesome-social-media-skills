@@ -1255,6 +1255,30 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "liuhaisi2026212-maker/taishang-laojun",
+   "url": "https://github.com/liuhaisi2026212-maker/taishang-laojun",
+   "name": "taishang-laojun",
+   "group": "writing",
+   "platforms": [
+    "douyin",
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "抖音/小红书口播短视频创作：先问清你是谁、想吸引谁，再拆对标爆款、选题、系列策划，写成能直接念的口播稿，还管标题、复盘和去 AI 味",
+   "desc_en": "Talking-head videos for Douyin and Xiaohongshu, from a Douyin creator's method: works out who you are and who you want to reach, breaks down hits, plans topics and series, writes a script you can read on camera; also titles, post-mortems, de-AI edits.",
+   "note": "CC BY-NC 4.0：不能商用",
+   "note_en": "CC BY-NC 4.0: no commercial use.",
+   "stars": 449,
+   "pushed_at": "2026-10-28",
+   "license": null,
+   "skills": 8,
+   "install": "npx skills add liuhaisi2026212-maker/taishang-laojun",
+   "checked": "2026-11-03"
+  },
+  {
    "repo": "dongbeixiaohuo/writing-agent",
    "url": "https://github.com/dongbeixiaohuo/writing-agent",
    "name": "writing-agent",
