@@ -108,7 +108,7 @@ One system for the whole loop: find topics, write and illustrate, publish, then 
 
 - **[jiji262/wechat-publisher](https://github.com/jiji262/wechat-publisher)** · ★ 290<br>One command for WeChat articles: multi-round research, 3,000–5,000-character long reads, a hand-drawn infographic per section, layout and push to drafts.<br><sub>Platforms: WeChat OA</sub><br><sub>updated 2026-10-30 · Chinese</sub>
 
-- **[social-ai-team](https://github.com/stevenflanagan1/social-ai-team)** · ★ 269<br>A social media team for small businesses: brand onboarding, a monthly content calendar, captions, LinkedIn posts, creative and monthly performance reviews.<br><sub>Platforms: X · TikTok · Instagram · LinkedIn · Threads · Facebook</sub><br><sub>updated 2026-10-07 · English · 10 skills</sub>
+- **[social-ai-team](https://github.com/stevenflanagan1/social-ai-team)** · ★ 270<br>A social media team for small businesses: brand onboarding, a monthly content calendar, captions, LinkedIn posts, creative and monthly performance reviews.<br><sub>Platforms: X · TikTok · Instagram · LinkedIn · Threads · Facebook</sub><br><sub>updated 2026-10-07 · English · 10 skills</sub>
 
 - **[social-media-skills/skills](https://github.com/social-media-skills/skills)** · ★ 245<br>106 social media skills: brand and voice, content calendars, LinkedIn posts, short video, design, platform growth, publishing and analytics.<br><sub>Platforms: X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook · Pinterest</sub><br><sub>updated 2026-10-15 · English · 106 skills · MIT</sub>
 

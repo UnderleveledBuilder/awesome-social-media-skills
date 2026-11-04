@@ -108,7 +108,7 @@
 
 - **[jiji262/wechat-publisher](https://github.com/jiji262/wechat-publisher)** · ★ 290<br>公众号文章一条命令：多轮搜素材、写 3000-5000 字长文、每章配手绘信息图、排版、推送草稿箱<br><sub>平台：公众号</sub><br><sub>更新于 2026-10-30 · 中文</sub>
 
-- **[social-ai-team](https://github.com/stevenflanagan1/social-ai-team)** · ★ 269<br>给小企业的社媒团队：品牌建档、月度内容日历、配图文案、LinkedIn 文章、创意和月度复盘<br><sub>平台：X · TikTok · Instagram · LinkedIn · Threads · Facebook</sub><br><sub>更新于 2026-10-07 · 英文 · 10 个 skill</sub>
+- **[social-ai-team](https://github.com/stevenflanagan1/social-ai-team)** · ★ 270<br>给小企业的社媒团队：品牌建档、月度内容日历、配图文案、LinkedIn 文章、创意和月度复盘<br><sub>平台：X · TikTok · Instagram · LinkedIn · Threads · Facebook</sub><br><sub>更新于 2026-10-07 · 英文 · 10 个 skill</sub>
 
 - **[social-media-skills/skills](https://github.com/social-media-skills/skills)** · ★ 245<br>106 个社媒 skill：品牌和口吻、内容日历、LinkedIn 帖子、短视频、设计、各平台增长、发布和数据分析<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook · Pinterest</sub><br><sub>更新于 2026-10-15 · 英文 · 106 个 skill · MIT</sub>
 
