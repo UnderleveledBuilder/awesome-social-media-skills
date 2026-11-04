@@ -1086,6 +1086,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "KKKKhazix/khazix-skills",
+   "url": "https://github.com/KKKKhazix/khazix-skills",
+   "name": "khazix-skills",
+   "group": "writing",
+   "platforms": [
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "卡兹克的 skill 合集，写作用 khazix-writer：照他的口吻写公众号长文，默认 4000–8000 字，写完自检；另有 aihot 查 AI 热点",
+   "desc_en": "Skills from Khazix (数字生命卡兹克). For writing, khazix-writer drafts WeChat long-form articles in his voice and rhythm, 4,000–8,000 characters by default, then self-checks facts, style and pacing; aihot pulls the daily AI news.",
+   "note": "",
+   "note_en": "",
+   "stars": 21951,
+   "pushed_at": "2026-11-03",
+   "license": "MIT",
+   "skills": 6,
+   "install": "npx skills add KKKKhazix/khazix-skills",
+   "checked": "2026-11-04"
+  },
+  {
    "repo": "KKKKhazix/human-writing",
    "url": "https://github.com/KKKKhazix/human-writing",
    "name": "human-writing",
@@ -5069,6 +5092,29 @@
    "skills": 0,
    "install": null,
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "name": "TrendRadar",
+   "group": "apps",
+   "platforms": [
+    "general"
+   ],
+   "format": "app",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "TrendRadar：热点舆情监控，聚合多平台热榜和 RSS，按关键词筛，AI 简报推到飞书、Telegram 等；带 MCP，agent 能直接查热点找选题",
+   "desc_en": "TrendRadar: trend and public-opinion monitor that aggregates trending lists from many Chinese platforms plus RSS, filters by keyword and pushes AI briefs to WeChat Work, Feishu, Telegram and more; its MCP server lets agents query trends and find topics.",
+   "note": "自己部署（Docker 或本地）；热榜数据来自 newsnow 的接口，AI 分析要配自己的模型 Key",
+   "note_en": "Self-hosted (Docker or local). Trending data comes from the newsnow API; AI analysis needs your own model key.",
+   "stars": 63430,
+   "pushed_at": "2026-10-29",
+   "license": "GPL-3.0",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-04"
   },
   {
    "repo": "krillinai/OpenCreator",

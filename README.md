@@ -10,7 +10,7 @@
 
 这里收录给 AI 智能体（agent）用的自媒体 skill：写小红书笔记和公众号文章、做封面和短视频、定时发布、追热点、回评论、看数据。大多是标准 SKILL.md 格式，支持技能的智能体都能装，装法见[常见问题](#faq)。每个项目都经过人工核对，收录前用脚本做过安全检查，按要干的活和平台整理。
 
-收录 184 个 skill 项目 + 25 个 MCP 工具和开源平台 · 元数据更新于 2026-11-04
+收录 185 个 skill 项目 + 26 个 MCP 工具和开源平台 · 元数据更新于 2026-11-04
 
 **图例**：🌟 精选 · 📝 提示词文件（非标准 skill）· 🔌 MCP 或命令行工具 · 🧩 完整应用 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效
 
@@ -24,16 +24,16 @@
 
 ## 目录
 
-- [本周新增](#new)（11）
+- [本周新增](#new)（13）
 - [按类型](#by-group)
   - [全流程运营：选题 → 创作 → 发布 → 复盘](#group-pipeline)（37）
-  - [文案和内容创作](#group-writing)（19）
+  - [文案和内容创作](#group-writing)（20）
   - [排版、封面配图和短视频](#group-visual)（56）
   - [发布和自动化](#group-publish)（22）
   - [选题、热点和数据分析](#group-research)（42）
   - [账号定位和增长](#group-strategy)（8）
   - [MCP 和命令行工具（不是 skill）](#group-mcp)（16）
-  - [相关开源平台（完整应用，不是 skill）](#group-apps)（9）
+  - [相关开源平台（完整应用，不是 skill）](#group-apps)（10）
 - [按平台查找](#by-platforms)
 - [常见问题](#faq)
 - [相关资源](#resources)
@@ -42,8 +42,10 @@
 <a id="new"></a>
 ## 本周新增
 
-近 7 天新收录 11 个：
+近 7 天新收录 13 个：
 
+- [TrendRadar](https://github.com/sansan0/TrendRadar) ★63.4k：TrendRadar：热点舆情监控，聚合多平台热榜和 RSS，按关键词筛，AI 简报推到飞书、Telegram 等；带 MCP，agent 能直接查热点找选题
+- [khazix-skills](https://github.com/KKKKhazix/khazix-skills) ★22k：卡兹克的 skill 合集，写作用 khazix-writer：照他的口吻写公众号长文，默认 4000–8000 字，写完自检；另有 aihot 查 AI 热点
 - [taishang-laojun](https://github.com/liuhaisi2026212-maker/taishang-laojun) ★477：抖音/小红书口播短视频创作：先问清你是谁、想吸引谁，再拆对标爆款、选题、系列策划，写成能直接念的口播稿，还管标题、复盘和去 AI 味
 - [bilibili-mcp](https://github.com/adoresever/bilibili-mcp) ★179：B 站 MCP：扫码登录，搜视频、读评论字幕弹幕、回复评论，发动态、专栏和视频（支持多 P），看热门、排行和 UP 主数据，发私信；登录凭证存在本地 JSON
 - [story-studio](https://github.com/konlu/story-studio) ★739：历史和人物故事短视频一条龙：选题、开头钩子、口播稿、豆包配音、本地字幕对齐、三种画风分镜配图，导出能再改的剪映草稿；内置 370 多篇高赞文案对标
@@ -228,6 +230,8 @@ npx skills add zizhanovo/doubaoya-community
 
 - 🌟 **[Humanizer-zh](https://github.com/op7418/Humanizer-zh)** · ★ 22k<br>中文去 AI 味：删改空话、重复和模板化表达，保留事实、确定程度和作者声音，没问题的句子不改<br><sub>平台：通用</sub><br><sub>更新于 2026-09-23 · 中文 · MIT</sub>
 
+- **[khazix-skills](https://github.com/KKKKhazix/khazix-skills)** · ★ 22k<br>卡兹克的 skill 合集，写作用 khazix-writer：照他的口吻写公众号长文，默认 4000–8000 字，写完自检；另有 aihot 查 AI 热点<br><sub>平台：公众号</sub><br><sub>更新于 2026-11-03 · 中文 · 6 个 skill · MIT</sub>
+
 - **[human-writing](https://github.com/KKKKhazix/human-writing)** · ★ 4.4k<br>活人感写作：知乎回答、公众号文章、评测、口播稿等中文写作，先查够材料再写，读起来像一个具体的人在说话<br><sub>平台：公众号 · 知乎</sub><br><sub>更新于 2026-08-11 · 中文 · MIT</sub>
 
 - **[writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill)** · ★ 3k<br>写作蒸馏器：从至少 20 篇文章里蒸馏一个账号或作者的写作 DNA（语言、结构、选题、素材），之后按这套 DNA 写<br><sub>平台：小红书 · 公众号 · 微博 · Newsletter</sub><br><sub>更新于 2026-11-03 · 中文 · 2 个 skill · MIT</sub>
@@ -271,6 +275,8 @@ npx skills add zizhanovo/doubaoya-community
 npx skills add blader/humanizer
 # Humanizer-zh
 npx skills add op7418/Humanizer-zh
+# khazix-skills
+npx skills add KKKKhazix/khazix-skills
 # human-writing
 npx skills add KKKKhazix/human-writing
 # writing-dna-skill
@@ -920,6 +926,8 @@ npx skills add Lulu-Eva/Eva-skill
 
 - 🌟 **[postiz-app](https://github.com/gitroomhq/postiz-app)** · ★ 40.9k<br>开源社媒排程平台：排期、自动化和数据分析，可用云版或自己部署，支持 agent 接入<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook · Reddit · Pinterest</sub><br><sub>更新于 2026-11-03 · 🧩 应用 · 英文 · AGPL-3.0</sub>
 
+- **[TrendRadar](https://github.com/sansan0/TrendRadar)** · ★ 63.4k<br>TrendRadar：热点舆情监控，聚合多平台热榜和 RSS，按关键词筛，AI 简报推到飞书、Telegram 等；带 MCP，agent 能直接查热点找选题<br><sub>平台：通用</sub><br><sub>更新于 2026-10-29 · 🧩 应用 · 中文 · GPL-3.0</sub><br><sub>💡 自己部署（Docker 或本地）；热榜数据来自 newsnow 的接口，AI 分析要配自己的模型 Key</sub>
+
 - **[OpenCreator](https://github.com/krillinai/OpenCreator)** · ★ 14.2k<br>原 KrillinAI：创作者 AI 工作台，视频下载、翻译配音、做视频图片和语音、剪辑，内置 Codex agent<br><sub>平台：小红书 · 抖音 · B 站 · X · YouTube · TikTok · Instagram · Facebook</sub><br><sub>更新于 2026-11-04 · 🧩 应用 · 英文 · 9 个 skill · Apache-2.0</sub>
 
 - **[xiaobei](https://github.com/TeamWiseFlow/xiaobei)** · ★ 8.7k<br>小贝：给小微企业的自媒体获客智能体（基于 OpenClaw），公众号写作推送、小红书图文、视频分发、评论区获客、数据复盘<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-10-30 · 🧩 应用 · 中文 · 58 个 skill</sub>
@@ -946,7 +954,7 @@ npx skills add Lulu-Eva/Eva-skill
 
 **抖音**（48）：[social-auto-upload](https://github.com/dreammis/social-auto-upload) · [OpenCreator](https://github.com/krillinai/OpenCreator) · [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [Easel](https://github.com/ZJU-REAL/Easel) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [rnskill](https://github.com/Pluviobyte/rnskill) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [clipforge](https://github.com/xixihhhh/clipforge) · [vibe-knowledge-film](https://github.com/HeyChengC/vibe-knowledge-film) · [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) · [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [blogger-distiller](https://github.com/otter1101/blogger-distiller) · [story-studio](https://github.com/konlu/story-studio) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [catbus](https://github.com/cv-cat/catbus) · [taishang-laojun](https://github.com/liuhaisi2026212-maker/taishang-laojun) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [lingzao-skill](https://github.com/atian-create/lingzao-skill) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [douyin-live-recorder](https://github.com/WeiZhuochun/douyin-live-recorder) · [ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader) · [social-media-data-tools](https://github.com/jinchenma94/social-media-data-tools) · [blcaptain-lingjian-video](https://github.com/dososo/blcaptain-lingjian-video) · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) · [Spreado](https://github.com/BadKid90s/Spreado) · [tikhub_api_skill](https://github.com/liangdabiao/tikhub_api_skill) · [douyin-image-post-scheduler](https://github.com/chengyi-ai/douyin-image-post-scheduler) · [traffic-compass](https://github.com/code-wahaha/traffic-compass) · [douyin-upload-mcp-skill](https://github.com/WJZ-P/douyin-upload-mcp-skill) · [media-publish-check](https://github.com/XshuiAi/media-publish-check) · [dy-cli](https://github.com/Youhai020616/douyin) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector) · [douyin-mcp-server](https://github.com/lancelin111/douyin-mcp-server) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news) · [doubaoya-community](https://github.com/zizhanovo/doubaoya-community) · [douyin-video-summary](https://github.com/liu-wei-ai/douyin-video-summary)
 
-**微信公众号**（60）：[baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [wechatDownload](https://github.com/qiye45/wechatDownload) · [html-anything](https://github.com/nexu-io/html-anything) · [xiaobei](https://github.com/TeamWiseFlow/xiaobei) · [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) · [handraw-style](https://github.com/yang0/handraw-style) · [Wechatsync](https://github.com/wechatsync/Wechatsync) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [we-mp-rss](https://github.com/rachelos/we-mp-rss) · [human-writing](https://github.com/KKKKhazix/human-writing) · [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) · [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) · [wewrite](https://github.com/imraywang/wewrite) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [chatwiki](https://github.com/zhimaAi/chatwiki) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [rnskill](https://github.com/Pluviobyte/rnskill) · [Punk-Posters](https://github.com/adrianpunk/Punk-Posters) · [qiaomu-mondo-poster-design](https://github.com/joeseesun/qiaomu-mondo-poster-design) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [wechat-download-api](https://github.com/tmwgsicp/wechat-download-api) · [wechat-article-to-markdown](https://github.com/jackwener/wechat-article-to-markdown) · [gbro-cover-design](https://github.com/pyang5166/gbro-cover-design) · [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [wechat-article-skills](https://github.com/aiworkskills/wechat-article-skills) · [xiaohu-wechat-format](https://github.com/xiaohuailabs/xiaohu-wechat-format) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [social-push](https://github.com/jihe520/social-push) · [SyncCaster](https://github.com/RyanYipeng/SyncCaster) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [writing-agent](https://github.com/dongbeixiaohuo/writing-agent) · [rayskills](https://github.com/imraywang/rayskills) · [wechat_article_skills](https://github.com/BND-1/wechat_article_skills) · [lingzao-skill](https://github.com/atian-create/lingzao-skill) · [jiji262/wechat-publisher](https://github.com/jiji262/wechat-publisher) · [oh-my-cover-design](https://github.com/hongfamonvAI/oh-my-cover-design) · [bigpeng-hot-gzh](https://github.com/BigPengSays/bigpeng-hot-gzh) · [content-pipeline](https://github.com/OrangeViolin/content-pipeline) · [blcaptain-style-skill](https://github.com/dososo/blcaptain-style-skill) · [gainubi/wechat-skills](https://github.com/gainubi/wechat-skills) · [wechat-article-publisher-skill](https://github.com/iamzifei/wechat-article-publisher-skill) · [wechat-article-extractor-skill](https://github.com/freestylefly/wechat-article-extractor-skill) · [jianshuo/claude-skills](https://github.com/jianshuo/claude-skills) · [843645440/wechat-skill](https://github.com/843645440/wechat-skill) · [wemp-operator](https://github.com/IanShaw027/wemp-operator) · [wechat-search-weread](https://github.com/KANIKIG/wechat-search-weread) · [space-image](https://github.com/SpaceZephyr/space-image) · [wechat-article-formatter-skill](https://github.com/iamzifei/wechat-article-formatter-skill) · [wechat-typesetting-cy](https://github.com/CY-CHENYUE/wechat-typesetting-cy) · [Fully-automatic-article-generation-skill](https://github.com/solar-luna/Fully-automatic-article-generation-skill) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [0731coderlee-sudo/wechat-publisher](https://github.com/0731coderlee-sudo/wechat-publisher) · [MediaManager](https://github.com/LDJ-creat/MediaManager) · [doubaoya-community](https://github.com/zizhanovo/doubaoya-community)
+**微信公众号**（61）：[baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [khazix-skills](https://github.com/KKKKhazix/khazix-skills) · [wechatDownload](https://github.com/qiye45/wechatDownload) · [html-anything](https://github.com/nexu-io/html-anything) · [xiaobei](https://github.com/TeamWiseFlow/xiaobei) · [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) · [handraw-style](https://github.com/yang0/handraw-style) · [Wechatsync](https://github.com/wechatsync/Wechatsync) · [yichen-skills](https://github.com/mcncarl/yichen-skills) · [we-mp-rss](https://github.com/rachelos/we-mp-rss) · [human-writing](https://github.com/KKKKhazix/human-writing) · [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) · [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) · [wewrite](https://github.com/imraywang/wewrite) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [chatwiki](https://github.com/zhimaAi/chatwiki) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [rnskill](https://github.com/Pluviobyte/rnskill) · [Punk-Posters](https://github.com/adrianpunk/Punk-Posters) · [qiaomu-mondo-poster-design](https://github.com/joeseesun/qiaomu-mondo-poster-design) · [chubbyskills](https://github.com/chubbyguan/chubbyskills) · [wechat-download-api](https://github.com/tmwgsicp/wechat-download-api) · [wechat-article-to-markdown](https://github.com/jackwener/wechat-article-to-markdown) · [gbro-cover-design](https://github.com/pyang5166/gbro-cover-design) · [Viral_Writer_Skill](https://github.com/nashsu/Viral_Writer_Skill) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [wechat-article-skills](https://github.com/aiworkskills/wechat-article-skills) · [xiaohu-wechat-format](https://github.com/xiaohuailabs/xiaohu-wechat-format) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) · [feedgrab](https://github.com/iBigQiang/feedgrab) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [social-push](https://github.com/jihe520/social-push) · [SyncCaster](https://github.com/RyanYipeng/SyncCaster) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [writing-agent](https://github.com/dongbeixiaohuo/writing-agent) · [rayskills](https://github.com/imraywang/rayskills) · [wechat_article_skills](https://github.com/BND-1/wechat_article_skills) · [lingzao-skill](https://github.com/atian-create/lingzao-skill) · [jiji262/wechat-publisher](https://github.com/jiji262/wechat-publisher) · [oh-my-cover-design](https://github.com/hongfamonvAI/oh-my-cover-design) · [bigpeng-hot-gzh](https://github.com/BigPengSays/bigpeng-hot-gzh) · [content-pipeline](https://github.com/OrangeViolin/content-pipeline) · [blcaptain-style-skill](https://github.com/dososo/blcaptain-style-skill) · [gainubi/wechat-skills](https://github.com/gainubi/wechat-skills) · [wechat-article-publisher-skill](https://github.com/iamzifei/wechat-article-publisher-skill) · [wechat-article-extractor-skill](https://github.com/freestylefly/wechat-article-extractor-skill) · [jianshuo/claude-skills](https://github.com/jianshuo/claude-skills) · [843645440/wechat-skill](https://github.com/843645440/wechat-skill) · [wemp-operator](https://github.com/IanShaw027/wemp-operator) · [wechat-search-weread](https://github.com/KANIKIG/wechat-search-weread) · [space-image](https://github.com/SpaceZephyr/space-image) · [wechat-article-formatter-skill](https://github.com/iamzifei/wechat-article-formatter-skill) · [wechat-typesetting-cy](https://github.com/CY-CHENYUE/wechat-typesetting-cy) · [Fully-automatic-article-generation-skill](https://github.com/solar-luna/Fully-automatic-article-generation-skill) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [0731coderlee-sudo/wechat-publisher](https://github.com/0731coderlee-sudo/wechat-publisher) · [MediaManager](https://github.com/LDJ-creat/MediaManager) · [doubaoya-community](https://github.com/zizhanovo/doubaoya-community)
 
 **微信视频号**（19）：[social-auto-upload](https://github.com/dreammis/social-auto-upload) · [cheat-on-content](https://github.com/XBuilderLAB/cheat-on-content) · [video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [yuwen-publish-precheck](https://github.com/yuwen-cool/yuwen-publish-precheck) · [story-studio](https://github.com/konlu/story-studio) · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) · [agent-skills-launch-pack_](https://github.com/chenjin-cmd/agent-skills-launch-pack_) · [claude-design-card](https://github.com/geekjourneyx/claude-design-card) · [redfox-community](https://github.com/redfox-data/redfox-community) · [hotclip](https://github.com/xixihhhh/hotclip) · [social-account-doctor](https://github.com/JuneYaooo/social-account-doctor) · [panda-video-generator](https://github.com/szhshp/panda-video-generator) · [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) · [Spreado](https://github.com/BadKid90s/Spreado) · [hook-lab](https://github.com/hongfamonvAI/hook-lab) · [media-publish-check](https://github.com/XshuiAi/media-publish-check) · [Eva-skill](https://github.com/Lulu-Eva/Eva-skill) · [content-risk-detector](https://github.com/liuxingqitd/content-risk-detector)
 
@@ -980,7 +988,7 @@ npx skills add Lulu-Eva/Eva-skill
 
 **Substack 和 Newsletter**（3）：[charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills)
 
-**通用**（14）：[humanizer](https://github.com/blader/humanizer) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
+**通用**（15）：[humanizer](https://github.com/blader/humanizer) · [TrendRadar](https://github.com/sansan0/TrendRadar) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
 
 <a id="faq"></a>
 ## 常见问题
@@ -991,7 +999,7 @@ npx skills add Lulu-Eva/Eva-skill
 
 ### 有写公众号文章、排版和发布的 skill 吗？
 
-有。针对微信公众号的有 60 个，星数最高的是 [baoyu-skills](https://github.com/JimLiu/baoyu-skills)、[wechatDownload](https://github.com/qiye45/wechatDownload)、[html-anything](https://github.com/nexu-io/html-anything)。多数能把 Markdown 排成公众号样式，不少能直接推到草稿箱，最后发出去一般还要你在后台自己点。
+有。针对微信公众号的有 61 个，星数最高的是 [baoyu-skills](https://github.com/JimLiu/baoyu-skills)、[khazix-skills](https://github.com/KKKKhazix/khazix-skills)、[wechatDownload](https://github.com/qiye45/wechatDownload)。多数能把 Markdown 排成公众号样式，不少能直接推到草稿箱，最后发出去一般还要你在后台自己点。
 
 ### 自媒体 skill 是什么？和 MCP 有什么区别？
 
@@ -1011,7 +1019,7 @@ Claude Code、Codex 用 `npx skills add 作者/仓库名`，每个分组末尾�
 
 ### X、YouTube、TikTok、LinkedIn 有哪些 skill？
 
-针对 X 的有 47 个，YouTube 47 个，TikTok 31 个，LinkedIn 23 个。不挑平台的通用项目有 14 个，星数最高的是 [humanizer](https://github.com/blader/humanizer)、[Humanizer-zh](https://github.com/op7418/Humanizer-zh)、[dbskill](https://github.com/dontbesilent2025/dbskill)。
+针对 X 的有 47 个，YouTube 47 个，TikTok 31 个，LinkedIn 23 个。不挑平台的通用项目有 15 个，星数最高的是 [humanizer](https://github.com/blader/humanizer)、[TrendRadar](https://github.com/sansan0/TrendRadar)、[Humanizer-zh](https://github.com/op7418/Humanizer-zh)。
 
 ### 让 agent 自动发帖安全吗？会不会封号？
 
@@ -1019,7 +1027,7 @@ Claude Code、Codex 用 `npx skills add 作者/仓库名`，每个分组末尾�
 
 ### 这些项目安全吗？
 
-收录前逐个核对过仓库说明、目录和文件，并用脚本查过二进制和压缩包、安装钩子、远程执行和读敏感文件。收录了 184 个 skill 项目和 25 个工具与平台。看过但没收的，原因逐条记在 [data/ignore.toml](data/ignore.toml)（目前 21 个）。正常的 skill 只是几份文本文件，用不着 exe 或 dmg。脚本查不到不等于安全，安装前先读一遍它的 `SKILL.md` 和脚本。
+收录前逐个核对过仓库说明、目录和文件，并用脚本查过二进制和压缩包、安装钩子、远程执行和读敏感文件。收录了 185 个 skill 项目和 26 个工具与平台。看过但没收的，原因逐条记在 [data/ignore.toml](data/ignore.toml)（目前 21 个）。正常的 skill 只是几份文本文件，用不着 exe 或 dmg。脚本查不到不等于安全，安装前先读一遍它的 `SKILL.md` 和脚本。
 
 ### 多久更新一次？
 

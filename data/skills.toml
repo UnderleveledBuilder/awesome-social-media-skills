@@ -561,6 +561,16 @@ note_en = "CC BY-NC 4.0: no commercial use."
 checked = 2026-11-03
 
 [[skills]]
+repo = "KKKKhazix/khazix-skills"
+desc = "卡兹克的 skill 合集，写作用 khazix-writer：照他的口吻写公众号长文，默认 4000–8000 字，写完自检；另有 aihot 查 AI 热点"
+desc_en = "Skills from Khazix (数字生命卡兹克). For writing, khazix-writer drafts WeChat long-form articles in his voice and rhythm, 4,000–8,000 characters by default, then self-checks facts, style and pacing; aihot pulls the daily AI news."
+group = "writing"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-04
+
+[[skills]]
 repo = "code-wahaha/traffic-compass"
 desc = "抖音发布前自查：查广告法违禁词、引流词、AI 标注和资质红线，给最小改法，再按粉丝量和赛道估播放区间"
 desc_en = "Pre-publish check for Douyin: flags banned ad-law terms, traffic-diversion words, AI-label and licensing red lines, suggests minimal edits and estimates a view range by follower count and niche."
@@ -2127,6 +2137,18 @@ lang = "en"
 checked = 2026-10-19
 
 # ───────── 相关开源平台 ─────────
+
+[[skills]]
+repo = "sansan0/TrendRadar"
+desc = "TrendRadar：热点舆情监控，聚合多平台热榜和 RSS，按关键词筛，AI 简报推到飞书、Telegram 等；带 MCP，agent 能直接查热点找选题"
+desc_en = "TrendRadar: trend and public-opinion monitor that aggregates trending lists from many Chinese platforms plus RSS, filters by keyword and pushes AI briefs to WeChat Work, Feishu, Telegram and more; its MCP server lets agents query trends and find topics."
+group = "apps"
+platforms = ["general"]
+format = "app"
+lang = "zh"
+note = "自己部署（Docker 或本地）；热榜数据来自 newsnow 的接口，AI 分析要配自己的模型 Key"
+note_en = "Self-hosted (Docker or local). Trending data comes from the newsnow API; AI analysis needs your own model key."
+checked = 2026-11-04
 
 [[skills]]
 repo = "gitroomhq/postiz-app"
