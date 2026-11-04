@@ -4470,16 +4470,16 @@
    "lang": "zh",
    "agents": [],
    "featured": true,
-   "desc": "dontbesilent 的 34 个商业诊断 skill：找生意问题、选对标、把选题做成内容方案、写标题封面和开头、发布前查违规",
-   "desc_en": "dontbesilent's 34 business-diagnosis skills: find what's wrong with a business, pick benchmarks, turn topics into content plans, write titles, cover text and openings, and check compliance before posting.",
+   "desc": "dontbesilent 的 35 个商业诊断 skill：找生意问题、选对标、把选题做成内容方案、写标题封面和开头、发布前查违规",
+   "desc_en": "dontbesilent's 35 business-diagnosis skills: find what's wrong with a business, pick benchmarks, turn topics into content plans, write titles, cover text and openings, and check compliance before posting.",
    "note": "",
    "note_en": "",
-   "stars": 11121,
+   "stars": 11226,
    "pushed_at": "2026-11-03",
    "license": null,
    "skills": 35,
    "install": "npx skills add dontbesilent2025/dbskill",
-   "checked": "2026-10-19"
+   "checked": "2026-11-04"
   },
   {
    "repo": "alchaincyf/x-mentor-skill",

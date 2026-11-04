@@ -834,7 +834,7 @@ npx skills add skillify-sh/skills
 
 Find a niche and persona, plan content, and grow and monetize an account.
 
-- 🌟 **[dbskill](https://github.com/dontbesilent2025/dbskill)** · ★ 11.1k<br>dontbesilent's 34 business-diagnosis skills: find what's wrong with a business, pick benchmarks, turn topics into content plans, write titles, cover text and openings, and check compliance before posting.<br><sub>Platforms: Any platform</sub><br><sub>updated 2026-11-03 · Chinese · 35 skills</sub>
+- 🌟 **[dbskill](https://github.com/dontbesilent2025/dbskill)** · ★ 11.2k<br>dontbesilent's 35 business-diagnosis skills: find what's wrong with a business, pick benchmarks, turn topics into content plans, write titles, cover text and openings, and check compliance before posting.<br><sub>Platforms: Any platform</sub><br><sub>updated 2026-11-03 · Chinese · 35 skills</sub>
 
 - **[x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill)** · ★ 1.3k<br>An X mentor distilled from six top creators (Dan Koe, Justin Welsh and others) plus the open-sourced algorithm: topics, posts and long-form, account diagnosis and growth.<br><sub>Platforms: X</sub><br><sub>updated 2026-10-13 · Chinese · MIT</sub>
 
