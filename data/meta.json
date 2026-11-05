@@ -561,6 +561,20 @@
       "stars": 218,
       "status": "ok"
     },
+    "Panniantong/Agent-Reach": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "first_seen": "2026-11-05",
+      "forks": 9753,
+      "full_name": "Panniantong/Agent-Reach",
+      "license": "MIT",
+      "pushed_at": "2026-11-05",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 109100,
+      "status": "ok"
+    },
     "Pluviobyte/rnskill": {
       "archived": false,
       "default_branch": "main",

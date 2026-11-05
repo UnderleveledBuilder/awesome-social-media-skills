@@ -4696,6 +4696,33 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "name": "Agent-Reach",
+   "group": "mcp",
+   "platforms": [
+    "xiaohongshu",
+    "x",
+    "bilibili",
+    "youtube",
+    "reddit"
+   ],
+   "format": "mcp",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "Agent-Reach：让 agent 搜索和读取小红书、X、B 站、YouTube、Reddit 上的帖子、评论和字幕，一条命令调用，只读不发",
+   "desc_en": "Agent Reach: one CLI that lets an agent search and read Xiaohongshu, X, Bilibili, YouTube, Reddit and more: posts, comments and subtitles, with fallback tools per platform. Read-only: it never posts, comments or likes.",
+   "note": "要登录的平台会把你 Chrome 里该网站的登录复制到它自己的浏览器，作者建议换小号；视频转文字要配 Groq 或 OpenAI 的 Key；PyPI 上同名的包不是它",
+   "note_en": "Sites that need login reuse a copy of that site's session from your Chrome in its own browser; the author suggests a secondary account. Speech-to-text needs a Groq or OpenAI key. The PyPI package of the same name is not this project.",
+   "stars": 109100,
+   "pushed_at": "2026-11-05",
+   "license": "MIT",
+   "skills": 1,
+   "install": null,
+   "checked": "2026-11-05"
+  },
+  {
    "repo": "epiral/bb-browser",
    "url": "https://github.com/epiral/bb-browser",
    "name": "bb-browser",
