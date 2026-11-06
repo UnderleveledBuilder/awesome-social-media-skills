@@ -10,7 +10,7 @@ This list collects social media skills for AI agents: writing posts and threads,
 
 Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Official Accounts) and are documented in Chinese; the descriptions below are translated.
 
-185 skill projects + 27 MCP tools and open-source platforms · metadata updated 2026-11-05
+186 skill projects + 27 MCP tools and open-source platforms · metadata updated 2026-11-05
 
 **Legend**: 🌟 featured · 📝 prompt files (not a standard skill) · 🔌 MCP server or CLI tool · 🧩 full app · 💤 not updated for 180+ days · 📦 archived · ⚠️ repo unavailable
 
@@ -27,7 +27,7 @@ Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Offic
 - [New this week](#new) (13)
 - [By type](#by-group)
   - [All-in-one: ideas → content → publishing → review](#group-pipeline) (37)
-  - [Writing and content](#group-writing) (20)
+  - [Writing and content](#group-writing) (21)
   - [Layout, covers, images and short video](#group-visual) (56)
   - [Publishing and automation](#group-publish) (22)
   - [Topics, trends and analytics](#group-research) (42)
@@ -232,6 +232,8 @@ Write posts, threads, titles, voice-over scripts and long articles, adapt them t
 
 - **[khazix-skills](https://github.com/KKKKhazix/khazix-skills)** · ★ 22k<br>Skills from Khazix (数字生命卡兹克). For writing, khazix-writer drafts WeChat long-form articles in his voice and rhythm, 4,000–8,000 characters by default, then self-checks facts, style and pacing; aihot pulls the daily AI news.<br><sub>Platforms: WeChat OA</sub><br><sub>updated 2026-11-03 · Chinese · 6 skills · MIT</sub>
 
+- **[lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone)** · ★ 6.4k<br>Chinese AI-tone removal built on a 5.2-million-character human vs AI corpus study: it first delivers a detection report with metrics, example sentences and fixes, then makes minimal rewrites and re-tests only after you approve.<br><sub>Platforms: Any platform</sub><br><sub>updated 2026-11-05 · Chinese</sub><br><sub>💡 CC BY-NC 4.0: no commercial use.</sub>
+
 - **[human-writing](https://github.com/KKKKhazix/human-writing)** · ★ 4.4k<br>Chinese writing that sounds like a specific person: Zhihu answers, WeChat articles, reviews, voice-over scripts and more. Gathers enough material before writing.<br><sub>Platforms: WeChat OA · Zhihu</sub><br><sub>updated 2026-08-11 · Chinese · MIT</sub>
 
 - **[writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill)** · ★ 3k<br>Writing DNA distiller: learns an account's or author's language, structure, topic logic and sourcing from at least 20 articles, then writes in that style.<br><sub>Platforms: Newsletter · RedNote · WeChat OA · Weibo</sub><br><sub>updated 2026-11-05 · Chinese · 2 skills</sub>
@@ -277,6 +279,8 @@ npx skills add blader/humanizer
 npx skills add op7418/Humanizer-zh
 # khazix-skills
 npx skills add KKKKhazix/khazix-skills
+# lieflat-less-ai-tone
+npx skills add larashero3-dotcom/lieflat-less-ai-tone
 # human-writing
 npx skills add KKKKhazix/human-writing
 # writing-dna-skill
@@ -990,18 +994,18 @@ Platforms each repo's README explicitly targets (sorted by stars). "Any platform
 
 **Toutiao** (8): [Wechatsync](https://github.com/wechatsync/Wechatsync) · [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) · [redfox-community](https://github.com/redfox-data/redfox-community) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
 
-**Any platform** (15): [humanizer](https://github.com/blader/humanizer) · [TrendRadar](https://github.com/sansan0/TrendRadar) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
+**Any platform** (16): [humanizer](https://github.com/blader/humanizer) · [TrendRadar](https://github.com/sansan0/TrendRadar) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) · [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
 
 <a id="faq"></a>
 ## FAQ
 
 ### What are the best agent skills for social media?
 
-This list has 185 hand-checked skill projects (data updated 2026-11-05). Start with [All-in-one](#group-pipeline) if you run the whole loop yourself; otherwise go straight to [Writing and content](#group-writing), [Publishing and automation](#group-publish) or [Topics, trends and analytics](#group-research). The [By platform](#by-platforms) index lists every project per platform.
+This list has 186 hand-checked skill projects (data updated 2026-11-05). Start with [All-in-one](#group-pipeline) if you run the whole loop yourself; otherwise go straight to [Writing and content](#group-writing), [Publishing and automation](#group-publish) or [Topics, trends and analytics](#group-research). The [By platform](#by-platforms) index lists every project per platform.
 
 ### Which skills work for X, YouTube, TikTok and LinkedIn?
 
-48 projects target X, 48 YouTube, 31 TikTok and 23 LinkedIn. 15 work on any platform; the most-starred are [humanizer](https://github.com/blader/humanizer), [TrendRadar](https://github.com/sansan0/TrendRadar) and [Humanizer-zh](https://github.com/op7418/Humanizer-zh).
+48 projects target X, 48 YouTube, 31 TikTok and 23 LinkedIn. 16 work on any platform; the most-starred are [humanizer](https://github.com/blader/humanizer), [TrendRadar](https://github.com/sansan0/TrendRadar) and [Humanizer-zh](https://github.com/op7418/Humanizer-zh).
 
 ### What is a social media skill, and how is it different from an MCP server?
 
@@ -1017,7 +1021,7 @@ There are two risks. Your account: automated posting usually logs in as you, and
 
 ### Are these projects safe to install?
 
-Every repo was checked by hand (README, folders and files) and scanned by a script for binaries and archives, install hooks, remote code execution and reads of sensitive files. 185 skill projects and 27 tools and platforms made the list. Repos that were reviewed and turned down are recorded with the reason in [data/ignore.toml](data/ignore.toml) (in Chinese; 21 so far). A normal skill is a few text files and never needs an .exe or .dmg. A clean scan does not prove a skill is safe, so read its `SKILL.md` and scripts before installing.
+Every repo was checked by hand (README, folders and files) and scanned by a script for binaries and archives, install hooks, remote code execution and reads of sensitive files. 186 skill projects and 27 tools and platforms made the list. Repos that were reviewed and turned down are recorded with the reason in [data/ignore.toml](data/ignore.toml) (in Chinese; 21 so far). A normal skill is a few text files and never needs an .exe or .dmg. A clean scan does not prove a skill is safe, so read its `SKILL.md` and scripts before installing.
 
 ### How often is the list updated?
 

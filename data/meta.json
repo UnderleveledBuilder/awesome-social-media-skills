@@ -1835,6 +1835,20 @@
       "stars": 2986,
       "status": "ok"
     },
+    "larashero3-dotcom/lieflat-less-ai-tone": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "一个基于 520 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 5.2-million-character corpus study",
+      "first_seen": "2026-11-06",
+      "forks": 431,
+      "full_name": "larashero3-dotcom/lieflat-less-ai-tone",
+      "license": null,
+      "pushed_at": "2026-11-05",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 6382,
+      "status": "ok"
+    },
     "larashero3-dotcom/writing-dna-skill": {
       "archived": false,
       "default_branch": "main",

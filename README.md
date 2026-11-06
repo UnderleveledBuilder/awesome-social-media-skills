@@ -10,7 +10,7 @@
 
 这里收录给 AI 智能体（agent）用的自媒体 skill：写小红书笔记和公众号文章、做封面和短视频、定时发布、追热点、回评论、看数据。大多是标准 SKILL.md 格式，支持技能的智能体都能装，装法见[常见问题](#faq)。每个项目都经过人工核对，收录前用脚本做过安全检查，按要干的活和平台整理。
 
-收录 185 个 skill 项目 + 27 个 MCP 工具和开源平台 · 元数据更新于 2026-11-05
+收录 186 个 skill 项目 + 27 个 MCP 工具和开源平台 · 元数据更新于 2026-11-05
 
 **图例**：🌟 精选 · 📝 提示词文件（非标准 skill）· 🔌 MCP 或命令行工具 · 🧩 完整应用 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效
 
@@ -27,7 +27,7 @@
 - [本周新增](#new)（13）
 - [按类型](#by-group)
   - [全流程运营：选题 → 创作 → 发布 → 复盘](#group-pipeline)（37）
-  - [文案和内容创作](#group-writing)（20）
+  - [文案和内容创作](#group-writing)（21）
   - [排版、封面配图和短视频](#group-visual)（56）
   - [发布和自动化](#group-publish)（22）
   - [选题、热点和数据分析](#group-research)（42）
@@ -232,6 +232,8 @@ npx skills add zizhanovo/doubaoya-community
 
 - **[khazix-skills](https://github.com/KKKKhazix/khazix-skills)** · ★ 22k<br>卡兹克的 skill 合集，写作用 khazix-writer：照他的口吻写公众号长文，默认 4000–8000 字，写完自检；另有 aihot 查 AI 热点<br><sub>平台：公众号</sub><br><sub>更新于 2026-11-03 · 中文 · 6 个 skill · MIT</sub>
 
+- **[lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone)** · ★ 6.4k<br>去 AI 味：先按 520 万字人机对照实测出的指标出检测报告，附原文例句和改法，你同意后才做最小改写并复测<br><sub>平台：通用</sub><br><sub>更新于 2026-11-05 · 中文</sub><br><sub>💡 CC BY-NC 4.0：不能商用</sub>
+
 - **[human-writing](https://github.com/KKKKhazix/human-writing)** · ★ 4.4k<br>活人感写作：知乎回答、公众号文章、评测、口播稿等中文写作，先查够材料再写，读起来像一个具体的人在说话<br><sub>平台：公众号 · 知乎</sub><br><sub>更新于 2026-08-11 · 中文 · MIT</sub>
 
 - **[writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill)** · ★ 3k<br>写作蒸馏器：从至少 20 篇文章里蒸馏一个账号或作者的写作 DNA（语言、结构、选题、素材），之后按这套 DNA 写<br><sub>平台：小红书 · 公众号 · 微博 · Newsletter</sub><br><sub>更新于 2026-11-05 · 中文 · 2 个 skill</sub>
@@ -277,6 +279,8 @@ npx skills add blader/humanizer
 npx skills add op7418/Humanizer-zh
 # khazix-skills
 npx skills add KKKKhazix/khazix-skills
+# lieflat-less-ai-tone
+npx skills add larashero3-dotcom/lieflat-less-ai-tone
 # human-writing
 npx skills add KKKKhazix/human-writing
 # writing-dna-skill
@@ -990,7 +994,7 @@ npx skills add Lulu-Eva/Eva-skill
 
 **Substack 和 Newsletter**（3）：[charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills)
 
-**通用**（15）：[humanizer](https://github.com/blader/humanizer) · [TrendRadar](https://github.com/sansan0/TrendRadar) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
+**通用**（16）：[humanizer](https://github.com/blader/humanizer) · [TrendRadar](https://github.com/sansan0/TrendRadar) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) · [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
 
 <a id="faq"></a>
 ## 常见问题
@@ -1021,7 +1025,7 @@ Claude Code、Codex 用 `npx skills add 作者/仓库名`，每个分组末尾�
 
 ### X、YouTube、TikTok、LinkedIn 有哪些 skill？
 
-针对 X 的有 48 个，YouTube 48 个，TikTok 31 个，LinkedIn 23 个。不挑平台的通用项目有 15 个，星数最高的是 [humanizer](https://github.com/blader/humanizer)、[TrendRadar](https://github.com/sansan0/TrendRadar)、[Humanizer-zh](https://github.com/op7418/Humanizer-zh)。
+针对 X 的有 48 个，YouTube 48 个，TikTok 31 个，LinkedIn 23 个。不挑平台的通用项目有 16 个，星数最高的是 [humanizer](https://github.com/blader/humanizer)、[TrendRadar](https://github.com/sansan0/TrendRadar)、[Humanizer-zh](https://github.com/op7418/Humanizer-zh)。
 
 ### 让 agent 自动发帖安全吗？会不会封号？
 
@@ -1029,7 +1033,7 @@ Claude Code、Codex 用 `npx skills add 作者/仓库名`，每个分组末尾�
 
 ### 这些项目安全吗？
 
-收录前逐个核对过仓库说明、目录和文件，并用脚本查过二进制和压缩包、安装钩子、远程执行和读敏感文件。收录了 185 个 skill 项目和 27 个工具与平台。看过但没收的，原因逐条记在 [data/ignore.toml](data/ignore.toml)（目前 21 个）。正常的 skill 只是几份文本文件，用不着 exe 或 dmg。脚本查不到不等于安全，安装前先读一遍它的 `SKILL.md` 和脚本。
+收录前逐个核对过仓库说明、目录和文件，并用脚本查过二进制和压缩包、安装钩子、远程执行和读敏感文件。收录了 186 个 skill 项目和 27 个工具与平台。看过但没收的，原因逐条记在 [data/ignore.toml](data/ignore.toml)（目前 21 个）。正常的 skill 只是几份文本文件，用不着 exe 或 dmg。脚本查不到不等于安全，安装前先读一遍它的 `SKILL.md` 和脚本。
 
 ### 多久更新一次？
 

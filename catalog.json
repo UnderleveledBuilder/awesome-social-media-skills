@@ -1109,6 +1109,29 @@
    "checked": "2026-11-04"
   },
   {
+   "repo": "larashero3-dotcom/lieflat-less-ai-tone",
+   "url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+   "name": "lieflat-less-ai-tone",
+   "group": "writing",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "去 AI 味：先按 520 万字人机对照实测出的指标出检测报告，附原文例句和改法，你同意后才做最小改写并复测",
+   "desc_en": "Chinese AI-tone removal built on a 5.2-million-character human vs AI corpus study: it first delivers a detection report with metrics, example sentences and fixes, then makes minimal rewrites and re-tests only after you approve.",
+   "note": "CC BY-NC 4.0：不能商用",
+   "note_en": "CC BY-NC 4.0: no commercial use.",
+   "stars": 6382,
+   "pushed_at": "2026-11-05",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add larashero3-dotcom/lieflat-less-ai-tone",
+   "checked": "2026-11-06"
+  },
+  {
    "repo": "KKKKhazix/human-writing",
    "url": "https://github.com/KKKKhazix/human-writing",
    "name": "human-writing",
