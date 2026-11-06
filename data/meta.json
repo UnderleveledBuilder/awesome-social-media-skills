@@ -519,6 +519,20 @@
       "stars": 62,
       "status": "ok"
     },
+    "MrGeDiao/shuorenhua": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "说人话｜中文优先的去 AI 味改写 skill：保事实、分场景、改完可直接发。Chinese-first rewrite skill for Codex / Claude Code / Cursor / ChatGPT — removes AI tone, preserves facts.",
+      "first_seen": "2026-11-06",
+      "forks": 92,
+      "full_name": "MrGeDiao/shuorenhua",
+      "license": "MIT",
+      "pushed_at": "2026-11-06",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 2515,
+      "status": "ok"
+    },
     "NanmiCoder/NewsCrawler": {
       "archived": false,
       "default_branch": "main",

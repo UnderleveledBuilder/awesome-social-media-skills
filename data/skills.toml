@@ -419,6 +419,16 @@ note_en = "CC BY-NC 4.0: no commercial use."
 checked = 2026-11-06
 
 [[skills]]
+repo = "MrGeDiao/shuorenhua"
+desc = "说人话：中文去 AI 味改写，删套话和重复铺垫，数字、条件、承诺和作者口气原样保留，改完能直接发"
+desc_en = "Shuorenhua: Chinese-first AI-tone rewrite that cuts stock phrases and repeated preamble while keeping numbers, conditions, commitments and the author's voice, so the result is ready to post."
+group = "writing"
+platforms = ["general"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-06
+
+[[skills]]
 repo = "blader/humanizer"
 desc = "英文去 AI 腔：按维基百科编辑识别 AI 文本的那份特征清单逐条改写，不改原意"
 desc_en = "Makes AI-written English sound like a person wrote it without changing what it says, built on Wikipedia's Signs of AI writing guide."

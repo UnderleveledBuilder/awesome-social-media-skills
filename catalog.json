@@ -1182,6 +1182,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "MrGeDiao/shuorenhua",
+   "url": "https://github.com/MrGeDiao/shuorenhua",
+   "name": "shuorenhua",
+   "group": "writing",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "说人话：中文去 AI 味改写，删套话和重复铺垫，数字、条件、承诺和作者口气原样保留，改完能直接发",
+   "desc_en": "Shuorenhua: Chinese-first AI-tone rewrite that cuts stock phrases and repeated preamble while keeping numbers, conditions, commitments and the author's voice, so the result is ready to post.",
+   "note": "",
+   "note_en": "",
+   "stars": 2515,
+   "pushed_at": "2026-11-06",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add MrGeDiao/shuorenhua",
+   "checked": "2026-11-06"
+  },
+  {
    "repo": "mikiarlo3/ai-copywriter",
    "url": "https://github.com/mikiarlo3/ai-copywriter",
    "name": "ai-copywriter",
