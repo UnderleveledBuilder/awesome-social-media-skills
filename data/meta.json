@@ -729,6 +729,20 @@
       "stars": 259,
       "status": "ok"
     },
+    "WoYun520/gif-factory": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "GIF 工厂：按风格制作像素、人物与宠物、粘土吉祥物、光栅卡与动态海报的 GIF Skill。",
+      "first_seen": "2026-11-08",
+      "forks": 97,
+      "full_name": "WoYun520/gif-factory",
+      "license": "MIT",
+      "pushed_at": "2026-11-08",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 794,
+      "status": "ok"
+    },
     "XBuilderLAB/cheat-on-content": {
       "archived": false,
       "default_branch": "main",
@@ -1189,6 +1203,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 574,
+      "status": "ok"
+    },
+    "cyberxiaowan/xiaowan-wechat-layout-skill": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "@小晚不在的微信公众号移动端排版与发布工作流，基于 gzh-design 的公开增强层。",
+      "first_seen": "2026-11-08",
+      "forks": 8,
+      "full_name": "cyberxiaowan/xiaowan-wechat-layout-skill",
+      "license": null,
+      "pushed_at": "2026-10-21",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 115,
       "status": "ok"
     },
     "dansugc/reelclaw": {

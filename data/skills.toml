@@ -636,6 +636,18 @@ tier = "featured"
 checked = 2026-10-19
 
 [[skills]]
+repo = "WoYun520/gif-factory"
+desc = "GIF 工厂：给一张参考图，做表情包 GIF、光栅变画卡、动态海报、品牌短片和动态绘本，9 种风格、56 个案例"
+desc_en = "GIF Factory: from one reference image, makes sticker GIFs, lenticular flip cards, dynamic posters, mascot brand films and short animated storybooks, with 9 styles and 56 examples."
+group = "visual"
+platforms = ["general"]
+format = "skill"
+lang = "zh"
+note = "要在能生成图片的 Codex 里用；导出要 Python 3 和 Pillow，预览视频要 FFmpeg"
+note_en = "Runs in Codex with image generation; export needs Python 3 and Pillow, preview videos need FFmpeg."
+checked = 2026-11-08
+
+[[skills]]
 repo = "yang0/handraw-style"
 desc = "选编号出图提示词：367 种手绘和写实画风、170 种排版图型、36 套配色，输入主题就出中英双语提示词，做小红书封面、公众号题图和配图、知识长图、条漫"
 desc_en = "Pick numbers instead of writing prompts: 367 hand-drawn and realistic styles, 170 layouts and 36 palettes turn a topic into bilingual image prompts for RedNote covers, WeChat headers and illustrations, explainer long images and comic strips."
@@ -730,6 +742,18 @@ format = "skill"
 lang = "zh"
 tier = "featured"
 checked = 2026-10-19
+
+[[skills]]
+repo = "cyberxiaowan/xiaowan-wechat-layout-skill"
+desc = "@小晚不在的公众号排版：在 gzh-design 上加阅读诊断、同款版式、封面和发布前检查，按手机宽度查断行和丢图"
+desc_en = "WeChat article layout by @xiaowan, built on gzh-design: reading diagnosis, her house layout with or without a cover block, cover art, summary and pre-publish checks at phone width for broken lines and missing images."
+group = "visual"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+note = "要先装 gzh-design，安装脚本缺它时会从 gzh-design 官方仓库下载；AGPL-3.0"
+note_en = "Needs gzh-design installed first; the install script downloads it from the official gzh-design repo if missing. AGPL-3.0."
+checked = 2026-11-08
 
 [[skills]]
 repo = "geekjourneyx/md2wechat-skill"

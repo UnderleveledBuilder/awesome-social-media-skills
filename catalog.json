@@ -2024,6 +2024,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "WoYun520/gif-factory",
+   "url": "https://github.com/WoYun520/gif-factory",
+   "name": "gif-factory",
+   "group": "visual",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "GIF 工厂：给一张参考图，做表情包 GIF、光栅变画卡、动态海报、品牌短片和动态绘本，9 种风格、56 个案例",
+   "desc_en": "GIF Factory: from one reference image, makes sticker GIFs, lenticular flip cards, dynamic posters, mascot brand films and short animated storybooks, with 9 styles and 56 examples.",
+   "note": "要在能生成图片的 Codex 里用；导出要 Python 3 和 Pillow，预览视频要 FFmpeg",
+   "note_en": "Runs in Codex with image generation; export needs Python 3 and Pillow, preview videos need FFmpeg.",
+   "stars": 794,
+   "pushed_at": "2026-11-08",
+   "license": "MIT",
+   "skills": 2,
+   "install": "npx skills add WoYun520/gif-factory",
+   "checked": "2026-11-08"
+  },
+  {
    "repo": "konlu/story-studio",
    "url": "https://github.com/konlu/story-studio",
    "name": "story-studio",
@@ -2698,6 +2721,29 @@
    "skills": 1,
    "install": "npx skills add itchernetski/threads-carousel-claude-skill",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "cyberxiaowan/xiaowan-wechat-layout-skill",
+   "url": "https://github.com/cyberxiaowan/xiaowan-wechat-layout-skill",
+   "name": "xiaowan-wechat-layout-skill",
+   "group": "visual",
+   "platforms": [
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "@小晚不在的公众号排版：在 gzh-design 上加阅读诊断、同款版式、封面和发布前检查，按手机宽度查断行和丢图",
+   "desc_en": "WeChat article layout by @xiaowan, built on gzh-design: reading diagnosis, her house layout with or without a cover block, cover art, summary and pre-publish checks at phone width for broken lines and missing images.",
+   "note": "要先装 gzh-design，安装脚本缺它时会从 gzh-design 官方仓库下载；AGPL-3.0",
+   "note_en": "Needs gzh-design installed first; the install script downloads it from the official gzh-design repo if missing. AGPL-3.0.",
+   "stars": 115,
+   "pushed_at": "2026-10-21",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add cyberxiaowan/xiaowan-wechat-layout-skill",
+   "checked": "2026-11-08"
   },
   {
    "repo": "freestylefly/xiaohongshu-skills",
