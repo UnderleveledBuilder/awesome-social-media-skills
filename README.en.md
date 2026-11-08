@@ -1033,7 +1033,7 @@ There are two risks. Your account: automated posting usually logs in as you, and
 
 ### Are these projects safe to install?
 
-Every repo was checked by hand (README, folders and files) and scanned by a script for binaries and archives, install hooks, remote code execution and reads of sensitive files. 189 skill projects and 27 tools and platforms made the list. Repos that were reviewed and turned down are recorded with the reason in [data/ignore.toml](data/ignore.toml) (in Chinese; 21 so far). A normal skill is a few text files and never needs an .exe or .dmg. A clean scan does not prove a skill is safe, so read its `SKILL.md` and scripts before installing.
+Every repo was checked by hand (README, folders and files) and scanned by a script for binaries and archives, install hooks, remote code execution and reads of sensitive files. 189 skill projects and 27 tools and platforms made the list. Repos that were reviewed and turned down are recorded with the reason in [data/ignore.toml](data/ignore.toml) (in Chinese; 25 so far). A normal skill is a few text files and never needs an .exe or .dmg. A clean scan does not prove a skill is safe, so read its `SKILL.md` and scripts before installing.
 
 ### How often is the list updated?
 

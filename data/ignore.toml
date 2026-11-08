@@ -54,7 +54,15 @@ reason = "通用增长和获客合集，自媒体部分不突出"
 repo = "rampstackco/claude-skills"
 reason = "建站全流程合集，自媒体部分不突出"
 
+[[ignored]]
+repo = "momozi1996/awesome-ai-persona-skills"
+reason = "100+ 人格蒸馏合集，名人、作家、导演为主，自媒体大V 只是七块里的一块"
+
 # ───────── 副本和重复 ─────────
+
+[[ignored]]
+repo = "rehatRobot/omnipost"
+reason = "已收录的 dreammis/social-auto-upload 二开，主推 Web 管理台；附带的 skill 作者写明没跟着维护"
 
 [[ignored]]
 repo = "avi691/linkedin-agent-skill"
@@ -93,3 +101,13 @@ reason = "没有 README，说不清怎么装和用"
 [[ignored]]
 repo = "cwjcw/xhs_douyin_content"
 reason = "抓抖音、小红书创作者中心数据的 Python 爬虫，没有 SKILL.md、MCP 或命令行接口，装不进 agent"
+
+# ───────── 安装包和小应用 ─────────
+
+[[ignored]]
+repo = "spider-ios/autox-release"
+reason = "只放 Windows exe 和 Mac dmg 安装包，没有源码，另附 cookie-helper.zip"
+
+[[ignored]]
+repo = "AiyaFun/beacon"
+reason = "桌面应用，发 exe 和 dmg 安装包，未到平台收录门槛（≥1k★）"
