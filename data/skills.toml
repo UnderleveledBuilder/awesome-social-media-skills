@@ -2298,3 +2298,17 @@ platforms = ["x", "linkedin", "reddit"]
 format = "app"
 lang = "en"
 checked = 2026-10-19
+
+[[skills]]
+repo = "ColinGPT9/clips-studio"
+name = "Clips Kitty"
+desc = "把长视频和直播切成短视频：从 YouTube、Twitch、Kick 链接或本地视频里找出值得发的片段，裁成 9:16 跟住说话人，烧录字幕、写标题，本机运行"
+desc_en = "Turns long videos and streams into Shorts, Reels and TikToks: from a YouTube, Twitch or Kick link or a video file it finds the moments worth posting, crops to 9:16 with the speaker kept in frame, burns in captions and writes titles, all on your own computer."
+group = "visual"
+platforms = ["youtube", "tiktok", "instagram"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+note = "skill 通过 MCP 调用同一台电脑上运行的开源 Clips Kitty 应用，用前要先打开应用"
+note_en = "The skill drives the open-source Clips Kitty app through its MCP server, so the app must be running on the same computer."
+checked = 2026-11-08
