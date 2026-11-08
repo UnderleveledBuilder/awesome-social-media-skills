@@ -2274,3 +2274,16 @@ platforms = ["x", "linkedin", "reddit"]
 format = "app"
 lang = "en"
 checked = 2026-10-19
+
+[[skills]]
+repo = "tubeagentkit/youtube-transcript-skills"
+desc = "YouTube 字幕 skill：取字幕、搜视频和频道、翻频道上传和播放列表、按时间点找原话，脚本调用 REST API"
+desc_en = "YouTube transcript skill: fetch transcripts, search videos and channels, browse a channel's uploads and playlists, and find where something is said, via a REST API with bundled scripts."
+group = "research"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor"]
+note = "需要 API key，注册送 100 次免费额度，不用绑卡"
+note_en = "Needs an API key; 100 free credits on signup, no card."
+checked = 2026-11-08
