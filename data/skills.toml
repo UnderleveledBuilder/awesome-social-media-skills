@@ -1933,8 +1933,8 @@ checked = 2026-10-19
 
 [[skills]]
 repo = "dontbesilent2025/dbskill"
-desc = "dontbesilent 的 36 个 skill：商业诊断、选对标、把选题做成内容方案、写标题封面和开头、发布前查违规，另有查 AI 味的三件套"
-desc_en = "dontbesilent's 36 skills: business diagnosis, picking benchmarks, turning topics into content plans, writing titles, cover text and openings, compliance checks before posting, plus a three-skill set for AI-sounding text."
+desc = "dontbesilent 的 skill 工具箱：商业诊断、选对标、把选题做成内容方案、写标题封面和开头、发布前查违规，另有查 AI 味的三件套"
+desc_en = "dontbesilent's skill toolbox: business diagnosis, picking benchmarks, turning topics into content plans, writing titles, cover text and openings, compliance checks before posting, plus a three-skill set for AI-sounding text."
 group = "strategy"
 platforms = ["general"]
 format = "skill"
