@@ -1252,13 +1252,13 @@
       "default_branch": "main",
       "description": "dontbesilent 的商业诊断 Skills",
       "first_seen": "2026-10-19",
-      "forks": 1305,
+      "forks": 1320,
       "full_name": "dontbesilent2025/dbskill",
       "license": null,
-      "pushed_at": "2026-11-03",
-      "skill_count": 35,
+      "pushed_at": "2026-11-10",
+      "skill_count": 37,
       "skill_count_truncated": false,
-      "stars": 11269,
+      "stars": 11378,
       "status": "ok"
     },
     "dososo/blcaptain-lingjian-video": {

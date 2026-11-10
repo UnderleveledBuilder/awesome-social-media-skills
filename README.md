@@ -856,7 +856,7 @@ npx skills add skillify-sh/skills
 
 定人设和赛道、做内容规划、涨粉和变现的方法。
 
-- 🌟 **[dbskill](https://github.com/dontbesilent2025/dbskill)** · ★ 11.3k<br>dontbesilent 的 35 个商业诊断 skill：找生意问题、选对标、把选题做成内容方案、写标题封面和开头、发布前查违规<br><sub>平台：通用</sub><br><sub>更新于 2026-11-03 · 中文 · 35 个 skill</sub>
+- 🌟 **[dbskill](https://github.com/dontbesilent2025/dbskill)** · ★ 11.4k<br>dontbesilent 的 36 个 skill：商业诊断、选对标、把选题做成内容方案、写标题封面和开头、发布前查违规，另有查 AI 味的三件套<br><sub>平台：通用</sub><br><sub>更新于 2026-11-10 · 中文 · 37 个 skill</sub>
 
 - **[x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill)** · ★ 1.3k<br>X 运营导师：蒸馏 Dan Koe、Justin Welsh 等 6 位创作者的方法和开源算法资料，管选题、写推文和长文、账号诊断和增长<br><sub>平台：X</sub><br><sub>更新于 2026-10-13 · 中文 · MIT</sub>
 
