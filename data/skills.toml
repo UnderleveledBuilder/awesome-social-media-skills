@@ -1231,6 +1231,19 @@ note = "要 Clipcat 账号"
 note_en = "Requires a Clipcat account."
 checked = 2026-10-19
 
+[[skills]]
+repo = "HoneyVid/skills"
+desc = "爆款 AI 短视频：用一张照片把人物、宠物或角色放进热门视频模板，或用 Kling、Veo、Seedance 生成视频和图片，先报价再生成"
+desc_en = "Viral AI short videos: put a person, pet or character from one photo into a trending video template, or generate videos and images with Kling, Veo and Seedance, quoting credits before each run."
+group = "visual"
+platforms = ["general"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex"]
+note = "要 HoneyVid 账号，按积分付费；通过 HoneyVid 远程 MCP 或 npx honeyvid CLI 调用"
+note_en = "Requires a HoneyVid account; generation is paid with credits. Uses the HoneyVid remote MCP server or the npx honeyvid CLI."
+checked = 2026-11-11
+
 # ───────── 发布和自动化 ─────────
 
 [[skills]]
