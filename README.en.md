@@ -352,6 +352,8 @@ WeChat article layout, covers, info cards and illustrations; cutting short video
 
 - **[video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker)** · ★ 1.7k<br>Topic to 4K narrated explainer: research, script, free local TTS and Remotion rendering, formatted for Bilibili, YouTube, Xiaohongshu, Douyin and WeChat Channels.<br><sub>Platforms: YouTube · RedNote · Douyin · 视频号 · Bilibili</sub><br><sub>updated 2026-10-01 · Multilingual · 3 skills · MIT</sub>
 
+- **[gif-factory](https://github.com/WoYun520/gif-factory)** · ★ 1.6k<br>GIF Factory: from an image or a few words, makes sticker GIFs, lenticular flip cards, dynamic posters, animated signatures, film title lettering in 40 styles, mascot brand films and short animated storybooks.<br><sub>Platforms: Any platform</sub><br><sub>updated 2026-11-12 · Chinese · 4 skills · MIT</sub><br><sub>💡 Runs in Codex with image generation; export needs Python 3 and Pillow, preview videos need FFmpeg.</sub>
+
 - **[xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill)** · ★ 1.5k<br>Visual director for Xiaohongshu carousels: asks 10 questions, plans each slide's visuals, renders one sample for approval and then the full set, with caption and checklist.<br><sub>Platforms: RedNote</sub><br><sub>updated 2026-07-03 · Chinese · MIT</sub>
 
 - **[Punk-Posters](https://github.com/adrianpunk/Punk-Posters)** · ★ 1.4k<br>Punk-style visuals from a shared style library: article covers for Xiaohongshu and WeChat, avatars and creator-IP video covers.<br><sub>Platforms: RedNote · WeChat OA</sub><br><sub>updated 2026-11-04 · Chinese · 3 skills</sub><br><sub>💡 Free for personal non-commercial use; business or commercial use needs a paid license.</sub>
@@ -365,8 +367,6 @@ WeChat article layout, covers, info cards and illustrations; cutting short video
 - **[vibe-knowledge-film](https://github.com/HeyChengC/vibe-knowledge-film)** · ★ 1.1k<br>Douyin-style knowledge shorts in two popular visual styles: subtitle script, shot list and sound effects, with a 30-second sample before the full render.<br><sub>Platforms: Douyin</sub><br><sub>updated 2026-10-13 · Chinese</sub>
 
 - **[gbro-cover-design](https://github.com/pyang5166/gbro-cover-design)** · ★ 954<br>Cover prompts for WeChat and Xiaohongshu: reads the article, asks three rounds of questions and writes a 3:4 prompt with your face in one of 10 compositions. Improved from oh-my-cover-design.<br><sub>Platforms: RedNote · WeChat OA</sub><br><sub>updated 2026-07-15 · Chinese</sub>
-
-- **[gif-factory](https://github.com/WoYun520/gif-factory)** · ★ 794<br>GIF Factory: from one reference image, makes sticker GIFs, lenticular flip cards, dynamic posters, mascot brand films and short animated storybooks, with 9 styles and 56 examples.<br><sub>Platforms: Any platform</sub><br><sub>updated 2026-11-08 · Chinese · 2 skills · MIT</sub><br><sub>💡 Runs in Codex with image generation; export needs Python 3 and Pillow, preview videos need FFmpeg.</sub>
 
 - **[story-studio](https://github.com/konlu/story-studio)** · ★ 754<br>History and biography short videos end to end: topic, opening hook, voice-over script, Doubao TTS, local subtitle alignment, storyboard images in three art styles, exported as an editable CapCut (Jianying) draft; ships 370+ top scripts as references.<br><sub>Platforms: Douyin · 视频号</sub><br><sub>updated 2026-11-03 · Chinese</sub>
 
@@ -471,6 +471,8 @@ npx skills add andyhuo520/digital-human-koubo
 npx skills add Pluviobyte/rnskill
 # video-podcast-maker
 npx skills add Agents365-ai/video-podcast-maker
+# gif-factory
+npx skills add WoYun520/gif-factory
 # xhs-visual-director-skill
 npx skills add ziguishian/xhs-visual-director-skill
 # Punk-Posters
@@ -485,8 +487,6 @@ npx skills add feicaiclub/video-spec-builder
 npx skills add HeyChengC/vibe-knowledge-film
 # gbro-cover-design
 npx skills add pyang5166/gbro-cover-design
-# gif-factory
-npx skills add WoYun520/gif-factory
 # story-studio
 npx skills add konlu/story-studio
 # gimi-illustration-skill
@@ -1006,7 +1006,7 @@ Platforms each repo's README explicitly targets (sorted by stars). "Any platform
 
 **Toutiao** (8): [Wechatsync](https://github.com/wechatsync/Wechatsync) · [md2wechat-skill](https://github.com/geekjourneyx/md2wechat-skill) · [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) · [MatrixMedia](https://github.com/hanliang97/MatrixMedia) · [union-search-skill](https://github.com/runningZ1/union-search-skill) · [NewsCrawler](https://github.com/NanmiCoder/NewsCrawler) · [redfox-community](https://github.com/redfox-data/redfox-community) · [openclaw-daily-hot-news](https://github.com/one-box-u/openclaw-daily-hot-news)
 
-**Any platform** (18): [humanizer](https://github.com/blader/humanizer) · [TrendRadar](https://github.com/sansan0/TrendRadar) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) · [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) · [shuorenhua](https://github.com/MrGeDiao/shuorenhua) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [gif-factory](https://github.com/WoYun520/gif-factory) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
+**Any platform** (18): [humanizer](https://github.com/blader/humanizer) · [TrendRadar](https://github.com/sansan0/TrendRadar) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) · [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) · [shuorenhua](https://github.com/MrGeDiao/shuorenhua) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [gif-factory](https://github.com/WoYun520/gif-factory) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
 
 <a id="faq"></a>
 ## FAQ

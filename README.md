@@ -352,6 +352,8 @@ npx skills add softbread/xiaohongshu-doctor
 
 - **[video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker)** · ★ 1.7k<br>选题变成 4K 解说视频：调研、写稿、本地免费 TTS、Remotion 合成，适配 B 站、YouTube、小红书、抖音、视频号<br><sub>平台：小红书 · 抖音 · 视频号 · B 站 · YouTube</sub><br><sub>更新于 2026-10-01 · 多语言 · 3 个 skill · MIT</sub>
 
+- **[gif-factory](https://github.com/WoYun520/gif-factory)** · ★ 1.6k<br>GIF 工厂：给一张图或一段文字，做表情包、光栅变画卡、动态海报、动态签名、40 种字形的电影片头、品牌短片和动态绘本<br><sub>平台：通用</sub><br><sub>更新于 2026-11-12 · 中文 · 4 个 skill · MIT</sub><br><sub>💡 要在能生成图片的 Codex 里用；导出要 Python 3 和 Pillow，预览视频要 FFmpeg</sub>
+
 - **[xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill)** · ★ 1.5k<br>小红书视觉导演：先问 10 个问题，规划多页图文和每页视觉，出 1 张样图确认后生成整套，附发布文案和自检清单<br><sub>平台：小红书</sub><br><sub>更新于 2026-07-03 · 中文 · MIT</sub>
 
 - **[Punk-Posters](https://github.com/adrianpunk/Punk-Posters)** · ★ 1.4k<br>Punk 风格视觉：文章封面（小红书、公众号）、头像、人物 IP 视频封面，共用一个风格库<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-11-04 · 中文 · 3 个 skill</sub><br><sub>💡 个人非商用免费；企业、团队或商业用途要先买授权</sub>
@@ -365,8 +367,6 @@ npx skills add softbread/xiaohongshu-doctor
 - **[vibe-knowledge-film](https://github.com/HeyChengC/vibe-knowledge-film)** · ★ 1.1k<br>抖音「知识大赏」类知识短片：两种热门画风，写字幕稿、排分镜表、配音效，先出 30 秒样片再出成片<br><sub>平台：抖音</sub><br><sub>更新于 2026-10-13 · 中文</sub>
 
 - **[gbro-cover-design](https://github.com/pyang5166/gbro-cover-design)** · ★ 954<br>公众号/小红书封面提示词：读完文章问三轮，按 10 种构图出 3:4 真人出镜封面提示词，基于 oh-my-cover-design 改进<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-07-15 · 中文</sub>
-
-- **[gif-factory](https://github.com/WoYun520/gif-factory)** · ★ 794<br>GIF 工厂：给一张参考图，做表情包 GIF、光栅变画卡、动态海报、品牌短片和动态绘本，9 种风格、56 个案例<br><sub>平台：通用</sub><br><sub>更新于 2026-11-08 · 中文 · 2 个 skill · MIT</sub><br><sub>💡 要在能生成图片的 Codex 里用；导出要 Python 3 和 Pillow，预览视频要 FFmpeg</sub>
 
 - **[story-studio](https://github.com/konlu/story-studio)** · ★ 754<br>历史和人物故事短视频一条龙：选题、开头钩子、口播稿、豆包配音、本地字幕对齐、三种画风分镜配图，导出能再改的剪映草稿；内置 370 多篇高赞文案对标<br><sub>平台：抖音 · 视频号</sub><br><sub>更新于 2026-11-03 · 中文</sub>
 
@@ -471,6 +471,8 @@ npx skills add andyhuo520/digital-human-koubo
 npx skills add Pluviobyte/rnskill
 # video-podcast-maker
 npx skills add Agents365-ai/video-podcast-maker
+# gif-factory
+npx skills add WoYun520/gif-factory
 # xhs-visual-director-skill
 npx skills add ziguishian/xhs-visual-director-skill
 # Punk-Posters
@@ -485,8 +487,6 @@ npx skills add feicaiclub/video-spec-builder
 npx skills add HeyChengC/vibe-knowledge-film
 # gbro-cover-design
 npx skills add pyang5166/gbro-cover-design
-# gif-factory
-npx skills add WoYun520/gif-factory
 # story-studio
 npx skills add konlu/story-studio
 # gimi-illustration-skill
@@ -1006,7 +1006,7 @@ npx skills add Lulu-Eva/Eva-skill
 
 **Substack 和 Newsletter**（3）：[charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) · [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) · [motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills)
 
-**通用**（18）：[humanizer](https://github.com/blader/humanizer) · [TrendRadar](https://github.com/sansan0/TrendRadar) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) · [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) · [shuorenhua](https://github.com/MrGeDiao/shuorenhua) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [gif-factory](https://github.com/WoYun520/gif-factory) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
+**通用**（18）：[humanizer](https://github.com/blader/humanizer) · [TrendRadar](https://github.com/sansan0/TrendRadar) · [Humanizer-zh](https://github.com/op7418/Humanizer-zh) · [dbskill](https://github.com/dontbesilent2025/dbskill) · [lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) · [native-subtitle-quote-image](https://github.com/chengyi-ai/native-subtitle-quote-image) · [shuorenhua](https://github.com/MrGeDiao/shuorenhua) · [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) · [gif-factory](https://github.com/WoYun520/gif-factory) · [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) · [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) · [clipify](https://github.com/louisedesadeleer/clipify) · [anti-ai-slop-writing](https://github.com/jalaalrd/anti-ai-slop-writing) · [DaVinci-AutoEdit-Agent](https://github.com/liuluhaixiu/DaVinci-AutoEdit-Agent) · [xiaoma-durex-copywriter](https://github.com/crawfordxx/xiaoma-durex-copywriter) · [xiaohu-ip-studio](https://github.com/xiaohuailabs/xiaohu-ip-studio) · [humanizer-skill](https://github.com/Aboudjem/humanizer-skill) · [ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill)
 
 <a id="faq"></a>
 ## 常见问题

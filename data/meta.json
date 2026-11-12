@@ -734,13 +734,13 @@
       "default_branch": "main",
       "description": "GIF 工厂：按风格制作像素、人物与宠物、粘土吉祥物、光栅卡与动态海报的 GIF Skill。",
       "first_seen": "2026-11-08",
-      "forks": 97,
+      "forks": 176,
       "full_name": "WoYun520/gif-factory",
       "license": "MIT",
-      "pushed_at": "2026-11-08",
-      "skill_count": 2,
+      "pushed_at": "2026-11-12",
+      "skill_count": 4,
       "skill_count_truncated": false,
-      "stars": 794,
+      "stars": 1589,
       "status": "ok"
     },
     "XBuilderLAB/cheat-on-content": {

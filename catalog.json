@@ -1857,6 +1857,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "WoYun520/gif-factory",
+   "url": "https://github.com/WoYun520/gif-factory",
+   "name": "gif-factory",
+   "group": "visual",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "GIF 工厂：给一张图或一段文字，做表情包、光栅变画卡、动态海报、动态签名、40 种字形的电影片头、品牌短片和动态绘本",
+   "desc_en": "GIF Factory: from an image or a few words, makes sticker GIFs, lenticular flip cards, dynamic posters, animated signatures, film title lettering in 40 styles, mascot brand films and short animated storybooks.",
+   "note": "要在能生成图片的 Codex 里用；导出要 Python 3 和 Pillow，预览视频要 FFmpeg",
+   "note_en": "Runs in Codex with image generation; export needs Python 3 and Pillow, preview videos need FFmpeg.",
+   "stars": 1589,
+   "pushed_at": "2026-11-12",
+   "license": "MIT",
+   "skills": 4,
+   "install": "npx skills add WoYun520/gif-factory",
+   "checked": "2026-11-12"
+  },
+  {
    "repo": "ziguishian/xhs-visual-director-skill",
    "url": "https://github.com/ziguishian/xhs-visual-director-skill",
    "name": "xhs-visual-director-skill",
@@ -2022,29 +2045,6 @@
    "skills": 1,
    "install": "npx skills add pyang5166/gbro-cover-design",
    "checked": "2026-10-19"
-  },
-  {
-   "repo": "WoYun520/gif-factory",
-   "url": "https://github.com/WoYun520/gif-factory",
-   "name": "gif-factory",
-   "group": "visual",
-   "platforms": [
-    "general"
-   ],
-   "format": "skill",
-   "lang": "zh",
-   "agents": [],
-   "featured": false,
-   "desc": "GIF 工厂：给一张参考图，做表情包 GIF、光栅变画卡、动态海报、品牌短片和动态绘本，9 种风格、56 个案例",
-   "desc_en": "GIF Factory: from one reference image, makes sticker GIFs, lenticular flip cards, dynamic posters, mascot brand films and short animated storybooks, with 9 styles and 56 examples.",
-   "note": "要在能生成图片的 Codex 里用；导出要 Python 3 和 Pillow，预览视频要 FFmpeg",
-   "note_en": "Runs in Codex with image generation; export needs Python 3 and Pillow, preview videos need FFmpeg.",
-   "stars": 794,
-   "pushed_at": "2026-11-08",
-   "license": "MIT",
-   "skills": 2,
-   "install": "npx skills add WoYun520/gif-factory",
-   "checked": "2026-11-08"
   },
   {
    "repo": "konlu/story-studio",
