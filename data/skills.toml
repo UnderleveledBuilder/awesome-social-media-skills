@@ -1268,9 +1268,21 @@ lang = "en"
 agents = ["claude-code", "codex"]
 note = "要 HoneyVid 账号，按积分付费；通过 HoneyVid 远程 MCP 或 npx honeyvid CLI 调用"
 note_en = "Requires a HoneyVid account; generation is paid with credits. Uses the HoneyVid remote MCP server or the npx honeyvid CLI."
-checked = 2026-11-11
+checked = 2026-11-13
 
-# ───────── 发布和自动化 ─────────
+[[skills]]
+repo = "ColinGPT9/clips-studio"
+name = "Clips Kitty"
+desc = "长视频和直播切短视频：从 YouTube、Twitch、Kick 链接或本地视频里找值得发的片段，裁成 9:16 跟住说话人，烧字幕、写标题"
+desc_en = "Turns long videos and streams into Shorts, Reels and TikToks: from a YouTube, Twitch or Kick link or a video file it finds the moments worth posting, crops to 9:16 with the speaker kept in frame, burns in captions and writes titles, all on your own computer."
+group = "visual"
+platforms = ["youtube", "tiktok", "instagram"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+note = "skill 通过 MCP 调用同一台电脑上的开源 Clips Kitty 应用，用前要先打开应用；全程本机运行"
+note_en = "The skill drives the open-source Clips Kitty app through its MCP server, so the app must be running on the same computer; everything runs locally."
+checked = 2026-11-13
 
 [[skills]]
 repo = "dreammis/social-auto-upload"
@@ -1513,18 +1525,16 @@ checked = 2026-10-19
 [[skills]]
 repo = "bulkpublish/bulkpublish-ai-toolkit"
 name = "BulkPublish AI Toolkit"
-desc = "BulkPublish 的 skill 和 MCP 配置：让 agent 排期、发布帖子到 15 个社媒平台，管理账号、看数据"
-desc_en = "Agent skills and MCP setup for BulkPublish: schedule and publish posts to 15 social platforms, manage channels and read analytics from Claude Code, Cursor, Codex and other agents."
+desc = "BulkPublish 的 skill 和 MCP：agent 排期发帖到 X、TikTok、Instagram、YouTube 等平台，管账号、回评论、看数据"
+desc_en = "Skills and MCP setup for BulkPublish: let your agent schedule and publish posts to X, TikTok, Instagram, YouTube, LinkedIn and more, manage channels, handle comments and read analytics."
 group = "publish"
 platforms = ["x", "youtube", "tiktok", "instagram", "linkedin", "threads", "facebook", "pinterest"]
 format = "skill"
 lang = "en"
 agents = ["claude-code", "cursor", "codex", "gemini-cli"]
-note = "要 BulkPublish 账号（云服务）"
-note_en = "Requires a BulkPublish account (hosted service)."
-checked = 2026-11-02
-
-# ───────── 选题、热点和数据分析 ─────────
+note = "要 BulkPublish 账号和 API key（云服务，有免费档）；收件箱和回评论要付费档"
+note_en = "Requires a BulkPublish account and API key (hosted service with a free plan); the inbox and comment replies need a paid plan."
+checked = 2026-11-13
 
 [[skills]]
 repo = "mvanhorn/last30days-skill"
@@ -1546,6 +1556,19 @@ platforms = ["weibo", "xiaohongshu", "bilibili", "zhihu", "douyin", "wechat", "t
 format = "skill"
 lang = "zh"
 checked = 2026-10-19
+
+[[skills]]
+repo = "tubeagentkit/youtube-transcript-skills"
+desc = "YouTube 字幕 skill：取字幕、搜视频和频道、翻频道的上传和播放列表、按时间点找原话"
+desc_en = "YouTube transcript skill: fetch transcripts, search videos and channels, browse a channel's uploads and playlists, and find where something is said, via a REST API with bundled scripts."
+group = "research"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex", "openclaw"]
+note = "要它家的 API key：注册送 100 次免费额度、不用绑卡，之后每月 5 美元起 1,000 次"
+note_en = "Needs a getyoutubetranscript.com API key: 100 free credits on signup with no card, then from $5/month for 1,000 credits."
+checked = 2026-11-13
 
 [[skills]]
 repo = "ScrapeCreators/social-media-research-skills"
@@ -1984,17 +2007,15 @@ checked = 2026-10-19
 
 [[skills]]
 repo = "Jian21311/account-diagnosis-skill"
-desc = "账号诊断的执行规则：先判断手上有没有数据再定路径，六维度三档定档，不给总分只排该改哪一件；公开主页没有播放量就不算完播率"
+desc = "账号诊断规则：先看手上有哪些数据再定怎么判，六个维度分三档，不给总分，只指出最该改的一件；没有播放量就不算完播率"
 desc_en = "Rules for an account diagnosis: decide which path the available evidence allows before judging, grade six dimensions in three bands, rank the single fix instead of summing a score, and skip completion-rate maths when the public page has no view count."
-group = "research"
+group = "strategy"
 platforms = ["xiaohongshu", "douyin", "bilibili"]
 format = "skill"
 lang = "zh"
-note = "规范文档，不是自动化工具：给判断规则不给数据抓取；附 80 条抖音公开作品样本可逐条复算"
+note = "规范文档，不是自动化工具：只给判断规则，不抓数据；附 80 条抖音公开作品样本可以逐条复算"
 note_en = "A rules document rather than an automation tool: it supplies the judgement rules, not the data capture. Ships with an 80-post Douyin sample that can be recalculated row by row."
-checked = 2026-11-06
-
-# ───────── 账号定位和增长 ─────────
+checked = 2026-11-13
 
 [[skills]]
 repo = "dontbesilent2025/dbskill"
@@ -2250,6 +2271,32 @@ note_en = "Requires Postiz Cloud or a self-hosted Postiz."
 checked = 2026-10-19
 
 [[skills]]
+repo = "wavegrain/wavegrain-mcp"
+desc = "Wavegrain 的 MCP：让 agent 按你的品牌规划帖子，做 TikTok 图文和 Instagram 轮播，改每页文字，排进日历或导出"
+desc_en = "Wavegrain's MCP server: your agent plans posts for a brand, makes TikTok slideshows and Instagram carousels from your brand and photos, edits slide text, and schedules or exports them."
+group = "mcp"
+platforms = ["tiktok", "instagram"]
+format = "mcp"
+lang = "en"
+agents = ["claude-code", "codex", "cursor"]
+note = "服务在 Wavegrain 云端，要 Wavegrain 账号，连接时设每天的积分上限"
+note_en = "The server is hosted by Wavegrain and needs a Wavegrain account; you set a daily credit limit when connecting."
+checked = 2026-11-13
+
+[[skills]]
+repo = "rocosen/flashdata-mcp"
+name = "FlashData MCP"
+desc = "FlashData 的 MCP 和命令行：搜 YouTube 视频和频道，读元数据和带时间戳的字幕，也能查 Google 搜索、新闻和图片"
+desc_en = "FlashData's MCP server and CLI: search YouTube videos and channels, read metadata and timestamped transcripts, and query Google Search, News and Images, with a task skill for each source."
+group = "mcp"
+platforms = ["youtube"]
+format = "mcp"
+lang = "en"
+note = "数据调用要 FlashData 的 API key 和付费积分，没有免费档"
+note_en = "Data requests need a FlashData API key and paid credits; there is no free tier."
+checked = 2026-11-13
+
+[[skills]]
 repo = "trypostit/trypost"
 desc = "开源社媒排程工具，给 agent 提供 MCP 和 REST API 来写、排期、发布各平台帖子，可自己部署"
 desc_en = "Open-source social media scheduler built for agents: create, schedule and publish to every network through MCP or the REST API. Self-hostable."
@@ -2366,13 +2413,14 @@ checked = 2026-10-19
 
 [[skills]]
 repo = "murphywuwu/easysociable-mcp"
-desc = "在 Claude Code/Cursor/Codex 里用一条提示生成 TikTok/Instagram/LinkedIn 多页品牌轮播图"
-desc_en = "Install one skill so Claude Code, Cursor or Codex turns a prompt into a branded multi-page carousel for TikTok, Instagram and LinkedIn."
+name = "EasySociable"
+desc = "品牌轮播图：agent 写每页文案，EasySociable 套版式和品牌色，出 TikTok、Instagram、LinkedIn、小红书尺寸的多页图"
+desc_en = "Branded carousels: your agent writes the slide copy, EasySociable applies layouts and your brand kit, and you get multi-page images sized for TikTok, Instagram, LinkedIn, Threads and Xiaohongshu."
 group = "visual"
 platforms = ["tiktok", "instagram", "linkedin", "threads", "xiaohongshu"]
 format = "skill"
 lang = "en"
-checked = 2026-10-27
 agents = ["claude-code", "cursor", "codex"]
-install = "npx skills add murphywuwu/easysociable-mcp"
-name = "EasySociable"
+note = "要 EasySociable 账号（CLI 里 easysociable auth login），成图在它的网页 Studio 里改和下载"
+note_en = "Requires an EasySociable account (easysociable auth login in the CLI); you edit and download the pages in its web Studio."
+checked = 2026-11-13

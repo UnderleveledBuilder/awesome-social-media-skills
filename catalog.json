@@ -2602,6 +2602,33 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "ColinGPT9/clips-studio",
+   "url": "https://github.com/ColinGPT9/clips-studio",
+   "name": "Clips Kitty",
+   "group": "visual",
+   "platforms": [
+    "youtube",
+    "tiktok",
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "长视频和直播切短视频：从 YouTube、Twitch、Kick 链接或本地视频里找值得发的片段，裁成 9:16 跟住说话人，烧字幕、写标题",
+   "desc_en": "Turns long videos and streams into Shorts, Reels and TikToks: from a YouTube, Twitch or Kick link or a video file it finds the moments worth posting, crops to 9:16 with the speaker kept in frame, burns in captions and writes titles, all on your own computer.",
+   "note": "skill 通过 MCP 调用同一台电脑上的开源 Clips Kitty 应用，用前要先打开应用；全程本机运行",
+   "note_en": "The skill drives the open-source Clips Kitty app through its MCP server, so the app must be running on the same computer; everything runs locally.",
+   "stars": 247,
+   "pushed_at": "2026-11-13",
+   "license": "AGPL-3.0",
+   "skills": 1,
+   "install": "npx skills add ColinGPT9/clips-studio",
+   "checked": "2026-11-13"
+  },
+  {
    "repo": "Vivixiao980/xhs-cover-skill",
    "url": "https://github.com/Vivixiao980/xhs-cover-skill",
    "name": "xhs-cover-skill",
@@ -3010,6 +3037,63 @@
    "skills": 1,
    "install": "npx skills add iamzifei/xiaohongshu-images-skill",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "murphywuwu/easysociable-mcp",
+   "url": "https://github.com/murphywuwu/easysociable-mcp",
+   "name": "EasySociable",
+   "group": "visual",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "linkedin",
+    "threads",
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "品牌轮播图：agent 写每页文案，EasySociable 套版式和品牌色，出 TikTok、Instagram、LinkedIn、小红书尺寸的多页图",
+   "desc_en": "Branded carousels: your agent writes the slide copy, EasySociable applies layouts and your brand kit, and you get multi-page images sized for TikTok, Instagram, LinkedIn, Threads and Xiaohongshu.",
+   "note": "要 EasySociable 账号（CLI 里 easysociable auth login），成图在它的网页 Studio 里改和下载",
+   "note_en": "Requires an EasySociable account (easysociable auth login in the CLI); you edit and download the pages in its web Studio.",
+   "stars": 0,
+   "pushed_at": "2026-11-13",
+   "license": "MIT",
+   "skills": 3,
+   "install": "npx skills add murphywuwu/easysociable-mcp",
+   "checked": "2026-11-13"
+  },
+  {
+   "repo": "HoneyVid/skills",
+   "url": "https://github.com/HoneyVid/skills",
+   "name": "skills",
+   "group": "visual",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "爆款 AI 短视频：用一张照片把人物、宠物或角色放进热门视频模板，或用 Kling、Veo、Seedance 生成视频和图片，先报价再生成",
+   "desc_en": "Viral AI short videos: put a person, pet or character from one photo into a trending video template, or generate videos and images with Kling, Veo and Seedance, quoting credits before each run.",
+   "note": "要 HoneyVid 账号，按积分付费；通过 HoneyVid 远程 MCP 或 npx honeyvid CLI 调用",
+   "note_en": "Requires a HoneyVid account; generation is paid with credits. Uses the HoneyVid remote MCP server or the npx honeyvid CLI.",
+   "stars": 0,
+   "pushed_at": "2026-11-12",
+   "license": "MIT",
+   "skills": 5,
+   "install": "npx skills add HoneyVid/skills",
+   "checked": "2026-11-13"
   },
   {
    "repo": "dreammis/social-auto-upload",
@@ -3568,6 +3652,41 @@
    "skills": 1,
    "install": "npx skills add iamzifei/red-publisher-skill",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "bulkpublish/bulkpublish-ai-toolkit",
+   "url": "https://github.com/bulkpublish/bulkpublish-ai-toolkit",
+   "name": "BulkPublish AI Toolkit",
+   "group": "publish",
+   "platforms": [
+    "x",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "linkedin",
+    "threads",
+    "facebook",
+    "pinterest"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor",
+    "codex",
+    "gemini-cli"
+   ],
+   "featured": false,
+   "desc": "BulkPublish 的 skill 和 MCP：agent 排期发帖到 X、TikTok、Instagram、YouTube 等平台，管账号、回评论、看数据",
+   "desc_en": "Skills and MCP setup for BulkPublish: let your agent schedule and publish posts to X, TikTok, Instagram, YouTube, LinkedIn and more, manage channels, handle comments and read analytics.",
+   "note": "要 BulkPublish 账号和 API key（云服务，有免费档）；收件箱和回评论要付费档",
+   "note_en": "Requires a BulkPublish account and API key (hosted service with a free plan); the inbox and comment replies need a paid plan.",
+   "stars": 2,
+   "pushed_at": "2026-11-05",
+   "license": "MIT",
+   "skills": 33,
+   "install": "npx skills add bulkpublish/bulkpublish-ai-toolkit",
+   "checked": "2026-11-13"
   },
   {
    "repo": "mvanhorn/last30days-skill",
@@ -4523,6 +4642,34 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "tubeagentkit/youtube-transcript-skills",
+   "url": "https://github.com/tubeagentkit/youtube-transcript-skills",
+   "name": "youtube-transcript-skills",
+   "group": "research",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor",
+    "codex",
+    "openclaw"
+   ],
+   "featured": false,
+   "desc": "YouTube 字幕 skill：取字幕、搜视频和频道、翻频道的上传和播放列表、按时间点找原话",
+   "desc_en": "YouTube transcript skill: fetch transcripts, search videos and channels, browse a channel's uploads and playlists, and find where something is said, via a REST API with bundled scripts.",
+   "note": "要它家的 API key：注册送 100 次免费额度、不用绑卡，之后每月 5 美元起 1,000 次",
+   "note_en": "Needs a getyoutubetranscript.com API key: 100 free credits on signup with no card, then from $5/month for 1,000 credits.",
+   "stars": 41,
+   "pushed_at": "2026-11-09",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add tubeagentkit/youtube-transcript-skills",
+   "checked": "2026-11-13"
+  },
+  {
    "repo": "one-box-u/openclaw-daily-hot-news",
    "url": "https://github.com/one-box-u/openclaw-daily-hot-news",
    "name": "openclaw-daily-hot-news",
@@ -4811,6 +4958,31 @@
    "skills": 13,
    "install": "npx skills add Lulu-Eva/Eva-skill",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "Jian21311/account-diagnosis-skill",
+   "url": "https://github.com/Jian21311/account-diagnosis-skill",
+   "name": "account-diagnosis-skill",
+   "group": "strategy",
+   "platforms": [
+    "xiaohongshu",
+    "douyin",
+    "bilibili"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "账号诊断规则：先看手上有哪些数据再定怎么判，六个维度分三档，不给总分，只指出最该改的一件；没有播放量就不算完播率",
+   "desc_en": "Rules for an account diagnosis: decide which path the available evidence allows before judging, grade six dimensions in three bands, rank the single fix instead of summing a score, and skip completion-rate maths when the public page has no view count.",
+   "note": "规范文档，不是自动化工具：只给判断规则，不抓数据；附 80 条抖音公开作品样本可以逐条复算",
+   "note_en": "A rules document rather than an automation tool: it supplies the judgement rules, not the data capture. Ships with an 80-post Douyin sample that can be recalculated row by row.",
+   "stars": 0,
+   "pushed_at": "2026-11-06",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add Jian21311/account-diagnosis-skill",
+   "checked": "2026-11-13"
   },
   {
    "repo": "xpzouying/xiaohongshu-mcp",
@@ -5228,6 +5400,57 @@
    "skills": 1,
    "install": null,
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "wavegrain/wavegrain-mcp",
+   "url": "https://github.com/wavegrain/wavegrain-mcp",
+   "name": "wavegrain-mcp",
+   "group": "mcp",
+   "platforms": [
+    "tiktok",
+    "instagram"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "Wavegrain 的 MCP：让 agent 按你的品牌规划帖子，做 TikTok 图文和 Instagram 轮播，改每页文字，排进日历或导出",
+   "desc_en": "Wavegrain's MCP server: your agent plans posts for a brand, makes TikTok slideshows and Instagram carousels from your brand and photos, edits slide text, and schedules or exports them.",
+   "note": "服务在 Wavegrain 云端，要 Wavegrain 账号，连接时设每天的积分上限",
+   "note_en": "The server is hosted by Wavegrain and needs a Wavegrain account; you set a daily credit limit when connecting.",
+   "stars": 1,
+   "pushed_at": "2026-11-13",
+   "license": "MIT",
+   "skills": 1,
+   "install": null,
+   "checked": "2026-11-13"
+  },
+  {
+   "repo": "rocosen/flashdata-mcp",
+   "url": "https://github.com/rocosen/flashdata-mcp",
+   "name": "FlashData MCP",
+   "group": "mcp",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "FlashData 的 MCP 和命令行：搜 YouTube 视频和频道，读元数据和带时间戳的字幕，也能查 Google 搜索、新闻和图片",
+   "desc_en": "FlashData's MCP server and CLI: search YouTube videos and channels, read metadata and timestamped transcripts, and query Google Search, News and Images, with a task skill for each source.",
+   "note": "数据调用要 FlashData 的 API key 和付费积分，没有免费档",
+   "note_en": "Data requests need a FlashData API key and paid credits; there is no free tier.",
+   "stars": 0,
+   "pushed_at": "2026-11-11",
+   "license": "MIT",
+   "skills": 34,
+   "install": null,
+   "checked": "2026-11-13"
   },
   {
    "repo": "gitroomhq/postiz-app",

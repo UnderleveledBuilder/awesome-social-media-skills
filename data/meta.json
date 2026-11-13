@@ -211,6 +211,20 @@
       "stars": 448,
       "status": "ok"
     },
+    "ColinGPT9/clips-studio": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Clips Kitty: Free open-source AI video clipper. Local Opus Clip alternative (also Klap & Vizard) that turns Twitch, Kick & YouTube streams into auto-captioned Shorts, Reels, and TikToks, and can auto-post them 24/7 from a mini PC. Local AI (Ollama, Whisper): no usage or subscription fees. Or OpenRouter: a 2-hour VOD cost 11 cents in my testing.",
+      "first_seen": "2026-11-13",
+      "forks": 49,
+      "full_name": "ColinGPT9/clips-studio",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-13",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 247,
+      "status": "ok"
+    },
     "GiMi-Xiaomi/gimi-illustration-skill": {
       "archived": false,
       "default_branch": "main",
@@ -265,6 +279,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 1067,
+      "status": "ok"
+    },
+    "HoneyVid/skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Agent skills for HoneyVid: make viral AI videos and images from Claude, ChatGPT, Codex and Cursor",
+      "first_seen": "2026-11-13",
+      "forks": 0,
+      "full_name": "HoneyVid/skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-12",
+      "skill_count": 5,
+      "skill_count_truncated": false,
+      "stars": 0,
       "status": "ok"
     },
     "IanShaw027/wemp-operator": {
@@ -363,6 +391,20 @@
       "skill_count": 2,
       "skill_count_truncated": false,
       "stars": 2053,
+      "status": "ok"
+    },
+    "Jian21311/account-diagnosis-skill": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "公开账号诊断执行规则：先判断有没有数据，再按六维度定档，不给总分。适用小红书 / 抖音 / B站。维护方 Social Ops（shandongai.cn）",
+      "first_seen": "2026-11-13",
+      "forks": 0,
+      "full_name": "Jian21311/account-diagnosis-skill",
+      "license": null,
+      "pushed_at": "2026-11-06",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 0,
       "status": "ok"
     },
     "JimLiu/baoyu-skills": {
@@ -1035,6 +1077,20 @@
       "skill_count": 6,
       "skill_count_truncated": false,
       "stars": 299,
+      "status": "ok"
+    },
+    "bulkpublish/bulkpublish-ai-toolkit": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "BulkPublish AI Toolkit — MCP server + skills for connecting any AI tool to BulkPublish social media automation. Works with Claude Code, Cursor, Windsurf, VS Code, Gemini CLI, Codex, and 41+ agents.",
+      "first_seen": "2026-11-13",
+      "forks": 2,
+      "full_name": "bulkpublish/bulkpublish-ai-toolkit",
+      "license": "MIT",
+      "pushed_at": "2026-11-05",
+      "skill_count": 33,
+      "skill_count_truncated": false,
+      "stars": 2,
       "status": "ok"
     },
     "charlie947/motion-graphics-skills": {
@@ -2059,6 +2115,20 @@
       "stars": 1215,
       "status": "ok"
     },
+    "murphywuwu/easysociable-mcp": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "MCP server + agent skills: Claude Code, Cursor or Codex turn a prompt into a branded multi-page carousel for TikTok, Instagram and LinkedIn.",
+      "first_seen": "2026-11-13",
+      "forks": 0,
+      "full_name": "murphywuwu/easysociable-mcp",
+      "license": "MIT",
+      "pushed_at": "2026-11-13",
+      "skill_count": 3,
+      "skill_count_truncated": false,
+      "stars": 0,
+      "status": "ok"
+    },
     "mvanhorn/last30days-skill": {
       "archived": false,
       "default_branch": "main",
@@ -2395,6 +2465,20 @@
       "stars": 455,
       "status": "ok"
     },
+    "rocosen/flashdata-mcp": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Official FlashData MCP server for Google Search, YouTube data, and media downloads.",
+      "first_seen": "2026-11-13",
+      "forks": 0,
+      "full_name": "rocosen/flashdata-mcp",
+      "license": "MIT",
+      "pushed_at": "2026-11-11",
+      "skill_count": 34,
+      "skill_count_truncated": false,
+      "stars": 0,
+      "status": "ok"
+    },
     "rohunvora/x-research-skill": {
       "archived": false,
       "default_branch": "main",
@@ -2717,6 +2801,20 @@
       "stars": 1971,
       "status": "ok"
     },
+    "tubeagentkit/youtube-transcript-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "YouTube transcript Agent Skill for Claude Code, Cursor, Codex and OpenClaw: fetch YouTube video transcripts, search videos, browse channels and playlists.",
+      "first_seen": "2026-11-13",
+      "forks": 1,
+      "full_name": "tubeagentkit/youtube-transcript-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-09",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 41,
+      "status": "ok"
+    },
     "vigorX777/x-ai-topic-selector": {
       "archived": false,
       "default_branch": "main",
@@ -2757,6 +2855,20 @@
       "skill_count": 7,
       "skill_count_truncated": false,
       "stars": 197,
+      "status": "ok"
+    },
+    "wavegrain/wavegrain-mcp": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Wavegrain MCP server: curated TikTok slideshows and Instagram carousels for your brand on autopilot, from Claude, ChatGPT, Cursor and other AI agents.",
+      "first_seen": "2026-11-13",
+      "forks": 0,
+      "full_name": "wavegrain/wavegrain-mcp",
+      "license": "MIT",
+      "pushed_at": "2026-11-13",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 1,
       "status": "ok"
     },
     "wechatsync/Wechatsync": {

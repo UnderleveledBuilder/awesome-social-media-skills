@@ -115,3 +115,7 @@ reason = "桌面应用，发 exe 和 dmg 安装包，未到平台收录门槛（
 [[ignored]]
 repo = "claude-world/notebooklm-skill"
 reason = "通用的 NotebookLM 研究和问答工具，不专做自媒体"
+
+[[ignored]]
+repo = "twtdata/x-trends-history-skill"
+reason = "README 只有标题，没写做什么、怎么装（11-13）；补上后可以重新提"
