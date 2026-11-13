@@ -1457,6 +1457,20 @@
       "stars": 300,
       "status": "ok"
     },
+    "helloianneo/ian-xiaohei-illustrations": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
+      "first_seen": "2026-11-13",
+      "forks": 1507,
+      "full_name": "helloianneo/ian-xiaohei-illustrations",
+      "license": "MIT",
+      "pushed_at": "2026-10-27",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 13195,
+      "status": "ok"
+    },
     "hongfamonvAI/hook-lab": {
       "archived": false,
       "default_branch": "main",
@@ -2225,6 +2239,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 2285,
+      "status": "ok"
+    },
+    "op7418/guizang-ppt-skill": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "first_seen": "2026-11-13",
+      "forks": 2046,
+      "full_name": "op7418/guizang-ppt-skill",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-10-30",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 29758,
       "status": "ok"
     },
     "op7418/guizang-social-card-skill": {

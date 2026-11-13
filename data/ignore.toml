@@ -111,3 +111,7 @@ reason = "只放 Windows exe 和 Mac dmg 安装包，没有源码，另附 cooki
 [[ignored]]
 repo = "AiyaFun/beacon"
 reason = "桌面应用，发 exe 和 dmg 安装包，未到平台收录门槛（≥1k★）"
+
+[[ignored]]
+repo = "claude-world/notebooklm-skill"
+reason = "通用的 NotebookLM 研究和问答工具，不专做自媒体"

@@ -1609,6 +1609,54 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "op7418/guizang-ppt-skill",
+   "url": "https://github.com/op7418/guizang-ppt-skill",
+   "name": "guizang-ppt-skill",
+   "group": "visual",
+   "platforms": [
+    "wechat",
+    "xiaohongshu",
+    "channels"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "歸藏的网页 PPT：把文章做成单文件 HTML 翻页演示，杂志风和瑞士风两套，带演讲者模式，同一套视觉还能出公众号、小红书、视频号封面",
+   "desc_en": "Guizang's web slides: turns an article into a single-file HTML deck in an editorial or Swiss style, with speaker mode and rehearsal, and reuses the same look for WeChat 21:9 and 1:1, Xiaohongshu 3:4 and Channels covers.",
+   "note": "配图要在 Codex 里用 GPT-Image 生成，不用也能出纯排版的 PPT",
+   "note_en": "Generated images need Codex with GPT-Image; without it you still get layout-only decks.",
+   "stars": 29758,
+   "pushed_at": "2026-10-30",
+   "license": "AGPL-3.0",
+   "skills": 1,
+   "install": "npx skills add op7418/guizang-ppt-skill",
+   "checked": "2026-11-13"
+  },
+  {
+   "repo": "helloianneo/ian-xiaohei-illustrations",
+   "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+   "name": "ian-xiaohei-illustrations",
+   "group": "visual",
+   "platforms": [
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "Ian 的「小黑」手绘正文配图：读文章挑出判断、流程或隐喻，画成 4–8 张 16:9 白底怪诞配图",
+   "desc_en": "Ian's Xiaohei hand-drawn article illustrations: reads a Chinese article, picks the judgments, flows or metaphors worth drawing, and turns them into 4–8 white-background 16:9 images starring a small black character.",
+   "note": "按 Codex 写的，出图调 Codex 自带的 image_gen；在别的 agent 里用要自己接生图工具",
+   "note_en": "Written for Codex: images come from Codex's built-in image_gen, so other agents need their own image tool.",
+   "stars": 13195,
+   "pushed_at": "2026-10-27",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add helloianneo/ian-xiaohei-illustrations",
+   "checked": "2026-11-13"
+  },
+  {
    "repo": "nexu-io/html-anything",
    "url": "https://github.com/nexu-io/html-anything",
    "name": "html-anything",
