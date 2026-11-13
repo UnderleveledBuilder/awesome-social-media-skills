@@ -1969,6 +1969,18 @@ format = "skill"
 lang = "en"
 checked = 2026-10-19
 
+[[skills]]
+repo = "Jian21311/account-diagnosis-skill"
+desc = "账号诊断的执行规则：先判断手上有没有数据再定路径，六维度三档定档，不给总分只排该改哪一件；公开主页没有播放量就不算完播率"
+desc_en = "Rules for an account diagnosis: decide which path the available evidence allows before judging, grade six dimensions in three bands, rank the single fix instead of summing a score, and skip completion-rate maths when the public page has no view count."
+group = "research"
+platforms = ["xiaohongshu", "douyin", "bilibili"]
+format = "skill"
+lang = "zh"
+note = "规范文档，不是自动化工具：给判断规则不给数据抓取；附 80 条抖音公开作品样本可逐条复算"
+note_en = "A rules document rather than an automation tool: it supplies the judgement rules, not the data capture. Ships with an 80-post Douyin sample that can be recalculated row by row."
+checked = 2026-11-06
+
 # ───────── 账号定位和增长 ─────────
 
 [[skills]]
