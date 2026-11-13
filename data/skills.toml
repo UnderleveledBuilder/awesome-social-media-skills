@@ -822,14 +822,16 @@ lang = "en"
 checked = 2026-10-19
 
 [[skills]]
-repo = "nexu-io/html-anything"
-desc = "本地 agent 写 HTML 的编辑器：75 个 skill 做杂志长文、海报、小红书图、推文卡、幻灯片，一键发公众号、X、知乎或导出 PNG"
-desc_en = "Agentic HTML editor where your local agent writes the page: 75 skills for magazine articles, posters, Xiaohongshu images, tweet cards and decks, with one-click export to WeChat, X, Zhihu or PNG."
+repo = "nexu-io/openmotion"
+desc = "OpenMotion（原 HTML Anything）：给一条参考视频或社媒视频链接，agent 拆镜头、用 HTML 复刻成你自己品牌的片子，也能剪口播"
+desc_en = "OpenMotion (formerly HTML Anything): give your agent a reference video or a social video link and it breaks down the shots, rebuilds them in HTML with your own brand and copy, and renders MP4; it also edits talking-head clips."
 group = "visual"
-platforms = ["xiaohongshu", "wechat", "x", "zhihu"]
+platforms = ["xiaohongshu", "tiktok", "youtube", "instagram"]
 format = "app"
 lang = "multi"
-checked = 2026-10-19
+note = "11 月起仓库换成了 OpenMotion，原来的 HTML 编辑器只留在 legacy 分支；补镜头、配乐、配音要接自己的模型 API key"
+note_en = "In November the repo became OpenMotion; the former HTML editor lives only on the legacy branch. Extra shots, music and voice need your own model API keys."
+checked = 2026-11-13
 
 [[skills]]
 repo = "op7418/Document-illustrator-skill"

@@ -2129,18 +2129,18 @@
       "stars": 106,
       "status": "ok"
     },
-    "nexu-io/html-anything": {
+    "nexu-io/openmotion": {
       "archived": false,
       "default_branch": "main",
-      "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
+      "description": "The open-source full-stack studio for Opus 5.5 motion video. Reverse engineering for any video. Code video with HTML: recreate, edit and render. BYOA + BYOK · Motion.md · Images, Video, Music & Voice.",
       "first_seen": "2026-10-19",
-      "forks": 904,
-      "full_name": "nexu-io/html-anything",
+      "forks": 937,
+      "full_name": "nexu-io/openmotion",
       "license": "Apache-2.0",
-      "pushed_at": "2026-10-13",
-      "skill_count": 81,
+      "pushed_at": "2026-11-13",
+      "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 9426,
+      "stars": 9831,
       "status": "ok"
     },
     "nicolapocock/claude-reel-editor": {
