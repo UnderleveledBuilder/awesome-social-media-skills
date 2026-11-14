@@ -625,6 +625,17 @@ checked = 2026-10-19
 # ───────── 排版、封面配图和短视频 ─────────
 
 [[skills]]
+repo = "twtdata/x-trends-history-skill"
+name = "x-trends-history"
+desc = "查 X（推特）某国某天的热搜榜：读 twtData 免费的按日期热搜存档里的一页，按 X 的排名列出并附来源链接，不需要账号或 API Key"
+desc_en = "Look up what was trending on X (Twitter) in one country on one past date, from twtData's free dated trends archive: one page per question, trends in X's order, cited with the page URL. No account or API key."
+group = "research"
+platforms = ["x"]
+format = "skill"
+lang = "en"
+checked = 2026-11-14
+
+[[skills]]
 repo = "op7418/guizang-social-card-skill"
 desc = "歸藏的图文卡片：小红书组图、Live Photo 动态卡、公众号 21:9+1:1 封面对，杂志风和瑞士风两套视觉、28 种版式"
 desc_en = "Guizang's social cards: Xiaohongshu carousels, Live Photo motion cards and WeChat 21:9 + 1:1 cover pairs, in editorial and Swiss styles with 28 layouts."
