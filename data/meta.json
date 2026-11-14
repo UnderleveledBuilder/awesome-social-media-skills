@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13",
+  "fetched_at": "2026-11-14",
   "repos": {
     "0731coderlee-sudo/wechat-publisher": {
       "archived": false,
@@ -40,7 +40,7 @@
       "pushed_at": "2026-05-13",
       "skill_count": 0,
       "skill_count_truncated": false,
-      "stars": 35,
+      "stars": 36,
       "status": "ok"
     },
     "843645440/wechat-skill": {
@@ -278,7 +278,7 @@
       "pushed_at": "2026-10-13",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1303,
+      "stars": 1304,
       "status": "ok"
     },
     "HoneyVid/skills": {
@@ -314,13 +314,13 @@
       "default_branch": "main",
       "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
       "first_seen": "2026-10-19",
-      "forks": 1241,
+      "forks": 1244,
       "full_name": "Jakeschincariol/instagram-agent-skill",
       "license": "MIT",
       "pushed_at": "2026-09-13",
       "skill_count": 13,
       "skill_count_truncated": false,
-      "stars": 6353,
+      "stars": 6354,
       "status": "ok"
     },
     "Jakeschincariol/linkedin-agent-skill": {
@@ -328,13 +328,13 @@
       "default_branch": "main",
       "description": "Eleven free Claude skills that run a LinkedIn account: posts off 21 hook formulas, comments, replies, profile score, weekly plan, and a humanizer that strips the AI fingerprint and scores the draft before it goes out.",
       "first_seen": "2026-10-19",
-      "forks": 561,
+      "forks": 562,
       "full_name": "Jakeschincariol/linkedin-agent-skill",
       "license": "MIT",
       "pushed_at": "2026-09-17",
       "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 3544,
+      "stars": 3546,
       "status": "ok"
     },
     "Jakeschincariol/youtube-agent-skill": {
@@ -348,7 +348,7 @@
       "pushed_at": "2026-09-16",
       "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 5842,
+      "stars": 5844,
       "status": "ok"
     },
     "Jamailar/Beav": {
@@ -628,7 +628,7 @@
       "pushed_at": "2026-11-08",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 111617,
+      "stars": 111623,
       "status": "ok"
     },
     "Pluviobyte/rnskill": {
@@ -670,7 +670,7 @@
       "pushed_at": "2026-08-26",
       "skill_count": 13,
       "skill_count_truncated": false,
-      "stars": 6427,
+      "stars": 6428,
       "status": "ok"
     },
     "SpaceZephyr/creator-buddy": {
@@ -754,7 +754,7 @@
       "pushed_at": "2026-04-01",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 91,
+      "stars": 92,
       "status": "ok"
     },
     "WeiZhuochun/douyin-live-recorder": {
@@ -776,13 +776,13 @@
       "default_branch": "main",
       "description": "GIF 工厂：按风格制作像素、人物与宠物、粘土吉祥物、光栅卡与动态海报的 GIF Skill。",
       "first_seen": "2026-11-08",
-      "forks": 195,
+      "forks": 196,
       "full_name": "WoYun520/gif-factory",
       "license": "MIT",
       "pushed_at": "2026-11-14",
       "skill_count": 5,
       "skill_count_truncated": false,
-      "stars": 1763,
+      "stars": 1767,
       "status": "ok"
     },
     "XBuilderLAB/cheat-on-content": {
@@ -866,7 +866,7 @@
       "pushed_at": "2026-11-12",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 4670,
+      "stars": 4671,
       "status": "ok"
     },
     "ZeroPointRepo/youtube-skills": {
@@ -1056,13 +1056,13 @@
       "default_branch": "main",
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "first_seen": "2026-10-19",
-      "forks": 5405,
+      "forks": 5406,
       "full_name": "blader/humanizer",
       "license": "MIT",
       "pushed_at": "2026-11-10",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 68890,
+      "stars": 68897,
       "status": "ok"
     },
     "bradautomates/head-of-content": {
@@ -1370,7 +1370,7 @@
       "pushed_at": "2026-05-29",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 6265,
+      "stars": 6264,
       "status": "ok"
     },
     "feicaiclub/video-spec-builder": {
@@ -1454,7 +1454,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 3799,
+      "stars": 3800,
       "status": "ok"
     },
     "gitroomhq/postiz-agent": {
@@ -1482,7 +1482,7 @@
       "pushed_at": "2026-11-13",
       "skill_count": 0,
       "skill_count_truncated": false,
-      "stars": 41556,
+      "stars": 41558,
       "status": "ok"
     },
     "hanliang97/MatrixMedia": {
@@ -1664,7 +1664,7 @@
       "pushed_at": "2026-11-05",
       "skill_count": 9,
       "skill_count_truncated": false,
-      "stars": 390,
+      "stars": 391,
       "status": "ok"
     },
     "imraywang/wewrite": {
@@ -1692,7 +1692,7 @@
       "pushed_at": "2026-10-21",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 4360,
+      "stars": 4361,
       "status": "ok"
     },
     "itchernetski/threads-carousel-claude-skill": {
@@ -1720,7 +1720,7 @@
       "pushed_at": "2026-08-01",
       "skill_count": 10,
       "skill_count_truncated": false,
-      "stars": 51,
+      "stars": 52,
       "status": "ok"
     },
     "jackwener/wechat-article-to-markdown": {
@@ -1902,7 +1902,7 @@
       "pushed_at": "2026-11-13",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1068,
+      "stars": 1071,
       "status": "ok"
     },
     "krillinai/OpenCreator": {
@@ -1916,7 +1916,7 @@
       "pushed_at": "2026-11-10",
       "skill_count": 9,
       "skill_count_truncated": false,
-      "stars": 14341,
+      "stars": 14343,
       "status": "ok"
     },
     "lancelin111/douyin-mcp-server": {
@@ -1952,13 +1952,13 @@
       "default_branch": "main",
       "description": "一个基于 520 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 5.2-million-character corpus study",
       "first_seen": "2026-11-06",
-      "forks": 536,
+      "forks": 537,
       "full_name": "larashero3-dotcom/lieflat-less-ai-tone",
       "license": null,
       "pushed_at": "2026-11-11",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 7606,
+      "stars": 7607,
       "status": "ok"
     },
     "larashero3-dotcom/writing-dna-skill": {
@@ -1966,7 +1966,7 @@
       "default_branch": "main",
       "description": "写作蒸馏器.skill｜蒸馏复刻任意写作风格的 agent skill | Writing DNA Distiller - distill and recreate any writing style as an agent skill",
       "first_seen": "2026-10-19",
-      "forks": 287,
+      "forks": 288,
       "full_name": "larashero3-dotcom/writing-dna-skill",
       "license": null,
       "pushed_at": "2026-11-11",
@@ -2182,7 +2182,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 15,
       "skill_count_truncated": false,
-      "stars": 2825,
+      "stars": 2826,
       "status": "ok"
     },
     "ndesv21/socialclaw": {
@@ -2210,7 +2210,7 @@
       "pushed_at": "2026-11-14",
       "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 9860,
+      "stars": 9864,
       "status": "ok"
     },
     "nicolapocock/claude-reel-editor": {
@@ -2560,7 +2560,7 @@
       "pushed_at": "2026-11-11",
       "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 830,
+      "stars": 831,
       "status": "ok"
     },
     "sergebulaev/linkedin-skills": {
@@ -2778,7 +2778,7 @@
       "default_branch": "main",
       "description": "Open-source social media scheduler built for AI agents and the teams behind them. Create, schedule and publish posts to every network through MCP or the REST API, or write them yourself in a composer your team will love.",
       "first_seen": "2026-10-19",
-      "forks": 223,
+      "forks": 224,
       "full_name": "trypostit/trypost",
       "license": "AGPL-3.0",
       "pushed_at": "2026-11-14",
@@ -2966,7 +2966,7 @@
       "pushed_at": "2026-10-26",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 1283,
+      "stars": 1284,
       "status": "ok"
     },
     "xixihhhh/hotclip": {
@@ -3008,7 +3008,7 @@
       "pushed_at": "2026-11-10",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 17115,
+      "stars": 17117,
       "status": "ok"
     },
     "yang0/handraw-style": {
@@ -3022,7 +3022,7 @@
       "pushed_at": "2026-11-10",
       "skill_count": 23,
       "skill_count_truncated": false,
-      "stars": 7631,
+      "stars": 7633,
       "status": "ok"
     },
     "yanhua1010/self-media-content-workflow": {

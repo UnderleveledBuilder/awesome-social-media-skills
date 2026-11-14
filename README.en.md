@@ -10,7 +10,7 @@ This list collects social media skills for AI agents: writing posts and threads,
 
 Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Official Accounts) and are documented in Chinese; the descriptions below are translated.
 
-197 skill projects + 29 MCP tools and open-source platforms · metadata updated 2026-11-13
+197 skill projects + 29 MCP tools and open-source platforms · metadata updated 2026-11-14
 
 **Legend**: 🌟 featured · 📝 prompt files (not a standard skill) · 🔌 MCP server or CLI tool · 🧩 full app · 💤 not updated for 180+ days · 📦 archived · ⚠️ repo unavailable
 
@@ -89,7 +89,7 @@ One system for the whole loop: find topics, write and illustrate, publish, then 
 
 - **[claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post)** · ★ 858<br>Learns your Facebook voice, plans a 14-day calendar, posts to Facebook, Instagram, Threads and X after you confirm, and manages comments through your logged-in Chrome.<br><sub>Platforms: X · Instagram · Threads · Facebook</sub><br><sub>updated 2026-11-13 · Chinese · 2 skills · MIT</sub>
 
-- **[instagram-skills](https://github.com/sergebulaev/instagram-skills)** · ★ 830<br>Instagram skills: captions with a hook in the first 125 characters, slide-by-slide carousels, hashtags and a weekly plan; niche data via Apify, publishing via Publora.<br><sub>Platforms: Instagram</sub><br><sub>updated 2026-11-11 · English · 11 skills · MIT</sub>
+- **[instagram-skills](https://github.com/sergebulaev/instagram-skills)** · ★ 831<br>Instagram skills: captions with a hook in the first 125 characters, slide-by-slide carousels, hashtags and a weekly plan; niche data via Apify, publishing via Publora.<br><sub>Platforms: Instagram</sub><br><sub>updated 2026-11-11 · English · 11 skills · MIT</sub>
 
 - **[claude-youtube](https://github.com/AgriciDaniel/claude-youtube)** · ★ 768<br>Claude Code skill for YouTube creators: channel audits, video SEO, retention-engineered scripts and hooks, thumbnails, content strategy, Shorts, analytics and monetization.<br><sub>Platforms: YouTube</sub><br><sub>updated 2026-04-10 💤 · English · MIT</sub>
 
@@ -101,7 +101,7 @@ One system for the whole loop: find topics, write and illustrate, publish, then 
 
 - **[claude-content-skills](https://github.com/Ootto-AI/claude-content-skills)** · ★ 452<br>An Instagram Reels content factory: find in-demand formats, study a viral reel, write hooks, scripts and captions in your voice, plan two weeks of posts and turn comments into leads, with Obsidian as memory.<br><sub>Platforms: Instagram</sub><br><sub>updated 2026-11-07 · English · 55 skills · MIT</sub>
 
-- **[rayskills](https://github.com/imraywang/rayskills)** · ★ 390<br>Toolbox from the WeWrite author: local knowledge base, long-form articles, voice-over scripts, covers and explainer videos, with content delivered to WeChat and X Articles drafts.<br><sub>Platforms: X · WeChat OA</sub><br><sub>updated 2026-11-05 · Chinese · 9 skills</sub>
+- **[rayskills](https://github.com/imraywang/rayskills)** · ★ 391<br>Toolbox from the WeWrite author: local knowledge base, long-form articles, voice-over scripts, covers and explainer videos, with content delivered to WeChat and X Articles drafts.<br><sub>Platforms: X · WeChat OA</sub><br><sub>updated 2026-11-05 · Chinese · 9 skills</sub>
 
 - **[wechat_article_skills](https://github.com/BND-1/wechat_article_skills)** · ★ 318<br>Four WeChat Official Account skills: tech explainer writing, AI product-manager essays, Markdown-to-WeChat formatting and publishing to drafts.<br><sub>Platforms: WeChat OA</sub><br><sub>updated 2026-01-16 💤 · Chinese · 4 skills</sub>
 
@@ -131,9 +131,9 @@ One system for the whole loop: find topics, write and illustrate, publish, then 
 
 - **[threads-skills](https://github.com/sergebulaev/threads-skills)** · ★ 66<br>Eight Threads skills: single posts and multi-post threads in your voice, replies, niche insights from real data and a weekly plan, with approval before publishing.<br><sub>Platforms: Threads</sub><br><sub>updated 2026-11-11 · English · 10 skills · MIT</sub>
 
-- **[workbuddy-xhs-skills](https://github.com/jackbauerxu/workbuddy-xhs-skills)** · ★ 51<br>Ten skills for taking a RedNote account from zero: positioning worked back from what you can sell, low-follower viral breakdowns, a topic bank, de-AI and compliance checks, cover anchors, illustration routing, and schedule reviews.<br><sub>Platforms: RedNote</sub><br><sub>updated 2026-08-01 · Chinese · 10 skills</sub>
+- **[workbuddy-xhs-skills](https://github.com/jackbauerxu/workbuddy-xhs-skills)** · ★ 52<br>Ten skills for taking a RedNote account from zero: positioning worked back from what you can sell, low-follower viral breakdowns, a topic bank, de-AI and compliance checks, cover anchors, illustration routing, and schedule reviews.<br><sub>Platforms: RedNote</sub><br><sub>updated 2026-08-01 · Chinese · 10 skills</sub>
 
-- **[xhs-ai-workflow](https://github.com/554022647henry-boop/xhs-ai-workflow)** · ★ 35<br>A prompt-file system for running a RedNote account: a master prompt plus seven role agents (research, topics, drafting, review, publish prep and more). You pick topics and edit; the topic bank and style guide live in local Markdown.<br><sub>Platforms: RedNote</sub><br><sub>updated 2026-05-13 💤 · 📝 prompts · Chinese</sub><br><sub>💡 Auto-publishing needs a separate RedNote MCP signed in to your account; drafting alone doesn't.</sub>
+- **[xhs-ai-workflow](https://github.com/554022647henry-boop/xhs-ai-workflow)** · ★ 36<br>A prompt-file system for running a RedNote account: a master prompt plus seven role agents (research, topics, drafting, review, publish prep and more). You pick topics and edit; the topic bank and style guide live in local Markdown.<br><sub>Platforms: RedNote</sub><br><sub>updated 2026-05-13 💤 · 📝 prompts · Chinese</sub><br><sub>💡 Auto-publishing needs a separate RedNote MCP signed in to your account; drafting alone doesn't.</sub>
 
 - **[MediaManager](https://github.com/LDJ-creat/MediaManager)** · ★ 29<br>The whole social media loop: pick topics from RSS feeds, write long articles and RedNote notes with images, publish one draft to WeChat, CSDN, Juejin and RedNote, then pull each platform's numbers for a review that is written back into your style guide.<br><sub>Platforms: RedNote · WeChat OA</sub><br><sub>updated 2026-06-25 · Chinese · 11 skills</sub><br><sub>💡 WeChat, CSDN and Juejin only get drafts; RedNote posts go live directly.</sub>
 
@@ -623,7 +623,7 @@ Get content onto the platforms: scheduling, cross-posting and browser automation
 
 - **[douyin-image-post-scheduler](https://github.com/chengyi-ai/douyin-image-post-scheduler)** · ★ 108<br>Batch-schedule Douyin image posts from local content folders: upload, pick valid topics and music, schedule and verify in the back end, all in your logged-in Chrome.<br><sub>Platforms: Douyin</sub><br><sub>updated 2026-10-14 · Chinese · MIT</sub>
 
-- **[douyin-upload-mcp-skill](https://github.com/WJZ-P/douyin-upload-mcp-skill)** · ★ 91<br>Fully automated Douyin video and image posting via CDP on the creator platform: MCP tools first, skill scripts as a fallback. Works with OpenClaw and other agents.<br><sub>Platforms: Douyin</sub><br><sub>updated 2026-04-01 💤 · Chinese · AGPL-3.0</sub>
+- **[douyin-upload-mcp-skill](https://github.com/WJZ-P/douyin-upload-mcp-skill)** · ★ 92<br>Fully automated Douyin video and image posting via CDP on the creator platform: MCP tools first, skill scripts as a fallback. Works with OpenClaw and other agents.<br><sub>Platforms: Douyin</sub><br><sub>updated 2026-04-01 💤 · Chinese · AGPL-3.0</sub>
 
 - **[publora/skills](https://github.com/publora/skills)** · ★ 68<br>Official Publora skills: post or schedule to 10 networks including LinkedIn, X, Instagram, Threads, TikTok, YouTube and Facebook from your agent, through the Publora MCP server.<br><sub>Platforms: X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook</sub><br><sub>updated 2026-11-10 · English · 9 skills · MIT</sub><br><sub>💡 Requires a Publora account; the free plan covers every platform except X.</sub>
 
@@ -1048,7 +1048,7 @@ Platforms each repo's README explicitly targets (sorted by stars). "Any platform
 
 ### What are the best agent skills for social media?
 
-This list has 197 hand-checked skill projects (data updated 2026-11-13). Start with [All-in-one](#group-pipeline) if you run the whole loop yourself; otherwise go straight to [Writing and content](#group-writing), [Publishing and automation](#group-publish) or [Topics, trends and analytics](#group-research). The [By platform](#by-platforms) index lists every project per platform.
+This list has 197 hand-checked skill projects (data updated 2026-11-14). Start with [All-in-one](#group-pipeline) if you run the whole loop yourself; otherwise go straight to [Writing and content](#group-writing), [Publishing and automation](#group-publish) or [Topics, trends and analytics](#group-research). The [By platform](#by-platforms) index lists every project per platform.
 
 ### Which skills work for X, YouTube, TikTok and LinkedIn?
 

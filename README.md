@@ -10,7 +10,7 @@
 
 这里收录给 AI 智能体（agent）用的自媒体 skill：写小红书笔记和公众号文章、做封面和短视频、定时发布、追热点、回评论、看数据。大多是标准 SKILL.md 格式，支持技能的智能体都能装，装法见[常见问题](#faq)。每个项目都经过人工核对，收录前用脚本做过安全检查，按要干的活和平台整理。
 
-收录 197 个 skill 项目 + 29 个 MCP 工具和开源平台 · 元数据更新于 2026-11-13
+收录 197 个 skill 项目 + 29 个 MCP 工具和开源平台 · 元数据更新于 2026-11-14
 
 **图例**：🌟 精选 · 📝 提示词文件（非标准 skill）· 🔌 MCP 或命令行工具 · 🧩 完整应用 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效
 
@@ -89,7 +89,7 @@
 
 - **[claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post)** · ★ 858<br>学你在 Facebook 的口吻写贴文，排 14 天日历，确认后发到 FB、IG、Threads、X，用已登录的 Chrome 管理留言<br><sub>平台：X · Instagram · Threads · Facebook</sub><br><sub>更新于 2026-11-13 · 中文 · 2 个 skill · MIT</sub>
 
-- **[instagram-skills](https://github.com/sergebulaev/instagram-skills)** · ★ 830<br>Instagram 9 个 skill：前 125 字钩子的文案、轮播逐页规划、话题标签和周计划，读数据要 Apify，发布走 Publora<br><sub>平台：Instagram</sub><br><sub>更新于 2026-11-11 · 英文 · 11 个 skill · MIT</sub>
+- **[instagram-skills](https://github.com/sergebulaev/instagram-skills)** · ★ 831<br>Instagram 9 个 skill：前 125 字钩子的文案、轮播逐页规划、话题标签和周计划，读数据要 Apify，发布走 Publora<br><sub>平台：Instagram</sub><br><sub>更新于 2026-11-11 · 英文 · 11 个 skill · MIT</sub>
 
 - **[claude-youtube](https://github.com/AgriciDaniel/claude-youtube)** · ★ 768<br>YouTube 创作者 skill：频道审计、视频 SEO、留存脚本和钩子、缩略图、内容策略、Shorts、数据和变现<br><sub>平台：YouTube</sub><br><sub>更新于 2026-04-10 💤 · 英文 · MIT</sub>
 
@@ -101,7 +101,7 @@
 
 - **[claude-content-skills](https://github.com/Ootto-AI/claude-content-skills)** · ★ 452<br>Instagram Reels 内容工厂：找爆款格式、拆钩子、按你的口吻写脚本和配文、排两周日历，把评论变成销售线索<br><sub>平台：Instagram</sub><br><sub>更新于 2026-11-07 · 英文 · 55 个 skill · MIT</sub>
 
-- **[rayskills](https://github.com/imraywang/rayskills)** · ★ 390<br>WeWrite 作者的工具箱：本地知识库、长文、口播稿、封面、解说视频，内容直达公众号和 X Articles 草稿箱<br><sub>平台：公众号 · X</sub><br><sub>更新于 2026-11-05 · 中文 · 9 个 skill</sub>
+- **[rayskills](https://github.com/imraywang/rayskills)** · ★ 391<br>WeWrite 作者的工具箱：本地知识库、长文、口播稿、封面、解说视频，内容直达公众号和 X Articles 草稿箱<br><sub>平台：公众号 · X</sub><br><sub>更新于 2026-11-05 · 中文 · 9 个 skill</sub>
 
 - **[wechat_article_skills](https://github.com/BND-1/wechat_article_skills)** · ★ 318<br>公众号四件套：科技科普写作、AI 产品经理视角写作、Markdown 转公众号排版、推送草稿箱<br><sub>平台：公众号</sub><br><sub>更新于 2026-01-16 💤 · 中文 · 4 个 skill</sub>
 
@@ -131,9 +131,9 @@
 
 - **[threads-skills](https://github.com/sergebulaev/threads-skills)** · ★ 66<br>Threads 8 个 skill：按你的口吻写单帖和串帖、写回复、按真实数据读赛道、排一周内容，发布前等你批准<br><sub>平台：Threads</sub><br><sub>更新于 2026-11-11 · 英文 · 10 个 skill · MIT</sub>
 
-- **[workbuddy-xhs-skills](https://github.com/jackbauerxu/workbuddy-xhs-skills)** · ★ 51<br>小红书从 0 起号的 10 个 skill：倒推变现定位、拆低粉爆款、选题库、去 AI 味和合规、封面和配图、排期复盘<br><sub>平台：小红书</sub><br><sub>更新于 2026-08-01 · 中文 · 10 个 skill</sub>
+- **[workbuddy-xhs-skills](https://github.com/jackbauerxu/workbuddy-xhs-skills)** · ★ 52<br>小红书从 0 起号的 10 个 skill：倒推变现定位、拆低粉爆款、选题库、去 AI 味和合规、封面和配图、排期复盘<br><sub>平台：小红书</sub><br><sub>更新于 2026-08-01 · 中文 · 10 个 skill</sub>
 
-- **[xhs-ai-workflow](https://github.com/554022647henry-boop/xhs-ai-workflow)** · ★ 35<br>小红书运营的提示词文件：主控提示词加 7 个分工 Agent（调研、选题、起草、审稿、发布准备等），你只定题和改稿<br><sub>平台：小红书</sub><br><sub>更新于 2026-05-13 💤 · 📝 提示词 · 中文</sub><br><sub>💡 自动发布要另装小红书 MCP、登录账号；只写稿可以不装</sub>
+- **[xhs-ai-workflow](https://github.com/554022647henry-boop/xhs-ai-workflow)** · ★ 36<br>小红书运营的提示词文件：主控提示词加 7 个分工 Agent（调研、选题、起草、审稿、发布准备等），你只定题和改稿<br><sub>平台：小红书</sub><br><sub>更新于 2026-05-13 💤 · 📝 提示词 · 中文</sub><br><sub>💡 自动发布要另装小红书 MCP、登录账号；只写稿可以不装</sub>
 
 - **[MediaManager](https://github.com/LDJ-creat/MediaManager)** · ★ 29<br>自媒体全流程：抓 RSS 热点选题，写长文和小红书笔记、配图，一稿发到公众号、CSDN、掘金和小红书，再拉各平台数据复盘，复盘结论写回你的创作规范<br><sub>平台：小红书 · 公众号</sub><br><sub>更新于 2026-06-25 · 中文 · 11 个 skill</sub><br><sub>💡 公众号、CSDN、掘金只存草稿；小红书是直接发出</sub>
 
@@ -623,7 +623,7 @@ npx skills add HoneyVid/skills
 
 - **[douyin-image-post-scheduler](https://github.com/chengyi-ai/douyin-image-post-scheduler)** · ★ 108<br>抖音图文批量定时发布：从本地素材文件夹排队，在已登录的 Chrome 里上传、选话题和音乐、定时并回后台核验<br><sub>平台：抖音</sub><br><sub>更新于 2026-10-14 · 中文 · MIT</sub>
 
-- **[douyin-upload-mcp-skill](https://github.com/WJZ-P/douyin-upload-mcp-skill)** · ★ 91<br>抖音视频和图文全自动发布：通过 CDP 操作创作者平台，MCP 优先、脚本兜底，适合 OpenClaw<br><sub>平台：抖音</sub><br><sub>更新于 2026-04-01 💤 · 中文 · AGPL-3.0</sub>
+- **[douyin-upload-mcp-skill](https://github.com/WJZ-P/douyin-upload-mcp-skill)** · ★ 92<br>抖音视频和图文全自动发布：通过 CDP 操作创作者平台，MCP 优先、脚本兜底，适合 OpenClaw<br><sub>平台：抖音</sub><br><sub>更新于 2026-04-01 💤 · 中文 · AGPL-3.0</sub>
 
 - **[publora/skills](https://github.com/publora/skills)** · ★ 68<br>Publora 官方 skill：从 agent 发帖或排期到 LinkedIn、X、Instagram、Threads、TikTok 等 10 个平台<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn · Threads · Facebook</sub><br><sub>更新于 2026-11-10 · 英文 · 9 个 skill · MIT</sub><br><sub>💡 要 Publora 账号，免费档覆盖除 X 以外的平台</sub>
 
