@@ -1149,6 +1149,34 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "XuHo-IT/Content-Agent-Kit",
+   "url": "https://github.com/XuHo-IT/Content-Agent-Kit",
+   "name": "Content-Agent-Kit",
+   "group": "pipeline",
+   "platforms": [
+    "facebook",
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "vi",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "越南语的内容运营套件：找选题、写稿、做 9:16 视频、审稿、发布，还能跑 Facebook 广告，32 个 skill",
+   "desc_en": "A Vietnamese content kit of 32 skills: find topics, write posts, build 9:16 videos, review and publish, run Facebook ads and learn marketing from eight brand case studies, all by talking to your agent in Vietnamese.",
+   "note": "",
+   "note_en": "",
+   "stars": 8,
+   "pushed_at": "2026-11-12",
+   "license": "MIT",
+   "skills": 32,
+   "install": "npx skills add XuHo-IT/Content-Agent-Kit",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "caodoris471/self-media-content-base",
    "url": "https://github.com/caodoris471/self-media-content-base",
    "name": "self-media-content-base",
@@ -1205,6 +1233,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "vincentventalon/my-claude-skills",
+   "url": "https://github.com/vincentventalon/my-claude-skills",
+   "name": "my-claude-skills",
+   "group": "pipeline",
+   "platforms": [
+    "tiktok",
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "fr",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "法语技能包：TikTok、Reels 真人口播短视频，审账号、找爆款、写稿、剪片、长视频切片和发布；另有一套 SEO",
+   "desc_en": "French Claude Code skills in two packs: face-camera short video for TikTok and Reels (audit your account, find what is breaking out in your niche, write the script, edit the rush, cut long videos into shorts, publish) and a separate SEO pack.",
+   "note": "",
+   "note_en": "",
+   "stars": 6,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 2,
+   "install": "npx skills add vincentventalon/my-claude-skills",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "Marky-Team/marky-skills",
    "url": "https://github.com/Marky-Team/marky-skills",
    "name": "Marky",
@@ -1255,6 +1309,32 @@
    "license": "MIT",
    "skills": 12,
    "install": "npx skills add vinit-agr/videopowers",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "fermaziero/estudio-de-conteudo-ia",
+   "url": "https://github.com/fermaziero/estudio-de-conteudo-ia",
+   "name": "estudio-de-conteudo-ia",
+   "group": "pipeline",
+   "platforms": [
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "pt",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "葡萄牙语的 Instagram 运营套件：访谈定品牌，策划、写稿、做图、发布和看数据，每步等你确认",
+   "desc_en": "A Portuguese skill kit that runs your Instagram from start to finish: it interviews you about your brand, then plans, writes, reviews, designs, publishes and tracks content, stopping for your approval at each step.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-11-01",
+   "license": "MIT",
+   "skills": 8,
+   "install": "npx skills add fermaziero/estudio-de-conteudo-ia",
    "checked": "2026-11-16"
   },
   {
@@ -1395,6 +1475,31 @@
    "license": "MIT",
    "skills": 1,
    "install": "npx skills add social-media-skills/instagram-skill",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "JacopoMarini/linkedin-agent-italia",
+   "url": "https://github.com/JacopoMarini/linkedin-agent-italia",
+   "name": "linkedin-agent-italia",
+   "group": "pipeline",
+   "platforms": [
+    "linkedin"
+   ],
+   "format": "skill",
+   "lang": "it",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "意大利语的 LinkedIn 运营：13 个 skill，写帖、写评论和回复、给主页打分重写、排周计划，带意大利语去 AI 味",
+   "desc_en": "Thirteen Claude skills that run a LinkedIn account in Italian: posts from 21 opening formulas, comments and replies, a profile score with rewrites, a weekly plan aware of Italian holidays, and an Italian humanizer. No API keys.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-07",
+   "license": "MIT",
+   "skills": 13,
+   "install": "npx skills add JacopoMarini/linkedin-agent-italia",
    "checked": "2026-11-16"
   },
   {
@@ -2231,6 +2336,32 @@
    "license": "MIT-0",
    "skills": 1,
    "install": "npx skills add beatra-ai/xiaohongshu-copywriter-skill",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "Anghelo12344567/Content-Critic",
+   "url": "https://github.com/Anghelo12344567/Content-Critic",
+   "name": "Content-Critic",
+   "group": "writing",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "linkedin",
+    "x"
+   ],
+   "format": "skill",
+   "lang": "es",
+   "agents": [],
+   "featured": false,
+   "desc": "发之前给脚本、开头、帖子和 Reels 打分：按平台看钩子、留存、价值和行动号召，直接给改好的版本",
+   "desc_en": "Reviews scripts, hooks, posts and Reels before you publish on Instagram, TikTok, LinkedIn or X: scores hook, retention, value, emotion, platform fit and call to action, and gives concrete rewritten fixes without promising virality.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-10",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add Anghelo12344567/Content-Critic",
    "checked": "2026-11-16"
   },
   {
@@ -3929,6 +4060,33 @@
    "checked": "2026-10-30"
   },
   {
+   "repo": "gustavomenani/editing-gameplay-montages",
+   "url": "https://github.com/gustavomenani/editing-gameplay-montages",
+   "name": "editing-gameplay-montages",
+   "group": "visual",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "pt",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "把 FPS 游戏片段和一首歌剪成踩点的竖屏短视频：击杀卡点、AI 补帧慢放、转场、缩放和歌词字，附封面",
+   "desc_en": "Turns Valorant, CS2 or other FPS clips and a song into a beat-synced edit for TikTok, Reels or Shorts: kills on the beat, smooth AI-interpolated slow motion, transitions, kill zooms and on-screen lyrics, plus a cover; no video editor needed.",
+   "note": "补帧要支持 Vulkan 的显卡",
+   "note_en": "Frame interpolation needs a Vulkan-capable GPU.",
+   "stars": 79,
+   "pushed_at": "2026-11-04",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add gustavomenani/editing-gameplay-montages",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "iamzifei/wechat-article-formatter-skill",
    "url": "https://github.com/iamzifei/wechat-article-formatter-skill",
    "name": "wechat-article-formatter-skill",
@@ -4202,6 +4360,32 @@
    "license": null,
    "skills": 6,
    "install": "npx skills add artemisln/edit-reel",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "JustCarlos30/skills-videos-cortos",
+   "url": "https://github.com/JustCarlos30/skills-videos-cortos",
+   "name": "skills-videos-cortos",
+   "group": "visual",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "es",
+   "agents": [
+    "claude-code",
+    "opencode"
+   ],
+   "featured": false,
+   "desc": "西班牙语的短视频技能包：挑剔脚本、本地 Whisper 处理配音和剪静音、Remotion 动画、音效和参考",
+   "desc_en": "A Spanish skill pack for thinking, writing, recording and animating short videos with an agent: frank script critique, FFmpeg cleanup and local whisper.cpp transcription with silence cuts, intentional Remotion animation and sound design.",
+   "note": "",
+   "note_en": "",
+   "stars": 41,
+   "pushed_at": "2026-11-06",
+   "license": "MIT",
+   "skills": 5,
+   "install": "npx skills add JustCarlos30/skills-videos-cortos",
    "checked": "2026-11-16"
   },
   {
@@ -4551,6 +4735,34 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "pedrovelasquez9/fragua",
+   "url": "https://github.com/pedrovelasquez9/fragua",
+   "name": "fragua",
+   "group": "visual",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "es",
+   "agents": [
+    "claude-code",
+    "opencode"
+   ],
+   "featured": false,
+   "desc": "把原始录像剪成能发的短视频：剪静音、卡拉 OK 字幕、换镜、图卡、调色、音量标准化，再写各平台标题",
+   "desc_en": "Turns a raw recording into a video ready for TikTok, Reels or YouTube Shorts: cuts silences, burns in karaoke captions, adds shot changes and graphic cards, grades colour, normalises audio and writes titles, descriptions and tags per network. Runs locally.",
+   "note": "",
+   "note_en": "",
+   "stars": 14,
+   "pushed_at": "2026-10-30",
+   "license": "MIT",
+   "skills": 3,
+   "install": "npx skills add pedrovelasquez9/fragua",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "leishifu666/lsf-wechat-editorial-layout",
    "url": "https://github.com/leishifu666/lsf-wechat-editorial-layout",
    "name": "lsf-wechat-editorial-layout",
@@ -4631,6 +4843,32 @@
    "license": "MIT",
    "skills": 3,
    "install": "npx skills add lqshow/wechat-article-skills",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "miguelcotrinaia/claude-skills-shorts-animados",
+   "url": "https://github.com/miguelcotrinaia/claude-skills-shorts-animados",
+   "name": "claude-skills-shorts-animados",
+   "group": "visual",
+   "platforms": [
+    "tiktok",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "es",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "用自己的角色做 TikTok 和 YouTube 动画短视频：每个角色一种声音，给一个主题出成片和发布文案",
+   "desc_en": "Makes animated vertical shorts for TikTok and YouTube Shorts with your own characters, editorial line and a voice for each character: write a topic and get a finished video plus the post copy, by chatting with Claude.",
+   "note": "",
+   "note_en": "",
+   "stars": 11,
+   "pushed_at": "2026-11-01",
+   "license": "MIT",
+   "skills": 2,
+   "install": "npx skills add miguelcotrinaia/claude-skills-shorts-animados",
    "checked": "2026-11-16"
   },
   {
@@ -5064,6 +5302,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "brianacevedo2001-lab/Skill-Editor-IA",
+   "url": "https://github.com/brianacevedo2001-lab/Skill-Editor-IA",
+   "name": "Skill-Editor-IA",
+   "group": "visual",
+   "platforms": [
+    "youtube",
+    "tiktok",
+    "instagram",
+    "linkedin"
+   ],
+   "format": "prompts",
+   "lang": "es",
+   "agents": [],
+   "featured": false,
+   "desc": "白标视频剪辑工程：Claude Code 照 CLAUDE.md 剪静音、同步、做动画、混音渲染，一次录制出 YouTube、短视频和 LinkedIn 成品",
+   "desc_en": "A white-label video editing project that Claude Code runs end to end from its CLAUDE.md manual: cut silences and bad takes, sync, animate, mix and render, turning one recording into a YouTube episode, Shorts, Reels, TikTok and LinkedIn deliverables.",
+   "note": "没有 SKILL.md：克隆仓库后在目录里开 Claude Code 用，品牌信息改 marca/",
+   "note_en": "No SKILL.md: clone the repo and run Claude Code inside it; brand details live in marca/.",
+   "stars": 5,
+   "pushed_at": "2026-11-11",
+   "license": "MIT",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "social-media-skills/video-editing-skill",
    "url": "https://github.com/social-media-skills/video-editing-skill",
    "name": "video-editing-skill",
@@ -5206,6 +5470,31 @@
    "license": "MIT",
    "skills": 1,
    "install": "npx skills add aituberapp/ai-video-skill",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "vitormenoli/claude-video-editor",
+   "url": "https://github.com/vitormenoli/claude-video-editor",
+   "name": "claude-video-editor",
+   "group": "visual",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "pt",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "YouTube 长视频从素材剪到成片：两遍转写，剪掉静音、口吃和等待，代码做动效，再查一遍剪口",
+   "desc_en": "Edits long YouTube videos from raw footage to the final MP4 without a video editor: transcribes twice with Whisper, cuts every silence, stutter, false start and wait, re-checks the cuts and adds code-built motion graphics when the screen sits still.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-10-30",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add vitormenoli/claude-video-editor",
    "checked": "2026-11-16"
   },
   {
@@ -8296,6 +8585,33 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "darksemfiltro/darkniche",
+   "url": "https://github.com/darksemfiltro/darkniche",
+   "name": "darkniche",
+   "group": "research",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "pt",
+   "agents": [
+    "claude-code",
+    "codex",
+    "opencode"
+   ],
+   "featured": false,
+   "desc": "YouTube 细分赛道分析：给一个赛道、点子、频道或视频，用真实数据和当天的网页调研给出做、试或避开",
+   "desc_en": "A YouTube niche analyzer: give it a niche, idea, channel or video and it measures the market with YouTube Data API numbers and same-day web research, then rates each opportunity GO, TEST or AVOID in a Portuguese report.",
+   "note": "要 YouTube Data API key",
+   "note_en": "Needs a YouTube Data API key.",
+   "stars": 3,
+   "pushed_at": "2026-10-30",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add darksemfiltro/darkniche",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "why20261/douyin-social",
    "url": "https://github.com/why20261/douyin-social",
    "name": "douyin-social",
@@ -8710,6 +9026,31 @@
    "skills": 13,
    "install": "npx skills add Lulu-Eva/Eva-skill",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "GodModeAI2025/LinkedInOptimizer",
+   "url": "https://github.com/GodModeAI2025/LinkedInOptimizer",
+   "name": "LinkedInOptimizer",
+   "group": "strategy",
+   "platforms": [
+    "linkedin"
+   ],
+   "format": "skill",
+   "lang": "de",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "德语的 LinkedIn 主页诊断和优化：分八步，给顾问和代理商把客户定位成行业意见领袖",
+   "desc_en": "A German skill that analyses and optimises LinkedIn profiles in eight phases, built for consultants, agencies and freelancers positioning clients as thought leaders; every number is sourced or marked as experience.",
+   "note": "",
+   "note_en": "",
+   "stars": 16,
+   "pushed_at": "2026-11-01",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add GodModeAI2025/LinkedInOptimizer",
+   "checked": "2026-11-16"
   },
   {
    "repo": "enricpedro/factum-skills",

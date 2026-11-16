@@ -253,6 +253,20 @@
       "stars": 79,
       "status": "ok"
     },
+    "Anghelo12344567/Content-Critic": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Skill para Claude que evalúa guiones, hooks, posts y Reels antes de publicar en Instagram, TikTok, LinkedIn o X. No predice viralidad: diagnostica hook, retención, valor y encaje con la plataforma, y devuelve veredicto, lo que más frena y hasta 3 fixes reescritos. Sin datos inventados.",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "Anghelo12344567/Content-Critic",
+      "license": "MIT",
+      "pushed_at": "2026-11-10",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
     "Anning01/AIMedia": {
       "archived": false,
       "default_branch": "main",
@@ -561,6 +575,20 @@
       "stars": 728,
       "status": "ok"
     },
+    "GodModeAI2025/LinkedInOptimizer": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Claude skill for evidence-based LinkedIn profile analysis, headline and About editing, banner briefs, competitor comparison and report generation.",
+      "first_seen": "2026-11-16",
+      "forks": 2,
+      "full_name": "GodModeAI2025/LinkedInOptimizer",
+      "license": "MIT",
+      "pushed_at": "2026-11-01",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 16,
+      "status": "ok"
+    },
     "GreedyC/instagram-list-inspector": {
       "archived": false,
       "default_branch": "main",
@@ -657,6 +685,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 114,
+      "status": "ok"
+    },
+    "JacopoMarini/linkedin-agent-italia": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "13 skill per Claude che gestiscono LinkedIn in italiano: post, commenti, profilo, piano editoriale e un umanizzatore che riconosce i cliché dell'IA in italiano. Basato su linkedin-agent-skill (MIT).",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "JacopoMarini/linkedin-agent-italia",
+      "license": "MIT",
+      "pushed_at": "2026-11-07",
+      "skill_count": 13,
+      "skill_count_truncated": false,
+      "stars": 3,
       "status": "ok"
     },
     "Jakeschincariol/instagram-agent-skill": {
@@ -825,6 +867,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 204,
+      "status": "ok"
+    },
+    "JustCarlos30/skills-videos-cortos": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Skills en español para agentes de IA: cuestionar guiones, voz con Whisper, motion en Remotion, sonido y un content creator por módulos",
+      "first_seen": "2026-11-16",
+      "forks": 6,
+      "full_name": "JustCarlos30/skills-videos-cortos",
+      "license": "MIT",
+      "pushed_at": "2026-11-06",
+      "skill_count": 5,
+      "skill_count_truncated": false,
+      "stars": 41,
       "status": "ok"
     },
     "KANIKIG/wechat-search-weread": {
@@ -1485,6 +1541,20 @@
       "stars": 73,
       "status": "ok"
     },
+    "XuHo-IT/Content-Agent-Kit": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Nói với AI bằng tiếng Việt → tìm chủ đề hot, soi đối thủ, viết bài, dựng video 9:16 với 130 template (có video kể chuyện, giọng đọc tiếng Việt), duyệt rồi mới đăng; kèm bộ công cụ chạy quảng cáo Facebook cho shop. Cài làm skill cho Claude Code hoặc dùng với Antigravity. Phần lớn miễn phí, MIT.",
+      "first_seen": "2026-11-16",
+      "forks": 2,
+      "full_name": "XuHo-IT/Content-Agent-Kit",
+      "license": "MIT",
+      "pushed_at": "2026-11-12",
+      "skill_count": 32,
+      "skill_count_truncated": false,
+      "stars": 8,
+      "status": "ok"
+    },
     "Yf040528/video-recreation-skill": {
       "archived": false,
       "default_branch": "main",
@@ -2059,6 +2129,20 @@
       "stars": 321,
       "status": "ok"
     },
+    "brianacevedo2001-lab/Skill-Editor-IA": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "🎬 Graba y olvídate de editar. Skill de Claude Code que convierte tus brutos en vídeo listo: corta silencios y tomas falsas, sincroniza cámaras por la voz, anima escenas 3D con Remotion y entrega YouTube, Shorts, Reels, TikTok y LinkedIn a −14 LUFS. 90+ reglas probadas en producción. 100% marca blanca: tu logo, tus colores ⚡",
+      "first_seen": "2026-11-16",
+      "forks": 2,
+      "full_name": "brianacevedo2001-lab/Skill-Editor-IA",
+      "license": "MIT",
+      "pushed_at": "2026-11-11",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 5,
+      "status": "ok"
+    },
     "brightbeanxyz/brightbean-platform-agent": {
       "archived": false,
       "default_branch": "main",
@@ -2339,6 +2423,20 @@
       "stars": 154,
       "status": "ok"
     },
+    "darksemfiltro/darkniche": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Skill gratuita para análise de mercado e ganhar milhões com o YouTube.",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "darksemfiltro/darkniche",
+      "license": "MIT",
+      "pushed_at": "2026-10-30",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
     "davinci-seven/wechat-article-pipeline": {
       "archived": false,
       "default_branch": "main",
@@ -2507,6 +2605,20 @@
       "stars": 1078,
       "status": "ok"
     },
+    "fermaziero/estudio-de-conteudo-ia": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Kit open source de skills para criar, publicar e acompanhar conteúdo de Instagram com o seu agente de IA (Claude Code, Codex e outros).",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "fermaziero/estudio-de-conteudo-ia",
+      "license": "MIT",
+      "pushed_at": "2026-11-01",
+      "skill_count": 8,
+      "skill_count_truncated": false,
+      "stars": 4,
+      "status": "ok"
+    },
     "freestylefly/wechat-article-extractor-skill": {
       "archived": false,
       "default_branch": "master",
@@ -2631,6 +2743,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 26,
+      "status": "ok"
+    },
+    "gustavomenani/editing-gameplay-montages": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Skill open source do Claude Code que transforma clipes de Valorant/FPS e uma música num edit no beat para TikTok: kills no beat, slow motion com RIFE, transições, letra na tela. Tutorial em português.",
+      "first_seen": "2026-11-16",
+      "forks": 11,
+      "full_name": "gustavomenani/editing-gameplay-montages",
+      "license": null,
+      "pushed_at": "2026-11-04",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 79,
       "status": "ok"
     },
     "gybin02/easypost": {
@@ -3683,6 +3809,20 @@
       "stars": 5,
       "status": "ok"
     },
+    "miguelcotrinaia/claude-skills-shorts-animados": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Crea shorts animados para TikTok y YouTube con Claude Skills, sin escribir código. Proyecto open source, personalizable y con tutorial paso a paso.",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "miguelcotrinaia/claude-skills-shorts-animados",
+      "license": "MIT",
+      "pushed_at": "2026-11-01",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 11,
+      "status": "ok"
+    },
     "mikiarlo3/ai-copywriter": {
       "archived": false,
       "default_branch": "claude/humanizer-copywriting-skill-u5x4vd",
@@ -3989,6 +4129,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 439,
+      "status": "ok"
+    },
+    "pedrovelasquez9/fragua": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Skill para Claude Code y OpenCode que edita vídeo vertical para TikTok, Reels y Shorts: quita silencios, quema subtítulos karaoke, añade cards gráficas y redacta el copy de publicación. Todo en local, sin API keys.",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "pedrovelasquez9/fragua",
+      "license": "MIT",
+      "pushed_at": "2026-10-30",
+      "skill_count": 3,
+      "skill_count_truncated": false,
+      "stars": 14,
       "status": "ok"
     },
     "phs-bitqun/workbuddy-media-desk": {
@@ -4845,6 +4999,20 @@
       "stars": 59,
       "status": "ok"
     },
+    "vincentventalon/my-claude-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Les skills Claude Code que j'utilise vraiment sur mes sites et mes vidéos, une nouvelle chaque mardi (montage vidéo, SEO Search Console…)",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "vincentventalon/my-claude-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-16",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 6,
+      "status": "ok"
+    },
     "vinit-agr/videopowers": {
       "archived": false,
       "default_branch": "main",
@@ -4857,6 +5025,20 @@
       "skill_count": 12,
       "skill_count_truncated": false,
       "stars": 5,
+      "status": "ok"
+    },
+    "vitormenoli/claude-video-editor": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Skill para o Claude editar vídeos longos do YouTube por código: corta silêncio e gagueira com Whisper, cria motions animados com Playwright, mixa a voz com música e entrega o vídeo pronto, com legenda e capítulos. 🎬",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "vitormenoli/claude-video-editor",
+      "license": null,
+      "pushed_at": "2026-10-30",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 4,
       "status": "ok"
     },
     "vivy-yi/xiaohongshu-skills": {

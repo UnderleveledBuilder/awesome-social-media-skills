@@ -585,6 +585,50 @@ lang = "en"
 agents = ["claude-code", "codex", "cursor", "openclaw"]
 checked = 2026-11-16
 
+[[skills]]
+repo = "XuHo-IT/Content-Agent-Kit"
+desc = "越南语的内容运营套件：找选题、写稿、做 9:16 视频、审稿、发布，还能跑 Facebook 广告，32 个 skill"
+desc_en = "A Vietnamese content kit of 32 skills: find topics, write posts, build 9:16 videos, review and publish, run Facebook ads and learn marketing from eight brand case studies, all by talking to your agent in Vietnamese."
+group = "pipeline"
+platforms = ["facebook", "tiktok", "instagram", "youtube"]
+format = "skill"
+lang = "vi"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "vincentventalon/my-claude-skills"
+desc = "法语技能包：TikTok、Reels 真人口播短视频，审账号、找爆款、写稿、剪片、长视频切片和发布；另有一套 SEO"
+desc_en = "French Claude Code skills in two packs: face-camera short video for TikTok and Reels (audit your account, find what is breaking out in your niche, write the script, edit the rush, cut long videos into shorts, publish) and a separate SEO pack."
+group = "pipeline"
+platforms = ["tiktok", "instagram"]
+format = "skill"
+lang = "fr"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "fermaziero/estudio-de-conteudo-ia"
+desc = "葡萄牙语的 Instagram 运营套件：访谈定品牌，策划、写稿、做图、发布和看数据，每步等你确认"
+desc_en = "A Portuguese skill kit that runs your Instagram from start to finish: it interviews you about your brand, then plans, writes, reviews, designs, publishes and tracks content, stopping for your approval at each step."
+group = "pipeline"
+platforms = ["instagram"]
+format = "skill"
+lang = "pt"
+agents = ["claude-code", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "JacopoMarini/linkedin-agent-italia"
+desc = "意大利语的 LinkedIn 运营：13 个 skill，写帖、写评论和回复、给主页打分重写、排周计划，带意大利语去 AI 味"
+desc_en = "Thirteen Claude skills that run a LinkedIn account in Italian: posts from 21 opening formulas, comments and replies, a profile score with rewrites, a weekly plan aware of Italian holidays, and an Italian humanizer. No API keys."
+group = "pipeline"
+platforms = ["linkedin"]
+format = "skill"
+lang = "it"
+agents = ["claude-code"]
+checked = 2026-11-16
+
 # ───────── 文案和内容创作 ─────────
 
 [[skills]]
@@ -931,6 +975,16 @@ group = "writing"
 platforms = ["xiaohongshu", "wechat", "x"]
 format = "skill"
 lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "Anghelo12344567/Content-Critic"
+desc = "发之前给脚本、开头、帖子和 Reels 打分：按平台看钩子、留存、价值和行动号召，直接给改好的版本"
+desc_en = "Reviews scripts, hooks, posts and Reels before you publish on Instagram, TikTok, LinkedIn or X: scores hook, retention, value, emotion, platform fit and call to action, and gives concrete rewritten fixes without promising virality."
+group = "writing"
+platforms = ["instagram", "tiktok", "linkedin", "x"]
+format = "skill"
+lang = "es"
 checked = 2026-11-16
 
 # ───────── 排版、封面配图和短视频 ─────────
@@ -2369,6 +2423,75 @@ agents = ["claude-code"]
 checked = 2026-11-16
 
 [[skills]]
+repo = "gustavomenani/editing-gameplay-montages"
+desc = "把 FPS 游戏片段和一首歌剪成踩点的竖屏短视频：击杀卡点、AI 补帧慢放、转场、缩放和歌词字，附封面"
+desc_en = "Turns Valorant, CS2 or other FPS clips and a song into a beat-synced edit for TikTok, Reels or Shorts: kills on the beat, smooth AI-interpolated slow motion, transitions, kill zooms and on-screen lyrics, plus a cover; no video editor needed."
+group = "visual"
+platforms = ["tiktok", "instagram", "youtube"]
+format = "skill"
+lang = "pt"
+agents = ["claude-code"]
+note = "补帧要支持 Vulkan 的显卡"
+note_en = "Frame interpolation needs a Vulkan-capable GPU."
+checked = 2026-11-16
+
+[[skills]]
+repo = "JustCarlos30/skills-videos-cortos"
+desc = "西班牙语的短视频技能包：挑剔脚本、本地 Whisper 处理配音和剪静音、Remotion 动画、音效和参考"
+desc_en = "A Spanish skill pack for thinking, writing, recording and animating short videos with an agent: frank script critique, FFmpeg cleanup and local whisper.cpp transcription with silence cuts, intentional Remotion animation and sound design."
+group = "visual"
+platforms = ["general"]
+format = "skill"
+lang = "es"
+agents = ["claude-code", "opencode"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "miguelcotrinaia/claude-skills-shorts-animados"
+desc = "用自己的角色做 TikTok 和 YouTube 动画短视频：每个角色一种声音，给一个主题出成片和发布文案"
+desc_en = "Makes animated vertical shorts for TikTok and YouTube Shorts with your own characters, editorial line and a voice for each character: write a topic and get a finished video plus the post copy, by chatting with Claude."
+group = "visual"
+platforms = ["tiktok", "youtube"]
+format = "skill"
+lang = "es"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "brianacevedo2001-lab/Skill-Editor-IA"
+desc = "白标视频剪辑工程：Claude Code 照 CLAUDE.md 剪静音、同步、做动画、混音渲染，一次录制出 YouTube、短视频和 LinkedIn 成品"
+desc_en = "A white-label video editing project that Claude Code runs end to end from its CLAUDE.md manual: cut silences and bad takes, sync, animate, mix and render, turning one recording into a YouTube episode, Shorts, Reels, TikTok and LinkedIn deliverables."
+group = "visual"
+platforms = ["youtube", "tiktok", "instagram", "linkedin"]
+format = "prompts"
+lang = "es"
+note = "没有 SKILL.md：克隆仓库后在目录里开 Claude Code 用，品牌信息改 marca/"
+note_en = "No SKILL.md: clone the repo and run Claude Code inside it; brand details live in marca/."
+checked = 2026-11-16
+
+[[skills]]
+repo = "pedrovelasquez9/fragua"
+desc = "把原始录像剪成能发的短视频：剪静音、卡拉 OK 字幕、换镜、图卡、调色、音量标准化，再写各平台标题"
+desc_en = "Turns a raw recording into a video ready for TikTok, Reels or YouTube Shorts: cuts silences, burns in karaoke captions, adds shot changes and graphic cards, grades colour, normalises audio and writes titles, descriptions and tags per network. Runs locally."
+group = "visual"
+platforms = ["tiktok", "instagram", "youtube"]
+format = "skill"
+lang = "es"
+agents = ["claude-code", "opencode"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "vitormenoli/claude-video-editor"
+desc = "YouTube 长视频从素材剪到成片：两遍转写，剪掉静音、口吃和等待，代码做动效，再查一遍剪口"
+desc_en = "Edits long YouTube videos from raw footage to the final MP4 without a video editor: transcribes twice with Whisper, cuts every silence, stutter, false start and wait, re-checks the cuts and adds code-built motion graphics when the screen sits still."
+group = "visual"
+platforms = ["youtube"]
+format = "skill"
+lang = "pt"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
 repo = "dreammis/social-auto-upload"
 desc = "一键上传视频到抖音、小红书、视频号、B站、快手、微博、TikTok、YouTube 等，支持定时发布，带 sau 命令和 4 个 skill"
 desc_en = "Upload videos to Douyin, Xiaohongshu, WeChat Channels, Bilibili, Kuaishou, Weibo, TikTok, YouTube and more with scheduling, via the sau CLI and four agent skills."
@@ -3620,6 +3743,19 @@ agents = ["claude-code", "codex"]
 checked = 2026-11-16
 
 [[skills]]
+repo = "darksemfiltro/darkniche"
+desc = "YouTube 细分赛道分析：给一个赛道、点子、频道或视频，用真实数据和当天的网页调研给出做、试或避开"
+desc_en = "A YouTube niche analyzer: give it a niche, idea, channel or video and it measures the market with YouTube Data API numbers and same-day web research, then rates each opportunity GO, TEST or AVOID in a Portuguese report."
+group = "research"
+platforms = ["youtube"]
+format = "skill"
+lang = "pt"
+agents = ["claude-code", "codex", "opencode"]
+note = "要 YouTube Data API key"
+note_en = "Needs a YouTube Data API key."
+checked = 2026-11-16
+
+[[skills]]
 repo = "Jian21311/account-diagnosis-skill"
 desc = "账号诊断规则：先看手上有哪些数据再定怎么判，六个维度分三档，不给总分，只指出最该改的一件；没有播放量就不算完播率"
 desc_en = "Rules for an account diagnosis: decide which path the available evidence allows before judging, grade six dimensions in three bands, rank the single fix instead of summing a score, and skip completion-rate maths when the public page has no view count."
@@ -3767,6 +3903,17 @@ group = "strategy"
 platforms = ["linkedin"]
 format = "skill"
 lang = "en"
+checked = 2026-11-16
+
+[[skills]]
+repo = "GodModeAI2025/LinkedInOptimizer"
+desc = "德语的 LinkedIn 主页诊断和优化：分八步，给顾问和代理商把客户定位成行业意见领袖"
+desc_en = "A German skill that analyses and optimises LinkedIn profiles in eight phases, built for consultants, agencies and freelancers positioning clients as thought leaders; every number is sourced or marked as experience."
+group = "strategy"
+platforms = ["linkedin"]
+format = "skill"
+lang = "de"
+agents = ["claude-code"]
 checked = 2026-11-16
 
 # ───────── MCP 和命令行工具 ─────────
