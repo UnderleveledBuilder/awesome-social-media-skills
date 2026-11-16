@@ -2381,6 +2381,20 @@
       "stars": 44,
       "status": "ok"
     },
+    "postoncehq/postonce-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Official PostOnce skills + MCP server for Claude, ChatGPT, Cursor and Codex. Write native posts, crosspost to 9 social platforms and schedule content calendars through official APIs. Includes 100 hooks and 49 viral formats.",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "postoncehq/postonce-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-16",
+      "skill_count": 6,
+      "skill_count_truncated": false,
+      "stars": 1,
+      "status": "ok"
+    },
     "public-clis/rdt-cli": {
       "archived": false,
       "default_branch": "main",

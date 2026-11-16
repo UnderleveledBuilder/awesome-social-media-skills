@@ -2424,3 +2424,17 @@ agents = ["claude-code", "cursor", "codex"]
 note = "要 EasySociable 账号（CLI 里 easysociable auth login），成图在它的网页 Studio 里改和下载"
 note_en = "Requires an EasySociable account (easysociable auth login in the CLI); you edit and download the pages in its web Studio."
 checked = 2026-11-13
+
+[[skills]]
+repo = "postoncehq/postonce-skills"
+name = "PostOnce"
+desc = "PostOnce 官方 skill 和 MCP：经官方 API 把一条帖子或视频发到 TikTok、Instagram、YouTube 等 9 个平台，可定时"
+desc_en = "PostOnce's official skills and MCP server: your agent posts one video or post to TikTok, Instagram, YouTube, LinkedIn, Facebook, X, Threads, Pinterest and Bluesky through official APIs, now or scheduled."
+group = "publish"
+platforms = ["tiktok", "instagram", "youtube", "linkedin", "facebook", "x", "threads", "pinterest"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex"]
+note = "要 PostOnce 账号（7 天免费试用），用 OAuth 连接，不需要 API key"
+note_en = "Requires a PostOnce account (7-day free trial); connects with OAuth, no API key."
+checked = 2026-11-16
