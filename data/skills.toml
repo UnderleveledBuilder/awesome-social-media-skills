@@ -393,6 +393,105 @@ format = "skill"
 lang = "en"
 checked = 2026-10-19
 
+[[skills]]
+repo = "adsorgcn/WorkBuddy"
+desc = "iLang 两个运营专家：公众号爆文专家找题、写稿、出封面提示词、推草稿箱；X 运营专家找题、发帖、回自己帖下评论"
+desc_en = "Two iLang operator experts: the WeChat one finds topics from 40+ trend sources, writes with a 12-point self-check, drafts cover prompts and pushes to the draft box; the X one finds topics, adapts posts, publishes and replies to comments on your posts."
+group = "pipeline"
+platforms = ["wechat", "x"]
+format = "skill"
+lang = "zh"
+agents = ["workbuddy", "claude-code", "codex", "openclaw"]
+note = "公众号数据走 wxrank，看一次榜扣 1 积分；X 走接口发帖要充值"
+note_en = "WeChat rankings come from wxrank (1 credit per lookup); posting to X through the API needs a paid top-up."
+checked = 2026-11-16
+
+[[skills]]
+repo = "hekaixin66-sketch/libra-skill"
+desc = "Libra 小红书运营：逆向拆用户需求、同屏竞争下的封面和标题、生成笔记，发布前内容自检、发布后复盘"
+desc_en = "Libra's Xiaohongshu operations skill: reverse-engineer user needs, win the cover-and-title contest on a crowded feed, generate notes, self-check before posting and analyze feedback afterwards."
+group = "pipeline"
+platforms = ["xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "jhwreal/wechat-article-pipeline-skill"
+desc = "公众号长文流水线：写稿或整理口述、配图计划和生成、HTML 工作台排版，一篇终稿同步到公众号、头条和小红书草稿"
+desc_en = "A Markdown-first long-form pipeline: write or faithfully tidy dictated drafts, plan and generate images, lay out in a local HTML workbench, and sync the final article to WeChat, Toutiao and Xiaohongshu drafts."
+group = "pipeline"
+platforms = ["wechat", "toutiao", "xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["codex", "claude-code"]
+note = "公众号草稿走官方 API；头条和小红书草稿要 macOS 上已登录的 Chrome"
+note_en = "WeChat drafts use the official API; Toutiao and Xiaohongshu drafts need a signed-in Chrome on macOS."
+checked = 2026-11-16
+
+[[skills]]
+repo = "shiker1996/wechat-editroom"
+desc = "见字公众号编辑工作台：接信息源找热点、核事实、定选题、写稿审稿、排版、出封面和小红书图文，本地运行"
+desc_en = "Jianzi, a local-first WeChat editing workbench: pull trends from RSS, Reddit and the web, check facts, pick topics, draft and review, lay out, and produce covers and Xiaohongshu image posts, with skills for Codex and WorkBuddy."
+group = "pipeline"
+platforms = ["wechat", "xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["codex", "workbuddy"]
+note = "有 Windows 桌面版，其他系统从源码运行"
+note_en = "Ships a Windows desktop build; other systems run it from source."
+checked = 2026-11-16
+
+[[skills]]
+repo = "caodoris471/self-media-content-base"
+desc = "自媒体素材库：收链接、采集对标博主视频、整理资讯，按人设改写成稿件，写进飞书并记录进度"
+desc_en = "A creator material pipeline: collect links, scrape and transcribe benchmark creators' videos across eight platforms, gather industry news, rewrite in your persona and file everything in a Feishu table with status tracking."
+group = "pipeline"
+platforms = ["douyin", "xiaohongshu", "channels", "bilibili", "kuaishou"]
+format = "skill"
+lang = "zh"
+agents = ["workbuddy"]
+note = "部署文档按 WorkBuddy + Windows + 飞书写"
+note_en = "The setup guide assumes WorkBuddy on Windows with Feishu."
+checked = 2026-11-16
+
+[[skills]]
+repo = "matt-j-penny/ai-video-marketing"
+desc = "视频营销 skill 合集：查什么在火、按你的口吻写钩子和脚本、UGC 广告、剪原始素材、YouTube SEO、改编和发布"
+desc_en = "Video marketing skills for agents: research what works, write hooks and scripts in your voice, UGC ad scripts, AI video generation, raw-footage editing, YouTube SEO, repurposing, creative testing and posting."
+group = "pipeline"
+platforms = ["youtube", "instagram", "tiktok"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "Marky-Team/marky-skills"
+name = "Marky"
+desc = "Marky 社媒 skill：按品牌风格做帖子、图片、轮播和视频，注册 Marky 后可直接发布并按效果优化"
+desc_en = "Marky's agent skills: create posts, graphics, carousels and videos in your brand style; with a Marky account your agent also publishes, schedules and optimizes based on what is working."
+group = "pipeline"
+platforms = ["instagram", "facebook", "linkedin", "youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+note = "做内容不用注册；直接发布和优化要 Marky 账号"
+note_en = "Creating content needs no sign-up; publishing and optimization need a Marky account."
+checked = 2026-11-16
+
+[[skills]]
+repo = "gallagherjas/everyone-content"
+desc = "多账号内容工作台：从抖音指数采集话题和达人数据，按七部分账号画像评估选题，学你的稿子按你的文风写"
+desc_en = "A local multi-account content workbench: collect topics, videos and creator rankings from Douyin Index, review topic ideas against a seven-part account profile, and write in your style learned from your own drafts."
+group = "pipeline"
+platforms = ["douyin"]
+format = "skill"
+lang = "zh"
+agents = ["codex", "claude-code"]
+checked = 2026-11-16
+
 # ───────── 文案和内容创作 ─────────
 
 [[skills]]
@@ -621,6 +720,125 @@ platforms = ["xiaohongshu"]
 format = "skill"
 lang = "zh"
 checked = 2026-10-19
+
+[[skills]]
+repo = "aaaronmiller/create-viral-content"
+desc = "爆款社媒内容：钩子、标题、缩略图、各平台规则和去 AI 痕迹，带对抗式改稿，按 2026 年平台变化更新"
+desc_en = "Turns a draft or brief into social content that spreads and reads as human: hooks, titles, thumbnails, platform rules for Reddit, X, LinkedIn, YouTube and TikTok, AI-tell removal, adversarial refinement and AI-disclosure rules, updated for 2026."
+group = "writing"
+platforms = ["reddit", "x", "linkedin", "youtube", "tiktok"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "gemini-cli", "opencode"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "read2017/jianghushuo-oral-skill"
+desc = "姜胡说口播 skill：从 433 条口播逐字稿和《价值心法》蒸馏，按他的方法找选题、写口播稿、改稿、诊断账号"
+desc_en = "A talking-head script skill distilled from 433 transcripts and the book of Chinese creator Jiang Hushuo: answers in his voice, finds topics, writes and revises spoken scripts with a 10-point style check, and diagnoses accounts."
+group = "writing"
+platforms = ["douyin", "xiaohongshu"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "guage1029/guage-write-flow"
+desc = "中文技术文章和公众号长文写作：调研核验、选题、两阶段创作、多轮审校，也能审校已有文章、降 AI 味"
+desc_en = "A writing skill for Chinese tech articles and WeChat long-form posts: research and fact checks, topic choice, two-stage drafting, multi-round review and Markdown delivery; also reviews existing drafts and reduces AI tone while keeping the author's voice."
+group = "writing"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "masterball-w/Master-humanizer-skill"
+desc = "降 AI 味·反向法则：主要写公众号文章，18 条带检测问题的规则，先写后逐句检查，按 7 种文体加规则"
+desc_en = "A Chinese de-AI writing skill aimed at WeChat articles: 18 rules, each with a check question, applied by writing first and then scanning every sentence, with extra rules for 7 genres from commentary to tech posts."
+group = "writing"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "AIPMAndy/Andy-Writing-Skill"
+desc = "Andy 写作 skill：一个入口按任务和平台路由到 19 个写作场景，Threads、X 长文、公众号、小红书、口播和商业文案"
+desc_en = "Andy Writing Skill: one entry point that routes a request to 19 writing pipelines by task and platform: Threads, X long posts, WeChat articles, Xiaohongshu, spoken scripts and commercial copy. Works offline."
+group = "writing"
+platforms = ["threads", "x", "wechat", "xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "AIPMAndy/wechat-explosive-article-skill"
+desc = "公众号爆款文章方法论：多篇观点融合、注入个人经历、七成讲怎么办，再用五个维度对抗式审稿，七步写完"
+desc_en = "A WeChat viral-article method: blend ideas from 3–5 articles, inject your own experience, keep it 70% practical, polish, then review adversarially on five dimensions, in a seven-step flow."
+group = "writing"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "tangwenwen-md/chinese-de-ai-writing"
+desc = "中文去 AI 味：只执行在人写和 AI 语料对比里站得住的特征，被数据否定的规则列为不要做，不改事实和论断强度"
+desc_en = "Evidence-graded de-AI editing for Simplified Chinese: only enforces features that hold up in human/AI corpus comparisons, lists refuted popular rules as things not to do, and never invents facts or changes claim strength. Ships a validated scanner."
+group = "writing"
+platforms = ["general"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "caelynmoss/social-content-engine"
+desc = "个人写作搭档：账号定位、提炼你的口吻、扩展想法、核查证据，写文章和 X 帖子，另有加密推特热点雷达"
+desc_en = "Your AI Writing Partner: account positioning, voice distillation, idea expansion, research and evidence checks, then articles and X posts in your own voice, plus a Crypto Twitter trend radar."
+group = "writing"
+platforms = ["x"]
+format = "skill"
+lang = "multi"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "skystmm/sph-work-skills"
+desc = "图书带货短视频文案：深度二创口播稿、合规判定和改写、注音标注、字幕排版，给 WorkBuddy 用"
+desc_en = "Skills for book-selling short videos: deep rewrites of spoken scripts, compliance checks and rewrites, pronunciation annotation and subtitle line-breaking ready for CapCut, built for WorkBuddy."
+group = "writing"
+platforms = ["general"]
+format = "skill"
+lang = "zh"
+agents = ["workbuddy"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "beatra-ai/xiaohongshu-copywriter-skill"
+desc = "小红书文案：把商品、体验、选题或受众信息写成标题、正文、首图文案、话题标签和评论区互动引导"
+desc_en = "Turns a product, experience, topic or audience brief into Xiaohongshu note titles, a readable body, cover text, hashtags and a natural comment starter."
+group = "writing"
+platforms = ["xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "cursor", "codex", "openclaw"]
+note = "要 Beatra 账号，生成扣积分"
+note_en = "Requires a Beatra account; each generation uses credits."
+checked = 2026-11-16
+
+[[skills]]
+repo = "AIPMAndy/copyflow"
+desc = "CopyFlow：一个主题写出 10 种风格的文案，配 AI 图，整理成可发布的素材包，给内容运营团队用"
+desc_en = "CopyFlow: one topic becomes copy in 10 styles plus AI images and ready-to-publish materials, built for content teams who rewrite the same idea for several platforms."
+group = "writing"
+platforms = ["xiaohongshu", "wechat", "x"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
 
 # ───────── 排版、封面配图和短视频 ─────────
 
@@ -1285,6 +1503,632 @@ note_en = "The skill drives the open-source Clips Kitty app through its MCP serv
 checked = 2026-11-13
 
 [[skills]]
+repo = "HeyChengC/wallstreet-explainer"
+desc = "华尔街风格财经和科技解读短片：给选题，自己写文案、找片、截新闻、配音、渲染，有口播就围着人做"
+desc_en = "Wall Street-style finance and tech explainer shorts: give it a topic and it writes the script, finds footage, screenshots the news, voices and renders the video, building around your talking head if you have one."
+group = "visual"
+platforms = ["general"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "liangdabiao/whiteboard-teacher-video"
+desc = "图文讲解视频：把讲解稿做成手绘会动的知识短片，图形逐笔画、文字逐字写，五套风格，本地渲染不调生图接口"
+desc_en = "Turns an explainer script into a hand-drawn animated knowledge video: shapes drawn stroke by stroke, text written out as it is spoken, five styles, rendered locally in Chrome with no image-generation API."
+group = "visual"
+platforms = ["douyin", "bilibili"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "threerocks/article2media"
+desc = "一篇文章或一条视频做成小红书图文、长图、公众号排版和配音口播短视频，21 套主题，自动验收"
+desc_en = "Turns an article or a video (Douyin, Bilibili, YouTube, transcribed first) into Xiaohongshu cards, long images, WeChat article layout and narrated vertical videos, with 21 themes, automatic checks and post-performance tracking."
+group = "visual"
+platforms = ["xiaohongshu", "wechat", "douyin", "bilibili", "youtube", "x"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "AzenYes/leaderai-media-toolkit"
+desc = "LeaderAI 自媒体工具包：口播文案、口播剪辑（粗剪、字幕、画中画、音效）和无需素材的知识讲解动画"
+desc_en = "LeaderAI creator toolkit: talking-head scripts, talking-head editing (rough cut, captions, picture-in-picture, sound effects) and knowledge-explainer animations that need no footage or voice-over."
+group = "visual"
+platforms = ["douyin", "xiaohongshu", "channels", "bilibili"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "blixvip/easyedit"
+desc = "输入电影名，出一条粉丝混剪：先是带逐字字幕的经典台词，再接卡点蒙太奇，本地运行不要 API key"
+desc_en = "Type a movie name and get a finished fan edit: the film's best speech with animated word-by-word captions, then a montage cut to the beat of a song. Local-first, no API keys."
+group = "visual"
+platforms = ["general"]
+format = "skill"
+lang = "en"
+checked = 2026-11-16
+
+[[skills]]
+repo = "howznguyen/shorts-kit"
+desc = "用 agent 和 Remotion 做带旁白的竖屏短视频：先核事实，再写叙事、配音、做画面、渲染、出封面和配文"
+desc_en = "Make narrated vertical shorts for TikTok, YouTube Shorts and Reels with a coding agent and Remotion: fact ledger first, then story flow, script, voice, scenes, render, cover and caption. Never posts for you."
+group = "visual"
+platforms = ["tiktok", "youtube", "instagram"]
+format = "skill"
+lang = "en"
+checked = 2026-11-16
+
+[[skills]]
+repo = "davinci-seven/wechat-article-pipeline"
+desc = "公众号排版流水线：Markdown 加本地配图生成公众号兼容 HTML、手机预览、长截图和完整性报告，不改原稿不自动发"
+desc_en = "A WeChat article layout pipeline for Windows and agents: Markdown plus local images become WeChat-compatible inline HTML, a 390px phone preview, a long screenshot and an integrity report. Never edits the draft or publishes."
+group = "visual"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "wangcanyu/daihuo-fanpai"
+desc = "带货短视频复刻：反推爆款结构，换成你的产品，即梦/Seedance 重新生成镜头，配音拼接评分，交付剪映草稿"
+desc_en = "Remake viral product-selling short videos: reverse-engineer a hit, move it to your product, regenerate shots with Jimeng/Seedance, voice, assemble and score them, then deliver a CapCut (Jianying) draft."
+group = "visual"
+platforms = ["douyin"]
+format = "skill"
+lang = "zh"
+note = "生成镜头要即梦/Seedance，按量付费"
+note_en = "Shot generation uses Jimeng/Seedance, billed by usage."
+checked = 2026-11-16
+
+[[skills]]
+repo = "larashero3-dotcom/lieflat-html-design"
+desc = "HTML 设计 skill：小红书封面首图和长文竖图各 11 套模板，另有 12 套 PPT 风格"
+desc_en = "HTML design skills for agents: 11 Xiaohongshu cover templates and 11 long-form vertical image templates, plus 12 slide-deck styles."
+group = "visual"
+platforms = ["xiaohongshu"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "mileson/chaojifeng-video-content-creator"
+desc = "中文视频创作流水线：选题、口播稿、分镜、口播清洗、148 个 HTML 特效、字幕和发布包，每步有验收产物"
+desc_en = "Chinese video production pipeline: topic, script, storyboard, spoken-audio cleanup, 148 HTML/GSAP effects timed to subtitles, captions and a publish package, with a gate file at each stage."
+group = "visual"
+platforms = ["general"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "alisadiq-ai/favstash-ai-video-editing-skills"
+desc = "FavStash 创作者 skill：找选题、写脚本，用代码剪 Reels、TikTok 和 Shorts，99 种画面风格和卡通角色"
+desc_en = "FavStash creator skills: find ideas, write scripts and have your agent build Reels, TikToks and Shorts in code, with 99 film looks, a 3D character and a lip-synced cartoon of you; connect FavStash for planning, publishing and analytics."
+group = "visual"
+platforms = ["instagram", "tiktok", "youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex"]
+note = "剪辑在本机免费；排期、发布和数据要连 FavStash"
+note_en = "Editing runs free on your machine; planning, publishing and analytics connect to FavStash."
+checked = 2026-11-16
+
+[[skills]]
+repo = "nocodehack/make-short"
+desc = "做动画 YouTube Shorts：在 Blender 里用代码搭 3D 场景和 2D 角色，配音字幕，再让评审 agent 打分改"
+desc_en = "Make animated YouTube Shorts with Claude Code: 2D characters in a 3D world built in Blender with code, plus voice, captions and sound, then scored by a fresh critic agent so you know what to fix."
+group = "visual"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "ahang008/ah-skills"
+desc = "阿杭的自媒体 skill：口播剪辑、AI 博主和减肥系列视频流程、用 Gemini 润色口播稿，另有需求澄清"
+desc_en = "Ahang's creator skills: talking-head editing, production flows for an AI-blogger and a weight-loss video series, Gemini polishing of spoken scripts, and a task-clarifying prompt skill."
+group = "visual"
+platforms = ["douyin"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "jnMetaCode/openshorts"
+desc = "开片 OpenShorts：本地优先的短视频生产线，话题进成片出，写脚本、找画面、配音、字幕，免费路径 0 元"
+desc_en = "OpenShorts (Kaipian): a local-first short-video pipeline, topic in and video out: script, footage or on-device AI images, TTS, captions and post copy. The free path costs nothing with local Ollama; also does AI mini-dramas."
+group = "visual"
+platforms = ["douyin", "youtube"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "dean9703111/auto-edit-workspace"
+desc = "AI 自动剪辑工作区：口播视频剪掉 NG、照讲稿上字幕、加字卡和动画、配音效，浏览器剪辑台微调，本机渲染"
+desc_en = "An open-source AI editing workspace for talking-head videos: tell your agent to cut it clean and it removes flubbed takes, aligns subtitles to your script, adds info cards, animations and sound effects, with a browser editor to fine-tune. Renders locally."
+group = "visual"
+platforms = ["youtube", "instagram", "facebook"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "codex", "cursor"]
+note = "正文是繁体中文"
+note_en = "Written in Traditional Chinese."
+checked = 2026-11-16
+
+[[skills]]
+repo = "lowdevco/Clip-Forge"
+desc = "ClipForge：给 YouTube 链接或视频文件，找出高光片段打分，选中的做成调色、推镜、动态字幕的竖屏短视频"
+desc_en = "ClipForge: give it a YouTube link or video file and it finds the best moments, shows a scored shortlist and turns your picks into edited vertical clips for Shorts, Reels and TikTok, with grading, punch-ins and animated captions."
+group = "visual"
+platforms = ["youtube", "instagram", "tiktok"]
+format = "skill"
+lang = "en"
+checked = 2026-11-16
+
+[[skills]]
+repo = "0xSero/youtube-translate-skill"
+desc = "YouTube 字幕翻译：给视频、频道或播放列表链接，一次出几种语言的 .srt 字幕，可直接传回 YouTube"
+desc_en = "Give it YouTube videos, channels, playlists or local files and the calling model produces translated .srt subtitle files in several languages at once, ready to upload. Needs only python3 and yt-dlp."
+group = "visual"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "artemisln/edit-reel"
+desc = "Reels 自动剪辑：任何语言的逐字卡拉 OK 字幕，剪掉重拍和停顿，轻推镜、音效和插图，另有拍摄清单和录屏"
+desc_en = "Claude skills that edit your reels: word-by-word karaoke subtitles in any language, retakes and silences cut, subtle zooms, sound effects and image overlays, plus raw-footage trimming, demo capture and shoot planning."
+group = "visual"
+platforms = ["instagram"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "WhiteTowerAI/cut-as-code"
+desc = "Cut-as-code：用 agent 剪视频，剪辑决定写成可读文件，加字幕、B-roll、动态图形和调色，浏览器里审再渲染"
+desc_en = "Cut-as-code: an open skill stack for agentic video editing. The agent records cuts, captions, b-roll, motion graphics and color grades as readable files, you review them in browser pages, then render locally."
+group = "visual"
+platforms = ["youtube", "tiktok"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "openclaw"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "ythx-101/huatu-skill"
+desc = "画图 Skill：把长文和研究做成 6–10 页小红书图文轮播 PNG，或一页式 ELI5 视觉解释 HTML，本地渲染带质检"
+desc_en = "Turns articles and research into 6–10 page Xiaohongshu carousel PNGs or a self-contained ELI5 HTML explainer, rendered locally with Playwright and fail-closed visual QA."
+group = "visual"
+platforms = ["xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "ww-w-ai/super-video-agent"
+desc = "用代码画出带旁白的视频：从 PDF、文章或选题做 YouTube Shorts、讲解片和 3D 飞行片，不用视频模型"
+desc_en = "Make a narrated film from a PDF, an essay or a topic, every frame drawn in code with no video model: YouTube Shorts, explainers and 3D flights, with local or hosted voices."
+group = "visual"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+note = "源码公开但不是开源许可"
+note_en = "Source-available, not under an open-source license."
+checked = 2026-11-16
+
+[[skills]]
+repo = "zhouke0929/wechat-visual-director"
+desc = "公众号视觉主编：把主题、资料或 Markdown 排成 26 套主题可换的公众号图文，AI 配图、手机预览、推草稿箱"
+desc_en = "WeChat Visual Director: turns a topic, notes or Markdown into a WeChat-compatible article with 26 switchable themes, AI images, phone preview, rich-text copy and delivery to the Official Account draft box."
+group = "visual"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+agents = ["codex", "opencode"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "social-media-skills/remotion-shorts-skill"
+desc = "Remotion 竖屏短视频：把选题、数据或更新日志做成大字动效短片，避开各 App 的按钮区，本地渲染"
+desc_en = "A free Remotion skill: your agent turns a topic, dataset, changelog or list into a 1080x1920 kinetic-text short for TikTok, Reels and YouTube Shorts, with scenes kept clear of each app's buttons and a review sheet before render."
+group = "visual"
+platforms = ["tiktok", "instagram", "youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor", "openclaw"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "rnthking/redya-skills"
+name = "红鸦 RedYA"
+desc = "红鸦小红书图文：输入主题或链接生成标题、正文和整套图片，图片转 Live 实况，查敏感词"
+desc_en = "RedYA for agents: generate Xiaohongshu titles, body text and a full image set from a topic or link, turn images into Live Photos and check copy for sensitive words, via a skill, MCP or OpenAPI."
+group = "visual"
+platforms = ["xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["codex", "claude-code", "workbuddy"]
+note = "要红鸦账号，按积分计费"
+note_en = "Requires a RedYA account; usage is billed in credits."
+checked = 2026-11-16
+
+[[skills]]
+repo = "scrollmark/social-skills"
+desc = "社媒和短视频 skill 合集：语气、钩子、趋势和平台惯例，加短视频的场景语法、品牌一致性、字幕和卡点剪辑"
+desc_en = "Claude Code skills for social media and short-form video: tone, hooks, trends, platform conventions and creator voice, plus scene grammars, brand kits, captions, beat sync and a video engine."
+group = "visual"
+platforms = ["tiktok", "instagram", "youtube", "x", "linkedin"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "MFAI-LAB/wechat-crayon-interactions"
+desc = "公众号互动排版：蜡笔社论风，60 种可点可翻的互动样式，给出无脚本试贴稿和静态降级稿"
+desc_en = "Interactive WeChat article layouts in a crayon-editorial style: 60 tap, flip and reveal patterns, delivered as script-free paste-in snippets with static fallbacks."
+group = "visual"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+agents = ["codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "rakaga66/hojas-studio"
+desc = "阿拉伯语口播剪辑：剪停顿、逐词阿拉伯语字幕、讲解卡片和 B-roll，再在浏览器时间线上微调导出，本机运行"
+desc_en = "Hojas Studio edits Arabic talking-head videos: cuts silences, writes word-timed Arabic captions, designs explainer cards, adds b-roll and sound, then opens a browser timeline to fine-tune and export. Runs locally, no API keys."
+group = "visual"
+platforms = ["tiktok", "instagram", "youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "pihu26112005/claude-editing-skills"
+desc = "76 个动态图形 skill：给 Reels、TikTok、Shorts 加动态字幕、标题、画框、推镜和讲解动画，原片不动"
+desc_en = "A free Claude plugin with 76 motion-graphics skills: animated captions, titles, frames, zooms and explainer animations for Reels, TikTok and Shorts, leaving your footage untouched."
+group = "visual"
+platforms = ["instagram", "tiktok", "youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "TheNoumanDev/zero-dollar-studio"
+desc = "零成本做 YouTube 视频：写稿、配音、字幕、音乐、动画和质检都用本地免费工具，另有长视频切 Shorts 和卡通角色"
+desc_en = "Make YouTube videos with Claude Code for $0: script, voice, captions, music, animation and QA from free local tools, plus skills for cutting Shorts from footage and making cartoon characters. No subscriptions, credits or API keys."
+group = "visual"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "leishifu666/lsf-wechat-editorial-layout"
+desc = "公众号长文排版：先选开篇动效、章节标记、截图背景和文末贴纸，再排成可编辑的公众号富文本"
+desc_en = "WeChat long-article layout: pick an opening animation, section markers, screenshot backgrounds and end stickers from a gallery, then the agent lays the article out as editable WeChat rich text."
+group = "visual"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+agents = ["codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "tmakersas/revid-skills"
+name = "Revid"
+desc = "Revid 官方 skill 和 MCP：把链接、文章、商品、PDF 或一句话做成短视频，查爆款，发到 TikTok、YouTube 等"
+desc_en = "Revid's official skills and MCP plugin: research what goes viral, turn any link, blog, product, PDF or one-line idea into a finished short video, and post it to TikTok, YouTube, Instagram and X."
+group = "visual"
+platforms = ["tiktok", "youtube", "instagram", "x"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "openclaw", "codex", "cursor", "gemini-cli"]
+note = "要 Revid 账号，OAuth 登录"
+note_en = "Requires a Revid account; signs in with OAuth."
+checked = 2026-11-16
+
+[[skills]]
+repo = "lqshow/wechat-article-skills"
+desc = "Markdown 一键排成公众号版式：6 种风格 × 9 种配色，开头动画横幅，表格和步骤变成会动的 SVG 卡片"
+desc_en = "Turns a Markdown article into WeChat-ready HTML: 6 styles × 9 color schemes, an animated opening banner, and tables or steps rendered as animated SVG cards."
+group = "visual"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "workbuddy"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "Matteoikarieth96/cartoon-shorts-skill"
+desc = "卡通动画短视频：先问清需求，再核事实、写故事，用 SVG 画面、配音、音乐和大字幕在本地渲染 9:16 成片"
+desc_en = "Interview-first animated cartoon shorts (9:16, 15–90 s) for YouTube Shorts, TikTok and Reels: fact-checked story, voice-over, synthesized music and big captions, drawn in SVG and rendered locally, plus titles and covers per platform."
+group = "visual"
+platforms = ["youtube", "tiktok", "instagram"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "zhouwei713/luobo-article-visual"
+desc = "萝卜文章视觉：读懂文章再出公众号封面、正文配图、X 文章横幅和小红书多页教程图，数字用 HTML 排字不出错"
+desc_en = "Plans and produces article visuals: WeChat covers, inline images, X Article banners, posters and multi-page Xiaohongshu tutorial cards, using HTML for exact text and numbers and checking every image before delivery."
+group = "visual"
+platforms = ["wechat", "xiaohongshu", "x"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "riffkit/skill"
+name = "Riffkit"
+desc = "Riffkit 官方 skill：换掉视频里的衣服、场景、商品或人，镜头和节奏不变，或照爆款的结构拍成你的版本"
+desc_en = "Official Riffkit skill: change the outfit, place, product or person in your video while keeping the shots and timing, or riff a winning short video into your own with the same hook and pacing."
+group = "visual"
+platforms = ["tiktok"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor", "openclaw"]
+note = "要 Riffkit 账号，生成按量付费"
+note_en = "Requires a Riffkit account; renders are paid."
+checked = 2026-11-16
+
+[[skills]]
+repo = "avisii1680769-cell/livestream-clip-editor"
+desc = "电商直播切片剪辑：按句级时间戳跳剪拼接、1.25 倍不变调提速、人工选段、可选画面微调去重，本地运行"
+desc_en = "A local editing engine and skill for e-commerce live-stream clips: sentence-level jump cuts, 1.25x speed-up without pitch change, hand-picked segment order, optional de-duplication tweaks and technical QA."
+group = "visual"
+platforms = ["douyin", "kuaishou", "channels"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "beatra-ai/xiaohongshu-cover-maker-skill"
+desc = "小红书封面：把一张照片或一个选题做成 3:4 竖版封面，背景干净、焦点突出、留好文字区"
+desc_en = "Turns a photo or topic into a vertical 3:4 Xiaohongshu cover with a clean background, a bold focal point and text-safe areas, for beauty, food, fashion and lifestyle notes."
+group = "visual"
+platforms = ["xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "cursor", "codex", "openclaw"]
+note = "要 Beatra 账号，生成扣积分"
+note_en = "Requires a Beatra account; each generation uses credits."
+checked = 2026-11-16
+
+[[skills]]
+repo = "ilyautov/not-a-blogger"
+desc = "做短视频的 agent 工具包：143 个配方、18 个 skill、模板和质检工具，附 12 条真实视频拆解和给人看的小课"
+desc_en = "A toolkit for agents that make Reels, Shorts and TikToks: 143 recipes (73 measured), 18 skills, prompts, templates and QA tools, two runnable starters, 12 real video breakdowns and a mini-course for people."
+group = "visual"
+platforms = ["instagram", "youtube", "tiktok"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "iart-ai/youtube-video-skills"
+desc = "YouTube 片头片尾和播客声波视频：3–5 秒品牌片头、避开可点区域的 20 秒片尾，把播客片段做成带字幕的声波视频"
+desc_en = "YouTube intro/outro and audiogram skills: a 3–5 s branded intro sting, a 20 s end screen that respects YouTube's clickable zones, and captioned waveform videos from podcast clips for Reels, TikTok and Shorts."
+group = "visual"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "iart-ai/b-roll-skills"
+desc = "给口播视频加 B-roll：转写后逐句决定露人、叠图还是全屏图形，图形按说的内容画，保留原声出 MP4"
+desc_en = "Adds b-roll motion graphics to a talking-head video: word-timed transcript, a line-by-line plan of when to show the speaker or a graphic, graphics drawn from what is said, and an MP4 with the original sound. The recording is never cut."
+group = "visual"
+platforms = ["youtube", "tiktok", "instagram"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "Yf040528/video-recreation-skill"
+desc = "爆款视频二创：拆解、重写、生成和五级质检，人物和商品一致性锚点，换品牌片尾，附 285 个电商视频提示词"
+desc_en = "Viral video recreation: break down a hit, rewrite, generate with Seedance or Kling and pass five QA gates, with character and product consistency anchors, a clean brand end card and 285 e-commerce video prompt templates."
+group = "visual"
+platforms = ["douyin", "tiktok"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code"]
+note = "FrameFlow（yimiagent.cn）出品，生成镜头要视频模型，按量付费"
+note_en = "By FrameFlow (yimiagent.cn); shot generation uses paid video models."
+checked = 2026-11-16
+
+[[skills]]
+repo = "SyedBahjat/claude-stickman-shorts"
+desc = "火柴人互动故事短视频：写分支剧本、做动画、配音、逐词字幕和音效，观众投票选下一集走向，也能仿任何视频格式"
+desc_en = "Writes, animates, voices and renders 2D stick-figure \"You Decide\" story shorts for YouTube Shorts, TikTok and Reels, where viewers vote on the next part, and clones the format of any video you show it. Built on Remotion."
+group = "visual"
+platforms = ["youtube", "tiktok", "instagram"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "yoruuuchan/wechat-md-studio"
+name = "芦苇 Reed"
+desc = "芦苇 Reed：一份 Markdown 排出公众号文章、小红书卡片和长图，227 套主题，AI 可经 MCP 直接改稿"
+desc_en = "Reed: one Markdown file becomes a WeChat article, Xiaohongshu cards and a long image, with 227 checked themes, interactive WeChat motion layouts and a remote MCP so your agent can edit the draft you are working on. Free web tool, no sign-up."
+group = "visual"
+platforms = ["wechat", "xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "opencode"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "Jo6666887/say-then-publish"
+desc = "说了就发：在 agent 里聊想法，聊完自动整理成正文并排成小红书图文卡片，15 套主题，本地保存"
+desc_en = "Say Then Publish: talk through an idea in your agent and it turns the conversation into structured text laid out as ready-to-post Xiaohongshu image cards, with 15 themes, local storage and optional team sync."
+group = "visual"
+platforms = ["xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "OMSociety/dsh-fishpai"
+desc = "鱼排编辑器：DeepSeek Harness 侧栏里的公众号排版台，人改字加批注，模型按块读改动，成品粘进公众号"
+desc_en = "FishPai: a WeChat article layout desk in the DeepSeek Harness sidebar. You edit and annotate, the model reads your changes as block-level diffs, and the inline-styled HTML pastes straight into the WeChat editor."
+group = "visual"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+note = "DeepSeek Harness 插件；排版内核来自 MoPai 墨排"
+note_en = "A DeepSeek Harness plugin; the rendering core comes from MoPai (mopai-markdown)."
+checked = 2026-11-16
+
+[[skills]]
+repo = "sixwei2025/3d-map-video-skill"
+desc = "3D 地图短视频：用真实地形做城市地理科普和古代战役推演竖屏片，镜头、行军路线和口播写在一个 JSON 里"
+desc_en = "Mass-produce 3D map videos with an agent: real-terrain city geography explainers and ancient battle reenactments with particle effects, defined in one episode.json and rendered to 1080x1920 with MapLibre, headless Chrome and ffmpeg."
+group = "visual"
+platforms = ["channels", "wechat"]
+format = "skill"
+lang = "zh"
+agents = ["codex", "workbuddy"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "beatra-ai/wechat-article-cover-skill"
+desc = "公众号封面：输入标题、主题或参考图，生成封面、首图和主题配图，可把标题画进图或留标题位"
+desc_en = "Turns an article title, topic or reference image into a WeChat Official Account cover, hero image or supporting visual, with the headline in the image or safe space left for it."
+group = "visual"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "cursor", "codex", "openclaw"]
+note = "要 Beatra 账号，生成扣积分"
+note_en = "Requires a Beatra account; each generation uses credits."
+checked = 2026-11-16
+
+[[skills]]
+repo = "aituberapp/ai-video-skill"
+name = "AITuber"
+desc = "AITuber 视频 skill：从脚本或想法生成带 AI 配音、画面和字幕的短视频和长视频，1300 多种声音，可直接发布"
+desc_en = "AITuber skill: your agent generates Shorts, TikToks, Reels and long-form videos from a script or idea with AI narration, 27+ visual styles and synced captions, then publishes to connected YouTube, TikTok, Instagram, Facebook, Threads and X."
+group = "visual"
+platforms = ["youtube", "tiktok", "instagram", "facebook", "threads", "x"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "openclaw", "codex"]
+note = "要 AITuber 账号和 API key"
+note_en = "Requires an AITuber account and API key."
+checked = 2026-11-16
+
+[[skills]]
+repo = "social-media-skills/video-editing-skill"
+desc = "口播视频粗剪：剪停顿、嗯啊和重拍，推镜遮跳剪，音频响度统一，出 SRT 字幕和 YouTube 章节，本地运行"
+desc_en = "Edits talking-head videos the way a human does the first pass: shrinks pauses, removes ums, stutters and retakes, masks jump cuts with punch-ins, levels audio to -14 LUFS and writes SRT captions and YouTube chapters. Posts only after your yes."
+group = "visual"
+platforms = ["youtube", "tiktok", "instagram", "facebook", "linkedin"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor", "openclaw"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "social-media-skills/instagram-carousel-skill"
+desc = "Instagram 轮播图：选格式、写封面和每页文案，本地渲染 1080x1350 图片，写替代文字和配文，确认后发布"
+desc_en = "Plans, writes, designs and posts Instagram carousels: proven formats, a cover and slide 2 that work alone, native-looking 1080x1350 slides rendered locally, alt text and a keyword-first caption. No image API or credits."
+group = "visual"
+platforms = ["instagram"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor", "openclaw"]
+note = "渲染免费；发布走同团队的 WoopSocial（有免费档）"
+note_en = "Rendering is free; posting goes through WoopSocial from the same team (free plan available)."
+checked = 2026-11-16
+
+[[skills]]
+repo = "dengxianghua888-ops/reel-scribe"
+desc = "影述剪辑技能库：口播、影视解说、教程、访谈、Vlog 的剪辑方法，素材分析、选段编排和局部修改"
+desc_en = "Reel Scribe: editing workflows for agents covering talking heads, film commentary, tutorials, interviews and vlogs, from footage analysis and segment planning to local revisions, with an optional local executor."
+group = "visual"
+platforms = ["douyin"]
+format = "skill"
+lang = "zh"
+note = "作者标为实验性源码预览，不是稳定版"
+note_en = "The author marks it an experimental source preview, not a stable release."
+checked = 2026-11-16
+
+[[skills]]
+repo = "88lin/gzh-skill-kit"
+desc = "公众号排版：把 Markdown、Word 或 PDF 稿子排成能直接粘进公众号的 HTML，18 套主题，可按参考图生成新主题"
+desc_en = "Lays out an article (Markdown, Word or PDF) as polished HTML you can paste into the WeChat editor, with 18 themes, auto-organized sections and highlights, and a generator for your own theme from a description or reference image."
+group = "visual"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "codex", "cursor"]
+note = "仅限个人非商业使用"
+note_en = "Personal non-commercial use only."
+checked = 2026-11-16
+
+[[skills]]
+repo = "MMhaidra/edit-reel"
+desc = "短视频自动剪辑和字幕：Whisper 转写、多语言字幕、纸片和实物风格的动态图形，给 Reels、TikTok、Shorts"
+desc_en = "An autonomous short-form editing agent and skill for Reels, TikTok and YouTube Shorts: Whisper transcription, multilingual auto subtitles and a tactile paper-and-objects motion-graphics engine, built on MediaPipe and FFmpeg."
+group = "visual"
+platforms = ["instagram", "tiktok", "youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "blixvip/thumbnail-studio"
+desc = "YouTube 缩略图工作台：ChatGPT 网页和参考图并排，12 个缩略图设计 skill，找钩子、构图、配色和表情"
+desc_en = "A minimal Windows workspace for YouTube thumbnails: the ChatGPT website beside your reference library, 12 thumbnail-design skills (hook, composition, contrast, face emotion and more) and a one-click template."
+group = "visual"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+note = "只支持 Windows，出图用你自己的 ChatGPT 账号"
+note_en = "Windows only; images come from your own ChatGPT account."
+checked = 2026-11-16
+
+[[skills]]
+repo = "lalimi/claude-reelsmith"
+desc = "用自己的素材做 Reels 和 TikTok：写稿、配音、从相册挑镜头按词剪、加动效和字幕、混音，出封面和配文"
+desc_en = "Reels and TikToks from your own footage, directed by Claude Code: script, voice, shots picked from your camera roll and cut to the words, motion effects, subtitles, sound mix, cover and caption. About 10 minutes per reel."
+group = "visual"
+platforms = ["instagram", "tiktok"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
 repo = "dreammis/social-auto-upload"
 desc = "一键上传视频到抖音、小红书、视频号、B站、快手、微博、TikTok、YouTube 等，支持定时发布，带 sau 命令和 4 个 skill"
 desc_en = "Upload videos to Douyin, Xiaohongshu, WeChat Channels, Bilibili, Kuaishou, Weibo, TikTok, YouTube and more with scheduling, via the sau CLI and four agent skills."
@@ -1535,6 +2379,145 @@ agents = ["claude-code", "cursor", "codex", "gemini-cli"]
 note = "要 BulkPublish 账号和 API key（云服务，有免费档）；收件箱和回评论要付费档"
 note_en = "Requires a BulkPublish account and API key (hosted service with a free plan); the inbox and comment replies need a paid plan."
 checked = 2026-11-13
+
+[[skills]]
+repo = "zJay26/douyin-skills"
+desc = "抖音本地 skill：扫码登录、浏览搜索、点赞评论和发布作品，浏览器操作走结构化命令行，登录态存本地，不做批量互动"
+desc_en = "Local-first Douyin skills: QR login, environment checks, exploring and searching, single interactions and publishing, with browser actions exposed as a structured JSON CLI and sessions kept locally. No bulk engagement."
+group = "publish"
+platforms = ["douyin"]
+format = "skill"
+lang = "en"
+checked = 2026-11-16
+
+[[skills]]
+repo = "post-bridge-hq/agent-mode"
+name = "Post Bridge"
+desc = "Post Bridge 的 skill 和 MCP：一条命令发到 Instagram、TikTok、YouTube、X 等 10 个平台，另有营销和多账号运营"
+desc_en = "Post Bridge Agent Mode: your agent posts to Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Pinterest, Threads, Bluesky and Google Business from one command, plus skills for organic B2C marketing and running many accounts."
+group = "publish"
+platforms = ["instagram", "tiktok", "youtube", "x", "linkedin", "facebook", "pinterest", "threads"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor"]
+note = "要 Post Bridge 账号和 API key"
+note_en = "Requires a Post Bridge account and API key."
+checked = 2026-11-16
+
+[[skills]]
+repo = "puppyfront-web/social-publish-skills"
+desc = "社媒发布 skill 加 Playwright 命令行：扫码或 Cookie 登录，把视频和图文发到视频号、抖音、快手、B 站、公众号、知乎等"
+desc_en = "Publishing skills plus a TypeScript/Playwright CLI: QR or cookie login, then upload videos and articles to WeChat Channels, Douyin, Kuaishou, Bilibili, WeChat, Zhihu and Baijiahao, with content-writing skills for topic to draft."
+group = "publish"
+platforms = ["channels", "douyin", "kuaishou", "bilibili", "xiaohongshu", "wechat", "zhihu"]
+format = "skill"
+lang = "zh"
+agents = ["codex", "claude-code", "openclaw"]
+note = "登录态存在本机"
+note_en = "Sessions are stored on your machine."
+checked = 2026-11-16
+
+[[skills]]
+repo = "mertkayacs/postkitty"
+desc = "PostKitty：一条帖子进，各平台版本出，按平台改写文案、裁图和视频时保住人脸、检查每个文件，本地运行"
+desc_en = "PostKitty, a Hermes Agent plugin: one post in, every platform out. It fixes and rewrites your draft for each of eight platforms, crops photos and video while keeping faces in frame, and checks every file before you post. Local, no API keys."
+group = "publish"
+platforms = ["x", "linkedin", "instagram", "tiktok", "youtube", "threads", "facebook"]
+format = "skill"
+lang = "en"
+note = "Hermes Agent 插件"
+note_en = "A plugin for Hermes Agent."
+checked = 2026-11-16
+
+[[skills]]
+repo = "gybin02/easypost"
+desc = "快推 EasyPost：复用你日常的 Chrome 和登录状态，一次把短视频和图文同步发到抖音、快手、视频号、B 站、微博、X 等"
+desc_en = "EasyPost: multi-platform publishing inside your everyday Chrome, reusing your logins to push videos and image posts to Douyin, Kuaishou, Channels, Bilibili, Weibo, Xiaohongshu, X and Instagram in parallel; fill mode leaves the final click to you."
+group = "publish"
+platforms = ["douyin", "kuaishou", "channels", "bilibili", "weibo", "xiaohongshu", "x", "instagram"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "dorukardahan/twitterapi-io-skill"
+desc = "TwitterAPI.io skill：让 agent 用 X，搜索、发帖、点赞、转推、关注、私信、社群和 webhook，76 个接口带 curl 示例"
+desc_en = "Makes any LLM use X through TwitterAPI.io: 76 endpoints for search, posting, likes, retweets, follows, DMs, communities, webhooks and profile management, each with a curl example. No X developer account needed."
+group = "publish"
+platforms = ["x"]
+format = "skill"
+lang = "en"
+agents = ["openclaw", "claude-code"]
+note = "要 TwitterAPI.io 的 API key，按调用付费"
+note_en = "Requires a TwitterAPI.io API key; billed per call."
+checked = 2026-11-16
+
+[[skills]]
+repo = "posteyai/skills"
+name = "Postey"
+desc = "Postey 的 MCP 和 skill：agent 起草、排期、发布到 X、LinkedIn、Instagram、TikTok 等 9 个平台，带数据和互动"
+desc_en = "Postey's hosted MCP server and agent skills: draft, schedule and publish to X, LinkedIn, Instagram, TikTok, YouTube, Threads, Bluesky, Facebook and Pinterest, with skills for analytics, engagement, ideas, voice and teams."
+group = "publish"
+platforms = ["x", "linkedin", "instagram", "tiktok", "youtube", "threads", "facebook", "pinterest"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex", "gemini-cli", "opencode"]
+note = "要 Postey 账号，连接免费"
+note_en = "Requires a Postey account; connecting is free."
+checked = 2026-11-16
+
+[[skills]]
+repo = "michaellady/claude-social-media-skills"
+desc = "经 Buffer 推广自己作品的闭环：写帖时打格式标签、对抗式审稿、Buffer 分发，再按格式归因互动数据、给下周建议"
+desc_en = "Claude Code skills for promoting your work through Buffer as a closed loop: tag each post's format at compose time, review adversarially, fan out via Buffer, then attribute engagement back to formats and recommend next week's settings."
+group = "publish"
+platforms = ["linkedin", "substack", "threads", "youtube", "tiktok"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+note = "发帖走 Buffer，要 Buffer 账号"
+note_en = "Posting goes through Buffer, which needs an account."
+checked = 2026-11-16
+
+[[skills]]
+repo = "baijunjie/x-social-skill"
+desc = "X 浏览器自动化：用你自己的 Chrome 发推、点赞、回复、转推、引用、搜索和删自己的推，每个项目可挂多个账号"
+desc_en = "X (Twitter) browser automation: post, like, reply, retweet, quote, search, list mentions and delete your own tweets through Playwright and your own Chrome, installed per project for Claude Code and Codex with multiple accounts."
+group = "publish"
+platforms = ["x"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex"]
+note = "每个账号手动登录一次，登录态存在 Chrome 配置里"
+note_en = "Log in by hand once per account; the session lives in a Chrome profile."
+checked = 2026-11-16
+
+[[skills]]
+repo = "PostLake/postlake-mcp"
+name = "PostLake"
+desc = "PostLake 的 MCP 和 skill：一个接口让 agent 在 9 个平台发布、排期、看数据、读评论和回复"
+desc_en = "PostLake's MCP server and agent skills: one API for agents to publish, schedule, monitor, reply, moderate and measure posts across X, LinkedIn, Instagram, TikTok, Facebook, Threads, Bluesky, YouTube and Pinterest."
+group = "publish"
+platforms = ["x", "linkedin", "instagram", "tiktok", "facebook", "threads", "youtube", "pinterest"]
+format = "skill"
+lang = "en"
+note = "要 PostLake 账号，按积分计费"
+note_en = "Requires a PostLake account; usage is billed in credits."
+checked = 2026-11-16
+
+[[skills]]
+repo = "postoncehq/postonce-skills"
+name = "PostOnce"
+desc = "PostOnce 官方 skill 和 MCP：经官方 API 把一条帖子或视频发到 TikTok、Instagram、YouTube 等 9 个平台，可定时"
+desc_en = "PostOnce's official skills and MCP server: your agent posts one video or post to TikTok, Instagram, YouTube, LinkedIn, Facebook, X, Threads, Pinterest and Bluesky through official APIs, now or scheduled."
+group = "publish"
+platforms = ["tiktok", "instagram", "youtube", "linkedin", "facebook", "x", "threads", "pinterest"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex"]
+note = "要 PostOnce 账号（7 天免费试用），用 OAuth 连接，不需要 API key"
+note_en = "Requires a PostOnce account (7-day free trial); connects with OAuth, no API key."
+checked = 2026-11-16
 
 [[skills]]
 repo = "mvanhorn/last30days-skill"
@@ -2006,6 +2989,231 @@ lang = "en"
 checked = 2026-10-19
 
 [[skills]]
+repo = "TubeLabHQ/youtube-research-skills"
+name = "TubeLab"
+desc = "TubeLab 的 YouTube 研究 skill：找爆款视频和赛道、验证赛道、拆竞品、挖评论、标题和缩略图、变现缺口和找赞助"
+desc_en = "YouTube research skills powered by the TubeLab MCP: outlier videos, niche finding and validation, competitor research, comment mining, title formulas, thumbnail concepts, script breakdowns, monetization gaps and sponsor prospecting."
+group = "research"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex"]
+note = "要 TubeLab 账号"
+note_en = "Requires a TubeLab account."
+checked = 2026-11-16
+
+[[skills]]
+repo = "xhoantran/scrapeio-agent"
+name = "ScrapeIO"
+desc = "ScrapeIO 社媒研究 skill：找达人和查假粉、竞品审计、视频转写、评论洞察、趋势和广告库，附 33 个平台的 MCP"
+desc_en = "ScrapeIO's social media research skills: influencer discovery, creator vetting for fake followers, competitor audits, transcripts, comment insights, trends and ad libraries, with an MCP server for TikTok, Instagram, YouTube, X and 29 more platforms."
+group = "research"
+platforms = ["tiktok", "instagram", "youtube", "x", "facebook", "reddit", "linkedin"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex", "gemini-cli"]
+note = "要 ScrapeIO 的 API key，有免费额度"
+note_en = "Requires a ScrapeIO API key; a free key is available."
+checked = 2026-11-16
+
+[[skills]]
+repo = "0xpratzyy/dissect"
+desc = "dissect：把任何视频逐帧拆成可照做的蓝图，镜头、转场、运镜和节奏都量化，再给你的翻拍版打分"
+desc_en = "dissect reverse-engineers any video from YouTube, TikTok, Reels, X and more into a frame-accurate Markdown blueprint (shots, transitions, camera moves, timing) you can rebuild from, then scores your rebuild against it."
+group = "research"
+platforms = ["youtube", "tiktok", "instagram", "x", "facebook", "reddit"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "liangdabiao/redfox_api_skill"
+desc = "红狐数据接口 skill：让 agent 查到并调用 201 个接口，覆盖抖音、小红书、公众号、B 站、视频号、TikTok、YouTube 等"
+desc_en = "Lets an agent find and call 201 RedFoxHub (红狐数据) API endpoints across 28 categories: Douyin, Xiaohongshu, WeChat, Bilibili, Kuaishou, Channels, Toutiao, TikTok, YouTube, X, Instagram, Weibo, Zhihu, trending boards and more."
+group = "research"
+platforms = ["douyin", "xiaohongshu", "wechat", "bilibili", "kuaishou", "channels", "toutiao", "tiktok", "youtube", "x", "instagram", "weibo", "zhihu"]
+format = "skill"
+lang = "zh"
+note = "要红狐数据的 API key，按积分计费"
+note_en = "Requires a RedFoxHub API key; billed in credits."
+checked = 2026-11-16
+
+[[skills]]
+repo = "um-why/xiaohongshu-openclaw-skill"
+desc = "小红书洞察：按关键词搜笔记、看详情、拉评论和博主作品，输出 JSON，用来选题、盯竞品、筛 KOL，不登录账号"
+desc_en = "Xiaohongshu insights: keyword search, note details, comments and creator posts as structured JSON for topic research, competitor tracking and KOL screening. Read-only public data, no login to your account."
+group = "research"
+platforms = ["xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["openclaw"]
+note = "要第三方数据 token，按量或包月付费"
+note_en = "Requires a third-party data token, paid per use or monthly."
+checked = 2026-11-16
+
+[[skills]]
+repo = "ScrapeAtlas/social-media-agent-skills"
+name = "ScrapeAtlas"
+desc = "ScrapeAtlas 社媒研究 skill：找爆款帖、挖评论、转写分析、钩子库、拆竞品广告、找达人和舆情监听"
+desc_en = "ScrapeAtlas's research skills: outlier posts, comment mining, transcript analysis, hook libraries, ad library teardowns, influencer prospecting and social listening across TikTok, Instagram, YouTube, X, Reddit, LinkedIn and more, every claim sourced."
+group = "research"
+platforms = ["tiktok", "instagram", "youtube", "x", "reddit", "linkedin", "threads", "facebook", "pinterest"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor", "gemini-cli"]
+note = "数据来自 ScrapeAtlas 接口，要 API key"
+note_en = "Data comes from the ScrapeAtlas API, which needs a key."
+checked = 2026-11-16
+
+[[skills]]
+repo = "redfox-data/redfox-community-dsh"
+name = "红狐数据 DSH 插件包"
+desc = "红狐数据给 DeepSeek Harness 的官方插件包：100 多个自媒体数据 skill，搜内容、追热点、分析评论、诊断账号"
+desc_en = "RedFoxHub's official bundle for DeepSeek Harness: 100+ social media data skills for content search, trend tracking, comment analysis, video download, copywriting, account diagnostics and daily digests, plus 40 MCP tools."
+group = "research"
+platforms = ["douyin", "xiaohongshu", "kuaishou", "bilibili", "wechat", "channels", "weibo", "zhihu", "toutiao", "youtube", "tiktok", "instagram", "x"]
+format = "skill"
+lang = "zh"
+note = "要红狐数据的 API key，按积分计费"
+note_en = "Requires a RedFoxHub API key; billed in credits."
+checked = 2026-11-16
+
+[[skills]]
+repo = "Mira-AI-Tools/mira-skill"
+name = "Mira"
+desc = "Mira：让 Claude 和 ChatGPT 看懂 TikTok、Reels 和 Shorts 链接，拿回口播转写、画面文字、配文和结构化摘要"
+desc_en = "Mira lets Claude and ChatGPT watch video links from Instagram, TikTok, YouTube, Pinterest, X and Facebook: voiceover transcript, on-screen text, caption, a structured extract and the original video."
+group = "research"
+platforms = ["instagram", "tiktok", "youtube", "pinterest", "x", "facebook"]
+format = "skill"
+lang = "en"
+note = "要 Mira 账号"
+note_en = "Requires a Mira account."
+checked = 2026-11-16
+
+[[skills]]
+repo = "aaronyi97/sourceboard"
+desc = "信源看板：让 agent 按关键词搜、按链接抓抖音、小红书、B 站、公众号等平台的内容和评论，每次自动摆成网页看板"
+desc_en = "SourceBoard: lets your agent search 10 platforms (Douyin, Xiaohongshu, Bilibili, Weibo, Zhihu, WeChat, YouTube, Reddit, TikTok, X), fetch posts and comments from 20, and lays out every search as a local web dashboard."
+group = "research"
+platforms = ["douyin", "xiaohongshu", "bilibili", "weibo", "zhihu", "wechat", "youtube", "reddit", "tiktok", "x"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "codex"]
+note = "多数平台数据走 TikHub，要自己注册充值，按次付费"
+note_en = "Most platform data comes from TikHub, which you sign up for and pay per request."
+checked = 2026-11-16
+
+[[skills]]
+repo = "DevinChen2014/socialdatax-skills"
+name = "SocialDataX"
+desc = "社媒数据助手 SocialDataX：小红书、抖音、快手、B 站、公众号等平台的内容研究、评论洞察、账号分析和竞品调研"
+desc_en = "SocialDataX skills and CLI for content research on Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, Toutiao, Channels, Zhihu, WeChat articles, Instagram, X, YouTube and TikTok: comment insights, account reports, competitor and product research."
+group = "research"
+platforms = ["xiaohongshu", "douyin", "kuaishou", "bilibili", "weibo", "toutiao", "channels", "zhihu", "wechat", "instagram", "x", "youtube", "tiktok"]
+format = "skill"
+lang = "multi"
+note = "要 SocialDataX 账号，按余额计费"
+note_en = "Requires a SocialDataX account; usage is billed against a balance."
+checked = 2026-11-16
+
+[[skills]]
+repo = "CoolerGit/HookLab"
+desc = "HookLab：拆 TikTok、Reels、Shorts 的开头钩子，按清单打分，判断人群和赛道，抽留存手法，存进可搜的素材库"
+desc_en = "HookLab analyses TikTok, Reels and YouTube Shorts inside Claude Code or Codex: scores the hook against a binary checklist, classifies audience and niche, extracts retention tactics and saves assets to a searchable library with a dashboard."
+group = "research"
+platforms = ["tiktok", "instagram", "youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "hackers-reality/youtube-skillbox"
+desc = "YouTube 免费工具箱：搜索、字幕、社区帖和首页分区，加脚本、钩子、SEO、章节和频道审计等 10 个创作工具，不要 API key"
+desc_en = "A free YouTube toolkit for agents: search, transcripts, community posts, home sections and Shows, plus 10 creator tools for scripts, hooks, SEO, chapters, packaging and channel audits. No API key or credits."
+group = "research"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+agents = ["opencode", "claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "ythx-101/x-monitor"
+desc = "X 评论监控：免登录抓某条推文的回复，标出提问，watch 模式只报新评论，输出 JSON 给 agent 起草回答"
+desc_en = "A read-only skill that fetches replies to a tweet through Camofox and Nitter without logging in, flags questions and in watch mode reports only new replies as JSON, so your agent can draft answers."
+group = "research"
+platforms = ["x"]
+format = "skill"
+lang = "en"
+agents = ["openclaw"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "um-why/douyin-search-openclaw"
+desc = "抖音公开数据搜索：搜视频、图文和用户，看博主作品、作品详情、评论和实时热榜，输出 JSON，不登录账号"
+desc_en = "Douyin public-data search: videos, image posts and users, creator posts, post details, comments and the live hot list, with sorting and time filters, output as JSON. Read-only, no login."
+group = "research"
+platforms = ["douyin"]
+format = "skill"
+lang = "zh"
+agents = ["openclaw"]
+note = "要第三方数据 token，按量或包月付费"
+note_en = "Requires a third-party data token, paid per use or monthly."
+checked = 2026-11-16
+
+[[skills]]
+repo = "ZOORO-NEW/qianjin-wechat-analyzer"
+desc = "公众号运营诊断：用后台真实数据和全部文章量化 20 个内容特征，对比爆文和普通文，分层对标，每条建议带证据"
+desc_en = "WeChat Official Account diagnostics: quantifies 20 content features across all articles against real back-end read data, contrasts hits with average posts, benchmarks against five tiered peers and ties every recommendation to evidence."
+group = "research"
+platforms = ["wechat"]
+format = "skill"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "nikhonit/social-media-api-skills"
+name = "ScraperSocial"
+desc = "ScraperSocial 接口 skill：一个 key 读 32 个平台的公开数据，如 TikTok 转写、LinkedIn 资料、YouTube 评论"
+desc_en = "Agent skills for reading public data from 32 platforms through the ScraperSocial API: TikTok transcripts, Instagram reels and hashtags, LinkedIn profiles, YouTube transcripts and comments, Reddit, X and more, with one key and one JSON envelope."
+group = "research"
+platforms = ["tiktok", "instagram", "linkedin", "youtube", "reddit", "x", "facebook"]
+format = "skill"
+lang = "en"
+note = "要 ScraperSocial 的 key，注册送 25 积分"
+note_en = "Requires a ScraperSocial key; sign-up includes 25 free credits."
+checked = 2026-11-16
+
+[[skills]]
+repo = "maxxyart/viral-tiktok-skills"
+desc = "Viral Camp：研究 Instagram 和 TikTok 账号数据、封面钩子和评论，拆竞品 Facebook 广告，改编成你的轮播和视频"
+desc_en = "Viral Camp skills: research Instagram and TikTok accounts with ScrapeCreators (metrics, cover hooks, audience comments), analyze competitor Facebook ads, and adapt observed formulas into your own carousels and reels."
+group = "research"
+platforms = ["tiktok", "instagram", "facebook"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex"]
+note = "数据走 ScrapeCreators，要 API key"
+note_en = "Data comes from ScrapeCreators, which needs an API key."
+checked = 2026-11-16
+
+[[skills]]
+repo = "why20261/douyin-social"
+desc = "抖音社媒运营：串起热搜、关键词搜视频和达人主页数据，做热点选题、拆爆款卖点、匹配粉丝画像、排内容日历"
+desc_en = "Douyin operations: links the hot list, keyword video search and creator profile data into a loop of trend topics, selling points from viral videos, follower-persona matching and a content calendar. Read-only, no login."
+group = "research"
+platforms = ["douyin"]
+format = "skill"
+lang = "zh"
+agents = ["openclaw"]
+note = "要第三方数据 token，按量或包月付费"
+note_en = "Requires a third-party data token, paid per use or monthly."
+checked = 2026-11-16
+
+[[skills]]
 repo = "Jian21311/account-diagnosis-skill"
 desc = "账号诊断规则：先看手上有哪些数据再定怎么判，六个维度分三档，不给总分，只指出最该改的一件；没有播放量就不算完播率"
 desc_en = "Rules for an account diagnosis: decide which path the available evidence allows before judging, grade six dimensions in three bands, rank the single fix instead of summing a score, and skip completion-rate maths when the public page has no view count."
@@ -2100,6 +3308,50 @@ lang = "zh"
 note = "个人非商业使用免费；用于获客或商业推广可能要授权"
 note_en = "Free for personal non-commercial use; lead generation or commercial promotion may need a license."
 checked = 2026-10-19
+
+[[skills]]
+repo = "enricpedro/factum-skills"
+desc = "YouTube 变现申诉：频道因重复使用内容或内容重复被拒、停用时，帮你选申诉路线，写申诉视频脚本，备齐审核材料"
+desc_en = "Appeal Maker for YouTube monetization: when a channel is rejected or demonetized for reused or repetitive content, it picks the route with you, writes the appeal video script and builds a reviewer-ready Google Drive folder."
+group = "strategy"
+platforms = ["youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "jeterchou/linkedin-positioning-panel"
+desc = "LinkedIn 个人资料评审：七个视角看职业定位，追踪证据，改写时不编事实，分清个人、团队和合作成果"
+desc_en = "A LinkedIn profile review skill for professional positioning: seven reviewer perspectives, evidence tracking and fact-preserving revisions that keep individual, team and collaborative work clearly attributed."
+group = "strategy"
+platforms = ["linkedin"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "zhoutian1995/jianghushuo-skill"
+desc = "非官方自媒体行动系统：参考姜胡说的公开方法，做个人 IP 诊断、从真实经历提炼选题、写内容、复盘和沉淀方法卡"
+desc_en = "An unofficial creator action system built from Jiang Hushuo's public methods: personal-brand diagnosis, topics drawn from your real experience, content, post-publish review and reusable method cards."
+group = "strategy"
+platforms = ["douyin", "channels", "xiaohongshu"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "alexliyu7352/for-you-skills"
+desc = "X 推荐算法 skill：从开源推荐代码整理 578 条知识，审帖、选帖子还是长文、核查涨粉说法、诊断流量变化"
+desc_en = "X.com algorithm skills built from analysis of the public recommendation code: 578 knowledge entries with source links to review drafts, choose Post vs Article, fact-check growth claims and diagnose reach changes."
+group = "strategy"
+platforms = ["x"]
+format = "skill"
+lang = "multi"
+agents = ["claude-code", "codex", "gemini-cli", "cursor", "opencode"]
+checked = 2026-11-16
 
 # ───────── MCP 和命令行工具 ─────────
 
@@ -2306,6 +3558,91 @@ format = "mcp"
 lang = "en"
 checked = 2026-10-19
 
+[[skills]]
+repo = "Evil0ctal/Douyin_TikTok_Download_API"
+desc = "自托管的抖音、TikTok、B 站数据 API：作品、作者、评论、热榜和搜索，无水印下载、离线转文字，agent 经 MCP 调用"
+desc_en = "A self-hosted data API for Douyin, TikTok and Bilibili: posts, authors, comments, sounds, hashtags, live rooms, trending boards and search, no-watermark downloads and offline speech-to-text, with a REST API, web console and an MCP server for agents."
+group = "mcp"
+platforms = ["douyin", "tiktok", "bilibili"]
+format = "mcp"
+lang = "multi"
+note = "docker compose 一键部署，数据存在你自己的 PostgreSQL"
+note_en = "Deploys with one docker compose up and keeps what it collects in your own PostgreSQL."
+checked = 2026-11-16
+
+[[skills]]
+repo = "profullstack/social-poster"
+desc = "多平台发帖命令行：用 Puppeteer 浏览器登录，发文字、链接、图片和视频到 X、TikTok、LinkedIn、Reddit 等"
+desc_en = "A CLI that posts text, links, images and video to X, TikTok, Pinterest, LinkedIn, Reddit, Facebook and more, logging in through Puppeteer browser automation instead of platform APIs, with saved sessions and a dry-run mode."
+group = "mcp"
+platforms = ["x", "tiktok", "pinterest", "linkedin", "reddit", "facebook"]
+format = "mcp"
+lang = "en"
+note = "浏览器自动化登录你的账号，登录态存在本地"
+note_en = "Logs in to your accounts with browser automation; sessions are saved locally."
+checked = 2026-11-16
+
+[[skills]]
+repo = "AstaBlackClove/posthive"
+name = "Posthive"
+desc = "Posthive：可自己部署的社媒排程平台，一稿发 14 个以上平台，内置 MCP，附 CLI 和 skill"
+desc_en = "Posthive: a self-hostable social media scheduler with a built-in MCP server (OAuth, no API key to paste): write once, publish to 14+ platforms, drip-publish from a CSV library, plus a CLI and skill."
+group = "mcp"
+platforms = ["x", "youtube", "tiktok", "instagram", "linkedin", "threads", "facebook", "pinterest"]
+format = "mcp"
+lang = "en"
+checked = 2026-11-16
+
+[[skills]]
+repo = "Daily-AC/omnireach"
+name = "omnireach"
+desc = "omnireach：让 agent 搜和读要登录的中文网站，公众号、小红书、抖音、B 站，加 X、Reddit、YouTube，一个命令行"
+desc_en = "omnireach: one CLI that lets your agent search and read the login-walled Chinese internet (WeChat, Xiaohongshu, Douyin, Bilibili) plus X, Reddit, HN and YouTube, returning normalized JSON, clean Markdown and transcripts. Installs as a Claude Code skill."
+group = "mcp"
+platforms = ["wechat", "xiaohongshu", "douyin", "bilibili", "tiktok", "x", "reddit", "youtube"]
+format = "mcp"
+lang = "en"
+note = "公众号搜索免配置；其他来源复用你自己浏览器的登录态"
+note_en = "WeChat search needs no setup; the other sources reuse your own browser session."
+checked = 2026-11-16
+
+[[skills]]
+repo = "Upload-Post/upload-post-mcp"
+name = "Upload-Post MCP"
+desc = "Upload-Post 官方 MCP：agent 发布、排期、看数据，覆盖 TikTok、Instagram、YouTube、LinkedIn、X 等"
+desc_en = "Upload-Post's official MCP server: any MCP-compatible agent can publish, schedule, analyze and manage social media across TikTok, Instagram, YouTube, LinkedIn, Facebook, Pinterest, Threads, Reddit, Bluesky, X and more with one API key."
+group = "mcp"
+platforms = ["tiktok", "instagram", "youtube", "linkedin", "facebook", "pinterest", "threads", "reddit", "x"]
+format = "mcp"
+lang = "en"
+note = "要 Upload-Post 账号和 API key"
+note_en = "Requires an Upload-Post account and API key."
+checked = 2026-11-16
+
+[[skills]]
+repo = "staqly/staqly"
+name = "Staqly"
+desc = "Staqly：本地优先的社媒排程工具，agent 经 MCP 或 REST 写帖，日历上看，按时发布、失败重试，可自己部署"
+desc_en = "Staqly: a local-first social media scheduler for agents: Claude Code, Codex or n8n write posts over MCP or REST, you review them on a calendar, and it publishes on time to X, LinkedIn, Instagram, TikTok, YouTube and more, with retries. Self-hosted."
+group = "mcp"
+platforms = ["x", "linkedin", "instagram", "tiktok", "youtube"]
+format = "mcp"
+lang = "en"
+checked = 2026-11-16
+
+[[skills]]
+repo = "ZhongQuinnKing/caishi"
+name = "采诗"
+desc = "采诗：给 agent 用的中文互联网能力包，一条命令读抖音、B 站、小红书、公众号、知乎、头条等 33 个站，只读"
+desc_en = "Caishi: a capability pack that lets an agent read the Chinese internet with one command per link: Douyin, Bilibili, Xiaohongshu, WeChat articles, Zhihu, Toutiao and 30+ more sites. Read-only, reusing your own browser sessions."
+group = "mcp"
+platforms = ["douyin", "bilibili", "xiaohongshu", "wechat", "zhihu", "toutiao", "weibo"]
+format = "mcp"
+lang = "zh"
+note = "复用你浏览器的登录态；内容和文档是 CC BY-NC-ND，商用要先找作者授权"
+note_en = "Reuses your browser sessions; content and docs are CC BY-NC-ND and commercial use needs the author's written permission."
+checked = 2026-11-16
+
 # ───────── 相关开源平台 ─────────
 
 [[skills]]
@@ -2410,6 +3747,106 @@ platforms = ["x", "linkedin", "reddit"]
 format = "app"
 lang = "en"
 checked = 2026-10-19
+
+[[skills]]
+repo = "yikart/AiToEarn"
+name = "AiToEarn"
+desc = "AiToEarn：AI 内容营销平台，创作、剪辑、多平台发布和变现，附 MCP 和给 Claude Code、Codex 等用的技能包"
+desc_en = "AiToEarn: an AI content-marketing platform for one-person companies and creators: create, edit, publish to Chinese and global platforms and monetize, with an MCP server and a plugin and skill pack for Claude Code, Codex and other assistants."
+group = "apps"
+platforms = ["douyin", "xiaohongshu", "kuaishou", "bilibili", "channels", "wechat", "tiktok", "youtube", "facebook", "instagram", "threads", "x", "pinterest", "linkedin"]
+format = "app"
+lang = "zh"
+note = "技能包要 AiToEarn 的 API key"
+note_en = "The plugin and skill pack need an AiToEarn API key."
+checked = 2026-11-16
+
+[[skills]]
+repo = "zhouxiaoka/autoclip"
+name = "AutoClip"
+desc = "AutoClip：贴一个长视频链接，自动剪成短视频，配字幕、封面和发布文案，桌面应用，带 CLI、MCP 和 skill"
+desc_en = "AutoClip: paste a link to a podcast, interview or course and it cuts short videos with subtitles, a cover and post copy for Douyin, Xiaohongshu, TikTok, Reels and YouTube Shorts. Desktop app that renders locally, with a CLI, MCP server and skill."
+group = "apps"
+platforms = ["douyin", "xiaohongshu", "bilibili", "tiktok", "instagram", "youtube"]
+format = "app"
+lang = "zh"
+note = "软件免费，云端模型按量计费"
+note_en = "The software is free; cloud model calls are billed by usage."
+checked = 2026-11-16
+
+[[skills]]
+repo = "biliup/biliup"
+name = "biliup"
+desc = "biliup：直播 24 小时录制、剪辑台、压制和 B 站投稿，大模型推荐高光片段，附 agent skill"
+desc_en = "biliup: round-the-clock live-stream recording with danmaku, an editing desk, encoding and Bilibili upload, with LLM-suggested highlight clips and an agent skill (npx skills add biliup/biliup)."
+group = "apps"
+platforms = ["bilibili"]
+format = "app"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "3441293738/creatorhub"
+name = "CreatorHub"
+desc = "CreatorHub：本地运行的多平台工作台，管账号，监控作品和评论，采集、下载素材，发布和管私信"
+desc_en = "CreatorHub: a local web workspace for Douyin, Xiaohongshu, Kuaishou, WeChat Channels and TikTok: manage accounts, monitor posts and comments, collect and download content, publish and handle DMs."
+group = "apps"
+platforms = ["douyin", "xiaohongshu", "kuaishou", "channels", "tiktok"]
+format = "app"
+lang = "zh"
+note = "登录态、数据库和素材都存在本地；Windows 有安装版，也能从源码运行"
+note_en = "Sessions, the database and media stay on your machine; there is a Windows installer and you can also run it from source."
+checked = 2026-11-16
+
+[[skills]]
+repo = "Anning01/AIMedia"
+name = "万稿汇 AIMedia"
+desc = "万稿汇：桌面写作工具，找热点和素材、AI 写稿改稿、去 AI 味、排版，管多平台账号，公众号只推草稿箱"
+desc_en = "AIMedia (万稿汇): an open-source desktop writing app: browse trends and viral WeChat articles, draft and rewrite with AI, de-AI the wording, lay out and manage accounts; WeChat content only goes to the draft box for you to publish."
+group = "apps"
+platforms = ["wechat", "toutiao", "xiaohongshu"]
+format = "app"
+lang = "zh"
+note = "去 AI 味用的是器灵的改文服务"
+note_en = "The de-AI rewrite uses the Qiling rewriting service."
+checked = 2026-11-16
+
+[[skills]]
+repo = "iniwap/AIWriteX"
+name = "AIWriteX"
+desc = "AIWriteX：公众号 AI 写作平台，热点雷达、选题、多智能体写稿、去 AI 味、配图排版和自动发布"
+desc_en = "AIWriteX: an AI writing platform for WeChat Official Accounts: trend radar, topic picks, multi-agent drafting, de-AI polishing, images, layout and auto-publishing, plus short-form copy scenes and Xiaohongshu image posts."
+group = "apps"
+platforms = ["wechat", "xiaohongshu", "toutiao"]
+format = "app"
+lang = "zh"
+note = "官网另有商业版"
+note_en = "A commercial edition is sold on the official site."
+checked = 2026-11-16
+
+[[skills]]
+repo = "BetaStreetOmnis/xhs_ai_publisher"
+name = "xhs_ai_publisher"
+desc = "小红书 AI 发布助手：本地编辑笔记、套模板排多页图、预览后发布，桌面界面加本机 Web 服务"
+desc_en = "Xiaohongshu AI Publisher: write and edit notes locally, lay out multi-page images from templates, preview and publish, with a PyQt desktop UI, a local web service and login-state reuse."
+group = "apps"
+platforms = ["xiaohongshu"]
+format = "app"
+lang = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo = "woniuniuniu/dsh-media-desk"
+name = "自媒体工作台"
+desc = "DeepSeek Harness 自媒体工作台插件：一句话记灵感，一键出口播脚本、标题、封面、配图和分镜，排期和复盘"
+desc_en = "A creator workspace plugin for DeepSeek Harness: jot ideas on a wall, then generate a script, title, cover, images and storyboard in one go, schedule them on a calendar and review results."
+group = "apps"
+platforms = ["xiaohongshu", "douyin", "bilibili", "wechat", "tiktok", "instagram", "youtube", "x"]
+format = "app"
+lang = "zh"
+note = "DeepSeek Harness 的插件，作者标为实验项目"
+note_en = "A plugin for DeepSeek Harness; the author marks it experimental."
+checked = 2026-11-16
 
 [[skills]]
 repo = "murphywuwu/easysociable-mcp"
