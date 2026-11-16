@@ -1233,6 +1233,117 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "vinit-agr/videopowers",
+   "url": "https://github.com/vinit-agr/videopowers",
+   "name": "videopowers",
+   "group": "pipeline",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "一人 YouTube 工作室的流水线：选题、调研、写稿、粗剪、Remotion 动效和标题封面包装，每步一个 skill",
+   "desc_en": "A factory for one-person YouTube studios in Claude Code: ideation, research and outline, a script you can read on camera, rough cut, Remotion motion graphics and packaging, one skill per stage with approval gates; free tools do the heavy lifting.",
+   "note": "",
+   "note_en": "",
+   "stars": 5,
+   "pushed_at": "2026-11-07",
+   "license": "MIT",
+   "skills": 12,
+   "install": "npx skills add vinit-agr/videopowers",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "zyziyun/reelfold",
+   "url": "https://github.com/zyziyun/reelfold",
+   "name": "Reelfold 千剪",
+   "group": "pipeline",
+   "platforms": [
+    "youtube",
+    "tiktok",
+    "instagram",
+    "x",
+    "linkedin",
+    "xiaohongshu",
+    "douyin",
+    "bilibili",
+    "channels"
+   ],
+   "format": "skill",
+   "lang": "multi",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "千剪 Reelfold：从笔记或选题出稿，把素材批量剪成多平台、中英双语成片再发布，Mac 应用加 skill",
+   "desc_en": "Reelfold: an open-source workbench for creators and course makers: start from notes or a topic, batch-edit footage into bilingual videos for each platform and publish to global and Chinese platforms. A Mac app whose engine also works as a skill.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-11-08",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add zyziyun/reelfold",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "sanskarprajapati/theme-page",
+   "url": "https://github.com/sanskarprajapati/theme-page",
+   "name": "theme-page",
+   "group": "pipeline",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "运营 Instagram、TikTok 新闻主题号：搜本领域热门新闻按热度排好，你挑完做成带来源的品牌轮播图",
+   "desc_en": "Runs a news theme page on Instagram or TikTok: researches the latest viral news in your niche with real view and like counts, waits for your picks, then builds branded carousels with sources; also turns a wild video into a 9:16 clip.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-10-30",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add sanskarprajapati/theme-page",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "boqo-ai/boqount",
+   "url": "https://github.com/boqo-ai/boqount",
+   "name": "boqount",
+   "group": "pipeline",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "让 agent 运营品牌的 Instagram、TikTok 和 YouTube：读项目、按你的风格从零做片，发前问你，发后复盘",
+   "desc_en": "Lets your agent run a brand's Instagram, TikTok and YouTube: it reads your project, makes films from scratch in your style, checks every post, asks you before anything goes out and measures what worked to plan the next posts.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-15",
+   "license": "MIT",
+   "skills": 2,
+   "install": "npx skills add boqo-ai/boqount",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "gallagherjas/everyone-content",
    "url": "https://github.com/gallagherjas/everyone-content",
    "name": "everyone-content",
@@ -1256,6 +1367,111 @@
    "license": "AGPL-3.0",
    "skills": 5,
    "install": "npx skills add gallagherjas/everyone-content",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "social-media-skills/instagram-skill",
+   "url": "https://github.com/social-media-skills/instagram-skill",
+   "name": "instagram-skill",
+   "group": "pipeline",
+   "platforms": [
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "openclaw"
+   ],
+   "featured": false,
+   "desc": "Instagram 一条龙：给想法、链接或素材，定形式、写文案、做轮播图和 Reels，检查预览后排期，可管多账号",
+   "desc_en": "An Instagram skill that makes, checks, previews and schedules posts: carousels, single images, Reels and Stories, for one account or many; give it an idea, a link, notes, photos or a video and it picks the format and writes the words.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-11",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add social-media-skills/instagram-skill",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "TaplioOfficial/taplio-linkedin-plugin",
+   "url": "https://github.com/TaplioOfficial/taplio-linkedin-plugin",
+   "name": "taplio-linkedin-plugin",
+   "group": "pipeline",
+   "platforms": [
+    "linkedin"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "Taplio 官方的 LinkedIn 插件：26 个 skill，写帖、轮播图、排期、找评论机会和读数据",
+   "desc_en": "Taplio's official Claude plugin with 26 LinkedIn skills: post writer, hook generator, carousel builder, repurposer, planning, comment opportunities and replies, and analytics, working on your real voice and data through your Taplio account.",
+   "note": "要 Taplio 账号",
+   "note_en": "Needs a Taplio account.",
+   "stars": 3,
+   "pushed_at": "2026-10-30",
+   "license": "MIT",
+   "skills": 26,
+   "install": "npx skills add TaplioOfficial/taplio-linkedin-plugin",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "phs-bitqun/workbuddy-media-desk",
+   "url": "https://github.com/phs-bitqun/workbuddy-media-desk",
+   "name": "workbuddy-media-desk",
+   "group": "pipeline",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "workbuddy"
+   ],
+   "featured": false,
+   "desc": "自媒体工作台的 WorkBuddy 版：一句话出口播脚本、封面大字和分镜，排发布时间，把平台数据读成写作规则",
+   "desc_en": "The WorkBuddy port of the dsh-media-desk creator workspace: one line of idea becomes a talking-head script, cover text and storyboard, then a publishing schedule, and platform data is turned into your own writing rules; skill plus CLI plus a local UI.",
+   "note": "移植自 woniuniuniu/dsh-media-desk",
+   "note_en": "Ported from woniuniuniu/dsh-media-desk.",
+   "stars": 3,
+   "pushed_at": "2026-11-15",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add phs-bitqun/workbuddy-media-desk",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "anthonyhann/xhs-workflow-skill",
+   "url": "https://github.com/anthonyhann/xhs-workflow-skill",
+   "name": "xhs-workflow-skill",
+   "group": "pipeline",
+   "platforms": [
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "claude-code",
+    "openclaw"
+   ],
+   "featured": false,
+   "desc": "小红书全链路调度：10 个子 skill 走完调研、写作、配图、发布和互动，上线前每步等你确认",
+   "desc_en": "A Xiaohongshu end-to-end orchestrator: 10 sub-skills over five phases (research, write, design, publish, engage) with seven pre-flight gates, and your confirmation before anything goes live.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-04",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add anthonyhann/xhs-workflow-skill",
    "checked": "2026-11-16"
   },
   {
@@ -3013,6 +3229,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "ttfake92-lab/skills",
+   "url": "https://github.com/ttfake92-lab/skills",
+   "name": "ttfake92-lab/skills",
+   "group": "visual",
+   "platforms": [
+    "douyin",
+    "xiaohongshu",
+    "bilibili",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "鱼亦乐的技能合集：拆解对标账号、竖屏分屏口播、Remotion 视频、视频提示词和封面，另有几个个人用的技能",
+   "desc_en": "Yuyile's skill collection for creators: break down a benchmark account from a link, make split-screen vertical talking-head reels with a digital human, Remotion videos, video prompts and thumbnails; a few unrelated personal skills are mixed in.",
+   "note": "",
+   "note_en": "",
+   "stars": 334,
+   "pushed_at": "2026-10-30",
+   "license": null,
+   "skills": 11,
+   "install": "npx skills add ttfake92-lab/skills",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "helloianneo/ian-xhs-carousel",
    "url": "https://github.com/helloianneo/ian-xhs-carousel",
    "name": "ian-xhs-carousel",
@@ -3257,6 +3499,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "xiazhuo123456789/vibe-knowledge-video",
+   "url": "https://github.com/xiazhuo123456789/vibe-knowledge-video",
+   "name": "vibe-knowledge-video",
+   "group": "visual",
+   "platforms": [
+    "douyin"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "把数学、哲学等硬知识做成电影感的抖音知识视频：画面和配乐全用代码生成、双语字幕，一句话出成片和文案",
+   "desc_en": "Turns hard topics such as math, probability and philosophy into cinematic Douyin explainer videos in the style of a viral series: code-generated visuals and music, no voiceover, bilingual subtitles, from one sentence to an MP4 and post copy.",
+   "note": "",
+   "note_en": "",
+   "stars": 195,
+   "pushed_at": "2026-10-31",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add xiazhuo123456789/vibe-knowledge-video",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "AzenYes/leaderai-media-toolkit",
    "url": "https://github.com/AzenYes/leaderai-media-toolkit",
    "name": "leaderai-media-toolkit",
@@ -3498,6 +3763,32 @@
    "skills": 1,
    "install": "npx skills add itchernetski/threads-carousel-claude-skill",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "wuyoscar/Vibepost",
+   "url": "https://github.com/wuyoscar/Vibepost",
+   "name": "Vibepost",
+   "group": "visual",
+   "platforms": [
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "Vibepost：把 Markdown 排成小红书图文卡片的桌面应用，agent 排版配图，每处改动你点头才算",
+   "desc_en": "Vibepost: a desktop app that lays out Markdown as Xiaohongshu image cards; your local Claude Code or Codex does layout and images, and every change waits for your approval. Free, drafts stay on your computer.",
+   "note": "",
+   "note_en": "",
+   "stars": 123,
+   "pushed_at": "2026-11-16",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add wuyoscar/Vibepost",
+   "checked": "2026-11-16"
   },
   {
    "repo": "wangcanyu/daihuo-fanpai",
@@ -4129,6 +4420,33 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "liuhaisi2026212-maker/motion-palette-15",
+   "url": "https://github.com/liuhaisi2026212-maker/motion-palette-15",
+   "name": "十五画境",
+   "group": "visual",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "十五画境：教 AI 用代码做片头和知识讲解 MG 动画，16 张风格卡，导出带声音的 MP4",
+   "desc_en": "Motion Palette 15: a craft book that teaches your agent to make motion-graphics intros and explainer animations in code (Canvas, Three.js, Remotion), with 16 style cards and export to MP4 with sound.",
+   "note": "",
+   "note_en": "",
+   "stars": 19,
+   "pushed_at": "2026-10-31",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add liuhaisi2026212-maker/motion-palette-15",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "rnthking/redya-skills",
    "url": "https://github.com/rnthking/redya-skills",
    "name": "红鸦 RedYA",
@@ -4343,6 +4661,31 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "iamjeeth/claude-edits-skill",
+   "url": "https://github.com/iamjeeth/claude-edits-skill",
+   "name": "claude-edits-skill",
+   "group": "visual",
+   "platforms": [
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "让 Claude Code 通过 Instagram Edits 自带的 MCP 剪 Reels：加贴片、音效、标题字幕，逐词转写和导出",
+   "desc_en": "Lets Claude Code edit Reels inside the Instagram Edits desktop app for Mac through the app's built-in MCP server: overlays, logo cards, sound effects, titles and captions, word-level transcripts, frame previews and export.",
+   "note": "",
+   "note_en": "",
+   "stars": 10,
+   "pushed_at": "2026-11-06",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add iamjeeth/claude-edits-skill",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "iart-ai/b-roll-skills",
    "url": "https://github.com/iart-ai/b-roll-skills",
    "name": "b-roll-skills",
@@ -4395,6 +4738,35 @@
    "license": "MIT",
    "skills": 1,
    "install": "npx skills add zhouwei713/luobo-article-visual",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "woodti/mopai",
+   "url": "https://github.com/woodti/mopai",
+   "name": "墨排 Mopai",
+   "group": "visual",
+   "platforms": [
+    "wechat",
+    "xiaohongshu",
+    "x"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "墨排：写一次 Markdown，排成公众号样式、小红书卡片和 X 推文串，带 skill、MCP 和命令行",
+   "desc_en": "Mopai: write Markdown once and get WeChat-ready styling, paginated Xiaohongshu cards and an X thread; front-end only, no sign-up, plus a skill, MCP server and CLI that turn an article or GitHub repo into a full promo kit.",
+   "note": "",
+   "note_en": "",
+   "stars": 9,
+   "pushed_at": "2026-10-31",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add woodti/mopai",
    "checked": "2026-11-16"
   },
   {
@@ -4664,6 +5036,34 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "Wanqiu12345/screenshot-infographic-skill",
+   "url": "https://github.com/Wanqiu12345/screenshot-infographic-skill",
+   "name": "screenshot-infographic-skill",
+   "group": "visual",
+   "platforms": [
+    "xiaohongshu",
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "claude-code",
+    "codex",
+    "workbuddy"
+   ],
+   "featured": false,
+   "desc": "发一张截图或一段文字，生成一整套小红书、公众号能直接用的功能教程图和信息图",
+   "desc_en": "Turns one screenshot or a paragraph of text into a full set of on-brand tutorial and infographic images ready to post on Xiaohongshu, WeChat or any community.",
+   "note": "",
+   "note_en": "",
+   "stars": 5,
+   "pushed_at": "2026-11-05",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add Wanqiu12345/screenshot-infographic-skill",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "social-media-skills/video-editing-skill",
    "url": "https://github.com/social-media-skills/video-editing-skill",
    "name": "video-editing-skill",
@@ -4837,6 +5237,30 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "Ayanlin1688/muse-Tiktok-Skill",
+   "url": "https://github.com/Ayanlin1688/muse-Tiktok-Skill",
+   "name": "muse-Tiktok-Skill",
+   "group": "visual",
+   "platforms": [
+    "tiktok",
+    "douyin"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "给 Muse Video 写电商带货视频提示词：TikTok Shop 和抖音电商，防货不对板、换脸和塑料感",
+   "desc_en": "Writes e-commerce product-video prompts for Muse Video (TikTok Shop US and Douyin e-commerce, all categories) from a product image and one line, guarding against mismatched products, face drift and the plastic AI look. Prompts only.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-11-14",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add Ayanlin1688/muse-Tiktok-Skill",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "dengxianghua888-ops/reel-scribe",
    "url": "https://github.com/dengxianghua888-ops/reel-scribe",
    "name": "reel-scribe",
@@ -4885,6 +5309,55 @@
    "license": "MIT-0",
    "skills": 1,
    "install": "npx skills add beatra-ai/wechat-article-cover-skill",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "lmy414/weekly-production",
+   "url": "https://github.com/lmy414/weekly-production",
+   "name": "weekly-production",
+   "group": "visual",
+   "platforms": [
+    "bilibili",
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "像素风周刊视频制作：放进榜单、文案、原片和配乐，出整期视频，另出网页、长图、分享卡和公众号封面",
+   "desc_en": "Pixel-art weekly ranking show production: put in the chart, copy, source clips and music, pick character assets, and get a full episode video plus a web page, long chart image, share cards and a WeChat cover.",
+   "note": "模板沿用「AI 娘周刊」的节目顺序",
+   "note_en": "The template follows the running order of the AI Niang Weekly show.",
+   "stars": 4,
+   "pushed_at": "2026-11-07",
+   "license": "GPL-3.0",
+   "skills": 1,
+   "install": "npx skills add lmy414/weekly-production",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "6667084/ai-short-video-skill",
+   "url": "https://github.com/6667084/ai-short-video-skill",
+   "name": "ai-short-video-skill",
+   "group": "visual",
+   "platforms": [
+    "douyin",
+    "channels",
+    "tiktok"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "AI 短视频工作流：带货短片、口播精剪、活动混剪、字幕花字、配乐、封面、质检和剪映草稿，带 MCP",
+   "desc_en": "An AI short-video workflow of skills and MCP tools: product videos, talking-head and interview edits, event montages, captions and styled text, music and sound effects, covers, QA, upscaling and CapCut drafts.",
+   "note": "视频、音乐和云端超分走 reAPI 付费，先报价再提交",
+   "note_en": "Video, music and cloud upscaling are paid through reAPI, quoted before submitting.",
+   "stars": 3,
+   "pushed_at": "2026-11-06",
+   "license": null,
+   "skills": 11,
+   "install": "npx skills add 6667084/ai-short-video-skill",
    "checked": "2026-11-16"
   },
   {
@@ -4943,6 +5416,31 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "kinnuworks/faceless-shorts",
+   "url": "https://github.com/kinnuworks/faceless-shorts",
+   "name": "faceless-shorts",
+   "group": "visual",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "一句话做出不露脸的 YouTube Shorts：查证选题、写稿、配音，画面按每个词的时间做，加字幕音效",
+   "desc_en": "Makes a finished faceless YouTube Short from one sentence: researches and fact-checks, writes the script, voices it with ElevenLabs, builds every frame on the timing of each spoken word, adds captions and sound effects and masters the audio.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-03",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add kinnuworks/faceless-shorts",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "88lin/gzh-skill-kit",
    "url": "https://github.com/88lin/gzh-skill-kit",
    "name": "gzh-skill-kit",
@@ -4970,6 +5468,29 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "Ayanlin1688/Minimax-H3-Tiktok-skill",
+   "url": "https://github.com/Ayanlin1688/Minimax-H3-Tiktok-skill",
+   "name": "Minimax-H3-Tiktok-skill",
+   "group": "visual",
+   "platforms": [
+    "tiktok"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "给 MiniMax H3（海螺）写 TikTok Shop 实拍感带货视频提示词，防多手、悬空、穿模和蜡像脸",
+   "desc_en": "Prompt rules for TikTok Shop product videos on MiniMax H3 (Hailuo): give it a product image and it writes prompts that avoid extra hands, floating products, clipping and waxy faces, refined round by round on real failures.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add Ayanlin1688/Minimax-H3-Tiktok-skill",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "blixvip/thumbnail-studio",
    "url": "https://github.com/blixvip/thumbnail-studio",
    "name": "thumbnail-studio",
@@ -4990,6 +5511,33 @@
    "license": "MIT",
    "skills": 12,
    "install": "npx skills add blixvip/thumbnail-studio",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "Adytm404/treemation",
+   "url": "https://github.com/Adytm404/treemation",
+   "name": "treemation",
+   "group": "visual",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "全用代码做竖屏 3D 科普短视频：像素风主持人和吉祥物、运镜、逐词字幕和口型，一句话出 MP4 和封面",
+   "desc_en": "Makes vertical 3D educational videos for TikTok, Reels and Shorts entirely in code: a pixel-skin host and mascot, camera moves, adaptive backgrounds, word-by-word captions, lip sync and sound effects, from a one-line topic to an MP4 and thumbnail.",
+   "note": "配音用 ElevenLabs；示例是印尼语",
+   "note_en": "Voice uses ElevenLabs; the example is in Indonesian.",
+   "stars": 3,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add Adytm404/treemation",
    "checked": "2026-11-16"
   },
   {
@@ -5703,6 +6251,31 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "win4r/x-post-skill",
+   "url": "https://github.com/win4r/x-post-skill",
+   "name": "x-post-skill",
+   "group": "publish",
+   "platforms": [
+    "x"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "在 Claude Code 里直接发 X：发帖、按名字续推文串、带图片视频、截终端图发出去",
+   "desc_en": "A Claude Code skill for posting to X from your session: natural-language posts, threads you can continue by name, images, GIFs and videos, and terminal screenshots.",
+   "note": "要自己申请 X API key",
+   "note_en": "Needs your own X API keys.",
+   "stars": 12,
+   "pushed_at": "2026-11-16",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add win4r/x-post-skill",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "iamzifei/red-publisher-skill",
    "url": "https://github.com/iamzifei/red-publisher-skill",
    "name": "red-publisher-skill",
@@ -5782,6 +6355,31 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "Mahanaicoach/content-repurposer",
+   "url": "https://github.com/Mahanaicoach/content-repurposer",
+   "name": "content-repurposer",
+   "group": "publish",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "把一条 Reel 或 TikTok 改成 Instagram、TikTok、YouTube 各自合适的版本，重点改行动号召，再排期发出",
+   "desc_en": "Turns one short-form video (a Reel or a TikTok) into platform-correct versions for Instagram, TikTok and YouTube, with the right call to action for each, then schedules the TikTok and YouTube posts through your own Zernio account.",
+   "note": "",
+   "note_en": "",
+   "stars": 6,
+   "pushed_at": "2026-10-30",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add Mahanaicoach/content-repurposer",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "posteyai/skills",
    "url": "https://github.com/posteyai/skills",
    "name": "Postey",
@@ -5847,6 +6445,30 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "EasonZhu1997/Eason-Agent-Skills",
+   "url": "https://github.com/EasonZhu1997/Eason-Agent-Skills",
+   "name": "Eason-Agent-Skills",
+   "group": "publish",
+   "platforms": [
+    "zhihu",
+    "general"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "个人技能库：把 Word、TXT、Markdown 图文发到知乎、掘金、CSDN，另有手绘图解和架构图技能",
+   "desc_en": "A personal skill library for publishing Word, TXT and Markdown articles with images to Zhihu, Juejin, CSDN and the Rokid forum, plus hand-drawn explainer, diagram and course-slide skills.",
+   "note": "",
+   "note_en": "",
+   "stars": 5,
+   "pushed_at": "2026-11-05",
+   "license": "MIT",
+   "skills": 11,
+   "install": "npx skills add EasonZhu1997/Eason-Agent-Skills",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "baijunjie/x-social-skill",
    "url": "https://github.com/baijunjie/x-social-skill",
    "name": "x-social-skill",
@@ -5870,6 +6492,40 @@
    "license": "MIT",
    "skills": 1,
    "install": "npx skills add baijunjie/x-social-skill",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "brightbeanxyz/brightbean-platform-agent",
+   "url": "https://github.com/brightbeanxyz/brightbean-platform-agent",
+   "name": "brightbean-platform-agent",
+   "group": "publish",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube",
+    "linkedin",
+    "threads",
+    "facebook",
+    "pinterest"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "openclaw"
+   ],
+   "featured": false,
+   "desc": "BrightBean 的 agent 接入：起草、排期、排队、发布和统计社媒帖子，附 MCP 和示例代码",
+   "desc_en": "BrightBean's agent kit: draft, schedule, queue, publish and measure social posts through BrightBean from Claude Code, Codex, Cursor, OpenClaw and other agents, with an MCP server, REST reference and runnable examples.",
+   "note": "要 BrightBean 账号",
+   "note_en": "Needs a BrightBean account.",
+   "stars": 3,
+   "pushed_at": "2026-11-02",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add brightbeanxyz/brightbean-platform-agent",
    "checked": "2026-11-16"
   },
   {
@@ -5900,6 +6556,29 @@
    "license": "MIT",
    "skills": 8,
    "install": "npx skills add PostLake/postlake-mcp",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "Readarkclub/wechat-publisher-pro",
+   "url": "https://github.com/Readarkclub/wechat-publisher-pro",
+   "name": "wechat-publisher-pro",
+   "group": "publish",
+   "platforms": [
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "公众号文章生成、排版和发布：AI 生成封面，小红书风格排版，一键上传进草稿箱",
+   "desc_en": "Generates, lays out and publishes WeChat Official Account articles: AI cover images, Xiaohongshu-style emoji layout and one-step upload to the draft box.",
+   "note": "要在公众号后台配 IP 白名单",
+   "note_en": "You need to whitelist your IP in the WeChat back end.",
+   "stars": 3,
+   "pushed_at": "2026-11-06",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add Readarkclub/wechat-publisher-pro",
    "checked": "2026-11-16"
   },
   {
@@ -6860,6 +7539,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "kizzhang/autody",
+   "url": "https://github.com/kizzhang/autody",
+   "name": "Autody",
+   "group": "research",
+   "platforms": [
+    "xiaohongshu",
+    "douyin"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "codex"
+   ],
+   "featured": false,
+   "desc": "给一个主题，自动搜小红书和抖音、读作品和评论，整理受众问题和选题，也能复盘自己的抖音号",
+   "desc_en": "Give it a topic and it searches Xiaohongshu and Douyin, reads posts and comments, fills gaps and reports what the audience cares about and what you could make; it can also review your own Douyin account.",
+   "note": "用 Codex 的 Chrome 扩展，要在 Chrome 登录两个平台",
+   "note_en": "Uses Codex's Chrome extension; log in to both platforms in Chrome.",
+   "stars": 98,
+   "pushed_at": "2026-10-30",
+   "license": "MIT",
+   "skills": 10,
+   "install": "npx skills add kizzhang/autody",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "KANIKIG/wechat-search-weread",
    "url": "https://github.com/KANIKIG/wechat-search-weread",
    "name": "wechat-search-weread",
@@ -7079,6 +7784,29 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "aiiqc/xhs-creator-distill",
+   "url": "https://github.com/aiiqc/xhs-creator-distill",
+   "name": "xhs-creator-distill",
+   "group": "research",
+   "platforms": [
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "从 3 到 8 篇代表笔记或整号资料里，提炼有证据、可迁移的小红书创作者内容方法",
+   "desc_en": "Distills an evidence-backed, transferable content system from 3 to 8 representative Xiaohongshu notes, a public account or a full export, with auditable modes; it extracts methods, not a creator's persona or wording.",
+   "note": "",
+   "note_en": "",
+   "stars": 19,
+   "pushed_at": "2026-10-31",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add aiiqc/xhs-creator-distill",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "um-why/xiaohongshu-openclaw-skill",
    "url": "https://github.com/um-why/xiaohongshu-openclaw-skill",
    "name": "xiaohongshu-openclaw-skill",
@@ -7266,6 +7994,35 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "lonely-dance-lab/self-media-guide",
+   "url": "https://github.com/lonely-dance-lab/self-media-guide",
+   "name": "self-media-guide",
+   "group": "research",
+   "platforms": [
+    "douyin",
+    "xiaohongshu",
+    "bilibili",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "爆款对标分析：给一条或几条视频，看懂它为什么火、值不值得对标、怎么换成自己的内容，出完整报告",
+   "desc_en": "A viral-benchmark skill from a self-media guide: give it one or more videos (links or local files) and it explains why they worked, whether to benchmark them and how to remake them as your own, in a full report; the repo also has the guide's templates.",
+   "note": "",
+   "note_en": "",
+   "stars": 6,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add lonely-dance-lab/self-media-guide",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "DevinChen2014/socialdatax-skills",
    "url": "https://github.com/DevinChen2014/socialdatax-skills",
    "name": "SocialDataX",
@@ -7354,6 +8111,84 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "apismith-labs/instagram-ai-agent-skills",
+   "url": "https://github.com/apismith-labs/instagram-ai-agent-skills",
+   "name": "instagram-ai-agent-skills",
+   "group": "research",
+   "platforms": [
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "Instagram 公开视频的几个 skill：提取逐字稿、读帖子数据、按天或周盘点指定创作者的 Reels",
+   "desc_en": "Independent skills for public Instagram video content: transcript extraction, media links and post insights, and daily or weekly source-linked reports on named creators' Reels.",
+   "note": "通过 Apify 抓数据",
+   "note_en": "Fetches data through Apify.",
+   "stars": 4,
+   "pushed_at": "2026-11-13",
+   "license": "MIT",
+   "skills": 3,
+   "install": "npx skills add apismith-labs/instagram-ai-agent-skills",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "GreedyC/instagram-list-inspector",
+   "url": "https://github.com/GreedyC/instagram-list-inspector",
+   "name": "instagram-list-inspector",
+   "group": "research",
+   "platforms": [
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "codex",
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "在已登录的浏览器里对比 Instagram 名单：粉丝和关注、互关、没回关、点赞的人和重复点赞者，只读",
+   "desc_en": "Compares Instagram lists visible in your signed-in browser: followers and following across accounts, mutuals, non-follow-backs, post and Reel likers against audiences and repeat likers; read-only, reports coverage limits.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-10-31",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add GreedyC/instagram-list-inspector",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "Virlo-AI/Virlo-Agent-Plugin",
+   "url": "https://github.com/Virlo-AI/Virlo-Agent-Plugin",
+   "name": "Virlo-Agent-Plugin",
+   "group": "research",
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "Virlo 官方插件：查 TikTok、Shorts、Reels 上的热门内容，拆爆款原因，查创作者和热门音乐话题",
+   "desc_en": "Virlo's official agent plugin: find what is trending on TikTok, YouTube Shorts and Instagram Reels, see why a video went viral, look up any creator and catch trending sounds and hashtags, with a skill and an MCP server.",
+   "note": "要 Virlo 账号",
+   "note_en": "Needs a Virlo account.",
+   "stars": 4,
+   "pushed_at": "2026-11-07",
+   "license": "MIT",
+   "skills": 2,
+   "install": "npx skills add Virlo-AI/Virlo-Agent-Plugin",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "ythx-101/x-monitor",
    "url": "https://github.com/ythx-101/x-monitor",
    "name": "x-monitor",
@@ -7428,6 +8263,37 @@
    "skills": 3,
    "install": "npx skills add apidojo-io/social-media-skills",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "caodoris471/blogger-video-pipeline",
+   "url": "https://github.com/caodoris471/blogger-video-pipeline",
+   "name": "blogger-video-pipeline",
+   "group": "research",
+   "platforms": [
+    "douyin",
+    "xiaohongshu",
+    "channels",
+    "kuaishou",
+    "bilibili",
+    "youtube",
+    "tiktok"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "workbuddy"
+   ],
+   "featured": false,
+   "desc": "对标博主视频批量采集：定位账号、筛选下载、本地转写、提炼观点、改写脚本，统一归档",
+   "desc_en": "Batch research on a benchmark creator's videos: locate the account, filter and download videos, transcribe locally, extract the ideas, rewrite scripts in your style and archive everything; a skill with platform guides and Python scripts.",
+   "note": "按 WorkBuddy 和 Windows 写的，用别的 agent 要自己适配",
+   "note_en": "Written for WorkBuddy on Windows; other agents need adapting.",
+   "stars": 3,
+   "pushed_at": "2026-11-05",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add caodoris471/blogger-video-pipeline",
+   "checked": "2026-11-16"
   },
   {
    "repo": "why20261/douyin-social",
@@ -7507,6 +8373,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "JuneYaooo/viral-structure-teardown",
+   "url": "https://github.com/JuneYaooo/viral-structure-teardown",
+   "name": "viral-structure-teardown",
+   "group": "research",
+   "platforms": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "爆款结构拆解：把对标视频字幕拆成钩子、留人、转折、转化的时间轴，攒成模板，给新脚本定落点",
+   "desc_en": "Breaks a benchmark video's subtitles into a hook, retention, turn and conversion timeline, saves them as templates and tells you where each beat should land in a new script.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-03",
+   "license": "Apache-2.0",
+   "skills": 1,
+   "install": "npx skills add JuneYaooo/viral-structure-teardown",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "maxxyart/viral-tiktok-skills",
    "url": "https://github.com/maxxyart/viral-tiktok-skills",
    "name": "viral-tiktok-skills",
@@ -7532,6 +8424,31 @@
    "license": "MIT",
    "skills": 11,
    "install": "npx skills add maxxyart/viral-tiktok-skills",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "BrandonChin827/youtube-outliers-claude-code",
+   "url": "https://github.com/BrandonChin827/youtube-outliers-claude-code",
+   "name": "youtube-outliers-claude-code",
+   "group": "research",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "找你关注的 YouTube 创作者里表现异常好的视频，按话题归类，拆最适合你的五条变成选题",
+   "desc_en": "Finds unusually strong videos among the creators you follow, from this week back to six months, compares each with that creator's normal views, groups breakouts by topic and breaks down the five that fit your channel into video ideas.",
+   "note": "要 ScrapeCreators 的 API key",
+   "note_en": "Needs a ScrapeCreators API key.",
+   "stars": 3,
+   "pushed_at": "2026-11-03",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add BrandonChin827/youtube-outliers-claude-code",
    "checked": "2026-11-16"
   },
   {
@@ -7744,6 +8661,29 @@
    "skills": 1,
    "install": "npx skills add sharbelxyz/nova-youtube-agent",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "ChristianDiBratto25/hattip-linkedin-os",
+   "url": "https://github.com/ChristianDiBratto25/hattip-linkedin-os",
+   "name": "hattip-linkedin-os",
+   "group": "strategy",
+   "platforms": [
+    "linkedin"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "在 Claude 应用里跑的 LinkedIn 运营系统：访谈你的业务，定漏斗策略，排一个月选题，按你的口吻写帖",
+   "desc_en": "A LinkedIn strategy and writing system that runs inside the Claude app: it interviews you about your business, builds a funnel strategy you approve, plans a month of post ideas and helps you write and edit posts in your own voice.",
+   "note": "",
+   "note_en": "",
+   "stars": 118,
+   "pushed_at": "2026-10-30",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add ChristianDiBratto25/hattip-linkedin-os",
+   "checked": "2026-11-16"
   },
   {
    "repo": "Lulu-Eva/Eva-skill",
@@ -8346,6 +9286,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "anwerj/youtube-uploader-mcp",
+   "url": "https://github.com/anwerj/youtube-uploader-mcp",
+   "name": "youtube-uploader-mcp",
+   "group": "mcp",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "从 Claude、Cursor 等 MCP 客户端直接传视频到 YouTube，本地 OAuth 登录，多频道，AI 写标题描述标签",
+   "desc_en": "Upload videos to YouTube from Claude, Cursor, VS Code or any MCP client, with local OAuth login, multiple channels, token refresh and AI-written titles, descriptions and tags; secrets never go to the model.",
+   "note": "",
+   "note_en": "",
+   "stars": 69,
+   "pushed_at": "2026-10-31",
+   "license": "MIT",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "profullstack/social-poster",
    "url": "https://github.com/profullstack/social-poster",
    "name": "social-poster",
@@ -8461,6 +9424,169 @@
    "pushed_at": "2026-11-16",
    "license": "MIT",
    "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "lottshin/DingCard",
+   "url": "https://github.com/lottshin/DingCard",
+   "name": "叮卡 DingCard",
+   "group": "mcp",
+   "platforms": [
+    "xiaohongshu",
+    "wechat"
+   ],
+   "format": "mcp",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "叮卡：浏览器里的图文卡片编辑器，长文自动排成卡片，AI 经 22 个 MCP 工具出图，生成后能接着改",
+   "desc_en": "DingCard: an open-source browser editor that turns long text into image cards and posters; AI clients use the same document model, validation and export through 22 MCP tools, and the result stays editable in the editor.",
+   "note": "",
+   "note_en": "",
+   "stars": 16,
+   "pushed_at": "2026-10-31",
+   "license": "MIT",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "Abhishek-B-R/social0-oss",
+   "url": "https://github.com/Abhishek-B-R/social0-oss",
+   "name": "Social0",
+   "group": "mcp",
+   "platforms": [
+    "x",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "linkedin",
+    "threads",
+    "facebook",
+    "pinterest"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "Social0：多平台排期发帖，带实时数据和统一收件箱，后台能做的都开放成 REST、命令行和 MCP",
+   "desc_en": "Social0: a multi-platform social scheduler that publishes to nine networks in parallel, with live analytics, a unified inbox and automation; everything the dashboard does is also available over a REST API, a CLI and an MCP server.",
+   "note": "",
+   "note_en": "",
+   "stars": 8,
+   "pushed_at": "2026-11-03",
+   "license": "AGPL-3.0",
+   "skills": 4,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "isaacrowntree/claude-social-skills",
+   "url": "https://github.com/isaacrowntree/claude-social-skills",
+   "name": "claude-social-skills",
+   "group": "mcp",
+   "platforms": [
+    "x",
+    "reddit",
+    "facebook",
+    "instagram",
+    "threads",
+    "youtube",
+    "pinterest"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "一个命令行管 X、Reddit、Facebook、Instagram、Threads、YouTube、Pinterest 等平台，每个平台配一个 skill",
+   "desc_en": "One CLI for X, Bluesky, Mastodon, Reddit, Facebook, Instagram, Threads, YouTube, Pinterest, Discord, eBay, Etsy and email, built from each platform's published API and run by Bun, with one Claude Code skill per platform generated from the binary.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-11-03",
+   "license": "MIT",
+   "skills": 13,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "cloudy-sfu/MCP-rednote-assistant",
+   "url": "https://github.com/cloudy-sfu/MCP-rednote-assistant",
+   "name": "MCP-rednote-assistant",
+   "group": "mcp",
+   "platforms": [
+    "xiaohongshu"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "从小红书网页采集数据的 MCP，用你导出的 cookie 登录",
+   "desc_en": "An MCP server that collects data from the Xiaohongshu website, using cookies you export from your browser.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-11-16",
+   "license": "GPL-3.0",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "Tommyapi/OpenMediaCrawl",
+   "url": "https://github.com/Tommyapi/OpenMediaCrawl",
+   "name": "OpenMediaCrawl",
+   "group": "mcp",
+   "platforms": [
+    "xiaohongshu",
+    "douyin",
+    "kuaishou",
+    "bilibili",
+    "weibo",
+    "tiktok",
+    "x"
+   ],
+   "format": "mcp",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "MIT 可商用的自媒体采集工具：小红书、抖音、快手、B站、微博等搜索、详情、评论和下载，附 catbus 命令行 skill",
+   "desc_en": "An MIT-licensed bulk collector for Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, TikTok and X: keyword search, post details, profiles, comments and replies, media download, resumable crawls and a web UI, plus a skill for the catbus CLI.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-11-01",
+   "license": "MIT",
+   "skills": 1,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "xiaoY233/nitter",
+   "url": "https://github.com/xiaoY233/nitter",
+   "name": "nitter",
+   "group": "mcp",
+   "platforms": [
+    "x"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "自托管的只读网关，让 agent 读 X 的公开数据：用户、帖子、搜索，同一套工具走 REST、MCP 和 skill",
+   "desc_en": "A self-hosted, read-only gateway that lets agents read public X data (profiles, posts, search and more); one set of tools served over REST, MCP and agent skills, with Nitter's web front end kept alongside.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-07",
+   "license": "AGPL-3.0",
+   "skills": 1,
    "install": null,
    "checked": "2026-11-16"
   },

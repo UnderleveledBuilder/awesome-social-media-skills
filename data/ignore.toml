@@ -280,6 +280,38 @@ reason = "抖音观看历史、收藏导出和刷视频的桌面工作台，没�
 repo = "zhaohuaxs/DyLike"
 reason = "安卓弹幕播放器，不管运营，也没有 agent 接口"
 
+[[ignored]]
+repo = "zhzLuke96/douyin-dl-user-js"
+reason = "下载、去水印或解析视频的工具，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "xingmihai/short-video-parser"
+reason = "下载、去水印或解析视频的工具，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "help660vip/Yunzai-video-plugin"
+reason = "Yunzai 机器人的链接和视频解析插件，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "thintsing/MelodyMine"
+reason = "多平台音乐下载和打标签工具，虽带 skill，但不管账号运营"
+
+[[ignored]]
+repo = "0xFANGO/fetchy"
+reason = "下载、去水印或解析视频的工具，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "huzhenchen66-cloud/VideoDownloader"
+reason = "下载、去水印或解析视频的工具，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "SomnusWei/DownloadTooler"
+reason = "下载、去水印或解析视频的工具，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "tianxing-ovo/AutoSlide"
+reason = "安卓自动滑屏工具，刷视频和测试用，不管运营，也没有 agent 接口"
+
 # 平台数据接口和爬虫
 
 [[ignored]]
@@ -329,6 +361,18 @@ reason = "红狐数据的 Python SDK；agent 用法已收录 redfox-data/redfox-
 [[ignored]]
 repo = "yansongda/pay"
 reason = "支付 SDK，和自媒体无关"
+
+[[ignored]]
+repo = "bububa/oceanengine"
+reason = "巨量引擎营销 API 的 Go SDK，广告投放用，没有 SKILL.md 或 MCP"
+
+[[ignored]]
+repo = "Aswellle/WeMediaCrawler"
+reason = "MediaCrawler 的改界面分支，没有 SKILL.md 或 MCP，装不进 agent"
+
+[[ignored]]
+repo = "Decodo/sdk-ts"
+reason = "平台数据的接口、SDK 或爬虫，没有 SKILL.md 或 MCP，装不进 agent"
 
 # 直播工具
 
@@ -390,6 +434,10 @@ reason = "直播录制、弹幕或直播中控工具，没有 agent 接口"
 
 [[ignored]]
 repo = "ymstar/dyhub"
+reason = "直播录制、弹幕或直播中控工具，没有 agent 接口"
+
+[[ignored]]
+repo = "jiabenguiyin/DMRStudio"
 reason = "直播录制、弹幕或直播中控工具，没有 agent 接口"
 
 # 刷量和引流
@@ -556,6 +604,58 @@ reason = "把视频转成笔记或知识库，是给看的人用的，不服务�
 repo = "YutaiGu/briefing"
 reason = "追踪新视频出简报，给看的人用，不服务账号运营"
 
+[[ignored]]
+repo = "teng-lin/weread-omni"
+reason = "微信读书的命令行、SDK 和 skill，是读者工具，不服务账号运营"
+
+[[ignored]]
+repo = "Lum1104/video-to-skill"
+reason = "把视频或课程变成学习用的 skill，是给学的人用的，不服务账号运营"
+
+[[ignored]]
+repo = "Gemi-Team/video-to-skill"
+reason = "把视频变成 skill 的学习工具，不服务账号运营"
+
+[[ignored]]
+repo = "skepty2333/Douyin-full-stack-summarizer"
+reason = "把视频转成笔记或知识库，是给看的人用的，不服务账号运营"
+
+[[ignored]]
+repo = "sanjin587/info-collector"
+reason = "把视频转成笔记或知识库，是给看的人用的，不服务账号运营"
+
+[[ignored]]
+repo = "PerpperQAQ/video-transcript"
+reason = "把视频转成笔记或知识库，是给看的人用的，不服务账号运营"
+
+[[ignored]]
+repo = "zeke/transcription-skill"
+reason = "通用的音视频转文字工具，不服务账号运营"
+
+[[ignored]]
+repo = "0xSero/research-skills"
+reason = "调研机构、频道或人物并存进知识库，转写翻译 YouTube 字幕，不服务账号运营"
+
+[[ignored]]
+repo = "qwer3021/douyin-Michael-DaMaiGe-skill"
+reason = "把视频转成笔记或知识库，是给看的人用的，不服务账号运营"
+
+[[ignored]]
+repo = "AntaresGG/BiliBiliVideoParser"
+reason = "把视频转成笔记或知识库，是给看的人用的，不服务账号运营"
+
+[[ignored]]
+repo = "marwanm7moud/watch-video"
+reason = "让 agent 看视频的通用 MCP，不服务账号运营"
+
+[[ignored]]
+repo = "seyeeL/web-extract"
+reason = "把网页存成 Markdown 或 HTML 的存档工具，不服务账号运营"
+
+[[ignored]]
+repo = "Ericxiang2025/notes-to-obsidian"
+reason = "把各平台笔记和录音整理进 Obsidian 的知识库工具，不服务账号运营"
+
 # 应用和网页工具（没有 agent 接口或未到 1k★）
 
 [[ignored]]
@@ -674,6 +774,54 @@ reason = "应用，没有可单独装进 agent 的 skill 或 MCP，未到平台�
 repo = "YusufSizmaz/social-agent-ai"
 reason = "应用，没有可单独装进 agent 的 skill 或 MCP，未到平台收录门槛（≥1k★）"
 
+[[ignored]]
+repo = "ziguishian/MxPage"
+reason = "电商详情页和商品图生成应用，没有 skill 或 MCP，未到 1k★"
+
+[[ignored]]
+repo = "garycaogan/gary-content-workbench"
+reason = "应用，没有可单独装进 agent 的 skill 或 MCP，未到平台收录门槛（≥1k★）"
+
+[[ignored]]
+repo = "CzzzzzzJ/mdldm-maitian-publisher"
+reason = "麦田工作台的浏览器扩展，替你填各平台发布表单；本身没有 skill 或 MCP"
+
+[[ignored]]
+repo = "farzanmrz/oparax"
+reason = "给新闻记者的社媒自动化网页应用，仓库里的 skill 是开发它用的，未到 1k★"
+
+[[ignored]]
+repo = "monarcpro/social-agents-lab"
+reason = "Cloudflare 多 agent 工作坊的示例应用，不是可装的工具"
+
+[[ignored]]
+repo = "Ootto-AI/claude-figma-stack"
+reason = "一套搭法说明加评论自动私信脚本，没有 skill 或 MCP"
+
+[[ignored]]
+repo = "Garden12138/garden-flow"
+reason = "桌面写作应用，skill 内置在应用里不能单独装，未到 1k★"
+
+[[ignored]]
+repo = "lin-or-feng/personax"
+reason = "应用，没有可单独装进 agent 的 skill 或 MCP，未到平台收录门槛（≥1k★）"
+
+[[ignored]]
+repo = "murilobellatini/smart-poster"
+reason = "应用，没有可单独装进 agent 的 skill 或 MCP，未到平台收录门槛（≥1k★）"
+
+[[ignored]]
+repo = "buildproven/postrail"
+reason = "应用，没有可单独装进 agent 的 skill 或 MCP，未到平台收录门槛（≥1k★）"
+
+[[ignored]]
+repo = "stukenov/postpilot"
+reason = "命令行排期发帖工具，没有 SKILL.md 或 MCP，未到 1k★"
+
+[[ignored]]
+repo = "Alice-P197/blackcat-studio"
+reason = "公众号 Markdown 排版网页，没有 agent 接口，未到 1k★"
+
 # 写死、副本、说明不全
 
 [[ignored]]
@@ -727,6 +875,18 @@ reason = "作者给自己账号矩阵和微信群「AI 实战派」写的运营 
 [[ignored]]
 repo = "zhangkunlv-ship-it/xuehui-shortvideo-skill"
 reason = "仓库已删除或无法访问（11-16）"
+
+[[ignored]]
+repo = "TrollisUnderworld/TickTock-rpocket-Automation"
+reason = "仓库只有 initial.html 和 CONTRIBUTING.md，没有可用内容"
+
+[[ignored]]
+repo = "Abdelmathin/abdelmathin"
+reason = "个人主页仓库，没有工具"
+
+[[ignored]]
+repo = "mengxing123456789/code-animation-341-styles"
+reason = "搬运 B 站 UP 主的代码动画提示词库，没有 skill，也不专做自媒体"
 
 # 不专做自媒体运营
 
@@ -1185,3 +1345,63 @@ reason = "笔记应用，和自媒体无关"
 [[ignored]]
 repo = "zzmy1917-svg/cheap-vpn-airport"
 reason = "VPN 机场推广，不是自媒体工具"
+
+[[ignored]]
+repo = "sleepyquq/xiangsu-mcp"
+reason = "抖音像塑（小游戏编辑器）的 MCP，做游戏用，不服务内容运营"
+
+[[ignored]]
+repo = "EdoMarto/linkedin-salary-estimator"
+reason = "求职工具，和自媒体无关"
+
+[[ignored]]
+repo = "liufeng1976/douyin-taobao-cs"
+reason = "电商客服消息接入，不服务内容运营"
+
+[[ignored]]
+repo = "ronitgupta43-ops/country-skills"
+reason = "各国税务、加密货币和求职计算器，和自媒体无关"
+
+[[ignored]]
+repo = "indranilbanerjee/neels-plugins"
+reason = "通用营销或广告投放，不专做自媒体运营"
+
+[[ignored]]
+repo = "Paraschamoli/RivalRadar"
+reason = "本地商家竞品分析，不专做自媒体运营"
+
+[[ignored]]
+repo = "bereach-ai/linkedin-prospecting-skills"
+reason = "LinkedIn 销售拓客和冷邮件，不专做自媒体运营"
+
+[[ignored]]
+repo = "Growth-Today/claude-skills"
+reason = "B2B 销售、CRM 和投放的技能合集，不专做自媒体运营"
+
+[[ignored]]
+repo = "VaJoy/douyin-minigame-helper"
+reason = "抖音小游戏开发文档，和自媒体无关"
+
+[[ignored]]
+repo = "milad-ahmd/agent-skills"
+reason = "通用 skill 合集，和自媒体有关的很少"
+
+[[ignored]]
+repo = "adwaith620/ML-PROJECT-LINKEDIN"
+reason = "简历筛选工具，和自媒体无关"
+
+[[ignored]]
+repo = "200iqlabs/shared-skills"
+reason = "通用 skill 合集，和自媒体有关的很少"
+
+[[ignored]]
+repo = "SOsintOps/Wukong"
+reason = "中文互联网 OSINT 调查工作站，和自媒体无关"
+
+[[ignored]]
+repo = "ChuluuMGL/yueyu-skill"
+reason = "代运营公司介绍自家服务的只读 MCP，是广告，不是工具"
+
+[[ignored]]
+repo = "quqxui/context-aware-humanizer"
+reason = "通用润色和去 AI 味，偏学术写作，不专做自媒体"
