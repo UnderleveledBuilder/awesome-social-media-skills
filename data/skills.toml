@@ -4498,3 +4498,16 @@ agents = ["claude-code", "cursor", "codex"]
 note = "要 EasySociable 账号（CLI 里 easysociable auth login），成图在它的网页 Studio 里改和下载"
 note_en = "Requires an EasySociable account (easysociable auth login in the CLI); you edit and download the pages in its web Studio."
 checked = 2026-11-13
+
+[[skills]]
+repo = "octopost-ink/octopost-plugin"
+name = "Octopost"
+desc = "Octopost 的 MCP 和 skill：agent 通过一次调用在 X、Bluesky、Mastodon、LinkedIn 发帖、排期、发串，发布前可人工审批"
+desc_en = "Octopost's MCP server and skill: your agent posts, schedules and threads to X, Bluesky, Mastodon and LinkedIn, and a person can approve posts before they go out."
+group = "publish"
+platforms = ["x", "linkedin"]
+format = "skill"
+lang = "en"
+note = "要 Octopost 账号，付费订阅，7 天试用 1 美元"
+note_en = "Requires an Octopost account; paid plans from $29/month, with a 7-day trial for $1."
+checked = 2026-11-18
