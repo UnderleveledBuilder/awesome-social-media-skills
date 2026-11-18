@@ -230,7 +230,7 @@ Many projects come from China's creator scene (Xiaohongshu, Douyin, WeChat Offic
 - [wavegrain-mcp](https://github.com/wavegrain/wavegrain-mcp) ★1: Wavegrain's MCP server: your agent plans posts for a brand, makes TikTok slideshows and Instagram carousels from your brand and photos, edits slide text, and schedules or exports them.
 - [skills](https://github.com/HoneyVid/skills) ★0: Viral AI short videos: put a person, pet or character from one photo into a trending video template, or generate videos and images with Kling, Veo and Seedance, quoting credits before each run.
 - [account-diagnosis-skill](https://github.com/Jian21311/account-diagnosis-skill) ★0: Rules for an account diagnosis: decide which path the available evidence allows before judging, grade six dimensions in three bands, rank the single fix instead of summing a score, and skip completion-rate maths when the public page has no view count.
-- [FlashData MCP](https://github.com/rocosen/flashdata-mcp) ★0: FlashData's MCP server and CLI: search YouTube videos and channels, read metadata and timestamped transcripts, and query Google Search, News and Images, with a task skill for each source.
+- [FlashData MCP](https://github.com/rocosen/flashdata-mcp) ★0: Search Google for web pages, news and images; look up YouTube videos, channels and transcripts; and download YouTube video or audio to your cloud storage. A free trial is available on request.
 - [EasySociable](https://github.com/murphywuwu/easysociable-mcp) ★0: Branded carousels: your agent writes the slide copy, EasySociable applies layouts and your brand kit, and you get multi-page images sized for TikTok, Instagram, LinkedIn, Threads and Xiaohongshu.
 
 <a id="by-group"></a>
@@ -1795,7 +1795,7 @@ Tools that let an agent read from and post to a platform; often paired with the 
 
 - **[wavegrain-mcp](https://github.com/wavegrain/wavegrain-mcp)** · ★ 1<br>Wavegrain's MCP server: your agent plans posts for a brand, makes TikTok slideshows and Instagram carousels from your brand and photos, edits slide text, and schedules or exports them.<br><sub>Platforms: TikTok · Instagram</sub><br><sub>updated 2026-11-13 · 🔌 MCP · English · MIT</sub><br><sub>💡 The server is hosted by Wavegrain and needs a Wavegrain account; you set a daily credit limit when connecting.</sub>
 
-- **[FlashData MCP](https://github.com/rocosen/flashdata-mcp)** · ★ 0<br>FlashData's MCP server and CLI: search YouTube videos and channels, read metadata and timestamped transcripts, and query Google Search, News and Images, with a task skill for each source.<br><sub>Platforms: YouTube</sub><br><sub>updated 2026-11-11 · 🔌 MCP · English · 34 skills · MIT</sub><br><sub>💡 Data requests need a FlashData API key and paid credits; there is no free tier.</sub>
+- **[FlashData MCP](https://github.com/rocosen/flashdata-mcp)** · ★ 0<br>Search Google for web pages, news and images; look up YouTube videos, channels and transcripts; and download YouTube video or audio to your cloud storage. A free trial is available on request.<br><sub>Platforms: YouTube</sub><br><sub>updated 2026-11-11 · 🔌 MCP · English · 34 skills · MIT</sub><br><sub>💡 API calls require a FlashData API key and use credits.</sub>
 
 
 <a id="group-apps"></a>
