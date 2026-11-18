@@ -230,7 +230,7 @@
 - [wavegrain-mcp](https://github.com/wavegrain/wavegrain-mcp) ★1：Wavegrain 的 MCP：让 agent 按你的品牌规划帖子，做 TikTok 图文和 Instagram 轮播，改每页文字，排进日历或导出
 - [skills](https://github.com/HoneyVid/skills) ★0：爆款 AI 短视频：用一张照片把人物、宠物或角色放进热门视频模板，或用 Kling、Veo、Seedance 生成视频和图片，先报价再生成
 - [account-diagnosis-skill](https://github.com/Jian21311/account-diagnosis-skill) ★0：账号诊断规则：先看手上有哪些数据再定怎么判，六个维度分三档，不给总分，只指出最该改的一件；没有播放量就不算完播率
-- [FlashData MCP](https://github.com/rocosen/flashdata-mcp) ★0：FlashData 的 MCP 和命令行：搜 YouTube 视频和频道，读元数据和带时间戳的字幕，也能查 Google 搜索、新闻和图片
+- [FlashData MCP](https://github.com/rocosen/flashdata-mcp) ★0：搜索 Google 网页、新闻和图片；查询 YouTube 视频、频道和字幕；下载 YouTube 视频或音频到自己的云存储。可申请免费试用。
 - [EasySociable](https://github.com/murphywuwu/easysociable-mcp) ★0：品牌轮播图：agent 写每页文案，EasySociable 套版式和品牌色，出 TikTok、Instagram、LinkedIn、小红书尺寸的多页图
 
 <a id="by-group"></a>
@@ -1795,7 +1795,7 @@ npx skills add Jian21311/account-diagnosis-skill
 
 - **[wavegrain-mcp](https://github.com/wavegrain/wavegrain-mcp)** · ★ 1<br>Wavegrain 的 MCP：让 agent 按你的品牌规划帖子，做 TikTok 图文和 Instagram 轮播，改每页文字，排进日历或导出<br><sub>平台：TikTok · Instagram</sub><br><sub>更新于 2026-11-13 · 🔌 MCP · 英文 · MIT</sub><br><sub>💡 服务在 Wavegrain 云端，要 Wavegrain 账号，连接时设每天的积分上限</sub>
 
-- **[FlashData MCP](https://github.com/rocosen/flashdata-mcp)** · ★ 0<br>FlashData 的 MCP 和命令行：搜 YouTube 视频和频道，读元数据和带时间戳的字幕，也能查 Google 搜索、新闻和图片<br><sub>平台：YouTube</sub><br><sub>更新于 2026-11-11 · 🔌 MCP · 英文 · 34 个 skill · MIT</sub><br><sub>💡 数据调用要 FlashData 的 API key 和付费积分，没有免费档</sub>
+- **[FlashData MCP](https://github.com/rocosen/flashdata-mcp)** · ★ 0<br>搜索 Google 网页、新闻和图片；查询 YouTube 视频、频道和字幕；下载 YouTube 视频或音频到自己的云存储。可申请免费试用。<br><sub>平台：YouTube</sub><br><sub>更新于 2026-11-11 · 🔌 MCP · 英文 · 34 个 skill · MIT</sub><br><sub>💡 API 调用需要 FlashData API Key，按积分计费。</sub>
 
 
 <a id="group-apps"></a>
