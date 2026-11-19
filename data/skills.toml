@@ -4367,13 +4367,15 @@ checked = 2026-10-19
 
 [[skills]]
 repo = "Jamailar/Beav"
-desc = "Beav（原 RedBox）：小红书 AI 运营工作台，采集笔记和评论、素材库、选题、写作和配图，本地桌面应用"
-desc_en = "Beav (formerly RedBox): a local desktop AI workspace for Xiaohongshu — collect notes and comments, build a material library, plan topics, write and lay out images."
+desc = "Beav：桌面小红书 AI 运营工具，采集笔记与评论、管理本地素材，一键出标题正文封面配图，支持数字人口播视频。"
+desc_en = "Beav: an AI desktop workspace for Xiaohongshu. Collect notes and comments, organize local media, generate a complete image-and-text post, and create talking-head avatar videos."
 group = "apps"
 platforms = ["xiaohongshu"]
 format = "app"
 lang = "zh"
-checked = 2026-10-19
+checked = 2026-11-19
+note = "正式版下载和图文工作流见 [Beav 官网](https://beav.pro/xiaohongshu-tools)。仓库公开源码快照与持续迭代的正式版有版本差异。"
+note_en = "See the [official Xiaohongshu workflow](https://beav.pro/xiaohongshu-tools) for the current desktop release. This repository also contains a source snapshot from an earlier version."
 
 [[skills]]
 repo = "LocoreMind/locoagent"
