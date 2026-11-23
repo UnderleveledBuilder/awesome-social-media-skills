@@ -1900,7 +1900,7 @@ checked = 2026-11-16
 
 [[skills]]
 repo = "rnthking/redya-skills"
-name = "红鸦 RedYA"
+name = "小红书图文与实况图·红鸦 AI"
 desc = "红鸦小红书图文：输入主题或链接生成标题、正文和整套图片，图片转 Live 实况，查敏感词"
 desc_en = "RedYA for agents: generate Xiaohongshu titles, body text and a full image set from a topic or link, turn images into Live Photos and check copy for sensitive words, via a skill, MCP or OpenAPI."
 group = "visual"
