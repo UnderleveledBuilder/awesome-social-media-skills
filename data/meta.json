@@ -4005,6 +4005,20 @@
       "stars": 76,
       "status": "missing"
     },
+    "octopost-ink/octopost-plugin": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "MCP server to post to X (Twitter) from Claude Code, Cursor or any agent: post, schedule, queue and thread, with a human approval queue.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "octopost-ink/octopost-plugin",
+      "license": "MIT",
+      "pushed_at": "2026-11-21",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 0,
+      "status": "ok"
+    },
     "oil-oil/oil-cover": {
       "archived": false,
       "default_branch": "main",

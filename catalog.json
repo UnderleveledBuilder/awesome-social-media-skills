@@ -6940,6 +6940,30 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "octopost-ink/octopost-plugin",
+   "url": "https://github.com/octopost-ink/octopost-plugin",
+   "name": "Octopost",
+   "group": "publish",
+   "platforms": [
+    "x",
+    "linkedin"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "Octopost 的 MCP 和 skill：agent 在 X、Bluesky、Mastodon、LinkedIn 发帖、排期、发串，发出前可以人工审批",
+   "desc_en": "Octopost's MCP server and skill: your agent posts, schedules and threads to X, Bluesky, Mastodon and LinkedIn, and a person can approve posts before they go out.",
+   "note": "要 Octopost 账号，月费 29 美元起，7 天试用 1 美元",
+   "note_en": "Requires an Octopost account; plans from $29/month, with a 7-day trial for $1.",
+   "stars": 0,
+   "pushed_at": "2026-11-21",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add octopost-ink/octopost-plugin",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "mvanhorn/last30days-skill",
    "url": "https://github.com/mvanhorn/last30days-skill",
    "name": "last30days-skill",

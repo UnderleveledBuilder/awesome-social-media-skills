@@ -2940,6 +2940,19 @@ note_en = "You need to whitelist your IP in the WeChat back end."
 checked = 2026-11-16
 
 [[skills]]
+repo = "octopost-ink/octopost-plugin"
+name = "Octopost"
+desc = "Octopost 的 MCP 和 skill：agent 在 X、Bluesky、Mastodon、LinkedIn 发帖、排期、发串，发出前可以人工审批"
+desc_en = "Octopost's MCP server and skill: your agent posts, schedules and threads to X, Bluesky, Mastodon and LinkedIn, and a person can approve posts before they go out."
+group = "publish"
+platforms = ["x", "linkedin"]
+format = "skill"
+lang = "en"
+note = "要 Octopost 账号，月费 29 美元起，7 天试用 1 美元"
+note_en = "Requires an Octopost account; plans from $29/month, with a 7-day trial for $1."
+checked = 2026-11-23
+
+[[skills]]
 repo = "mvanhorn/last30days-skill"
 desc = "查任意话题最近 30 天大家在说什么：Reddit、X、YouTube、TikTok、HN、Polymarket 等按点赞和真金白银排序，写成有出处的摘要"
 desc_en = "Researches what people said about any topic in the last 30 days across Reddit, X, YouTube, TikTok, Hacker News, Polymarket and the web, ranked by engagement, into a sourced summary. Xiaohongshu optional."
