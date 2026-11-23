@@ -4500,3 +4500,17 @@ agents = ["claude-code", "cursor", "codex"]
 note = "要 EasySociable 账号（CLI 里 easysociable auth login），成图在它的网页 Studio 里改和下载"
 note_en = "Requires an EasySociable account (easysociable auth login in the CLI); you edit and download the pages in its web Studio."
 checked = 2026-11-13
+
+[[skills]]
+repo = "okdataapi/skills"
+name = "okdata skills"
+desc = "社媒和电商调研：竞品动态、评论口碑、品牌提及、热点、达人、字幕、广告和商品评价，抖音、小红书、公众号、B 站、微博、TikTok、YouTube、X 等都能查"
+desc_en = "35 research skills: competitor posts, comments and word of mouth, brand mentions, trends, creators, transcripts, ads and product reviews on Douyin, Xiaohongshu, WeChat, Bilibili, Weibo, TikTok, YouTube, X and Reddit, through the okdata API."
+group = "research"
+platforms = ["douyin", "xiaohongshu", "wechat", "channels", "bilibili", "weibo", "kuaishou", "zhihu", "tiktok", "youtube", "x", "instagram", "reddit"]
+format = "skill"
+lang = "multi"
+agents = ["claude-code", "codex", "cursor", "openclaw"]
+note = "要 okdata API key，按次计费"
+note_en = "Requires an okdata API key; pay per call."
+checked = 2026-11-18
