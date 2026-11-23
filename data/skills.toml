@@ -4099,17 +4099,17 @@ note_en = "The server is hosted by Wavegrain and needs a Wavegrain account; you 
 checked = 2026-11-13
 
 [[skills]]
-repo = "rocosen/flashdata-mcp"
+repo = "flashdatadev/flashdata-mcp"
 name = "FlashData MCP"
-desc = "搜索 Google 网页、新闻和图片；查询 YouTube 视频、频道和字幕；下载 YouTube 视频或音频到自己的云存储。可申请免费试用。"
-desc_en = "Search Google for web pages, news and images; look up YouTube videos, channels and transcripts; and download YouTube video or audio to your cloud storage. A free trial is available on request."
+desc = "搜索 Google 网页、新闻、图片和购物；查 YouTube 视频、频道、元数据和字幕；下载 YouTube 音视频到自有云存储。免绑卡试用。"
+desc_en = "Search Google web, news, images and shopping; look up YouTube videos, channels, metadata and transcripts; and download YouTube video or audio to your own cloud storage through a hosted MCP server. Free trial, no credit card required."
 group = "mcp"
 platforms = ["youtube"]
 format = "mcp"
 lang = "en"
-note = "API 调用需要 FlashData API Key，按积分计费。"
-note_en = "API calls require a FlashData API key and use credits."
-checked = 2026-11-13
+note = "需要 FlashData API Key；按量计费无月费（Google 搜索 $1.00/千次、YouTube 数据 $0.50/千次、下载 $0.10/GB）。远程 MCP：https://data.flashdata.dev/mcp"
+note_en = "Requires a FlashData API key. Pay-as-you-go with no monthly fee: Google Search $1.00/1k, YouTube Data $0.50/1k, downloads $0.10/GB. Remote MCP: https://data.flashdata.dev/mcp"
+checked = 2026-11-23
 
 [[skills]]
 repo = "trypostit/trypost"

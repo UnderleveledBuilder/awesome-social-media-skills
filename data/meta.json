@@ -2619,6 +2619,20 @@
       "stars": 4,
       "status": "ok"
     },
+    "flashdatadev/flashdata-mcp": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Official FlashData MCP server for Google Search, YouTube data and media delivery, with local stdio and client integrations.",
+      "first_seen": "2026-11-13",
+      "forks": 1,
+      "full_name": "flashdatadev/flashdata-mcp",
+      "license": "MIT",
+      "pushed_at": "2026-11-19",
+      "skill_count": 34,
+      "skill_count_truncated": false,
+      "stars": 1,
+      "status": "ok"
+    },
     "freestylefly/wechat-article-extractor-skill": {
       "archived": false,
       "default_branch": "master",
@@ -4409,20 +4423,6 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 19,
-      "status": "ok"
-    },
-    "rocosen/flashdata-mcp": {
-      "archived": false,
-      "default_branch": "main",
-      "description": "Official FlashData MCP server for Google Search, YouTube data, and media downloads.",
-      "first_seen": "2026-11-13",
-      "forks": 0,
-      "full_name": "rocosen/flashdata-mcp",
-      "license": "MIT",
-      "pushed_at": "2026-11-11",
-      "skill_count": 34,
-      "skill_count_truncated": false,
-      "stars": 0,
       "status": "ok"
     },
     "rohunvora/x-research-skill": {
