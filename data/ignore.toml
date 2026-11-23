@@ -1411,3 +1411,255 @@ reason = "通用润色和去 AI 味，偏学术写作，不专做自媒体"
 [[ignored]]
 repo = "rocosen/flashdata-mcp"
 reason = "FlashData 早期的个人仓库，官方改在 flashdatadev/flashdata-mcp 维护，已收录那个"
+
+[[ignored]]
+repo = "alchaincyf/huashu-design"
+reason = "通用设计 skill（网页、App 原型、PPT、动画），小红书图文只是其中一项，不专做自媒体"
+
+[[ignored]]
+repo = "zenstory-ai/novel-to-game"
+reason = "小说改游戏的 skill，和自媒体无关"
+
+[[ignored]]
+repo = "jayjd/HuYaTv"
+reason = "聚合直播看片的 App，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "chainbase-labs/Agentkey"
+reason = "通用的联网数据插件（网页、社媒、链上数据），不专做自媒体运营"
+
+[[ignored]]
+repo = "fudiwei/DotNetCore.SKIT.FlurlHttpClient.ByteDance"
+reason = "C# 版字节跳动开放平台 SDK，给开发者用的，不是 skill"
+
+[[ignored]]
+repo = "kawsaradnan7956/youlikehits-youtube-automation"
+reason = "YouLikeHits 互刷任务的自动化，属于刷量"
+
+[[ignored]]
+repo = "dacnay816y62-hub/fantasy-dongfang-jianyuehaibao"
+reason = "通用的东方文化海报设计 skill，不专做自媒体"
+
+[[ignored]]
+repo = "chen-zeong/dtv_mobile"
+reason = "第三方直播看片客户端，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "xixihhhh/ai-short-drama-skill"
+reason = "AI 短剧制作 skill，属于 awesome-short-drama-skills 的范围，不在本清单"
+
+[[ignored]]
+repo = "GullAdapter71/DaVinci-Resolve-Studio-Setup"
+reason = "号称完整版的付费软件安装包，疑似破解或恶意软件"
+
+[[ignored]]
+repo = "wxkingstar/SpecFusion"
+reason = "搜中国开放平台 API 文档的开发工具，和自媒体运营无关"
+
+[[ignored]]
+repo = "qualixar/brief2mp4"
+reason = "通用的动画和解说视频生成 skill，不专做自媒体"
+
+[[ignored]]
+repo = "mashukui/douyin_one_spider"
+reason = "抖音采集的桌面 GUI 工具，没有 SKILL.md 或 MCP，装不进 agent"
+
+[[ignored]]
+repo = "gdSHAY/douyin-wm-downloader"
+reason = "下载、去水印或解析视频的工具，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "AoleiC/ai-mock-trade"
+reason = "A 股研究和模拟交易，和自媒体运营无关"
+
+[[ignored]]
+repo = "Raunaksplanet/Bug-Bounty-GitBook"
+reason = "漏洞赏金学习资料，和自媒体无关"
+
+[[ignored]]
+repo = "FukangZ/bilibili-subtitles"
+reason = "把 B 站长视频字幕整理成可读文稿，是给看视频的人用的，不服务账号运营"
+
+[[ignored]]
+repo = "ExecutiveShears/Streamlabs-Enhancer"
+reason = "号称完整版的付费软件安装包，疑似破解或恶意软件"
+
+[[ignored]]
+repo = "shapesaboteurdynamo/Apowersoft-Recorder-2026"
+reason = "号称完整版的付费软件安装包，疑似破解或恶意软件"
+
+[[ignored]]
+repo = "VictorActivistSay/Flashback-2026"
+reason = "号称完整版的付费软件安装包，疑似破解或恶意软件"
+
+[[ignored]]
+repo = "ManufacturingCleaver/Action-Recorder-2026"
+reason = "号称完整版的付费软件安装包，疑似破解或恶意软件"
+
+[[ignored]]
+repo = "Damuagateway/Photodirector-2026"
+reason = "号称完整版的付费软件安装包，疑似破解或恶意软件"
+
+[[ignored]]
+repo = "xCodeWraith/XCodeWraith-Edition"
+reason = "商品链接生成短视频脚本的应用，没有 SKILL.md 或 MCP，不到 1k 星"
+
+[[ignored]]
+repo = "ppppiii/tricast-danmaku"
+reason = "合并几家直播弹幕的浏览器扩展，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "ZombieIllusionist/Auto-Subtitle-Splitter-for-CapCut"
+reason = "号称完整版的付费软件安装包，疑似破解或恶意软件"
+
+[[ignored]]
+repo = "streetstationoversee/Dxtory-Full-Setup"
+reason = "号称完整版的付费软件安装包，疑似破解或恶意软件"
+
+[[ignored]]
+repo = "handsomeng/LJHskill"
+reason = "内容电商品牌的增长工具箱：开品选品、千川投放和直播复盘，自媒体账号运营不是重点"
+
+[[ignored]]
+repo = "idavidxiong/ai-xiezuo-skills"
+reason = "写作经验文章和提示词的汇总，没有成型的 skill 或提示词文件"
+
+[[ignored]]
+repo = "iamajmeena/pro-motion-editor-skill"
+reason = "通用的动态图形和宣传片 skill，不专做自媒体"
+
+[[ignored]]
+repo = "AlexanderAbramovPav/youtube-advisor"
+reason = "把 YouTube 频道做成问答顾问，是给看视频的人用的，不服务账号运营"
+
+[[ignored]]
+repo = "1475505/Miliastra-image-editor-webui"
+reason = "游戏界面素材编辑器，和自媒体无关"
+
+[[ignored]]
+repo = "simple-post/core"
+reason = "完整的排期应用（附带 skill 和 MCP），不到 1k 星"
+
+[[ignored]]
+repo = "mashukui/pgy_spider"
+reason = "蒲公英达人采集的桌面 GUI 工具，没有 SKILL.md 或 MCP，装不进 agent"
+
+[[ignored]]
+repo = "urzeye/xiaohongshu-redink"
+reason = "小红书图文生成的网页应用，没有 SKILL.md 或 MCP，不到 1k 星"
+
+[[ignored]]
+repo = "chatfuel-lab/wizard"
+reason = "搭 Chatfuel 机器人应用的脚手架，不管内容运营"
+
+[[ignored]]
+repo = "BlueOcean223/easydownload-skill"
+reason = "只做视频下载的 skill，不服务账号运营"
+
+[[ignored]]
+repo = "xx0x0/video-transcript-bot"
+reason = "视频转文字的 Telegram 机器人，没有 agent 接口"
+
+[[ignored]]
+repo = "xyzOvO/LiveNotify"
+reason = "开播提醒 App，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "M-Julius/brand-kickstart"
+reason = "起品牌名、查各处账号名有没有被占、画 logo，做的是品牌起步，不是自媒体运营"
+
+[[ignored]]
+repo = "fadii-99/job-apply-skill"
+reason = "求职工具，和自媒体无关"
+
+[[ignored]]
+repo = "ChihiroT77/Hermes-crawler"
+reason = "打包了看不到内容的 MediaCrawler 压缩包和 .bat 安装脚本，还带一个读 Edge 登录 cookie 的扩展"
+
+[[ignored]]
+repo = "oinzc/flame-contractor"
+reason = "定时给抖音好友发消息续火花，不管内容运营"
+
+[[ignored]]
+repo = "mokevnin/smm-bible"
+reason = "俄文的 SMM 教程，不是 skill"
+
+[[ignored]]
+repo = "xiaohuajia2005/dsh-douyin-skill"
+reason = "在抖音网页版替你看视频、回私信的拟人代理，不服务内容运营"
+
+[[ignored]]
+repo = "alanl1234/douyin-matrices-cli"
+reason = "已收录的 Youhai020616/douyin 的分支，加了多账号编排"
+
+[[ignored]]
+repo = "SENN-AI/CY-CharmYee"
+reason = "个人知识库和决策助手，自媒体分析只是其中一小块"
+
+[[ignored]]
+repo = "Geekhyt/dsh-markdown-studio"
+reason = "DeepSeek Harness 的 Markdown 排版插件（图形界面），仓库里的 SKILL.md 是开发用的，不是给用户装的 skill"
+
+[[ignored]]
+repo = "lovstudio/media-crawler-skill"
+reason = "只做视频下载的 skill，不服务账号运营"
+
+[[ignored]]
+repo = "peal-social/peal"
+reason = "还没正式发布的团队排期应用（附带 skill 和 MCP），不到 1k 星"
+
+[[ignored]]
+repo = "DuongBaoNgocAI/youtube-machine"
+reason = "skill 正文放在作者的服务器上，要注册账号登录才能用，仓库里只有框架"
+
+[[ignored]]
+repo = "rsohyun/feed-me-knowledge"
+reason = "把 YouTube 视频总结进 Notion，是给看视频的人用的，不服务账号运营"
+
+[[ignored]]
+repo = "0x-zeze/gta6-clipper"
+reason = "改自已收录的 op7418/Youtube-clipper-skill，作者自用，加了 GTA VI 直播切片"
+
+[[ignored]]
+repo = "obrunoamr/super-tutor"
+reason = "用 YouTube 视频排学习路线，和自媒体运营无关"
+
+[[ignored]]
+repo = "alfaris/full-production-studio"
+reason = "77 个 skill 里大多是从别的仓库搬来的（逐条标了出处），自己写的 16 个专做阿拉伯语"
+
+[[ignored]]
+repo = "OskarCosimo/My-Social-Manager"
+reason = "自部署的社媒管理平台，不到 1k 星"
+
+[[ignored]]
+repo = "nvasion/automarketer"
+reason = "社媒营销自动化平台，没有 SKILL.md 或 MCP，不到 1k 星"
+
+[[ignored]]
+repo = "luckfexuanxuan-code/galaxyapi"
+reason = "数据采集服务的介绍仓库，没有 SKILL.md 或 MCP，装不进 agent"
+
+[[ignored]]
+repo = "heng35040-hub/video-downloader"
+reason = "下载、去水印或解析视频的工具，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "webkubor/chat-mood-gen"
+reason = "仿微信、小红书聊天截图的生成器，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "Star-wsc/ccnew-vdl"
+reason = "下载、去水印或解析视频的工具，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "wohuishuo/xingluo"
+reason = "下载、去水印或解析视频的工具，不管运营，也没有 agent 接口"
+
+[[ignored]]
+repo = "Tom-wc/FanPost"
+reason = "自媒体多平台一键发布的桌面应用，没有 SKILL.md 或 MCP，不到 1k 星"
+
+[[ignored]]
+repo = "qvinh8726/VietSub-Studio"
+reason = "抖音视频字幕识别和翻译的桌面流程，没有 SKILL.md 或 MCP"

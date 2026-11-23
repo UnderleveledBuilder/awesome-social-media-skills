@@ -997,6 +997,32 @@
    "checked": "2026-10-30"
   },
   {
+   "repo": "Upload-Post/upload-post-larry-marketing-skill",
+   "url": "https://github.com/Upload-Post/upload-post-larry-marketing-skill",
+   "name": "upload-post-larry-marketing-skill",
+   "group": "pipeline",
+   "platforms": [
+    "tiktok",
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "openclaw"
+   ],
+   "featured": false,
+   "desc": "App 推广用的 TikTok、Instagram 图文轮播：调研同类、AI 出图加字、经 Upload-Post 发出、看数据再改，照 Larry 的方法",
+   "desc_en": "TikTok and Instagram slideshow marketing for apps, after Larry's method: research competitors, generate AI slides, add text overlays, post through the Upload-Post API, then track results and iterate.",
+   "note": "要 Upload-Post 账号，出图要 OpenAI 等接口的 key",
+   "note_en": "Requires an Upload-Post account plus an image API key such as OpenAI's.",
+   "stars": 46,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add Upload-Post/upload-post-larry-marketing-skill",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "hekaixin66-sketch/libra-skill",
    "url": "https://github.com/hekaixin66-sketch/libra-skill",
    "name": "libra-skill",
@@ -1095,6 +1121,31 @@
    "skills": 1,
    "install": "npx skills add jhwreal/wechat-article-pipeline-skill",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "lukaizj/gzh-article-pipeline",
+   "url": "https://github.com/lukaizj/gzh-article-pipeline",
+   "name": "gzh-article-pipeline",
+   "group": "pipeline",
+   "platforms": [
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "codex"
+   ],
+   "featured": false,
+   "desc": "公众号推文流水线：选题和标题打分、短节奏正文加 9 项离线质检、21:9 封面、内刊式排版、推进草稿箱，再看后台数据复盘",
+   "desc_en": "A WeChat Official Account pipeline tuned on about 180 posts of back-end data: topic and title scoring, short-paced body text with nine offline checks, 21:9 covers, newsletter-style layout, pushing to the draft box, then a review of the numbers.",
+   "note": "",
+   "note_en": "",
+   "stars": 16,
+   "pushed_at": "2026-11-23",
+   "license": "MIT",
+   "skills": 2,
+   "install": "npx skills add lukaizj/gzh-article-pipeline",
+   "checked": "2026-11-23"
   },
   {
    "repo": "zizhanovo/doubaoya-community",
@@ -1233,6 +1284,29 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "lqshow/dsh-wechat-studio",
+   "url": "https://github.com/lqshow/dsh-wechat-studio",
+   "name": "dsh-wechat-studio",
+   "group": "pipeline",
+   "platforms": [
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "DeepSeek Harness 里的公众号成稿台：Markdown 改稿和质检、封面配图、SVG 动画卡、排版、排期和后台数据复盘",
+   "desc_en": "A WeChat Official Account writing desk inside DeepSeek Harness: edit a Markdown draft section by section with checks, make the cover, inline images and SVG animation cards, lay it out, schedule it and review the numbers.",
+   "note": "是 DeepSeek Harness 的插件，要先装它",
+   "note_en": "A DeepSeek Harness plugin; install that first.",
+   "stars": 7,
+   "pushed_at": "2026-11-23",
+   "license": "MIT",
+   "skills": 4,
+   "install": "npx skills add lqshow/dsh-wechat-studio",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "vincentventalon/my-claude-skills",
    "url": "https://github.com/vincentventalon/my-claude-skills",
    "name": "my-claude-skills",
@@ -1259,6 +1333,59 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "annapodobrazhnykh/reels-kit",
+   "url": "https://github.com/annapodobrazhnykh/reels-kit",
+   "name": "reels-kit",
+   "group": "pipeline",
+   "platforms": [
+    "instagram",
+    "youtube",
+    "x"
+   ],
+   "format": "skill",
+   "lang": "ru",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "俄文的短视频套件：iPhone 口播原片自动剪成 Reels（去口误、字幕、b-roll、音乐），做封面、出选题，发到 Instagram、Shorts 和 X",
+   "desc_en": "Russian-language short-video kit: the agent edits iPhone talking-head footage into reels (cuts pauses and filler, adds subtitles, zooms, b-roll, sound and music), makes covers, suggests ideas and publishes to Instagram, YouTube Shorts and X.",
+   "note": "发布走 Upload-Post，要它的账号",
+   "note_en": "Publishing goes through Upload-Post and needs an account there.",
+   "stars": 7,
+   "pushed_at": "2026-11-19",
+   "license": null,
+   "skills": 4,
+   "install": "npx skills add annapodobrazhnykh/reels-kit",
+   "checked": "2026-11-23"
+  },
+  {
+   "repo": "flavio-cesar/social-media-skills-pack-inz",
+   "url": "https://github.com/flavio-cesar/social-media-skills-pack-inz",
+   "name": "social-media-skills-pack-inz",
+   "group": "pipeline",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "pt",
+   "agents": [],
+   "featured": false,
+   "desc": "葡萄牙文的社媒代运营包：25 个 skill，做 Instagram 主页和竞品分析、品牌策略、内容日历、轮播图、短视频脚本、钩子和月报",
+   "desc_en": "Portuguese-language pack of 25 skills that turns an agent into a social media agency: Instagram profile and competitor analysis, brand strategy, editorial calendar, carousels, short-video scripts, hooks, captions and monthly reports.",
+   "note": "",
+   "note_en": "",
+   "stars": 7,
+   "pushed_at": "2026-11-22",
+   "license": "MIT",
+   "skills": 25,
+   "install": "npx skills add flavio-cesar/social-media-skills-pack-inz",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "vinit-agr/videopowers",
    "url": "https://github.com/vinit-agr/videopowers",
    "name": "videopowers",
@@ -1282,6 +1409,35 @@
    "skills": 14,
    "install": "npx skills add vinit-agr/videopowers",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "kilaslab/kilas-content",
+   "url": "https://github.com/kilaslab/kilas-content",
+   "name": "kilas-content",
+   "group": "pipeline",
+   "platforms": [
+    "instagram",
+    "threads",
+    "x",
+    "linkedin"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "品牌社媒内容：月度规划，调研后写稿，Instagram 轮播和 Reels 脚本，Threads、X、LinkedIn 帖子，带 AI 味检查和品牌设计规范",
+   "desc_en": "Plans and produces a brand's social content end to end: monthly plans, researched Instagram carousels, Reels scripts and animated videos, Threads, X and LinkedIn posts, with a hook workshop, an AI-tell lint, a per-brand design system and a lessons file.",
+   "note": "",
+   "note_en": "",
+   "stars": 5,
+   "pushed_at": "2026-11-22",
+   "license": "GPL-3.0",
+   "skills": 2,
+   "install": "npx skills add kilaslab/kilas-content",
+   "checked": "2026-11-23"
   },
   {
    "repo": "Marky-Team/marky-skills",
@@ -1498,6 +1654,33 @@
    "skills": 2,
    "install": "npx skills add boqo-ai/boqount",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "proyecto26/instagram-ai-plugin",
+   "url": "https://github.com/proyecto26/instagram-ai-plugin",
+   "name": "instagram-ai-plugin",
+   "group": "pipeline",
+   "platforms": [
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "用你的浏览器登录态操作 Instagram：发内容、账号审计、竞品调研、广告，发帖先演练等你确认，不做点赞、关注和私信",
+   "desc_en": "Drives your Instagram from the terminal with your own browser session and the web client's endpoints, plus four skills for content, audits, competitor research and ads. Every write is a dry run until you approve it; no like, follow or DM commands.",
+   "note": "用你的 Instagram 登录 cookie，存在本机",
+   "note_en": "Uses your Instagram login cookie, stored locally.",
+   "stars": 3,
+   "pushed_at": "2026-11-22",
+   "license": "MIT",
+   "skills": 7,
+   "install": "npx skills add proyecto26/instagram-ai-plugin",
+   "checked": "2026-11-23"
   },
   {
    "repo": "social-media-skills/instagram-skill",
@@ -2337,6 +2520,57 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "FuzulsFriend/deep-research-post-engine",
+   "url": "https://github.com/FuzulsFriend/deep-research-post-engine",
+   "name": "deep-research-post-engine",
+   "group": "writing",
+   "platforms": [
+    "linkedin"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "LinkedIn 帖子：先读 5 到 8 篇真实来源，按你过去的帖子学口吻，过滤 59 种 AI 写作套路再成稿",
+   "desc_en": "Writes LinkedIn posts from 5 to 8 real sources it reads in full, in a voice profile built from your past posts, filtering out 59 AI writing patterns before handing you a post ready to paste.",
+   "note": "",
+   "note_en": "",
+   "stars": 5,
+   "pushed_at": "2026-11-17",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add FuzulsFriend/deep-research-post-engine",
+   "checked": "2026-11-23"
+  },
+  {
+   "repo": "CodeGanHaoZ/CodeRin-skill",
+   "url": "https://github.com/CodeGanHaoZ/CodeRin-skill",
+   "name": "CodeRin-skill",
+   "group": "writing",
+   "platforms": [
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "workbuddy",
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "技术博主的写作分身：按 CodeRin 的风格写公众号推文、AI 科技日报和技术博客，附选题、标题公式和加粗兼容检查脚本",
+   "desc_en": "A writing persona distilled from the tech blogger CodeRin's 282 posts: WeChat articles, AI tech dailies, tech blog posts and interview write-ups in that style, with topic and headline formulas and a script that checks bold text renders in WeChat.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-11-17",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add CodeGanHaoZ/CodeRin-skill",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "beatra-ai/xiaohongshu-copywriter-skill",
    "url": "https://github.com/beatra-ai/xiaohongshu-copywriter-skill",
    "name": "xiaohongshu-copywriter-skill",
@@ -2388,6 +2622,31 @@
    "skills": 1,
    "install": "npx skills add AIPMAndy/copyflow",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "victor-shulga/linkedin-post-writing",
+   "url": "https://github.com/victor-shulga/linkedin-post-writing",
+   "name": "linkedin-post-writing",
+   "group": "writing",
+   "platforms": [
+    "linkedin"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "LinkedIn 获客帖：9 步流程把一个想法写成你自己口吻的帖子，每步和你确认，默认排成好扫读的格式",
+   "desc_en": "A 9-step process that turns one idea into a lead-generating LinkedIn post in your own voice, checking in with you between steps and formatting the result to scan well in the feed.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-19",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add victor-shulga/linkedin-post-writing",
+   "checked": "2026-11-23"
   },
   {
    "repo": "softbread/xiaohongshu-doctor",
@@ -2559,6 +2818,33 @@
    "skills": 23,
    "install": "npx skills add yang0/handraw-style",
    "checked": "2026-10-30"
+  },
+  {
+   "repo": "kaomei/stickman-video-director",
+   "url": "https://github.com/kaomei/stickman-video-director",
+   "name": "stickman-video-director",
+   "group": "visual",
+   "platforms": [
+    "youtube",
+    "tiktok"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "火柴人动画视频：给一段文案，出带配音、字幕和音效的成片，15 种风格，做 YouTube、Shorts、TikTok 的不露脸账号",
+   "desc_en": "Turns a script into an animated stickman video with voiceover, captions and sound effects, in 15 styles, for faceless YouTube, Shorts and TikTok channels; renders locally with your agent plus basic image and TTS tools.",
+   "note": "",
+   "note_en": "",
+   "stars": 7622,
+   "pushed_at": "2026-11-23",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add kaomei/stickman-video-director",
+   "checked": "2026-11-23"
   },
   {
    "repo": "geekjourneyx/md2wechat-skill",
@@ -4339,6 +4625,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "Viprasol-Tech/claude-video-editing-skills",
+   "url": "https://github.com/Viprasol-Tech/claude-video-editing-skills",
+   "name": "claude-video-editing-skills",
+   "group": "visual",
+   "platforms": [
+    "instagram",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "本地 AI 剪辑：95 个 skill 把原片剪成 Reels、Shorts 和 YouTube 成片，自动剪辑、字幕（含印地语）、动效、调色、混音和质检",
+   "desc_en": "A free local video editor for Claude Code: 95 skills turn raw footage into finished Reels, Shorts and YouTube edits with auto cuts, captions (Hindi too), motion graphics, colour, sound mix and QC; no account, runs on a laptop CPU.",
+   "note": "",
+   "note_en": "",
+   "stars": 43,
+   "pushed_at": "2026-11-21",
+   "license": "MIT",
+   "skills": 95,
+   "install": "npx skills add Viprasol-Tech/claude-video-editing-skills",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "nicolapocock/claude-reel-editor",
    "url": "https://github.com/nicolapocock/claude-reel-editor",
    "name": "claude-reel-editor",
@@ -4415,6 +4727,34 @@
    "skills": 10,
    "install": "npx skills add WhiteTowerAI/cut-as-code",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "arcticloud/ai-stream-clipper",
+   "url": "https://github.com/arcticloud/ai-stream-clipper",
+   "name": "ai-stream-clipper",
+   "group": "visual",
+   "platforms": [
+    "youtube",
+    "tiktok",
+    "instagram",
+    "x"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "直播回放切竖屏短片：Twitch、YouTube、Kick 的录像出最多 3 条，上人脸下画面，加钩子标题、逐字字幕和发布文案",
+   "desc_en": "Turns a Twitch, YouTube or Kick stream VOD into up to three vertical clips: facecam on top, gameplay below, a hook title, word-by-word captions and a post caption for Shorts, TikTok, Reels and X. Runs locally with no API keys.",
+   "note": "",
+   "note_en": "",
+   "stars": 34,
+   "pushed_at": "2026-11-19",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add arcticloud/ai-stream-clipper",
+   "checked": "2026-11-23"
   },
   {
    "repo": "iart-ai/tiktok-video-skills",
@@ -4868,6 +5208,31 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "syydaniel/juzu",
+   "url": "https://github.com/syydaniel/juzu",
+   "name": "juzu",
+   "group": "visual",
+   "platforms": [
+    "bilibili"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "B 站知识视频的一人剧组：选题写稿、克隆你的声音配音、本机作曲、three.js 代码渲染画面、达芬奇混音出 4K，再备封面标题",
+   "desc_en": "A one-person crew for Bilibili explainer videos: topics and script, voiceover in your cloned voice, music generated locally, code-rendered three.js scenes driven by the script, a DaVinci Resolve mix to 4K, then cover, title and description.",
+   "note": "",
+   "note_en": "",
+   "stars": 14,
+   "pushed_at": "2026-11-21",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add syydaniel/juzu",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "miguelcotrinaia/claude-skills-shorts-animados",
    "url": "https://github.com/miguelcotrinaia/claude-skills-shorts-animados",
    "name": "claude-skills-shorts-animados",
@@ -5205,6 +5570,61 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "Yingliu-design/tietu-skill",
+   "url": "https://github.com/Yingliu-design/tietu-skill",
+   "name": "tietu-skill",
+   "group": "visual",
+   "platforms": [
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "codex"
+   ],
+   "featured": false,
+   "desc": "公众号贴图：学参考图的表达方式做原创 3:4 贴图，附标题和文案，支持单张、批量和成套",
+   "desc_en": "Makes original 3:4 image posts for WeChat Official Accounts from reference images, borrowing how the reference communicates rather than copying it, with a title and caption for each; single, batch or set.",
+   "note": "",
+   "note_en": "",
+   "stars": 7,
+   "pushed_at": "2026-11-17",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add Yingliu-design/tietu-skill",
+   "checked": "2026-11-23"
+  },
+  {
+   "repo": "dovudhusan/viral-hook-reels-skill",
+   "url": "https://github.com/dovudhusan/viral-hook-reels-skill",
+   "name": "viral-hook-reels-skill",
+   "group": "visual",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "featured": false,
+   "desc": "爆款拆解短片：贴一条爆款视频链接，出一条讲它为什么火的竖屏短片，含脚本、AI 配音、字幕、剪辑和封面",
+   "desc_en": "Paste a viral video link and get a finished 'why this went viral' reel: the agent studies the video frame by frame, then writes the script and makes the AI voiceover, captions, edit, cover and post caption in about five minutes.",
+   "note": "配音要 ElevenLabs 的 API key",
+   "note_en": "The voiceover needs an ElevenLabs API key.",
+   "stars": 7,
+   "pushed_at": "2026-11-18",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add dovudhusan/viral-hook-reels-skill",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "iamzifei/xiaohongshu-images-skill",
    "url": "https://github.com/iamzifei/xiaohongshu-images-skill",
    "name": "xiaohongshu-images-skill",
@@ -5360,6 +5780,33 @@
    "skills": 1,
    "install": "npx skills add beatra-ai/xiaohongshu-cover-maker-skill",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "jutsuhq/gta6-stream-clipper",
+   "url": "https://github.com/jutsuhq/gta6-stream-clipper",
+   "name": "gta6-stream-clipper",
+   "group": "visual",
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "GTA 6 直播回放切竖屏短片：按弹幕找高光，逐字字幕、人脸分屏，再按 Rockstar、平台和切片活动的规则逐条检查",
+   "desc_en": "Turns GTA 6 stream VODs into 9:16 clips for TikTok, Shorts and Reels: finds the moments chat reacted to, adds word captions and a facecam split, then checks each clip against Rockstar's video policy, platform reuse rules and your clipping campaign.",
+   "note": "",
+   "note_en": "",
+   "stars": 5,
+   "pushed_at": "2026-11-21",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add jutsuhq/gta6-stream-clipper",
+   "checked": "2026-11-23"
   },
   {
    "repo": "Ayanlin1688/muse-Tiktok-Skill",
@@ -5602,6 +6049,34 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "ghostfeed-ai/skills",
+   "url": "https://github.com/ghostfeed-ai/skills",
+   "name": "skills",
+   "group": "visual",
+   "platforms": [
+    "tiktok",
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "Ghostfeed 的视频广告 skill：手绘、黏土、卡通、电影感等风格的广告和歌曲广告，固定 AI 形象的 UGC 视频，TikTok 图文轮播",
+   "desc_en": "Ghostfeed's skills for finished video ads and organic posts: whiteboard, claymation, cartoon and cinematic ads, song ads, UGC videos with one consistent AI creator, and TikTok or Instagram slideshows. The Ghostfeed MCP makes the media.",
+   "note": "要 Ghostfeed 账号，月费 49 美元起",
+   "note_en": "Requires a Ghostfeed account; paid plans from $49 a month.",
+   "stars": 4,
+   "pushed_at": "2026-11-17",
+   "license": "MIT",
+   "skills": 19,
+   "install": "npx skills add ghostfeed-ai/skills",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "Adytm404/treemation",
    "url": "https://github.com/Adytm404/treemation",
    "name": "treemation",
@@ -5627,6 +6102,31 @@
    "skills": 1,
    "install": "npx skills add Adytm404/treemation",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "douglasjunior/video-maker-skill",
+   "url": "https://github.com/douglasjunior/video-maker-skill",
+   "name": "video-maker-skill",
+   "group": "visual",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "手机原片剪成 YouTube 视频和 Shorts：自动粗剪、写稿、生成旁白、加字幕和音乐，在浏览器面板里审改，基于 Remotion",
+   "desc_en": "Turns raw phone footage into a finished YouTube video and Shorts: first cut, script, generated narration, captions, highlights, 3D and music, reviewed from a panel in your browser. Built on Remotion.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-11-17",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add douglasjunior/video-maker-skill",
+   "checked": "2026-11-23"
   },
   {
    "repo": "beatra-ai/wechat-article-cover-skill",
@@ -5828,6 +6328,31 @@
    "skills": 12,
    "install": "npx skills add blixvip/thumbnail-studio",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "frederick-kk/wechat-layout-copilot",
+   "url": "https://github.com/frederick-kk/wechat-layout-copilot",
+   "name": "wechat-layout-copilot",
+   "group": "visual",
+   "platforms": [
+    "wechat"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "codex"
+   ],
+   "featured": false,
+   "desc": "公众号排版组件库：50 套排版和 SVG 交互 skill，先看示例挑效果，学你的旧稿生成自己的排版 skill，配合秀米存草稿",
+   "desc_en": "A library of 50 WeChat Official Account layout and SVG interaction components as skills: browse the examples, let the agent learn your past posts and build your own layout skill, then lay out and save drafts through Xiumi.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 52,
+   "install": "npx skills add frederick-kk/wechat-layout-copilot",
+   "checked": "2026-11-23"
   },
   {
    "repo": "murphywuwu/easysociable-mcp",
@@ -6391,6 +6916,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "DeliciousBuding/xiaohongshu-skill",
+   "url": "https://github.com/DeliciousBuding/xiaohongshu-skill",
+   "name": "xiaohongshu-skill",
+   "group": "publish",
+   "platforms": [
+    "xiaohongshu"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "小红书浏览器工具箱：搜索、读笔记、发图文和视频、评论点赞，输出 JSON，多账号分开存登录态，写操作先等你确认",
+   "desc_en": "A browser toolbox for Xiaohongshu built on Python Playwright: search, read notes, publish posts and videos, comment and like, with JSON output, per-account profiles and your confirmation required before anything is written to the account.",
+   "note": "要扫码登录你的小红书账号，登录态存在本机",
+   "note_en": "Logs in to your Xiaohongshu account by QR code; the session is stored locally.",
+   "stars": 43,
+   "pushed_at": "2026-11-17",
+   "license": "Apache-2.0",
+   "skills": 1,
+   "install": "npx skills add DeliciousBuding/xiaohongshu-skill",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "Upload-Post/upload-post-skill",
    "url": "https://github.com/Upload-Post/upload-post-skill",
    "name": "upload-post-skill",
@@ -6476,6 +7024,36 @@
    "skills": 3,
    "install": "npx skills add post-bridge-hq/agent-mode",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "zernio-dev/zernio-api",
+   "url": "https://github.com/zernio-dev/zernio-api",
+   "name": "zernio-api",
+   "group": "publish",
+   "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "linkedin",
+    "youtube",
+    "threads",
+    "facebook",
+    "pinterest"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "Zernio 官方 skill：让 agent 调 Zernio 排期接口，往 Instagram、TikTok、X、LinkedIn 等 18 个平台发帖",
+   "desc_en": "Zernio's official skill for its social media scheduling API: lets your agent post and schedule to 18 platforms including Instagram, TikTok, X, LinkedIn, YouTube, Threads and Pinterest, with webhooks and per-platform notes.",
+   "note": "要 Zernio 账号和 API key",
+   "note_en": "Requires a Zernio account and API key.",
+   "stars": 17,
+   "pushed_at": "2026-11-22",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add zernio-dev/zernio-api",
+   "checked": "2026-11-23"
   },
   {
    "repo": "puppyfront-web/social-publish-skills",
@@ -8238,6 +8816,33 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "daily-growth-signals/seo-signal-skills",
+   "url": "https://github.com/daily-growth-signals/seo-signal-skills",
+   "name": "seo-signal-skills",
+   "group": "research",
+   "platforms": [
+    "x",
+    "reddit",
+    "xiaohongshu",
+    "zhihu",
+    "threads"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "SignalDig 的调研 skill：查 X、Reddit、小红书、知乎、Threads 上的公开讨论，另有关键词、SERP、外链等 SEO 数据",
+   "desc_en": "SignalDig's research skill: public discussions and posts on X, Reddit, Xiaohongshu, Zhihu and Threads, plus SEO data such as keyword demand, SERPs, competitors and backlinks, through the SignalDig MCP.",
+   "note": "要 SignalDig 的 API key",
+   "note_en": "Requires a SignalDig API key.",
+   "stars": 16,
+   "pushed_at": "2026-11-18",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add daily-growth-signals/seo-signal-skills",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "one-box-u/openclaw-daily-hot-news",
    "url": "https://github.com/one-box-u/openclaw-daily-hot-news",
    "name": "openclaw-daily-hot-news",
@@ -8529,6 +9134,35 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "iftechio/easykol-skills",
+   "url": "https://github.com/iftechio/easykol-skills",
+   "name": "easykol-skills",
+   "group": "research",
+   "platforms": [
+    "youtube",
+    "tiktok",
+    "instagram"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "EasyKOL 的达人 skill：在 YouTube、TikTok、Instagram 找达人、看数据、发合作邀约",
+   "desc_en": "EasyKOL's skill for finding, analyzing and reaching out to creators on YouTube, TikTok and Instagram; the agent calls the EasyKOL API with the bundled script and reports back.",
+   "note": "要 EasyKOL 账号和 API key",
+   "note_en": "Requires an EasyKOL account and API key.",
+   "stars": 4,
+   "pushed_at": "2026-11-23",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add iftechio/easykol-skills",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "CoolerGit/HookLab",
    "url": "https://github.com/CoolerGit/HookLab",
    "name": "HookLab",
@@ -8661,6 +9295,38 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "jcaiagent7143-ui/linkdigest-mcp",
+   "url": "https://github.com/jcaiagent7143-ui/linkdigest-mcp",
+   "name": "linkdigest-mcp",
+   "group": "research",
+   "platforms": [
+    "xiaohongshu",
+    "douyin",
+    "bilibili",
+    "wechat",
+    "weibo"
+   ],
+   "format": "skill",
+   "lang": "multi",
+   "agents": [
+    "openclaw",
+    "claude-code",
+    "cursor",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "LinkDigest：读小红书、抖音、B 站、公众号、微博链接出逐字稿、图片文字和热评，按话题搜小红书和抖音；托管 MCP 加 29 个 skill",
+   "desc_en": "LinkDigest turns Xiaohongshu, Douyin, Bilibili, WeChat and Weibo links into text for agents (transcripts, on-screen text, image descriptions, top comments) and searches Xiaohongshu and Douyin by topic; hosted MCP, API and 29 skills.",
+   "note": "要 LinkDigest 的 API key，按次扣积分，不用你的平台账号",
+   "note_en": "Requires a LinkDigest API key, billed in credits per call; no platform account or cookie of yours is used.",
+   "stars": 3,
+   "pushed_at": "2026-11-22",
+   "license": "MIT",
+   "skills": 32,
+   "install": "npx skills add jcaiagent7143-ui/linkdigest-mcp",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "ZOORO-NEW/qianjin-wechat-analyzer",
    "url": "https://github.com/ZOORO-NEW/qianjin-wechat-analyzer",
    "name": "qianjin-wechat-analyzer",
@@ -8682,6 +9348,34 @@
    "skills": 1,
    "install": "npx skills add ZOORO-NEW/qianjin-wechat-analyzer",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "jutsuhq/reverse-niche-skill",
+   "url": "https://github.com/jutsuhq/reverse-niche-skill",
+   "name": "reverse-niche-skill",
+   "group": "research",
+   "platforms": [
+    "tiktok",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "TikTok 和 YouTube 爆款、扑街分析：按频道自己的中位播放算爆款分，比较爆款和扑街差在哪、格式在不在衰退，再出改进选题",
+   "desc_en": "Free outlier finder and competitor analysis for TikTok, YouTube and Shorts channels: scores each video against the channel's own median views, compares outliers with flops, checks for format fatigue and designs a better version. Runs on yt-dlp and ffmpeg.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-21",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add jutsuhq/reverse-niche-skill",
+   "checked": "2026-11-23"
   },
   {
    "repo": "nikhonit/social-media-api-skills",
@@ -8790,6 +9484,35 @@
    "skills": 1,
    "install": "npx skills add BrandonChin827/youtube-outliers-claude-code",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "ruodou233/zhangfen-daily",
+   "url": "https://github.com/ruodou233/zhangfen-daily",
+   "name": "zhangfen-daily",
+   "group": "research",
+   "platforms": [
+    "bilibili",
+    "douyin",
+    "xiaohongshu",
+    "kuaishou",
+    "youtube",
+    "x",
+    "channels"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "涨粉榜日报：抓 B 站、抖音、小红书、快手、YouTube、X 涨粉榜和视频号热度榜，取代表作数据、文案和热评，agent 写观察",
+   "desc_en": "A daily creator-growth digest: pulls the follower-growth charts of Bilibili, Douyin, Xiaohongshu, Kuaishou, YouTube and X plus a WeChat Channels chart, fetches each rising creator's key works, metrics, scripts and top comments, and the agent adds observations.",
+   "note": "要在 Chrome 里登录这些平台；快手榜和视频号要新榜、友望的免费账号",
+   "note_en": "Needs you signed in to these platforms in Chrome; the Kuaishou chart and WeChat Channels need free Newrank and Youwant accounts.",
+   "stars": 3,
+   "pushed_at": "2026-11-20",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add ruodou233/zhangfen-daily",
+   "checked": "2026-11-23"
   },
   {
    "repo": "liu-wei-ai/douyin-video-summary",
@@ -9208,6 +9931,31 @@
    "skills": 1,
    "install": "npx skills add enricpedro/factum-skills",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "work-haolam/check-kenh",
+   "url": "https://github.com/work-haolam/check-kenh",
+   "name": "check-kenh",
+   "group": "strategy",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "vi",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "越南文的 YouTube 频道体检：对照最新政策看标题、缩略图和字幕，给 0 到 100 的停收益风险分和要改的地方",
+   "desc_en": "Vietnamese-language YouTube channel check: compares titles, thumbnails and subtitles with YouTube's latest policies, scores the risk of losing monetization from 0 to 100 and lists what to fix. Based on TubeLab's audit-channel-risk.",
+   "note": "",
+   "note_en": "",
+   "stars": 10,
+   "pushed_at": "2026-11-16",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add work-haolam/check-kenh",
+   "checked": "2026-11-23"
   },
   {
    "repo": "jeterchou/linkedin-positioning-panel",
@@ -9833,6 +10581,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "risingjerry/social-media-toolkit",
+   "url": "https://github.com/risingjerry/social-media-toolkit",
+   "name": "social-media-toolkit",
+   "group": "mcp",
+   "platforms": [
+    "douyin",
+    "xiaohongshu",
+    "bilibili",
+    "youtube"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "抖音、小红书、B 站、YouTube 公开链接转成结构化数据：元数据、正文、带时间戳的字幕、媒体和部分评论；SDK、CLI 和 MCP",
+   "desc_en": "Python SDK, CLI and MCP server that turn public Douyin, Xiaohongshu, Bilibili and YouTube links into normalized metadata, text, timed transcripts, media manifests and supported comment samples, without cookies or a logged-in browser.",
+   "note": "",
+   "note_en": "",
+   "stars": 35,
+   "pushed_at": "2026-11-23",
+   "license": "Apache-2.0",
+   "skills": 1,
+   "install": null,
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "AstaBlackClove/posthive",
    "url": "https://github.com/AstaBlackClove/posthive",
    "name": "Posthive",
@@ -9946,6 +10720,33 @@
    "skills": 0,
    "install": null,
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "evogr1/kestrel",
+   "url": "https://github.com/evogr1/kestrel",
+   "name": "kestrel",
+   "group": "mcp",
+   "platforms": [
+    "instagram",
+    "youtube",
+    "x"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "开源的 vidIQ 替代：拆解 Instagram、YouTube、X 博主的近期作品，按其平时播放量找爆款并转写，给你的账号出脚本简报",
+   "desc_en": "A free, open-source vidIQ-style research agent for Instagram, YouTube and X: breaks down a creator's recent posts, ranks them against their own normal views, transcribes the closest match and hands Claude a brief for your script.",
+   "note": "要你自己的 YouTube Data API key（免费）",
+   "note_en": "Runs on your own free YouTube Data API key.",
+   "stars": 8,
+   "pushed_at": "2026-11-23",
+   "license": "MIT",
+   "skills": 1,
+   "install": null,
+   "checked": "2026-11-23"
   },
   {
    "repo": "Abhishek-B-R/social0-oss",
@@ -10141,6 +10942,34 @@
    "skills": 1,
    "install": null,
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "redfox-data/redfox-mcp",
+   "url": "https://github.com/redfox-data/redfox-mcp",
+   "name": "redfox-mcp",
+   "group": "mcp",
+   "platforms": [
+    "douyin",
+    "xiaohongshu",
+    "wechat",
+    "bilibili",
+    "toutiao",
+    "tiktok"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "RedFoxHub 的 MCP：按平台分开的 15 个服务、134 个工具，查抖音、小红书、公众号、B 站、头条、TikTok 等数据，也能 AI 搜索和生成",
+   "desc_en": "RedFoxHub's MCP monorepo: 134 tools in 15 per-platform servers for Douyin, Xiaohongshu, WeChat, Bilibili, Toutiao, TikTok and more, plus AI search (Kimi, Doubao, DeepSeek) and image and video generation; local stdio or remote HTTP.",
+   "note": "要 RedFoxHub 的 API key",
+   "note_en": "Requires a RedFoxHub API key.",
+   "stars": 3,
+   "pushed_at": "2026-11-18",
+   "license": null,
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-23"
   },
   {
    "repo": "flashdatadev/flashdata-mcp",
