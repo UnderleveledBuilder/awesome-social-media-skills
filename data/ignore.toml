@@ -1663,3 +1663,23 @@ reason = "自媒体多平台一键发布的桌面应用，没有 SKILL.md 或 MC
 [[ignored]]
 repo = "qvinh8726/VietSub-Studio"
 reason = "抖音视频字幕识别和翻译的桌面流程，没有 SKILL.md 或 MCP"
+
+[[ignored]]
+repo = "tianqishi1/marketing-skills-cn"
+reason = "国内营销合集：28 个里大部分是投放、电商和 SEO，自媒体内容只占小红书、抖音、公众号写作等几个"
+
+[[ignored]]
+repo = "yuanl0116/wechat-article-reader"
+reason = "下载公众号文章给自己读，是给读者用的，不服务账号运营"
+
+[[ignored]]
+repo = "voyager67/LinkedIn-Skills-360"
+reason = "LinkedIn 全流程工具包，大部分是求职、招聘和销售，发内容只占一小块"
+
+[[ignored]]
+repo = "Ekos-Labs/ekos-leads"
+reason = "找潜在客户、用 LinkedIn 做销售外联，是销售获客，不是自媒体运营"
+
+[[ignored]]
+repo = "sdawhk/douyinfeiyu"
+reason = "QQ 群聊天机器人工程，抖音只是附带的分享功能，不服务账号运营"

@@ -2649,6 +2649,33 @@
    "checked": "2026-11-23"
   },
   {
+   "repo": "Andrew-liu/snow-x",
+   "url": "https://github.com/Andrew-liu/snow-x",
+   "name": "snow-x",
+   "group": "writing",
+   "platforms": [
+    "x"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "X 中文运营 skill：短帖按目标数据选帖型和钩子出稿、拆解爆款，长文写作改写和去 AI 味；规则来自 189 条爆款短帖和 358 篇长文",
+   "desc_en": "Skills for Chinese-language X accounts: short posts built from a target metric, post type and hook, with viral breakdowns, plus long-form X articles with rewriting and de-AI review; rules drawn from 189 viral posts and 358 long articles.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-15",
+   "license": "MIT",
+   "skills": 2,
+   "install": "npx skills add Andrew-liu/snow-x",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "softbread/xiaohongshu-doctor",
    "url": "https://github.com/softbread/xiaohongshu-doctor",
    "name": "xiaohongshu-doctor",
@@ -5180,6 +5207,36 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "social-media-skills/ai-clipping-skill",
+   "url": "https://github.com/social-media-skills/ai-clipping-skill",
+   "name": "ai-clipping-skill",
+   "group": "visual",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "openclaw"
+   ],
+   "featured": false,
+   "desc": "切片任务助手：照 Whop、Content Rewards 的任务要求，一个账号剪一条带披露的竖屏切片，逐条对照规则，等你确认再发",
+   "desc_en": "AI clipping for Whop and Content Rewards campaigns: from the brief and footage it cuts one disclosed vertical clip per account, checks each against the campaign rules, posts to TikTok, Reels and Shorts after your yes and logs the 30-minute submit window.",
+   "note": "",
+   "note_en": "",
+   "stars": 14,
+   "pushed_at": "2026-11-15",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add social-media-skills/ai-clipping-skill",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "pedrovelasquez9/fragua",
    "url": "https://github.com/pedrovelasquez9/fragua",
    "name": "fragua",
@@ -5511,6 +5568,29 @@
    "skills": 2,
    "install": "npx skills add riffkit/skill",
    "checked": "2026-11-16"
+  },
+  {
+   "repo": "kira1752/sobis-youtube-skills",
+   "url": "https://github.com/kira1752/sobis-youtube-skills",
+   "name": "sobis-youtube-skills",
+   "group": "visual",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "skill",
+   "lang": "id",
+   "agents": [],
+   "featured": false,
+   "desc": "印尼文的 YouTube 短视频流水线：写 Shorts 脚本、生成画面片段、包装成片，每步过反 AI 腔的质量关；为 Muse 这个 agent 写的",
+   "desc_en": "Indonesian-language YouTube video pipeline shared from a channel's internal system: anti-slop Shorts scripts, generative clips and video packaging, with quality gates between stages and channel choices turned into parameters. Written for the Muse agent.",
+   "note": "",
+   "note_en": "",
+   "stars": 8,
+   "pushed_at": "2026-11-18",
+   "license": null,
+   "skills": 3,
+   "install": "npx skills add kira1752/sobis-youtube-skills",
+   "checked": "2026-11-23"
   },
   {
    "repo": "iart-ai/youtube-video-skills",
@@ -6614,6 +6694,29 @@
    "skills": 1,
    "install": "npx skills add RyanYipeng/SyncCaster",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "CipherNoct/douyin-cli",
+   "url": "https://github.com/CipherNoct/douyin-cli",
+   "name": "douyin-cli",
+   "group": "publish",
+   "platforms": [
+    "douyin"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "抖音评论运营命令行：搜视频、抓全部评论和楼中楼，按人设 AI 回复评论、管理草稿，带运营看板；经油猴脚本操作你登录的网页版",
+   "desc_en": "A Douyin comment management CLI: search videos, fetch every comment and nested reply, reply with an AI persona in six reply styles, manage drafts and watch an operations dashboard; it drives your logged-in Douyin web page through a userscript.",
+   "note": "要在 Chrome 装油猴脚本、本机跑 Bridge Server，并填 Anthropic 或 OpenAI 的 key",
+   "note_en": "Needs a Tampermonkey userscript in Chrome, a local Bridge Server, and an Anthropic or OpenAI key.",
+   "stars": 310,
+   "pushed_at": "2026-11-21",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add CipherNoct/douyin-cli",
+   "checked": "2026-11-23"
   },
   {
    "repo": "oil-oil/video-publisher-skill",

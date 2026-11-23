@@ -1103,6 +1103,17 @@ lang = "en"
 agents = ["claude-code"]
 checked = 2026-11-23
 
+[[skills]]
+repo = "Andrew-liu/snow-x"
+desc = "X 中文运营 skill：短帖按目标数据选帖型和钩子出稿、拆解爆款，长文写作改写和去 AI 味；规则来自 189 条爆款短帖和 358 篇长文"
+desc_en = "Skills for Chinese-language X accounts: short posts built from a target metric, post type and hook, with viral breakdowns, plus long-form X articles with rewriting and de-AI review; rules drawn from 189 viral posts and 358 long articles."
+group = "writing"
+platforms = ["x"]
+format = "skill"
+lang = "zh"
+agents = ["claude-code", "codex", "cursor"]
+checked = 2026-11-23
+
 # ───────── 排版、封面配图和短视频 ─────────
 
 [[skills]]
@@ -2721,6 +2732,27 @@ agents = ["codex"]
 checked = 2026-11-23
 
 [[skills]]
+repo = "kira1752/sobis-youtube-skills"
+desc = "印尼文的 YouTube 短视频流水线：写 Shorts 脚本、生成画面片段、包装成片，每步过反 AI 腔的质量关；为 Muse 这个 agent 写的"
+desc_en = "Indonesian-language YouTube video pipeline shared from a channel's internal system: anti-slop Shorts scripts, generative clips and video packaging, with quality gates between stages and channel choices turned into parameters. Written for the Muse agent."
+group = "visual"
+platforms = ["youtube"]
+format = "skill"
+lang = "id"
+checked = 2026-11-23
+
+[[skills]]
+repo = "social-media-skills/ai-clipping-skill"
+desc = "切片任务助手：照 Whop、Content Rewards 的任务要求，一个账号剪一条带披露的竖屏切片，逐条对照规则，等你确认再发"
+desc_en = "AI clipping for Whop and Content Rewards campaigns: from the brief and footage it cuts one disclosed vertical clip per account, checks each against the campaign rules, posts to TikTok, Reels and Shorts after your yes and logs the 30-minute submit window."
+group = "visual"
+platforms = ["tiktok", "instagram", "youtube"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor", "openclaw"]
+checked = 2026-11-23
+
+[[skills]]
 repo = "dreammis/social-auto-upload"
 desc = "一键上传视频到抖音、小红书、视频号、B站、快手、微博、TikTok、YouTube 等，支持定时发布，带 sau 命令和 4 个 skill"
 desc_en = "Upload videos to Douyin, Xiaohongshu, WeChat Channels, Bilibili, Kuaishou, Weibo, TikTok, YouTube and more with scheduling, via the sau CLI and four agent skills."
@@ -3204,6 +3236,18 @@ format = "skill"
 lang = "en"
 note = "要 Zernio 账号和 API key"
 note_en = "Requires a Zernio account and API key."
+checked = 2026-11-23
+
+[[skills]]
+repo = "CipherNoct/douyin-cli"
+desc = "抖音评论运营命令行：搜视频、抓全部评论和楼中楼，按人设 AI 回复评论、管理草稿，带运营看板；经油猴脚本操作你登录的网页版"
+desc_en = "A Douyin comment management CLI: search videos, fetch every comment and nested reply, reply with an AI persona in six reply styles, manage drafts and watch an operations dashboard; it drives your logged-in Douyin web page through a userscript."
+group = "publish"
+platforms = ["douyin"]
+format = "skill"
+lang = "zh"
+note = "要在 Chrome 装油猴脚本、本机跑 Bridge Server，并填 Anthropic 或 OpenAI 的 key"
+note_en = "Needs a Tampermonkey userscript in Chrome, a local Bridge Server, and an Anthropic or OpenAI key."
 checked = 2026-11-23
 
 [[skills]]

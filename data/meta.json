@@ -253,6 +253,20 @@
       "stars": 83,
       "status": "ok"
     },
+    "Andrew-liu/snow-x": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "雪瑜 @xueyu1125 X(Twitter)运营skill",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "Andrew-liu/snow-x",
+      "license": "MIT",
+      "pushed_at": "2026-11-15",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
     "Anghelo12344567/Content-Critic": {
       "archived": false,
       "default_branch": "main",
@@ -461,6 +475,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 139,
+      "status": "ok"
+    },
+    "CipherNoct/douyin-cli": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "基于 Bridge Framework 的抖音全自动评论管理工具。搜索视频、爬取全量评论（含嵌套回复）、AI 智能回复、运营仪表盘。",
+      "first_seen": "2026-11-23",
+      "forks": 60,
+      "full_name": "CipherNoct/douyin-cli",
+      "license": "MIT",
+      "pushed_at": "2026-11-21",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 310,
       "status": "ok"
     },
     "Clipcat-ai/clipcat-skill": {
@@ -3683,6 +3711,20 @@
       "stars": 3,
       "status": "ok"
     },
+    "kira1752/sobis-youtube-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Skill kustom Muse dari Divisi YouTube: naskah Shorts anti-slop + kemasan video dengan gerbang mutu",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "kira1752/sobis-youtube-skills",
+      "license": null,
+      "pushed_at": "2026-11-18",
+      "skill_count": 3,
+      "skill_count_truncated": false,
+      "stars": 8,
+      "status": "ok"
+    },
     "kizzhang/autody": {
       "archived": false,
       "default_branch": "main",
@@ -5123,6 +5165,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 220,
+      "status": "ok"
+    },
+    "social-media-skills/ai-clipping-skill": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "AI clipping skill for Claude Code, Codex, Cursor and OpenClaw: automated clipping for Whop and Content Rewards clipping campaigns. One disclosed clip per account, checked against the brief, posted after your yes, with a 30-minute submit sheet and proof log.",
+      "first_seen": "2026-11-23",
+      "forks": 2,
+      "full_name": "social-media-skills/ai-clipping-skill",
+      "license": "MIT",
+      "pushed_at": "2026-11-15",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 14,
       "status": "ok"
     },
     "social-media-skills/instagram-carousel-skill": {
