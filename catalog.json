@@ -8921,6 +8921,31 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "benjaminb10/viewlify-mcp",
+   "url": "https://github.com/benjaminb10/viewlify-mcp",
+   "name": "Viewlify",
+   "group": "research",
+   "platforms": [
+    "tiktok"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "Viewlify 的 TikTok skill：找赛道里远超作者平时播放量的视频和原因，照爆款出选题，每周趋势简报（格式、话题、音乐）",
+   "desc_en": "Three skills on Viewlify's TikTok data: find the videos that break out in a niche against the creator's usual views and why, get ideas modeled on real breakouts, and a weekly brief of rising formats, hashtags and sounds; with Viewlify's MCP server and CLI.",
+   "note": "不填 key 只能看 5 条预览；完整搜索每次 0.005 美元，新账号送 1 美元",
+   "note_en": "Without a key you get a 5-result preview; full search is $0.005 per call, with $1 of free credit per account.",
+   "stars": 0,
+   "pushed_at": "2026-11-19",
+   "license": "MIT",
+   "skills": 3,
+   "install": "npx skills add benjaminb10/viewlify-mcp",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "dontbesilent2025/dbskill",
    "url": "https://github.com/dontbesilent2025/dbskill",
    "name": "dbskill",
@@ -9290,6 +9315,29 @@
    "skills": 1,
    "install": "npx skills add Jian21311/account-diagnosis-skill",
    "checked": "2026-11-13"
+  },
+  {
+   "repo": "transformer-gg/skills",
+   "url": "https://github.com/transformer-gg/skills",
+   "name": "Transformer.gg",
+   "group": "strategy",
+   "platforms": [
+    "x"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "Transformer.gg 的 skill：X 上的付费推广合作，博主定价、接单还价、交带合作标签的帖子、提现，品牌方找博主发邀约",
+   "desc_en": "Transformer.gg's skills for paid partnerships on X: creators set a price, accept, decline or counter brand offers, submit the post with X's Paid partnership label and request payouts; brands find creators and send offers, all only after your yes.",
+   "note": "要 Transformer.gg 账号；博主拿合作款的 80%",
+   "note_en": "Requires a Transformer.gg account; creators keep 80% of each deal.",
+   "stars": 0,
+   "pushed_at": "2026-11-23",
+   "license": "MIT",
+   "skills": 3,
+   "install": "npx skills add transformer-gg/skills",
+   "checked": "2026-11-23"
   },
   {
    "repo": "xpzouying/xiaohongshu-mcp",

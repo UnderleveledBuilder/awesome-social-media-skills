@@ -2031,6 +2031,20 @@
       "stars": 6,
       "status": "ok"
     },
+    "benjaminb10/viewlify-mcp": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "TikTok data for Claude and AI agents: MCP server (videos that beat their creator's usual views, trends, hashtags, sounds), Claude Code plugin with 3 skills, and the viewlify CLI.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "benjaminb10/viewlify-mcp",
+      "license": "MIT",
+      "pushed_at": "2026-11-19",
+      "skill_count": 3,
+      "skill_count_truncated": false,
+      "stars": 0,
+      "status": "ok"
+    },
     "biliup/biliup": {
       "archived": false,
       "default_branch": "master",
@@ -4941,6 +4955,20 @@
       "skill_count": 0,
       "skill_count_truncated": false,
       "stars": 1251,
+      "status": "ok"
+    },
+    "transformer-gg/skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Agent skills for Transformer (transformer.gg): paid X creator partnerships for brands and creators",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "transformer-gg/skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-23",
+      "skill_count": 3,
+      "skill_count_truncated": false,
+      "stars": 0,
       "status": "ok"
     },
     "trypostit/trypost": {

@@ -3796,6 +3796,20 @@ note_en = "Requires a DataXAPI key; pay per call. Planning a run is free and nee
 checked = 2026-11-23
 
 [[skills]]
+repo = "benjaminb10/viewlify-mcp"
+name = "Viewlify"
+desc = "Viewlify 的 TikTok skill：找赛道里远超作者平时播放量的视频和原因，照爆款出选题，每周趋势简报（格式、话题、音乐）"
+desc_en = "Three skills on Viewlify's TikTok data: find the videos that break out in a niche against the creator's usual views and why, get ideas modeled on real breakouts, and a weekly brief of rising formats, hashtags and sounds; with Viewlify's MCP server and CLI."
+group = "research"
+platforms = ["tiktok"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+note = "不填 key 只能看 5 条预览；完整搜索每次 0.005 美元，新账号送 1 美元"
+note_en = "Without a key you get a 5-result preview; full search is $0.005 per call, with $1 of free credit per account."
+checked = 2026-11-23
+
+[[skills]]
 repo = "Jian21311/account-diagnosis-skill"
 desc = "账号诊断规则：先看手上有哪些数据再定怎么判，六个维度分三档，不给总分，只指出最该改的一件；没有播放量就不算完播率"
 desc_en = "Rules for an account diagnosis: decide which path the available evidence allows before judging, grade six dimensions in three bands, rank the single fix instead of summing a score, and skip completion-rate maths when the public page has no view count."
@@ -3955,6 +3969,19 @@ format = "skill"
 lang = "de"
 agents = ["claude-code"]
 checked = 2026-11-16
+
+[[skills]]
+repo = "transformer-gg/skills"
+name = "Transformer.gg"
+desc = "Transformer.gg 的 skill：X 上的付费推广合作，博主定价、接单还价、交带合作标签的帖子、提现，品牌方找博主发邀约"
+desc_en = "Transformer.gg's skills for paid partnerships on X: creators set a price, accept, decline or counter brand offers, submit the post with X's Paid partnership label and request payouts; brands find creators and send offers, all only after your yes."
+group = "strategy"
+platforms = ["x"]
+format = "skill"
+lang = "en"
+note = "要 Transformer.gg 账号；博主拿合作款的 80%"
+note_en = "Requires a Transformer.gg account; creators keep 80% of each deal."
+checked = 2026-11-23
 
 # ───────── MCP 和命令行工具 ─────────
 
