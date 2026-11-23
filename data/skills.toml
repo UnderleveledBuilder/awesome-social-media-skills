@@ -3769,6 +3769,20 @@ note_en = "Requires an okdata API key; pay per call."
 checked = 2026-11-23
 
 [[skills]]
+repo = "data-x-api/skills"
+name = "DataXAPI skills"
+desc = "竞品账号、评论口碑、关键词提及、热点、爆款拆解、找达人、视频转文字、广告和商品评价，抖音、小红书、公众号、视频号、B 站、微博、知乎、TikTok、X 等都能查"
+desc_en = "Research skills for competitor accounts, comments, mentions, trends, viral posts, creators, transcripts, ads and products on Douyin, Xiaohongshu, WeChat, Bilibili, Weibo, Zhihu, Kuaishou, TikTok, YouTube, X and more, through DataXAPI."
+group = "research"
+platforms = ["douyin", "xiaohongshu", "wechat", "channels", "bilibili", "weibo", "zhihu", "kuaishou", "tiktok", "youtube", "x", "instagram", "facebook", "threads", "reddit", "linkedin", "pinterest"]
+format = "skill"
+lang = "multi"
+agents = ["claude-code", "codex", "cursor"]
+note = "要 DataXAPI 的 Key，按次计费；看计划免费、不用 Key；新账号免费试用最多 333 次"
+note_en = "Requires a DataXAPI key; pay per call. Planning a run is free and needs no key; new accounts can try up to 333 calls free."
+checked = 2026-11-23
+
+[[skills]]
 repo = "Jian21311/account-diagnosis-skill"
 desc = "账号诊断规则：先看手上有哪些数据再定怎么判，六个维度分三档，不给总分，只指出最该改的一件；没有播放量就不算完播率"
 desc_en = "Rules for an account diagnosis: decide which path the available evidence allows before judging, grade six dimensions in three bands, rank the single fix instead of summing a score, and skip completion-rate maths when the public page has no view count."

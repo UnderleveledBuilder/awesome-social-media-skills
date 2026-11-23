@@ -2437,6 +2437,20 @@
       "stars": 3,
       "status": "ok"
     },
+    "data-x-api/skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Agent Skills for market data: Douyin, Xiaohongshu (RedNote), TikTok, WeChat, X and more, for Claude Code, Codex, Cursor and other agents.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "data-x-api/skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-23",
+      "skill_count": 49,
+      "skill_count_truncated": false,
+      "stars": 0,
+      "status": "ok"
+    },
     "davinci-seven/wechat-article-pipeline": {
       "archived": false,
       "default_branch": "main",
