@@ -4019,6 +4019,20 @@
       "stars": 288,
       "status": "ok"
     },
+    "okdataapi/skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Agent Skills + MCP for social data in Claude Code, Codex and Cursor: comment analysis, competitor tracking, creator search, trends and transcripts on TikTok, YouTube, Instagram, X, Reddit, Xiaohongshu, Douyin. 小红书/抖音评论分析、竞品监测、达人筛选。",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "okdataapi/skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-22",
+      "skill_count": 35,
+      "skill_count_truncated": false,
+      "stars": 0,
+      "status": "ok"
+    },
     "one-box-u/openclaw-daily-hot-news": {
       "archived": false,
       "default_branch": "master",

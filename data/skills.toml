@@ -1098,7 +1098,6 @@ format = "skill"
 lang = "zh"
 checked = 2026-10-31
 
-
 [[skills]]
 repo = "konlu/story-studio"
 desc = "历史和人物故事短视频一条龙：选题、开头钩子、口播稿、豆包配音、本地字幕对齐、三种画风分镜配图，导出能再改的剪映草稿；内置 370 多篇高赞文案对标"
@@ -1900,7 +1899,7 @@ checked = 2026-11-16
 
 [[skills]]
 repo = "rnthking/redya-skills"
-name = "小红书图文与实况图·红鸦 AI"
+name = "红鸦 AI"
 desc = "红鸦小红书图文：输入主题或链接生成标题、正文和整套图片，图片转 Live 实况，查敏感词"
 desc_en = "RedYA for agents: generate Xiaohongshu titles, body text and a full image set from a topic or link, turn images into Live Photos and check copy for sensitive words, via a skill, MCP or OpenAPI."
 group = "visual"
@@ -3756,6 +3755,20 @@ note_en = "Needs a YouTube Data API key."
 checked = 2026-11-16
 
 [[skills]]
+repo = "okdataapi/skills"
+name = "okdata skills"
+desc = "社媒和电商调研：竞品动态、评论口碑、品牌提及、热点、达人、字幕、广告和商品评价，抖音、小红书、公众号、B 站、微博、TikTok、YouTube、X 等都能查"
+desc_en = "35 research skills: competitor posts, comments and word of mouth, brand mentions, trends, creators, transcripts, ads and product reviews on Douyin, Xiaohongshu, WeChat, Bilibili, Weibo, TikTok, YouTube, X and Reddit, through the okdata API."
+group = "research"
+platforms = ["douyin", "xiaohongshu", "wechat", "channels", "bilibili", "weibo", "kuaishou", "zhihu", "tiktok", "youtube", "x", "instagram", "reddit"]
+format = "skill"
+lang = "multi"
+agents = ["claude-code", "codex", "cursor", "openclaw"]
+note = "要 okdata API key，按次计费"
+note_en = "Requires an okdata API key; pay per call."
+checked = 2026-11-23
+
+[[skills]]
 repo = "Jian21311/account-diagnosis-skill"
 desc = "账号诊断规则：先看手上有哪些数据再定怎么判，六个维度分三档，不给总分，只指出最该改的一件；没有播放量就不算完播率"
 desc_en = "Rules for an account diagnosis: decide which path the available evidence allows before judging, grade six dimensions in three bands, rank the single fix instead of summing a score, and skip completion-rate maths when the public page has no view count."
@@ -3940,7 +3953,6 @@ lang = "zh"
 note = "要登录的平台会把你 Chrome 里该网站的登录复制到它自己的浏览器，作者建议换小号；视频转文字要配 Groq 或 OpenAI 的 Key；PyPI 上同名的包不是它"
 note_en = "Sites that need login reuse a copy of that site's session from your Chrome in its own browser; the author suggests a secondary account. Speech-to-text needs a Groq or OpenAI key. The PyPI package of the same name is not this project."
 checked = 2026-11-05
-
 
 [[skills]]
 repo = "adoresever/bilibili-mcp"
@@ -4367,15 +4379,15 @@ checked = 2026-10-19
 
 [[skills]]
 repo = "Jamailar/Beav"
-desc = "Beav：桌面小红书 AI 运营工具，采集笔记与评论、管理本地素材，一键出标题正文封面配图，支持数字人口播视频。"
-desc_en = "Beav: an AI desktop workspace for Xiaohongshu. Collect notes and comments, organize local media, generate a complete image-and-text post, and create talking-head avatar videos."
+desc = "Beav（原 RedBox）：小红书 AI 运营桌面应用，采集笔记和评论、本地素材库，一键出标题正文封面配图，能做数字人口播视频"
+desc_en = "Beav (formerly RedBox): a desktop AI workspace for Xiaohongshu that collects notes and comments, keeps a local media library, generates a full image-and-text post in one go and makes talking-head avatar videos."
 group = "apps"
 platforms = ["xiaohongshu"]
 format = "app"
 lang = "zh"
-checked = 2026-11-19
-note = "正式版下载和图文工作流见 [Beav 官网](https://beav.pro/xiaohongshu-tools)。仓库公开源码快照与持续迭代的正式版有版本差异。"
-note_en = "See the [official Xiaohongshu workflow](https://beav.pro/xiaohongshu-tools) for the current desktop release. This repository also contains a source snapshot from an earlier version."
+note = "仓库里公开的源码停在 2.6.0；数字人口播等新功能在官网免费下载的正式版里"
+note_en = "The public source in this repo is version 2.6.0; newer features such as avatar videos are in the free official release from beav.pro."
+checked = 2026-11-23
 
 [[skills]]
 repo = "LocoreMind/locoagent"
@@ -4500,17 +4512,3 @@ agents = ["claude-code", "cursor", "codex"]
 note = "要 EasySociable 账号（CLI 里 easysociable auth login），成图在它的网页 Studio 里改和下载"
 note_en = "Requires an EasySociable account (easysociable auth login in the CLI); you edit and download the pages in its web Studio."
 checked = 2026-11-13
-
-[[skills]]
-repo = "okdataapi/skills"
-name = "okdata skills"
-desc = "社媒和电商调研：竞品动态、评论口碑、品牌提及、热点、达人、字幕、广告和商品评价，抖音、小红书、公众号、B 站、微博、TikTok、YouTube、X 等都能查"
-desc_en = "35 research skills: competitor posts, comments and word of mouth, brand mentions, trends, creators, transcripts, ads and product reviews on Douyin, Xiaohongshu, WeChat, Bilibili, Weibo, TikTok, YouTube, X and Reddit, through the okdata API."
-group = "research"
-platforms = ["douyin", "xiaohongshu", "wechat", "channels", "bilibili", "weibo", "kuaishou", "zhihu", "tiktok", "youtube", "x", "instagram", "reddit"]
-format = "skill"
-lang = "multi"
-agents = ["claude-code", "codex", "cursor", "openclaw"]
-note = "要 okdata API key，按次计费"
-note_en = "Requires an okdata API key; pay per call."
-checked = 2026-11-18

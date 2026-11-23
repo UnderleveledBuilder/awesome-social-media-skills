@@ -4604,7 +4604,7 @@
   {
    "repo": "rnthking/redya-skills",
    "url": "https://github.com/rnthking/redya-skills",
-   "name": "红鸦 RedYA",
+   "name": "红鸦 AI",
    "group": "visual",
    "platforms": [
     "xiaohongshu"
@@ -8791,6 +8791,46 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "okdataapi/skills",
+   "url": "https://github.com/okdataapi/skills",
+   "name": "okdata skills",
+   "group": "research",
+   "platforms": [
+    "douyin",
+    "xiaohongshu",
+    "wechat",
+    "channels",
+    "bilibili",
+    "weibo",
+    "kuaishou",
+    "zhihu",
+    "tiktok",
+    "youtube",
+    "x",
+    "instagram",
+    "reddit"
+   ],
+   "format": "skill",
+   "lang": "multi",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "openclaw"
+   ],
+   "featured": false,
+   "desc": "社媒和电商调研：竞品动态、评论口碑、品牌提及、热点、达人、字幕、广告和商品评价，抖音、小红书、公众号、B 站、微博、TikTok、YouTube、X 等都能查",
+   "desc_en": "35 research skills: competitor posts, comments and word of mouth, brand mentions, trends, creators, transcripts, ads and product reviews on Douyin, Xiaohongshu, WeChat, Bilibili, Weibo, TikTok, YouTube, X and Reddit, through the okdata API.",
+   "note": "要 okdata API key，按次计费",
+   "note_en": "Requires an okdata API key; pay per call.",
+   "stars": 0,
+   "pushed_at": "2026-11-22",
+   "license": "MIT",
+   "skills": 35,
+   "install": "npx skills add okdataapi/skills",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "skillify-sh/skills",
    "url": "https://github.com/skillify-sh/skills",
    "name": "skillify-sh/skills",
@@ -10370,16 +10410,16 @@
    "lang": "zh",
    "agents": [],
    "featured": false,
-   "desc": "Beav（原 RedBox）：小红书 AI 运营工作台，采集笔记和评论、素材库、选题、写作和配图，本地桌面应用",
-   "desc_en": "Beav (formerly RedBox): a local desktop AI workspace for Xiaohongshu — collect notes and comments, build a material library, plan topics, write and lay out images.",
-   "note": "",
-   "note_en": "",
+   "desc": "Beav（原 RedBox）：小红书 AI 运营桌面应用，采集笔记和评论、本地素材库，一键出标题正文封面配图，能做数字人口播视频",
+   "desc_en": "Beav (formerly RedBox): a desktop AI workspace for Xiaohongshu that collects notes and comments, keeps a local media library, generates a full image-and-text post in one go and makes talking-head avatar videos.",
+   "note": "仓库里公开的源码停在 2.6.0；数字人口播等新功能在官网免费下载的正式版里",
+   "note_en": "The public source in this repo is version 2.6.0; newer features such as avatar videos are in the free official release from beav.pro.",
    "stars": 2491,
    "pushed_at": "2026-11-22",
    "license": null,
    "skills": 16,
    "install": null,
-   "checked": "2026-10-19"
+   "checked": "2026-11-23"
   },
   {
    "repo": "iniwap/AIWriteX",
