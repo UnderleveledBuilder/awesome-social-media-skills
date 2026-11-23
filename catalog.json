@@ -10095,6 +10095,29 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "flashdatadev/flashdata-mcp",
+   "url": "https://github.com/flashdatadev/flashdata-mcp",
+   "name": "FlashData MCP",
+   "group": "mcp",
+   "platforms": [
+    "youtube"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "FlashData 官方 MCP：搜 Google 网页、新闻、图片和购物，查 YouTube 视频、频道和字幕，把 YouTube 音视频下载到你的云存储",
+   "desc_en": "FlashData's official MCP server: search Google web, news, images and shopping; look up YouTube videos, channels, metadata and transcripts; and download YouTube video or audio to your own cloud storage. Hosted or local, with task skills.",
+   "note": "要 FlashData API key，按量扣积分、没有月费；验证邮箱送试用积分，不用绑卡",
+   "note_en": "Requires a FlashData API key; pay-as-you-go credits with no monthly fee, and trial credits after email verification, no card needed.",
+   "stars": 1,
+   "pushed_at": "2026-11-23",
+   "license": "MIT",
+   "skills": 34,
+   "install": null,
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "wavegrain/wavegrain-mcp",
    "url": "https://github.com/wavegrain/wavegrain-mcp",
    "name": "wavegrain-mcp",
@@ -10119,29 +10142,6 @@
    "pushed_at": "2026-11-20",
    "license": "MIT",
    "skills": 1,
-   "install": null,
-   "checked": "2026-11-13"
-  },
-  {
-   "repo": "rocosen/flashdata-mcp",
-   "url": "https://github.com/rocosen/flashdata-mcp",
-   "name": "FlashData MCP",
-   "group": "mcp",
-   "platforms": [
-    "youtube"
-   ],
-   "format": "mcp",
-   "lang": "en",
-   "agents": [],
-   "featured": false,
-   "desc": "FlashData 的 MCP 和命令行：搜 YouTube 视频和频道，读元数据和带时间戳的字幕，也能查 Google 搜索、新闻和图片",
-   "desc_en": "FlashData's MCP server and CLI: search YouTube videos and channels, read metadata and timestamped transcripts, and query Google Search, News and Images, with a task skill for each source.",
-   "note": "数据调用要 FlashData 的 API key 和付费积分，没有免费档",
-   "note_en": "Data requests need a FlashData API key and paid credits; there is no free tier.",
-   "stars": 0,
-   "pushed_at": "2026-11-18",
-   "license": "MIT",
-   "skills": 34,
    "install": null,
    "checked": "2026-11-13"
   },

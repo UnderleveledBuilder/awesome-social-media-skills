@@ -1405,3 +1405,9 @@ reason = "代运营公司介绍自家服务的只读 MCP，是广告，不是工
 [[ignored]]
 repo = "quqxui/context-aware-humanizer"
 reason = "通用润色和去 AI 味，偏学术写作，不专做自媒体"
+
+# ───────── 11-23 候选 issue 和外人提交 ─────────
+
+[[ignored]]
+repo = "rocosen/flashdata-mcp"
+reason = "FlashData 早期的个人仓库，官方改在 flashdatadev/flashdata-mcp 维护，已收录那个"
