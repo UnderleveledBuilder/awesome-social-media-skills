@@ -712,6 +712,20 @@ note = "用你的 Instagram 登录 cookie，存在本机"
 note_en = "Uses your Instagram login cookie, stored locally."
 checked = 2026-11-23
 
+[[skills]]
+repo = "hermoso-ai/hermoso"
+name = "Hermoso"
+desc = "调研竞品广告和爆款，生成图片和视频，定时发到 TikTok、Instagram、YouTube、X、LinkedIn 等平台并看数据"
+desc_en = "Hermoso's skills and MCP server: research competitors' ads and top posts, make images and videos, schedule them to TikTok, Instagram, YouTube, X, LinkedIn, Threads, Facebook and Pinterest, then read each channel's numbers."
+group = "pipeline"
+platforms = ["tiktok", "instagram", "youtube", "x", "linkedin", "threads", "facebook", "pinterest"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex", "gemini-cli"]
+note = "要 Hermoso 账号，有免费套餐；AI 生成和广告调研按积分计费，发帖和排期不扣积分"
+note_en = "Requires a Hermoso account; there is a free plan. AI generation and ad research use credits; posting and scheduling do not."
+checked = 2026-11-24
+
 # ───────── 文案和内容创作 ─────────
 
 [[skills]]
