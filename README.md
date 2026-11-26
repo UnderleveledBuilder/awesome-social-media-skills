@@ -712,7 +712,7 @@ npx skills add softbread/xiaohongshu-doctor
 
 - **[十五画境](https://github.com/liuhaisi2026212-maker/motion-palette-15)** · ★ 21<br>十五画境：教 AI 用代码做片头和知识讲解 MG 动画，16 张风格卡，导出带声音的 MP4<br><sub>平台：通用</sub><br><sub>更新于 2026-10-31 · 中文</sub>
 
-- **[红鸦 AI](https://github.com/rnthking/redya-skills)** · ★ 20<br>红鸦小红书图文：输入主题或链接生成标题、正文和整套图片，图片转 Live 实况，查敏感词<br><sub>平台：小红书</sub><br><sub>更新于 2026-11-20 · 中文</sub><br><sub>💡 要红鸦账号，按积分计费</sub>
+- **[红鸦 AI](https://github.com/rnthking/redya-skills)** · ★ 20<br>红鸦小红书图文：输入主题或链接生成标题、正文和整套图片，图片转 Live 实况，查敏感词<br><sub>平台：小红书</sub><br><sub>更新于 2026-11-20 · 中文</sub><br><sub>💡 要红鸦账号，按积分计费。[领取 API Key](https://hy.ithinkai.cn/developer?skill_channel=awesome-social)</sub>
 
 - **[social-skills](https://github.com/scrollmark/social-skills)** · ★ 19<br>社媒和短视频 skill 合集：语气、钩子、趋势和平台惯例，加短视频的场景语法、品牌一致性、字幕和卡点剪辑<br><sub>平台：X · YouTube · TikTok · Instagram · LinkedIn</sub><br><sub>更新于 2026-11-21 · 英文 · 27 个 skill · MIT</sub>
 
