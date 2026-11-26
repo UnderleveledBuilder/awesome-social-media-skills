@@ -2034,8 +2034,8 @@ platforms = ["xiaohongshu"]
 format = "skill"
 lang = "zh"
 agents = ["codex", "claude-code", "workbuddy"]
-note = "要红鸦账号，按积分计费"
-note_en = "Requires a RedYA account; usage is billed in credits."
+note = "要红鸦账号，按积分计费。[领取 API Key](https://hy.ithinkai.cn/developer?skill_channel=awesome-social)"
+note_en = "Requires a RedYA account; usage is billed in credits. [Get an API key](https://hy.ithinkai.cn/developer?skill_channel=awesome-social)"
 checked = 2026-11-16
 
 [[skills]]

@@ -712,7 +712,7 @@ WeChat article layout, covers, info cards and illustrations; cutting short video
 
 - **[十五画境](https://github.com/liuhaisi2026212-maker/motion-palette-15)** · ★ 21<br>Motion Palette 15: a craft book that teaches your agent to make motion-graphics intros and explainer animations in code (Canvas, Three.js, Remotion), with 16 style cards and export to MP4 with sound.<br><sub>Platforms: Any platform</sub><br><sub>updated 2026-10-31 · Chinese</sub>
 
-- **[红鸦 AI](https://github.com/rnthking/redya-skills)** · ★ 20<br>RedYA for agents: generate Xiaohongshu titles, body text and a full image set from a topic or link, turn images into Live Photos and check copy for sensitive words, via a skill, MCP or OpenAPI.<br><sub>Platforms: RedNote</sub><br><sub>updated 2026-11-20 · Chinese</sub><br><sub>💡 Requires a RedYA account; usage is billed in credits.</sub>
+- **[红鸦 AI](https://github.com/rnthking/redya-skills)** · ★ 20<br>RedYA for agents: generate Xiaohongshu titles, body text and a full image set from a topic or link, turn images into Live Photos and check copy for sensitive words, via a skill, MCP or OpenAPI.<br><sub>Platforms: RedNote</sub><br><sub>updated 2026-11-20 · Chinese</sub><br><sub>💡 Requires a RedYA account; usage is billed in credits. [Get an API key](https://hy.ithinkai.cn/developer?skill_channel=awesome-social)</sub>
 
 - **[social-skills](https://github.com/scrollmark/social-skills)** · ★ 19<br>Claude Code skills for social media and short-form video: tone, hooks, trends, platform conventions and creator voice, plus scene grammars, brand kits, captions, beat sync and a video engine.<br><sub>Platforms: X · YouTube · TikTok · Instagram · LinkedIn</sub><br><sub>updated 2026-11-21 · English · 27 skills · MIT</sub>
 
