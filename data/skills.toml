@@ -3005,6 +3005,20 @@ note_en = "Requires a BulkPublish account and API key (hosted service with a fre
 checked = 2026-11-13
 
 [[skills]]
+repo = "abrahimceylan/kreatix-mcp"
+name = "Kreatix"
+desc = "Kreatix 的 skill 和 MCP：agent 把一个视频同时排期发到多个 Instagram、TikTok、YouTube 等账号，改期、取消、看数据"
+desc_en = "Skill and hosted MCP server for Kreatix: let your agent schedule one video or text post to many Instagram, TikTok, YouTube, Facebook, X, LinkedIn and Pinterest accounts at once, move or cancel posts, and read views and follower stats."
+group = "publish"
+platforms = ["x", "youtube", "tiktok", "instagram", "linkedin", "facebook", "pinterest"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor", "openclaw"]
+note = "要 Kreatix 账号和付费套餐或试用（云服务）"
+note_en = "Requires a Kreatix account with a paid plan or a running trial (hosted service)."
+checked = 2026-11-27
+
+[[skills]]
 repo = "zJay26/douyin-skills"
 desc = "抖音本地 skill：扫码登录、浏览搜索、点赞评论和发布作品，浏览器操作走结构化命令行，登录态存本地，不做批量互动"
 desc_en = "Local-first Douyin skills: QR login, environment checks, exploring and searching, single interactions and publishing, with browser actions exposed as a structured JSON CLI and sessions kept locally. No bulk engagement."
