@@ -4971,3 +4971,13 @@ agents = ["claude-code", "cursor", "codex"]
 note = "要 EasySociable 账号（CLI 里 easysociable auth login），成图在它的网页 Studio 里改和下载"
 note_en = "Requires an EasySociable account (easysociable auth login in the CLI); you edit and download the pages in its web Studio."
 checked = 2026-11-13
+
+[[skills]]
+repo = "marian-kamenistak/digital-footprint-multiplier"
+desc = "粘贴 LinkedIn 链接，给开发者或工程经理在招聘方和 AI 筛选眼里的形象打 0.4 到 1.7 分，并给出改进计划"
+desc_en = "Paste a LinkedIn link and get a 0.4 to 1.7 score for how a developer or engineering manager looks to recruiters and AI screening, with evidence and a week, month and quarter fix plan."
+group = "strategy"
+platforms = ["linkedin"]
+format = "skill"
+lang = "en"
+checked = 2026-11-28
